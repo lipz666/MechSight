@@ -1,0 +1,3795 @@
+[
+ {
+  "pmcid": "PMC12780792",
+  "doi": "10.1039/d5sc09778a",
+  "date": "2026-01-08",
+  "journal": "Chem Sci",
+  "title": "Metal-free visible-light carbonylation of alkyl iodides to amides <i>via</i> consecutive photoinduced electron transfer.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "quantum_yield",
+   "radical_clock",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 8,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12857298",
+  "doi": "10.1039/d5sc08559d",
+  "date": "2026-01-21",
+  "journal": "Chem Sci",
+  "title": "Remote α- and β-C(sp&lt;sup&gt;3&lt;/sup&gt;)-H alkenylation of amines &lt;i&gt;via&lt;/i&gt; visible-light supported paired electrolysis.",
+  "cats": [
+   "control",
+   "crossover",
+   "cv",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13376514",
+  "doi": "10.1038/s41467-026-72914-7",
+  "date": "2026-05-09",
+  "journal": "Nat Commun",
+  "title": "Counterion-enabled divergent reactivity in dinuclear gold photoredox catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "kinetic_order",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13381962",
+  "doi": "10.1038/s41467-026-73526-x",
+  "date": "2026-05-20",
+  "journal": "Nat Commun",
+  "title": "Electrosynthesis of 1,1-Bis(difluoromethyl)alkenes via Twofold C-H Difluoromethylation as Bioisosteres of Elusive 1,1-Enediols.",
+  "cats": [
+   "control",
+   "cv",
+   "hammett",
+   "hrms_trap",
+   "kinetic_order",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13602958",
+  "doi": "10.1039/d6sc05707a",
+  "date": "2026-09-18",
+  "journal": "Chem Sci",
+  "title": "Photoredox-catalyzed direct formylation of alkenes to access α,β-unsaturated aldehydes.",
+  "cats": [
+   "control",
+   "crossover",
+   "cv",
+   "hrms_trap",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13464617",
+  "doi": "10.1039/d6sc04272d",
+  "date": "2026-08-06",
+  "journal": "Chem Sci",
+  "title": "Nickel-catalyzed hydro- and deuteroacylation of acrylates using water as the hydrogen source.",
+  "cats": [
+   "control",
+   "dft",
+   "hammett",
+   "isotope_label",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13530165",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12969881",
+  "cats": [
+   "control",
+   "epr",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13034179",
+  "doi": "10.1039/d6sc00986g",
+  "date": "2026-03-30",
+  "journal": "Chem Sci",
+  "title": "Nickel-catalyzed hydroxymethylation with α-silicon &lt;i&gt;N&lt;/i&gt;-methoxyphthalimides &lt;i&gt;via&lt;/i&gt; radical Brook rearrangement.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13036046",
+  "doi": "10.1038/s41467-026-68840-3",
+  "date": "2026-02-11",
+  "journal": "Nat Commun",
+  "title": "Radical defluoroallylation of polyfluoroalkyl compounds with alkenes via synergistic photoredox/cobalt catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13039371",
+  "doi": "10.1038/s41467-026-69851-w",
+  "date": "2026-02-23",
+  "journal": "Nat Commun",
+  "title": "Direct synthesis of bicyclo[1.1.1]pentane (BCP) boronates from carboxylic acids.",
+  "cats": [
+   "epr",
+   "hrms_trap",
+   "kinetic_order",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13134566",
+  "cats": [
+   "dft",
+   "hammett",
+   "kie",
+   "kinetic_order",
+   "quantum_yield"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13171995",
+  "doi": "10.1038/s41467-026-70618-6",
+  "date": "2026-03-23",
+  "journal": "Nat Commun",
+  "title": "Hydrogen bonding mediated electron donor-acceptor acceptor catalysis in hydrosulfonylation and sulfonyl dehydrogenation of olefins.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13230889",
+  "doi": "10.1038/s41467-026-71557-y",
+  "date": "2026-04-06",
+  "journal": "Nat Commun",
+  "title": "Nickel-catalyzed ring-opening difunctionalization of methylenecyclobutanes via strain-release-enabled C-C activation.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13342334",
+  "doi": "10.1038/s41467-026-72546-x",
+  "date": "2026-05-02",
+  "journal": "Nat Commun",
+  "title": "Synergistic Fe/Ni catalysis for electrochemical 1,1-difunctionalization of alkenes.",
+  "cats": [
+   "control",
+   "cv",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13385794",
+  "doi": "10.1038/s41467-026-73571-6",
+  "date": "2026-05-21",
+  "journal": "Nat Commun",
+  "title": "Nickel/Photoredox-catalyzed diastereoselective semihydrogenation of alkynes using a carboxylic acid as a cooperative ligand and hydrogen surrogate.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13438561",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13482915",
+  "doi": "10.1039/d6sc04539a",
+  "date": "2026-08-10",
+  "journal": "Chem Sci",
+  "title": "Ligand-enabled palladium-catalyzed late-stage C-H fluorination of arenes.",
+  "cats": [
+   "hrms_trap",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13592431",
+  "doi": "10.1039/d6sc05655e",
+  "date": "2026-09-18",
+  "journal": "Chem Sci",
+  "title": "Oxygen-enabled Fe-catalyzed heteroatom α-C(sp&lt;sup&gt;3&lt;/sup&gt;)-H functionalization with nucleophiles.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kie",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13625736",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13703958",
+  "doi": "10.1039/d6sc05841h",
+  "date": "2026-10-22",
+  "journal": "Chem Sci",
+  "title": "Microscale high-throughput screening-assisted discovery of a photo/copper dual catalytic system for benzylic C(sp&lt;sup&gt;2&lt;/sup&gt;)-C(sp&lt;sup&gt;3&lt;/sup&gt;) Suzuki-Miyaura coupling: data mining and mechanistic insights.",
+  "cats": [
+   "control",
+   "cv",
+   "hrms_trap",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12794647",
+  "doi": "10.1039/d5sc09434h",
+  "date": "2026-01-08",
+  "journal": "Chem Sci",
+  "title": "Controllable copper-catalysed photo-induced carbonylative cyclization to access dihydroquinolinones and oxindoles.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12809706",
+  "doi": "10.1039/d5sc08202a",
+  "date": "2026-01-05",
+  "journal": "Chem Sci",
+  "title": "Selective photocatalytic oxidative cleavage of terminal alkynes to carboxylic acids within a water-soluble Pd&lt;sub&gt;6&lt;/sub&gt; nanocage.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13133923",
+  "doi": "10.1039/d6sc01827k",
+  "date": "2026-04-27",
+  "journal": "Chem Sci",
+  "title": "Synergistic decatungstate and Brønsted acid catalysis enables direct C-H indolation of alkanes and aldehydes.",
+  "cats": [
+   "control",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13289785",
+  "doi": "10.1039/d6sc01097k",
+  "date": "2026-06-10",
+  "journal": "Chem Sci",
+  "title": "Enhanced visible-light photoredox catalysis with rubicene-embedded polycyclic aromatic hydrocarbons (PAHs).",
+  "cats": [
+   "hammett",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13319112",
+  "doi": "10.1038/s42004-026-02025-3",
+  "date": "2026-04-24",
+  "journal": "Commun Chem",
+  "title": "Iron-catalyzed alkene isomerization and tandem functionalization.",
+  "cats": [
+   "control",
+   "epr",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13321810",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12831795",
+  "cats": [
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13408493",
+  "doi": "10.1038/s41467-026-74224-4",
+  "date": "2026-06-13",
+  "journal": "Nat Commun",
+  "title": "Synthesis of functionalized hydrosilanes via titanium-catalyzed hydroboration and hydrogenation of C(sp&lt;sup&gt;3&lt;/sup&gt;)-Si bonds in silacyclobutanes.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13502330",
+  "doi": "10.1039/d6sc05351c",
+  "date": "2026-08-11",
+  "journal": "Chem Sci",
+  "title": "An anionic nickel-aluminium dihydride complex exhibiting cooperative catalytic behaviour.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 3,
+  "in_original_30": true,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13417243",
+  "doi": "10.1021/jacsau.6c00750",
+  "date": "2026-07-08",
+  "journal": "JACS Au",
+  "title": "Adaptive Zinc-Amide Catalysis Enables C(sp&lt;sup&gt;2&lt;/sup&gt;)-O Cross-Coupling of Aryl Fluorides with Alcohols.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "hrms_trap",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 10,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13676390",
+  "doi": "10.1002/anie.5509453",
+  "date": "2026-08-29",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Iron-Photocatalyzed Alkene Chloroaminoxylation: A Platform for Orthogonally Activatable Building Blocks.",
+  "cats": [
+   "control",
+   "cv",
+   "hammett",
+   "hrms_trap",
+   "in_situ_nmr",
+   "isotope_label",
+   "kinetic_order",
+   "light_on_off",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 10,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13088909",
+  "doi": "10.1039/d6sc00233a",
+  "date": "2026-04-08",
+  "journal": "Chem Sci",
+  "title": "Electrochemical functionalization of pyridines.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "hammett",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 9,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13135463",
+  "doi": "10.1021/jacs.6c00567",
+  "date": "2026-04-17",
+  "journal": "J Am Chem Soc",
+  "title": "Enabling Fluoroalkyl-Sulfonylalkylation and Fluoroalkyl-Halogenation of Alkenes and Alkynes via Photoredox Catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "isotope_label",
+   "light_on_off",
+   "quantum_yield",
+   "radical_clock",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 9,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12974600",
+  "doi": "10.1039/d6sc01281g",
+  "date": "2026-03-10",
+  "journal": "Chem Sci",
+  "title": "Photoinduced intramolecular S-α-C(sp&lt;sup&gt;3&lt;/sup&gt;)-H functionalization enabled by an electron donor-acceptor complex-Mediated radical relay.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "isotope_label",
+   "kie",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 8,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13148268",
+  "doi": "10.1039/d6sc02111e",
+  "date": "2026-05-06",
+  "journal": "Chem Sci",
+  "title": "Lucigenin: a strongly oxidizing dicationic photocatalyst for the direct azolation of arenes.",
+  "cats": [
+   "control",
+   "cv",
+   "hammett",
+   "isotope_label",
+   "kie",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 8,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13195658",
+  "doi": "10.1021/jacs.5c20952",
+  "date": "2026-05-07",
+  "journal": "J Am Chem Soc",
+  "title": "Direct Quantum Yield Measurement of a Ligand-to-Metal Charge Transfer Photocatalyst via Cyclic Voltammetry.",
+  "cats": [
+   "control",
+   "cv",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 8,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13036800",
+  "doi": "10.1039/d5sc09742h",
+  "date": "2026-03-31",
+  "journal": "Chem Sci",
+  "title": "From alkynes to spiroindole δ-lactams &lt;i&gt;via&lt;/i&gt; a copper-nitrenoid intermediate featuring unusual 1,1-addition and high &lt;i&gt;Z&lt;/i&gt;-selectivity.",
+  "cats": [
+   "control",
+   "dft",
+   "in_situ_nmr",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13104252",
+  "doi": "10.1039/d6sc00272b",
+  "date": "2026-04-23",
+  "journal": "Chem Sci",
+  "title": "Enantioselective organocatalytic radical alkylation enabled by photoexcitation.",
+  "cats": [
+   "control",
+   "cv",
+   "epr",
+   "light_on_off",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13110766",
+  "doi": "10.1002/anie.1489528",
+  "date": "2026-03-18",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Photoinduced Selective Construction of Densely Functionalized Spirocyclic Ethers With Carbyne Equivalents.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isotope_label",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13136360",
+  "doi": "10.1038/s41467-026-70733-4",
+  "date": "2026-03-14",
+  "journal": "Nat Commun",
+  "title": "Chlorine radical-mediated electrochemical propylene epoxidation from seawater.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13234857",
+  "doi": "10.1039/d6sc01541g",
+  "date": "2026-06-04",
+  "journal": "Chem Sci",
+  "title": "Pulsed electrolysis enables unexpected lactonization of bicyclobutane carboxylic acids.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isotope_label",
+   "kinetic_order",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13291971",
+  "doi": "10.1021/jacsau.6c00458",
+  "date": "2026-06-01",
+  "journal": "JACS Au",
+  "title": "Layered Double Hydroxide-Stabilized AgI Photocatalyst for Efficient Arene Arylation and Alkylation.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "kie",
+   "kinetic_order",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13339155",
+  "doi": "10.1021/jacs.6c04362",
+  "date": "2026-06-17",
+  "journal": "J Am Chem Soc",
+  "title": "Mechanistic Investigation of [Co&lt;sub&gt;2&lt;/sub&gt;(CO)&lt;sub&gt;8&lt;/sub&gt;] Catalyzed Photoaminocarbonylation.",
+  "cats": [
+   "dft",
+   "epr",
+   "hammett",
+   "kinetic_order",
+   "quantum_yield",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13365470",
+  "doi": "10.1038/s41467-026-72690-4",
+  "date": "2026-05-07",
+  "journal": "Nat Commun",
+  "title": "Amide-engineered copper nitride for shortcut-pathway-locked electroreduction of concentrated hydroxymethylfurfural.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13395622",
+  "doi": "10.1038/s41929-026-01566-z",
+  "date": "2026-07-09",
+  "journal": "Nat Catal",
+  "title": "Triple energy transfer-enabled dearomative cycloaddition/rearrangement cascade of bicyclic azaarenes to structurally complex products.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isolation",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13397559",
+  "doi": "10.1021/jacs.6c06029",
+  "date": "2026-07-10",
+  "journal": "J Am Chem Soc",
+  "title": "Unveiling the Potential of &lt;i&gt;p&lt;/i&gt;-Block Bismuth in Homogeneous Electrocatalytic Proton Reduction: Secondary Coordination Sphere Control of Catalytic Activity.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "hammett",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13462583",
+  "doi": "10.1038/s41467-026-73629-5",
+  "date": "2026-05-25",
+  "journal": "Nat Commun",
+  "title": "Photocatalytic reductive carboxylation of unactivated hydrazones with CO&lt;sub&gt;2&lt;/sub&gt;.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isotope_label",
+   "light_on_off",
+   "radical_clock",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13488434",
+  "doi": "10.1021/acs.joc.6c01658",
+  "date": "2026-08-01",
+  "journal": "J Org Chem",
+  "title": "Organic Photoredox-Catalyzed TEMPO Disproportionation: Development of a Mild Platform for In Situ Oxoammonium Ion Formation.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "light_on_off",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13490395",
+  "doi": "10.1038/s41467-026-76282-0",
+  "date": "2026-08-19",
+  "journal": "Nat Commun",
+  "title": "An Atomically Dispersed Copper-Catalyst Lights the Way to Selective N-Demethylations.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13510726",
+  "doi": "10.1126/sciadv.aef6109",
+  "date": "2026-08-26",
+  "journal": "Sci Adv",
+  "title": "Lignin-degrading-inspired dehydrogenative photocatalysis via reductive quenching of donor-acceptor covalent organic framework.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kie",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13597299",
+  "doi": "10.1038/s41929-026-01600-0",
+  "date": "2026-09-15",
+  "journal": "Nat Catal",
+  "title": "Anti-Markovnikov alkene hydroalkylation via iron photocatalysis.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "quantum_yield",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13651528",
+  "doi": "10.1021/jacs.6c09757",
+  "date": "2026-10-01",
+  "journal": "J Am Chem Soc",
+  "title": "Direct Light Storage with Controlled Dark Release in a Bipyridine-Based Covalent Triazine Framework.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 7,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12917259",
+  "doi": "10.1038/s41467-026-69343-x",
+  "date": "2026-02-16",
+  "journal": "Nat Commun",
+  "title": "\"On-water\" photosensitization enables redox neutral acylation and alkylation of quinones.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "kie",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12983302",
+  "doi": "10.1021/jacs.5c17824",
+  "date": "2026-03-02",
+  "journal": "J Am Chem Soc",
+  "title": "Electrolysis-Assisted Reduction of Dimethylformamide for Unactivated Alkene Functionalizations.",
+  "cats": [
+   "control",
+   "cv",
+   "epr",
+   "isotope_label",
+   "kie",
+   "radical_clock"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13031794",
+  "doi": "10.1038/s41467-026-69500-2",
+  "date": "2026-02-19",
+  "journal": "Nat Commun",
+  "title": "Iron-borane catalyzed carbonyl hydroboration and isolation of an iron(I)-ketyl radical.",
+  "cats": [
+   "dft",
+   "epr",
+   "kie",
+   "kinetic_order",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13198982",
+  "doi": "10.1021/jacs.6c02555",
+  "date": "2026-05-14",
+  "journal": "J Am Chem Soc",
+  "title": "Enantioconvergent Chan-Evans-Lam C(sp&lt;sup&gt;3&lt;/sup&gt;)-O Coupling: Cu-Catalyzed Asymmetric Benzyl- and Allylborane Oxidation.",
+  "cats": [
+   "dft",
+   "epr",
+   "hammett",
+   "isolation",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13312053",
+  "doi": "10.1039/d6sc02391f",
+  "date": "2026-06-23",
+  "journal": "Chem Sci",
+  "title": "Visible-light-enabled three-component carboamidation of alkenes with aryl thianthrenium salts.",
+  "cats": [
+   "control",
+   "hrms_trap",
+   "light_on_off",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13315566",
+  "doi": "10.1038/s41467-026-72423-7",
+  "date": "2026-04-24",
+  "journal": "Nat Commun",
+  "title": "Photo-enabled and thioamide-directed α-C(sp&lt;sup&gt;3&lt;/sup&gt;)-H carboxylation of α-substituted benzylamines with CO&lt;sub&gt;2&lt;/sub&gt; towards α-tertiary amino acids.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13383711",
+  "doi": "10.1021/jacs.6c07703",
+  "date": "2026-07-02",
+  "journal": "J Am Chem Soc",
+  "title": "Photocatalytic Controlled Halodefluorination of Perfluoroalkyl Compounds Using &lt;i&gt;N&lt;/i&gt;-Arylphenothiazines.",
+  "cats": [
+   "control",
+   "dft",
+   "in_situ_nmr",
+   "kinetic_order",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13448636",
+  "doi": "10.1038/s41467-026-74943-8",
+  "date": "2026-06-26",
+  "journal": "Nat Commun",
+  "title": "Ligand-controlled sequential activation enables nickel-catalysed alkyl-alkynyl coupling.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "kinetic_order",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13488897",
+  "doi": "10.1126/sciadv.aeg9384",
+  "date": "2026-08-19",
+  "journal": "Sci Adv",
+  "title": "Catalyst-free, autoinductive photochemical upcycling of aromatic polymers and mixed plastics via autosensitization.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "kie",
+   "light_on_off",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13532196",
+  "doi": "10.1021/acs.orglett.6c03155",
+  "date": "2026-08-01",
+  "journal": "Org Lett",
+  "title": "Alcohol/Water-Relay Sulfurative Oxygenation of Vinyl Bromides Enabled by Photoinduced EDA Complexes.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13537190",
+  "doi": "10.1039/d6sc04813g",
+  "date": "2026-08-25",
+  "journal": "Chem Sci",
+  "title": "Radical-carbanion relay enabled by earth-abundant titanium: carboxylation of 1°, 2°, and 3° benzyl chlorides with CO&lt;sub&gt;2&lt;/sub&gt;.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "hrms_trap",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13669357",
+  "doi": "10.1038/s41467-026-77739-y",
+  "date": "2026-09-14",
+  "journal": "Nat Commun",
+  "title": "Difunctionalization of unsaturated hydrocarbons via EDA complexes to access pentafluorosulfanyl thioethers.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "hammett",
+   "hrms_trap",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13676404",
+  "doi": "10.1002/anie.2936884",
+  "date": "2026-08-27",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "A de-novo Approach Towards Divergent [3+2π/σ] Photocycloadditions of Nitrones via Assembly-Controlled Kinetic Electron Transfer Gating.",
+  "cats": [
+   "control",
+   "dft",
+   "light_on_off",
+   "quantum_yield",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13693385",
+  "doi": "10.1021/jacs.6c10904",
+  "date": "2026-10-01",
+  "journal": "J Am Chem Soc",
+  "title": "Electroanalytical and Computational Investigation of Oxoammonium-Mediated Hydride Transfer.",
+  "cats": [
+   "cv",
+   "dft",
+   "in_situ_nmr",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13703788",
+  "doi": "10.1002/anie.8217511",
+  "date": "2026-09-08",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Sulfur-Boron Lewis Pair-Catalyzed Hydrohalogenation of Alkynes via Formal Hydrogen Atom Transfer.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 6,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12787521",
+  "doi": "10.1126/sciadv.adz1874",
+  "date": "2026-01-09",
+  "journal": "Sci Adv",
+  "title": "Three-component synthesis of β-thio tertiary alkylamines from simple alkenes via S&lt;sub&gt;H&lt;/sub&gt;2 homolytic substitution.",
+  "cats": [
+   "control",
+   "dft",
+   "hammett",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12834221",
+  "doi": "10.1039/d5sc08771f",
+  "date": "2026-01-20",
+  "journal": "Chem Sci",
+  "title": "Radical docking-migration: a powerful strategy for difunctionalization of alkenes and alkynes.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12835886",
+  "doi": "10.1039/d5sc08998k",
+  "date": "2026-01-23",
+  "journal": "Chem Sci",
+  "title": "Atomic-scale redox-potential-mediated engineering of 0D/2D Cu-Cu&lt;sub&gt;2&lt;/sub&gt;O/MO &lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; (OH) &lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt; heterojunctions for efficient nitrate electroreduction to ammonia.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12856901",
+  "doi": "10.1021/jacs.5c21208",
+  "date": "2026-01-12",
+  "journal": "J Am Chem Soc",
+  "title": "Photolysis of CO<sub>2</sub> Carbamate for Hydrocarboxylation Reactions.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "quantum_yield",
+   "radical_clock"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12923525",
+  "doi": "10.1038/s41467-026-68666-z",
+  "date": "2026-01-20",
+  "journal": "Nat Commun",
+  "title": "Glycine photosynthesis via C-N coupling of waste plastic and nitrate over diatomic Pd-B catalyst.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13004033",
+  "doi": "10.1126/sciadv.aea7041",
+  "date": "2026-03-20",
+  "journal": "Sci Adv",
+  "title": "In&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt;-CNT catalysts enable &gt;500-hour stable CO&lt;sub&gt;2&lt;/sub&gt;-to-methanol hydrogenation via vacancy stabilization.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13009372",
+  "doi": "10.1038/s41467-026-69085-w",
+  "date": "2026-02-12",
+  "journal": "Nat Commun",
+  "title": "Constructing scalable hydrophobe-water micro-interfaces for catalyst-free generation of H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt; via macroporous resins.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13021314",
+  "doi": "10.1002/anie.202600006",
+  "date": "2026-03-19",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Photoenzymatic Hydroalkylation Enables Streamlined Access to Aryl Glutarimide Precursors.",
+  "cats": [
+   "control",
+   "cv",
+   "hammett",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13089765",
+  "doi": "10.1039/d6sc00898d",
+  "date": "2026-04-17",
+  "journal": "Chem Sci",
+  "title": "Photoinduced deacylative epoxidation of ketone derivatives with allylic peroxides.",
+  "cats": [
+   "control",
+   "cv",
+   "radical_clock",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13168262",
+  "doi": "10.1038/s41467-026-69425-w",
+  "date": "2026-02-25",
+  "journal": "Nat Commun",
+  "title": "Structural basis of the promiscuity of the unusual Fe(II) and 2-oxoglutarate dependent human aspartate/asparagine-β-hydroxylase.",
+  "cats": [
+   "control",
+   "epr",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13206243",
+  "doi": "10.1002/anie.1288153",
+  "date": "2026-04-13",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Fused Ring Engineering Induced Topology Control in Covalent Organic Frameworks: Unlocking Promoted Photocatalytic H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt; Production and Selective Methane Oxidation.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13237386",
+  "doi": "10.1038/s41467-026-70407-1",
+  "date": "2026-04-08",
+  "journal": "Nat Commun",
+  "title": "Photochemical synthesis of oxiranes using DABSO-activated sulfinates and allylic peroxides.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13266965",
+  "doi": "10.1002/anie.9523099",
+  "date": "2026-05-04",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "One-Step Radical-Intensified Selective Etching (RISE) Strategy for High-Yield Synthesis of Monolayer MXene with Tailored Nanoholes.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13281526",
+  "doi": "10.1021/jacs.6c06373",
+  "date": "2026-06-07",
+  "journal": "J Am Chem Soc",
+  "title": "From Leuco to Blue: Photochemical Redox Amplification for Small-Molecule Immunodetection.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13298886",
+  "doi": "10.1021/jacs.5c22741",
+  "date": "2026-04-15",
+  "journal": "J Am Chem Soc",
+  "title": "Catalytic Enantioselective Elimination of Cyclobutanols.",
+  "cats": [
+   "hammett",
+   "hrms_trap",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13340512",
+  "doi": "10.1002/anie.3147768",
+  "date": "2026-05-17",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Graphdiyne as a Hole-Transport Channel in Carbon Nitride Heterojunctions for Synergistic CO&lt;sub&gt;2&lt;/sub&gt; Reduction and γ-Butyrolactone Synthesis.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13344364",
+  "doi": "10.1126/sciadv.aee4031",
+  "date": "2026-07-08",
+  "journal": "Sci Adv",
+  "title": "Redirecting radical phosphonylation via energy-transfer-enabled diradical rearrangement.",
+  "cats": [
+   "control",
+   "dft",
+   "light_on_off",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13360835",
+  "doi": "10.1002/anie.9986925",
+  "date": "2026-05-22",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Phosphoryl Radicals from Trivalent Iminyl Phosphines: A Photocatalytic Approach to N-Phosphoryl Azetidines.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13365806",
+  "doi": "10.1038/s41467-026-72808-8",
+  "date": "2026-05-07",
+  "journal": "Nat Commun",
+  "title": "Single-site oxidation-directed topological evolution of hydrogen-bonded organic frameworks for efficient photocatalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13376901",
+  "doi": "10.1038/s41467-026-72801-1",
+  "date": "2026-05-09",
+  "journal": "Nat Commun",
+  "title": "Single-iron catalyst with heterogenized TEMPO for selective toluene electrooxidation to benzaldehyde at low potentials.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13378512",
+  "doi": "10.1039/d6sc04911g",
+  "date": "2026-06-29",
+  "journal": "Chem Sci",
+  "title": "PhSO&lt;sub&gt;2&lt;/sub&gt;CF&lt;sub&gt;2&lt;/sub&gt;H as a difluoromethylene bridge connecting electrophiles and electronically diverse alkenes.",
+  "cats": [
+   "dft",
+   "epr",
+   "hrms_trap",
+   "isotope_label",
+   "light_on_off"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13430730",
+  "doi": "10.1039/d6sc04146a",
+  "date": "2026-07-27",
+  "journal": "Chem Sci",
+  "title": "Mo-doped NiO@TiO&lt;sub&gt;2&lt;/sub&gt; electrocatalyst for highly selective and durable hydrogenolysis of furfural to 2-methylfuran.",
+  "cats": [
+   "dft",
+   "epr",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13442844",
+  "doi": "10.1038/s41467-026-74638-0",
+  "date": "2026-06-23",
+  "journal": "Nat Commun",
+  "title": "Dual Photoredox/Cobalt Catalysis Enabled Regiospecific Markovnikov Hydroboration of Unactivated Mono-, Di-, and Trisubstituted Alkenes.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_clock",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13450392",
+  "doi": "10.1021/jacs.6c06460",
+  "date": "2026-08-01",
+  "journal": "J Am Chem Soc",
+  "title": "Photo-Stitching of Nitroalkanes via Cross-Denitrative Olefination.",
+  "cats": [
+   "control",
+   "cv",
+   "epr",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13473639",
+  "doi": "10.1038/s41467-026-74785-4",
+  "date": "2026-06-30",
+  "journal": "Nat Commun",
+  "title": "Modular synthesis of trisubstituted olefins and 1,3-dienes from renewable alcohols via ligand-enabled nickel catalysis.",
+  "cats": [
+   "control",
+   "hammett",
+   "hrms_trap",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13474942",
+  "doi": "10.1021/jacs.6c10599",
+  "date": "2026-08-01",
+  "journal": "J Am Chem Soc",
+  "title": "Reactivity of Nitroarenes toward Alkyl Radicals Enables Direct C-H Alkylation.",
+  "cats": [
+   "control",
+   "dft",
+   "kinetic_order",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13498607",
+  "doi": "10.1038/s41467-026-75633-1",
+  "date": "2026-07-17",
+  "journal": "Nat Commun",
+  "title": "Reforging Mitsunobu reaction via sulfoxides-catalyzed C(sp&lt;sup&gt;3&lt;/sup&gt;)-O bond activation of alkanols.",
+  "cats": [
+   "dft",
+   "hammett",
+   "in_situ_nmr",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13507994",
+  "doi": "10.1021/jacsau.6c00811",
+  "date": "2026-07-17",
+  "journal": "JACS Au",
+  "title": "Tackling the Scaling Relations in Ammonia Synthesis through Light-Driven Catalysis over LiH-Mediated Ru/TiN.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13544145",
+  "doi": "10.1039/d6sc03347d",
+  "date": "2026-08-14",
+  "journal": "Chem Sci",
+  "title": "Synergistic effects in s- and d-block heterometallic compounds: small molecule activation and catalysis.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13592308",
+  "doi": "10.1002/anie.9277722",
+  "date": "2026-07-24",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "CO&lt;sub&gt;2&lt;/sub&gt; as a Redox Shuttle Enables Photocatalytic Dehydrogenative Decarbonylation of Biomass-Derived Alcohols to Light Alkanes.",
+  "cats": [
+   "control",
+   "epr",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13592314",
+  "doi": "10.1002/anie.1030679",
+  "date": "2026-07-24",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Carbon-Confined Fe&lt;sub&gt;3&lt;/sub&gt;C/Fe&lt;sub&gt;3&lt;/sub&gt;N Janus Interfaces for Selective Nitric Oxide-to-Ammonia Electroreduction.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13597512",
+  "doi": "10.1038/s41467-026-77048-4",
+  "date": "2026-08-24",
+  "journal": "Nat Commun",
+  "title": "Magnetic field-induced spin-related effects promote efficient low-temperature transfer hydrogenation over carbon-encapsulated catalysts.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13625514",
+  "doi": "10.1021/jacsau.6c00738",
+  "date": "2026-08-13",
+  "journal": "JACS Au",
+  "title": "Unlocking Distinct Excited States of a Nickel(II) Complex Without Modulating the Primary Coordination Sphere.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13625739",
+  "doi": "10.1021/jacsau.6c00788",
+  "date": "2026-08-14",
+  "journal": "JACS Au",
+  "title": "Electricity-Controlled Divergent Synthesis of CF&lt;sub&gt;3&lt;/sub&gt;‑Tethered Pyrazolines and Pyrazoles via Tandem Radical Trifluoromethylation and Annulation.",
+  "cats": [
+   "control",
+   "cv",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13628520",
+  "doi": "10.1002/chem.71251",
+  "date": "2026-06-19",
+  "journal": "Chemistry",
+  "title": "Oxidative Generation and Reactivity of the Cyclopropyl Radical From a Martin Silicate.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kinetic_order",
+   "stern_volmer"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13638114",
+  "doi": "10.1002/anie.3133042",
+  "date": "2026-08-13",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Direct Solar Power-Driven Durable Ammonia Electrosynthesis From Nitrate Under Fluctuating Voltage Conditions.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13714829",
+  "doi": "10.1021/jacsau.6c00970",
+  "date": "2026-09-21",
+  "journal": "JACS Au",
+  "title": "Reengineered Vitamin B12 for Selective Aqueous Nitrate-to-Ammonium Electrocatalysis via Axial-Ligand Gating.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13715468",
+  "doi": "10.1002/chem.71414",
+  "date": "2026-07-15",
+  "journal": "Chemistry",
+  "title": "Bismuth Chalcogenide-Based Photocatalysts for Nitrogen Reduction: Recent Progress and Prospects.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 5,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12814205",
+  "doi": "10.1039/d5sc07018j",
+  "date": "2026-01-07",
+  "journal": "Chem Sci",
+  "title": "Hypervalent chalcogenonium organocatalysis for the direct stereoselective synthesis of deoxyglycosides from hemiacetals.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12848740",
+  "doi": "10.1021/jacsau.5c01485",
+  "date": "2026-01-09",
+  "journal": "JACS Au",
+  "title": "Sulfonyl-Directed Photoinduced Dehydro-Diels-Alder Reaction of Aryl Maleimides: Enabling Regioselective Naphthalene Synthesis.",
+  "cats": [
+   "dft",
+   "kie",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12856908",
+  "doi": "10.1021/jacs.5c21901",
+  "date": "2026-01-19",
+  "journal": "J Am Chem Soc",
+  "title": "A Diazo-free Equivalent of the Unsubstituted Carbyne Cation: Straightforward Synthesis of Naphthalenes and Pyridines via [<sup>12/13</sup>CH]<sup>+</sup> Insertion.",
+  "cats": [
+   "dft",
+   "isolation",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12933367",
+  "doi": "10.1021/jacsau.5c01509",
+  "date": "2026-01-16",
+  "journal": "JACS Au",
+  "title": "Dexter Energy Transfer Photocatalytic Microdissection of Amyloid Plaques in Alzheimer's Disease.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12957386",
+  "doi": "10.1038/s41467-026-68776-8",
+  "date": "2026-01-29",
+  "journal": "Nat Commun",
+  "title": "Stereoselective cyano translocation reaction enabled by photoenzymatic catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12963364",
+  "doi": "10.1038/s41467-026-68991-3",
+  "date": "2026-01-31",
+  "journal": "Nat Commun",
+  "title": "Bioinspired charge reservoir enables efficient CO&lt;sub&gt;2&lt;/sub&gt; photoreduction with H&lt;sub&gt;2&lt;/sub&gt;O via tungsten valence oscillation.",
+  "cats": [
+   "dft",
+   "epr",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12964421",
+  "doi": "10.1021/jacs.5c22244",
+  "date": "2026-02-17",
+  "journal": "J Am Chem Soc",
+  "title": "Triplet Energy Transfer as a Handle to Tune 1,2-Dialkyldiazene Fragmentation in Radical C(sp&lt;sup&gt;3&lt;/sup&gt;)-C(sp&lt;sup&gt;2&lt;/sup&gt;) Cross-Coupling.",
+  "cats": [
+   "crossover",
+   "cv",
+   "kinetic_order",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12976297",
+  "doi": "10.1038/s41467-026-70412-4",
+  "date": "2026-03-10",
+  "journal": "Nat Commun",
+  "title": "Carbonylolysis of waste polyesters into high-value organic acids.",
+  "cats": [
+   "control",
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12980576",
+  "doi": "10.1039/d5gc06899a",
+  "date": "2026-03-03",
+  "journal": "Green Chem",
+  "title": "A one-pot organocatalytic process for the synthesis of cyclic carbonates from CO&lt;sub&gt;2&lt;/sub&gt; and alkenes using cumene hydroperoxide as a green oxidant.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "no main pdf"
+ },
+ {
+  "pmcid": "PMC12982757",
+  "doi": "10.1038/s41467-026-69207-4",
+  "date": "2026-02-05",
+  "journal": "Nat Commun",
+  "title": "Sequential-chain coupling over hierarchical click-sites enables highly selective urea electrosynthesis.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13007590",
+  "doi": "10.1002/anie.6372902",
+  "date": "2026-02-17",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Photoinduced Generation of (Boryl)Silyl and (Chloro)Silyl Radicals: Access to Trisubstituted Silylboranes and Chlorosilanes.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "light_on_off",
+   "quantum_yield"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13014238",
+  "doi": "10.1021/jacsau.5c01695",
+  "date": "2026-03-06",
+  "journal": "JACS Au",
+  "title": "Stereogenic S‑Induced Generation of Axially Chiral Cyclic Vinyl Sulfinamides and Serendipitous Diastereomeric Enrichment.",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13014267",
+  "doi": "10.1021/jacsau.6c00021",
+  "date": "2026-02-20",
+  "journal": "JACS Au",
+  "title": "Modular and Mild Assembly of Aryl Phosphines, Phosphine Oxides/Sulfides, Phosphinates, and Phosphonates Enabled by Photoinduced Divergent Construction of Aryl-P(III) and Aryl-P(V) Bonds.",
+  "cats": [
+   "control",
+   "hrms_trap",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13014268",
+  "doi": "10.1021/jacsau.6c00086",
+  "date": "2026-02-24",
+  "journal": "JACS Au",
+  "title": "Platinum-Electrocatalyzed Divergent Nitrile Cross-Coupling.",
+  "cats": [
+   "control",
+   "cv",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13066409",
+  "doi": "10.1038/s41467-026-70201-z",
+  "date": "2026-03-03",
+  "journal": "Nat Commun",
+  "title": "Chemodivergent Coupling of 1,3-Enynes with Anilines to Access Dihydropyrrole Skeleton under Palladium Catalysis.",
+  "cats": [
+   "control",
+   "crossover",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13080436",
+  "doi": "10.1002/anie.202525818",
+  "date": "2026-03-09",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Regiodivergent C3 and C4 Amination of Quinolines via Radical and Ionic Pathways.",
+  "cats": [
+   "control",
+   "crossover",
+   "in_situ_nmr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13106799",
+  "doi": "10.1038/s41467-026-70502-3",
+  "date": "2026-03-10",
+  "journal": "Nat Commun",
+  "title": "Mesoporous ruthenium titanium oxide solid solution with efficient three phase reaction interface for water electrolysis.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "epr"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13107439",
+  "doi": "10.1021/jacs.5c16761",
+  "date": "2026-04-08",
+  "journal": "J Am Chem Soc",
+  "title": "Femtosecond-to-Second Time-Resolved Spectroscopy Brings Unparalleled Insight Into the Life Cycle of the Versatile Manganese Photocatalyst [Mn&lt;sub&gt;2&lt;/sub&gt;(CO)&lt;sub&gt;10&lt;/sub&gt;].",
+  "cats": [
+   "dft",
+   "epr",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13126179",
+  "doi": "10.1021/jacsau.6c00050",
+  "date": "2026-04-09",
+  "journal": "JACS Au",
+  "title": "Precise Editing of Indolines at Different Positions via SET and CMD Pathways.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13155299",
+  "doi": "10.1126/sciadv.aef4526",
+  "date": "2026-05-08",
+  "journal": "Sci Adv",
+  "title": "Enantio- and regioselective nickel/photoredox-catalyzed cross-electrophile coupling of benzylic aziridines with alkynyl bromides.",
+  "cats": [
+   "control",
+   "cv",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13159295",
+  "doi": "10.3762/bjoc.22.50",
+  "date": "2026-04-30",
+  "journal": "Beilstein J Org Chem",
+  "title": "Photoorganocatalytic trifluoromethylation of (het)arenes in green conditions.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13185130",
+  "doi": "10.1021/acs.joc.6c00639",
+  "date": "2026-05-05",
+  "journal": "J Org Chem",
+  "title": "Photoisomerization of Isatogens to Benzoxazin-4-ones.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13195649",
+  "doi": "10.1021/jacs.5c22182",
+  "date": "2026-05-07",
+  "journal": "J Am Chem Soc",
+  "title": "Cobalt-Catalyzed Highly Regioselective Alkoxycarbonylation of Olefins Driven by Light.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "light_on_off"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13195677",
+  "doi": "10.1021/jacs.6c01581",
+  "date": "2026-05-10",
+  "journal": "J Am Chem Soc",
+  "title": "TagC-RED: An Infrared-Triggered Retro-Ene Reaction for Deep-Tissue Bioconjugation.",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13202470",
+  "doi": "10.1039/d6sc01835a",
+  "date": "2026-05-15",
+  "journal": "Chem Sci",
+  "title": "Substrate-driven iridium photocatalysts enable diastereoselective dearomative polyoxygenation of hydroxyquinolines.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13213398",
+  "doi": "10.1021/jacsau.6c00362",
+  "date": "2026-05-02",
+  "journal": "JACS Au",
+  "title": "General Difluoroalkylation of Unactivated Alkenes Via Allylic Mizoroki-Heck Coupling.",
+  "cats": [
+   "control",
+   "hrms_trap",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13213477",
+  "doi": "10.1039/d6sc03470e",
+  "date": "2026-05-21",
+  "journal": "Chem Sci",
+  "title": "A photochemical strategy for pyrazole to imidazole conversion.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order",
+   "quantum_yield"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13213512",
+  "doi": "10.1021/jacsau.6c00369",
+  "date": "2026-05-06",
+  "journal": "JACS Au",
+  "title": "Ru-Catalyzed Asymmetric Hydrogenation of γ‑Amino Ketones.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13243443",
+  "doi": "10.1038/s41467-026-71590-x",
+  "date": "2026-04-09",
+  "journal": "Nat Commun",
+  "title": "Enantioselective Synthesis of 2-Oxabicyclo[2.1.1]hexanes and Bicyclo[2.1.1]hexanes via Catalytic Asymmetric Intramolecular Photocycloadditions.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13245597",
+  "doi": "10.1002/anie.4646822",
+  "date": "2026-04-28",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Hydrogen Isotope Exchange in Pyridine Catalyzed by an Iron(II) Imido Complex: Counterion-Directed Regioselectivity.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13250366",
+  "doi": "10.1002/chem.202503475",
+  "date": "2026-03-28",
+  "journal": "Chemistry",
+  "title": "Photocatalytic Vanadium-Mediated Amination of Benzene With Hydroxylamine.",
+  "cats": [
+   "control",
+   "epr",
+   "in_situ_nmr",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13266924",
+  "doi": "10.1002/anie.9744019",
+  "date": "2026-05-04",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Aldehyde-Olefin Couplings by Photoinduced Reduction of Electron-Deficient Olefins with Hantzsch Ester Anions.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "quantum_yield",
+   "radical_clock"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13266939",
+  "doi": "10.1002/anie.3343591",
+  "date": "2026-05-02",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Asymmetric Fe-Te Pairs Enhance Peroxymonosulfate Activation via Surface-Bound Hydroxyl Radicals Pathways.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13290410",
+  "doi": "10.1002/chem.70966",
+  "date": "2026-04-09",
+  "journal": "Chemistry",
+  "title": "Photoinduced Hydrogenative Dearomatization With Homocoupling of Quinolines to Construct Octahydro-4,4'-biquinolines.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13307311",
+  "doi": "10.1039/d6sc02948e",
+  "date": "2026-06-17",
+  "journal": "Chem Sci",
+  "title": "Covalently linked ferrocene-polyoxometalate dyads for light-induced radical generation.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13320732",
+  "doi": "10.1039/d6sc02672a",
+  "date": "2026-07-01",
+  "journal": "Chem Sci",
+  "title": "Acid-catalyzed C-H reductive elimination from Au(iii).",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13338244",
+  "doi": "10.1038/s41467-026-72761-6",
+  "date": "2026-04-30",
+  "journal": "Nat Commun",
+  "title": "Structural origin of hierarchical chirality in Pt@Au nanostructures with step-rich surfaces.",
+  "cats": [
+   "control",
+   "dft",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13346952",
+  "doi": "10.1038/s41467-026-72920-9",
+  "date": "2026-05-05",
+  "journal": "Nat Commun",
+  "title": "Construction of quaternary stereocenters via Ru-catalyzed asymmetric ring-closing metathesis.",
+  "cats": [
+   "dft",
+   "hammett",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13347295",
+  "doi": "10.1039/d6sc02479c",
+  "date": "2026-07-02",
+  "journal": "Chem Sci",
+  "title": "Photoinduced interface reconstruction of Cu&lt;sub&gt;2&lt;/sub&gt;O sub-nanocluster-oxygen-rich TiO&lt;sub&gt;2+&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; heterostructures enabling efficient nitrate-to-ammonia electrosynthesis at industrial current densities.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13347296",
+  "doi": "10.1039/d6sc03994d",
+  "date": "2026-06-29",
+  "journal": "Chem Sci",
+  "title": "Stereoselective dearomative formal [3 + 2] cycloaddition of indole with allenols: access to structurally diverse cyclopenta[&lt;i&gt;b&lt;/i&gt;]indoles.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13377119",
+  "doi": "10.1038/s41467-026-72860-4",
+  "date": "2026-05-11",
+  "journal": "Nat Commun",
+  "title": "Construction of boron-stereogenic BODIPYs through organo-catalyzed enantioselective formal C(sp&lt;sup&gt;2&lt;/sup&gt;)-O/O-H metathesis.",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13378574",
+  "doi": "10.1126/sciadv.aeg0999",
+  "date": "2026-07-17",
+  "journal": "Sci Adv",
+  "title": "Asymmetric radical NHC organocatalysis-enabled highly enantioselective acylation of inert C(sp&lt;sup&gt;2&lt;/sup&gt;)─C(sp&lt;sup&gt;3&lt;/sup&gt;) bonds.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13383067",
+  "doi": "10.1002/anie.9066578",
+  "date": "2026-05-27",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Quantitative Photo-Reforming of Biomass to CO Spurred by In Situ Protonation of Carbon Dioxide Radical Anions.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13383718",
+  "doi": "10.1021/jacs.6c09845",
+  "date": "2026-07-04",
+  "journal": "J Am Chem Soc",
+  "title": "Alternating-Polarity Electrolysis Enables Efficient Enantioselective Semipinacol Rearrangement Using Sodium Chloride.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13408099",
+  "doi": "10.1038/s41467-026-74546-3",
+  "date": "2026-06-15",
+  "journal": "Nat Commun",
+  "title": "Arene difunctionalization through an acyl-inserting Smiles rearrangement enabled by N-heterocyclic carbene catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13417194",
+  "doi": "10.1021/jacsau.6c00527",
+  "date": "2026-07-07",
+  "journal": "JACS Au",
+  "title": "Photocatalytic, Scalable Anti-Markovnikov Hydrocarboxylation of Unactivated Alkenes via Amine-Mediated CO&lt;sub&gt;2&lt;/sub&gt; &lt;sup&gt;•-&lt;/sup&gt; Generation from Formate.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13434812",
+  "doi": "10.1038/s41467-026-74344-x",
+  "date": "2026-06-16",
+  "journal": "Nat Commun",
+  "title": "Enantioselective Electrocatalytic Hydrogenation of α,β-Unsaturated Esters and Allylic Alcohols.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13449957",
+  "doi": "10.1021/jacs.6c08262",
+  "date": "2026-08-01",
+  "journal": "J Am Chem Soc",
+  "title": "Formal Markovnikov Hydroazolation of Alkenes via Reductive Activation of Alkylthianthrenium Salts.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kie",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13449958",
+  "doi": "10.1021/jacs.6c08353",
+  "date": "2026-08-01",
+  "journal": "J Am Chem Soc",
+  "title": "Catalytic Asymmetric Cationic Geranyl Cyclizations.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13451544",
+  "doi": "10.1002/chem.71154",
+  "date": "2026-05-23",
+  "journal": "Chemistry",
+  "title": "Flipping the Card With Enantiodivergent Organocatalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13458445",
+  "doi": "10.1038/s42004-026-02070-y",
+  "date": "2026-05-20",
+  "journal": "Commun Chem",
+  "title": "Electrochemical Direct Benzylic C-H Hydroxylation with H&lt;sub&gt;2&lt;/sub&gt;O Enabled by an Unusual Dual Hydrogen-bonding Interaction.",
+  "cats": [
+   "control",
+   "cv",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13488887",
+  "doi": "10.1126/sciadv.aeg8278",
+  "date": "2026-08-19",
+  "journal": "Sci Adv",
+  "title": "Photocatalytic CO&lt;sub&gt;2&lt;/sub&gt;-to-ethanol conversion via multiple enrichment effects in porous liquids.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13505769",
+  "doi": "10.1002/chem.71101",
+  "date": "2026-05-13",
+  "journal": "Chemistry",
+  "title": "Catalyst-Free Cyanation of Arenes by Acetonitrile in a Plasma-Liquid Microreactor.",
+  "cats": [
+   "epr",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13522588",
+  "doi": "10.1038/s41467-026-75902-z",
+  "date": "2026-07-28",
+  "journal": "Nat Commun",
+  "title": "Data-driven catalyst design for direct catalytic N&lt;sub&gt;2&lt;/sub&gt;O decomposition.",
+  "cats": [
+   "control",
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13542144",
+  "doi": "10.1038/s41467-026-76345-2",
+  "date": "2026-08-07",
+  "journal": "Nat Commun",
+  "title": "Engineering N-site isomerism in donor-acceptor covalent organic frameworks for efficient Fenton-like water purification.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13545234",
+  "doi": "10.1038/s41467-026-77403-5",
+  "date": "2026-09-03",
+  "journal": "Nat Commun",
+  "title": "Excitation of acyclic trisubstituted alkenes via triplet energy transfer for diastereo- and enantioselective [2 + 2] photocycloaddition.",
+  "cats": [
+   "control",
+   "dft",
+   "hammett",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13573116",
+  "doi": "10.1002/anie.8356049",
+  "date": "2026-07-13",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Water-Dispersible Ruthenium Nanocatalyst for Carbonyl Reduction With D&lt;sub&gt;2&lt;/sub&gt; or T&lt;sub&gt;2&lt;/sub&gt; in Aqueous Media.",
+  "cats": [
+   "isotope_label",
+   "kie",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13592309",
+  "doi": "10.1002/anie.5196140",
+  "date": "2026-07-21",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Catalytic Sulfur-Atom Transfer Enabled by a Bis(disulfide) Titanium Complex.",
+  "cats": [
+   "dft",
+   "hammett",
+   "isolation",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13592353",
+  "doi": "10.1039/d6sc06444b",
+  "date": "2026-09-15",
+  "journal": "Chem Sci",
+  "title": "Assembling giant heterometallic cyclic coordination clusters {Mn&lt;sup&gt;II&lt;/sup&gt; &lt;sub&gt;2&lt;/sub&gt;Ln&lt;sup&gt;III&lt;/sup&gt; &lt;sub&gt;2&lt;/sub&gt;} &lt;sub&gt;&lt;i&gt;n&lt;/i&gt;&lt;/sub&gt; (&lt;i&gt;n&lt;/i&gt; = 6 and 8) for efficient photocatalytic hydrogen production.",
+  "cats": [
+   "cv",
+   "dft",
+   "quantum_yield",
+   "stern_volmer"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13613150",
+  "doi": "10.1039/d6sc06229f",
+  "date": "2026-09-18",
+  "journal": "Chem Sci",
+  "title": "Fluoride-activated silicon catalysis enables C(sp&lt;sup&gt;3&lt;/sup&gt;)-H amination of cyclic benzylic ethers and amines using chloramine-T.",
+  "cats": [
+   "control",
+   "hrms_trap",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13614178",
+  "doi": "10.1021/jacs.6c11205",
+  "date": "2026-09-01",
+  "journal": "J Am Chem Soc",
+  "title": "Systematic Ligand Modification Tunes the Stability and Reactivity of Copper Complexes for the Electrocatalytic Reduction of Carbon Dioxide.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr",
+   "isotope_label"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13676386",
+  "doi": "10.1002/anie.2236309",
+  "date": "2026-09-07",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Redox-Neutral Vicinal Dialkylation of Aryl Boronic Esters via the Palladium/Norbornene Cooperative Catalysis.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13682201",
+  "doi": "10.1021/acs.joc.6c01197",
+  "date": "2026-10-01",
+  "journal": "J Org Chem",
+  "title": "Aluminum Cation-Catalyzed C2-H Activation and Enantioselective Michael Addition of Indoles.",
+  "cats": [
+   "dft",
+   "hammett",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13690704",
+  "doi": "10.1038/s41467-026-77912-3",
+  "date": "2026-09-23",
+  "journal": "Nat Commun",
+  "title": "Iodide-bridged interfacial hydrogen bonds enable ampere-level electrosynthesis of deuterated acetic acid.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13714319",
+  "doi": "10.1038/s41467-026-78111-w",
+  "date": "2026-09-28",
+  "journal": "Nat Commun",
+  "title": "Contact-electro-catalyzed direct hydroxylation of aromatic C-H bonds under ambient conditions.",
+  "cats": [
+   "control",
+   "dft",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13714858",
+  "doi": "10.1021/jacsau.6c01344",
+  "date": "2026-10-13",
+  "journal": "JACS Au",
+  "title": "Rh/Ru-Catalyzed Asymmetric One-Pot Sequential Hydrogenation: Stereodivergent Synthesis of Chiral 1,3-Amino Alcohol Derivatives.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13715327",
+  "doi": "10.1021/prechem.6c00062",
+  "date": "2026-08-17",
+  "journal": "Precis Chem",
+  "title": "Electrochemistry of Urea Synthesis via Carbon Dioxide Reduction: Mechanisms and Material Insights.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13724673",
+  "doi": "10.1038/s41467-026-78226-0",
+  "date": "2026-10-03",
+  "journal": "Nat Commun",
+  "title": "Enantioselective palladium-catalyzed carbonylation of gem-dibromoalkenes to chiral benzo[7]annulenes.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap",
+   "isotope_label"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC13725559",
+  "doi": "10.1002/anie.8809022",
+  "date": "2026-09-26",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Z-Retentive Enantioselective Rh-Catalyzed Hydroarylation of E,Z-Dienes.",
+  "cats": [
+   "dft",
+   "hammett",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 4,
+  "in_original_30": false,
+  "pdf": "cached"
+ },
+ {
+  "pmcid": "PMC12787511",
+  "doi": "10.1126/sciadv.aeb6913",
+  "date": "2026-01-09",
+  "journal": "Sci Adv",
+  "title": "Anode-induced arylthiol-amine cross-coupling: A nontraditional strategy to access sulfinamides.",
+  "cats": [
+   "control",
+   "cv",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12809463",
+  "doi": "10.1039/d5sc08632a",
+  "date": "2026-01-06",
+  "journal": "Chem Sci",
+  "title": "Beyond the Lindlar catalyst: highly-oxidized Pd single atoms as promoters for alkyne semi-hydrogenation.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12815245",
+  "doi": "10.1039/d5sc09023g",
+  "date": "2026-01-05",
+  "journal": "Chem Sci",
+  "title": "Enantioselective cyclization of bromoenynes: mechanistic understanding of gold(i)-catalyzed alkoxycyclizations.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12848737",
+  "doi": "10.1021/jacsau.5c01471",
+  "date": "2026-01-06",
+  "journal": "JACS Au",
+  "title": "Polar-to-Radical Crossover in Catalyst-Free Olefin Halo-Hydroxylamination: A Direct Route to Multifunctional Electrophilic Hydroxylamines.",
+  "cats": [
+   "dft",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12909895",
+  "doi": "10.1038/s42004-026-01893-z",
+  "date": "2026-01-19",
+  "journal": "Commun Chem",
+  "title": "Metal surface-triggered DNAzyme catalysis for efficient DNA cleavage.",
+  "cats": [
+   "control",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12910007",
+  "doi": "10.1038/s42004-026-01890-2",
+  "date": "2026-01-26",
+  "journal": "Commun Chem",
+  "title": "Lactam enables remote boronate rearrangements to C═N bonds.",
+  "cats": [
+   "control",
+   "crossover",
+   "dft"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12933296",
+  "doi": "10.1021/jacsau.5c01663",
+  "date": "2026-01-15",
+  "journal": "JACS Au",
+  "title": "Long-Range Oxygen Spillover at the Cu/CeO&lt;sub&gt;2&lt;/sub&gt; Interface.",
+  "cats": [
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12947841",
+  "doi": "10.1039/d5sc09144f",
+  "date": "2026-02-10",
+  "journal": "Chem Sci",
+  "title": "Self-induced charge transfer activation enables metal-free C-H coupling of polycyclic aromatic hydrocarbons under photo irradiation.",
+  "cats": [
+   "dft",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12949029",
+  "doi": "10.1038/s41467-026-69860-9",
+  "date": "2026-02-27",
+  "journal": "Nat Commun",
+  "title": "Catalytic asymmetric functionalization of bicyclo[1.1.0]butane boronic esters enabled by 1,2-oxygen migration.",
+  "cats": [
+   "dft",
+   "hammett",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12951465",
+  "doi": "10.1021/jacs.5c20640",
+  "date": "2026-02-16",
+  "journal": "J Am Chem Soc",
+  "title": "Mechanism-Inspired Ligand Design for Efficient Copper-Catalyzed C-N Coupling of Aryl and Heteroaryl Chlorides.",
+  "cats": [
+   "dft",
+   "epr",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12957340",
+  "doi": "10.1038/s41467-026-68898-z",
+  "date": "2026-01-29",
+  "journal": "Nat Commun",
+  "title": "A lattice oxygen-free design for efficient and stable photothermal methane dry reforming.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12961404",
+  "doi": "10.1039/d5sc09339b",
+  "date": "2026-03-05",
+  "journal": "Chem Sci",
+  "title": "Mitochondria-targeting cyclometallated rhodium(iii) complexes appended with two rhodamine units as Type I photosensitisers for bioimaging and photocytotoxicity applications by inducing pyroptosis.",
+  "cats": [
+   "epr",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12964415",
+  "doi": "10.1021/jacs.5c22747",
+  "date": "2026-02-19",
+  "journal": "J Am Chem Soc",
+  "title": "Methane Catalytic Amidation via a Plausible Copper-Nitrene Intermediate.",
+  "cats": [
+   "dft",
+   "kie",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC12973294",
+  "doi": "10.1021/acs.orglett.5c05421",
+  "date": "2026-02-23",
+  "journal": "Org Lett",
+  "title": "Visible-Light-Induced Radical Cascade [4 + 2]/[4 + 2] Cycloaddition of Underexplored &lt;i&gt;N&lt;/i&gt;-Acryloyl Indoles To Access Dihydropyrido[1,2-&lt;i&gt;a&lt;/i&gt;]-indolones.",
+  "cats": [
+   "control",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13007570",
+  "doi": "10.1002/anie.202522493",
+  "date": "2026-02-18",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Practical Enantioselective Hydrogenation of Aryl Enamides Catalyzed by Cobalt-Monodentate Phosphoramidites.",
+  "cats": [
+   "dft",
+   "epr",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13007792",
+  "doi": "10.1039/d5sc07228j",
+  "date": "2026-03-18",
+  "journal": "Chem Sci",
+  "title": "Synergistic diselenide/guanidine catalyzed dehydrophosphorylation of 2-nitrobenzhydrols to access C-stereogenic phosphinates.",
+  "cats": [
+   "control",
+   "dft",
+   "hrms_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13021922",
+  "doi": "10.1038/s41467-026-69362-8",
+  "date": "2026-02-14",
+  "journal": "Nat Commun",
+  "title": "Solventless, ambient-pressure production of bio-based lactones over earth-abundant, mixed metal oxide catalysts for circular polyesters.",
+  "cats": [
+   "dft",
+   "epr",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13037352",
+  "doi": "10.1002/chem.202503424",
+  "date": "2026-01-16",
+  "journal": "Chemistry",
+  "title": "SmI&lt;sub&gt;2&lt;/sub&gt;/Sm-Induced Reductive Silacyclization of Alkene/Diene Derivatives Using Dichlorosilanes or 1,2-Dichlorodisilanes via Reductive Radical-Polar Crossover.",
+  "cats": [
+   "control",
+   "cv",
+   "radical_clock"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13080434",
+  "doi": "10.1002/anie.8222003",
+  "date": "2026-03-05",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Photocatalytic Cross-Coupling of Phenols and Heteroaryl Halides With Machine Learning-Guided Reaction Prediction.",
+  "cats": [
+   "dft",
+   "quantum_yield",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13098307",
+  "doi": "10.1002/anie.8854855",
+  "date": "2026-03-15",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "NiH-Catalyzed Enantioconvergent α-Alkenylation of Carbonyl Compounds via Markovnikov Alkyne Hydronickellation.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_clock"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13103363",
+  "doi": "10.1038/s41467-026-70445-9",
+  "date": "2026-03-10",
+  "journal": "Nat Commun",
+  "title": "Elucidating the rate-limiting step of CO&lt;sub&gt;2&lt;/sub&gt; electroreduction on metal phthalocyanines.",
+  "cats": [
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13159428",
+  "doi": "10.1002/anie.9964729",
+  "date": "2026-03-30",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Convergent Valorization via Scalable C═N Bond Electrosynthesis Through Metal-Dopant Interfacial Engineering in a Flow Electrolyzer.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13162315",
+  "doi": "10.1021/acs.orglett.6c01067",
+  "date": "2026-04-27",
+  "journal": "Org Lett",
+  "title": "Unified Gold(I/III)-Catalyzed Arylative, Vinylative, and Alkynylative Lactonization via Iminium-Directed Cyclization Enabled by Hemilabile Ligands.",
+  "cats": [
+   "control",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13162318",
+  "doi": "10.1021/acs.orglett.6c01312",
+  "date": "2026-04-27",
+  "journal": "Org Lett",
+  "title": "Diazo-Preserving Radical Cascades for the Modular Photoinduced Synthesis of Oxindoles and Pyrazolones.",
+  "cats": [
+   "light_on_off",
+   "radical_trap",
+   "stern_volmer"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13174901",
+  "doi": "10.1002/chem.70837",
+  "date": "2026-02-28",
+  "journal": "Chemistry",
+  "title": "Insights Into the Photocatalytic Arene Bromination Enabled by Cs&lt;sub&gt;2&lt;/sub&gt;AgBiBr&lt;sub&gt;6&lt;/sub&gt; Microparticles.",
+  "cats": [
+   "control",
+   "cv",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13184977",
+  "doi": "10.1021/jacs.5c21614",
+  "date": "2026-04-28",
+  "journal": "J Am Chem Soc",
+  "title": "Direct Access to Iron Carbenes from Aldehyde, Ketone, and Formamide Feedstocks.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13187312",
+  "doi": "10.1038/s41467-026-70925-y",
+  "date": "2026-03-27",
+  "journal": "Nat Commun",
+  "title": "Photoinduced Mn catalysis for efficient platform for C-heteroatom bond coupling of aryl halides.",
+  "cats": [
+   "control",
+   "epr",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13200257",
+  "doi": "10.1021/acs.orglett.6c01179",
+  "date": "2026-05-08",
+  "journal": "Org Lett",
+  "title": "Low-Energy Light-Driven Excited-State Palladium Catalysis: Cross-Coupling of Pyridine &lt;i&gt;N&lt;/i&gt;-Oxides with Unactivated Alkyl Bromides.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13245473",
+  "doi": "10.3762/bjoc.22.66",
+  "date": "2026-06-01",
+  "journal": "Beilstein J Org Chem",
+  "title": "The &lt;i&gt;trans&lt;/i&gt;-influence in gold chemistry from a catalytic perspective.",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13270633",
+  "doi": "10.1021/acs.orglett.6c01339",
+  "date": "2026-06-02",
+  "journal": "Org Lett",
+  "title": "Selective Electrochemical Defluorinative Hydroxymethylation toward Difluoro-Substituted Alcohol Building Blocks.",
+  "cats": [
+   "control",
+   "cv",
+   "dft"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13288677",
+  "doi": "10.1021/acs.joc.6c00768",
+  "date": "2026-06-10",
+  "journal": "J Org Chem",
+  "title": "Nitrosonium Tetrafluoroborate-Promoted α,α-Diacetoxylation of Aryl Methyl Ketones.",
+  "cats": [
+   "control",
+   "hammett",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13291968",
+  "doi": "10.1021/jacsau.6c00381",
+  "date": "2026-06-01",
+  "journal": "JACS Au",
+  "title": "&lt;i&gt;cis&lt;/i&gt;-Selective Direct Halocyclopropanation of Alkenes Mediated by Nucleophilic Cobalt Photocatalysis.",
+  "cats": [
+   "isotope_label",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13352605",
+  "doi": "10.1021/jacs.6c09846",
+  "date": "2026-06-24",
+  "journal": "J Am Chem Soc",
+  "title": "Nickel-Catalyzed Enantioselective Coupling Reactions of Fluorinated Sorbamides with Aldehydes Affording &lt;i&gt;Anti&lt;/i&gt;-Configured β-Di(tri)fluoromethyl Alcohol Derivatives.",
+  "cats": [
+   "control",
+   "dft",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13386205",
+  "doi": "10.1039/d6sc02388f",
+  "date": "2026-07-21",
+  "journal": "Chem Sci",
+  "title": "Bimodal ultra-high molecular weight polyethylene thermoplastic elastomers enabled with \"half-sandwich\" α-diimine nickel complexes featuring axial η&lt;sup&gt;6&lt;/sup&gt;-phenyl coordination.",
+  "cats": [
+   "dft",
+   "epr",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13398413",
+  "doi": "10.1039/d6sc02376b",
+  "date": "2026-07-15",
+  "journal": "Chem Sci",
+  "title": "Catalytic hydroboration of aldehydes with electron-rich alkoxysilylenes: from mechanistic insights to highly active catalysts.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13408204",
+  "doi": "10.1038/s41467-026-74091-z",
+  "date": "2026-06-15",
+  "journal": "Nat Commun",
+  "title": "Single Ce atom-assisted oxygen vacancies as active and stable sites for CO&lt;sub&gt;2&lt;/sub&gt; conversion.",
+  "cats": [
+   "dft",
+   "epr",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13423811",
+  "doi": "10.1038/s41557-026-02148-z",
+  "date": "2026-06-12",
+  "journal": "Nat Chem",
+  "title": "Copper-catalysed site-selective arylation of pyrazoles.",
+  "cats": [
+   "control",
+   "dft",
+   "hammett"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13426269",
+  "doi": "10.1021/jacs.6c11571",
+  "date": "2026-07-01",
+  "journal": "J Am Chem Soc",
+  "title": "Controlled Precursor Differentiation Enables Palladium-Catalyzed Divergent Carbonylation of Cyclobutenols.",
+  "cats": [
+   "control",
+   "hammett",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13430768",
+  "doi": "10.1039/d6sc03998g",
+  "date": "2026-07-29",
+  "journal": "Chem Sci",
+  "title": "Enantioselective synthesis of silicon-stereogenic sulfur-containing silanes &lt;i&gt;via&lt;/i&gt; organocatalytic remote C-H sulfenylation of arenes.",
+  "cats": [
+   "control",
+   "dft",
+   "quantum_yield"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13435849",
+  "doi": "10.1039/d6sc04532d",
+  "date": "2026-07-24",
+  "journal": "Chem Sci",
+  "title": "Violet-light-induced ring expansion of 2-aryl-1,3-indandiones with chlorodiazirines toward 1,4-naphthoquinones.",
+  "cats": [
+   "control",
+   "hammett",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13464635",
+  "doi": "10.1126/sciadv.aeh8194",
+  "date": "2026-08-12",
+  "journal": "Sci Adv",
+  "title": "Palladium-catalyzed enantioselective alkenylation of acyclic alkenols: Broad scope with alkenyl bromides.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kie"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13470219",
+  "doi": "10.1038/s41467-026-75294-0",
+  "date": "2026-07-03",
+  "journal": "Nat Commun",
+  "title": "Zeolitic isolated protonic acid sites-mediated NH&lt;sub&gt;3&lt;/sub&gt; storage for robust NO&lt;sub&gt;x&lt;/sub&gt; removal.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13485175",
+  "doi": "10.1002/chem.70891",
+  "date": "2026-04-01",
+  "journal": "Chemistry",
+  "title": "Alkene Hydrogenation by a Cationic, Nine-Coordinate Molybdenum(VI) Pentahydride Catalyst.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13500704",
+  "doi": "10.1038/s41467-026-75764-5",
+  "date": "2026-07-20",
+  "journal": "Nat Commun",
+  "title": "Unlocking solar-derived CO&lt;sub&gt;2&lt;/sub&gt; conversion to hydrocarbons over plasmonic Cu-Fe tandem catalysts under industrially relevant conditions.",
+  "cats": [
+   "control",
+   "light_on_off",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13524950",
+  "doi": "10.1038/s41467-026-77228-2",
+  "date": "2026-08-27",
+  "journal": "Nat Commun",
+  "title": "Catalyst-controlled regiodivergence in enantioselective synthesis of spirocyclic γ- versus δ-lactams.",
+  "cats": [
+   "control",
+   "dft",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13549308",
+  "doi": "10.1039/d6sc05589c",
+  "date": "2026-08-31",
+  "journal": "Chem Sci",
+  "title": "Organocatalytic asymmetric electrochemical synthesis of epibromohydrins from allylic alcohols.",
+  "cats": [
+   "control",
+   "cv",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13557063",
+  "doi": "10.1126/sciadv.aef9216",
+  "date": "2026-09-09",
+  "journal": "Sci Adv",
+  "title": "A bimetallic CuBi catalyst for enhanced electrochemical CO reduction to acetate.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13575217",
+  "doi": "10.1038/s41467-026-76420-8",
+  "date": "2026-08-15",
+  "journal": "Nat Commun",
+  "title": "Spin state and orbital engineering of cuprous oxide for efficient nitrate reduction.",
+  "cats": [
+   "cv",
+   "dft",
+   "epr"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13582963",
+  "doi": "10.1038/s41467-026-76577-2",
+  "date": "2026-08-18",
+  "journal": "Nat Commun",
+  "title": "Synergistic Co-Zn dual atomic sites drive C-lignin hydrogenolysis via vicinal C-O cleavage.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13587640",
+  "doi": "10.1002/chem.71207",
+  "date": "2026-06-06",
+  "journal": "Chemistry",
+  "title": "Nickel-Catalyzed Reductive Cross-Coupling of Xanthate Esters With Aryl and Alkenyl Iodides.",
+  "cats": [
+   "dft",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13592321",
+  "doi": "10.1002/anie.3316419",
+  "date": "2026-07-23",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Exclusive Hydroformylation of Terminal Olefins: A Phosphorus-Free Ruthenium System for the Selective Functionalization of Complex Mixtures.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13612579",
+  "doi": "10.1038/s41467-026-77505-0",
+  "date": "2026-09-24",
+  "journal": "Nat Commun",
+  "title": "Unveiling full mechanistic picture of Mo-catalysed nitrogen fixation driven by SmI&lt;sub&gt;2&lt;/sub&gt;-H&lt;sub&gt;2&lt;/sub&gt;O system.",
+  "cats": [
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13621808",
+  "doi": "10.1021/acs.joc.6c01465",
+  "date": "2026-09-01",
+  "journal": "J Org Chem",
+  "title": "Microwave-Enabled Oxidative Alkoxycyclization of 2'-Aminochalcones by Gold Catalysis.",
+  "cats": [
+   "control",
+   "isotope_label",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13676412",
+  "doi": "10.1002/anie.7872408",
+  "date": "2026-08-27",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Maximizing Active Site Density in Tin Single-Site Catalysts for Selective Carbon Dioxide to Formate Electroreduction.",
+  "cats": [
+   "cv",
+   "dft",
+   "isotope_label"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13703893",
+  "doi": "10.1002/anie.5628406",
+  "date": "2026-08-12",
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Step-Associated Cu-Ceria Interfaces Enhance Catalytic Activity and Selectivity.",
+  "cats": [
+   "dft",
+   "kinetic_order",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ },
+ {
+  "pmcid": "PMC13715461",
+  "doi": "10.1002/chem.71383",
+  "date": "2026-07-12",
+  "journal": "Chemistry",
+  "title": "Cyclopropylamine-Derived Distonic Iminium Radicals: Photoinduced Strategies in Chemo- and Stereo-Selective Synthesis.",
+  "cats": [
+   "quantum_yield",
+   "radical_clock",
+   "radical_trap"
+  ],
+  "n_cats": 3,
+  "in_original_30": false,
+  "pdf": "ok"
+ }
+]

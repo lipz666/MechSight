@@ -1,0 +1,10 @@
+{
+  "registered_at": "2026-11-03, before any SMILES-mode call",
+  "purpose": "Decide whether mechanisms can be represented as SMILES state sequences instead of PGL.",
+  "V1_mapping": "GT paths rendered as SMILES; RXNMapper on each consecutive pair; heavy-atom bond changes (element-pair multisets) vs GT. Adequate for sigma-event analysis if >= 90% of steps are recovered.",
+  "V2_generation": "gemini (two-gateway client) writes full stepwise SMILES mechanisms (M1, M2) on the 147 J3 cases, same inputs as S. Species-level scoring with sigma-graph keys.",
+  "decision": {
+    "switch_to_smiles": "M1 parse rate >= 95% AND M1 heavy hidden-event recall >= PGL E (species-level) AND the law holds (hidden < visible species recall; all-present falls with hidden events)",
+    "inertness_persists_in_smiles": "heavy hidden events omitted in M1: known in other narratives exceeds re-appearance in M2 by >= 15 pp"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-10-24",
+  "method": "shortlist: structural candidate enumeration -> one LLM ranking call (<=8) -> path + self-audit with shortlist hint",
+  "model": "gemini-3.8-flash-high via https://LLM-GATEWAY-2.example/v1, reasoning_effort=high, temperature=0.2, max_tokens=8192 per call",
+  "arms_for_confirmatory_test": {
+    "primary": [
+      "direct",
+      "shortlist"
+    ],
+    "compute_matched_control": "direct with one extra sample (direct@2) so total calls/tokens are comparable"
+  },
+  "primary_metric": "sigma_L1 over ALL held-out cases (develop/fukuyama_metrics.py), paired shortlist minus direct, case-clustered bootstrap 95% CI",
+  "secondary": [
+    "intermediates_in_order",
+    "sigma_L1 on transient subset (GT-defined, diagnostic)",
+    "spurious-event rate on no-transient cases"
+  ],
+  "file_sha256": {
+    "exp1_agent_planner_skills.py": "b87e15943c5d46999d7fc5f7f92bace3d0fb4ac81a7ecc8bf00725f0866878b7",
+    "exp1_agent_prompts.py": "405e97df9fbafdcdebd2242043bc0a58e7a64871b4c046b3b9d3fec8c63c4640",
+    "fukuyama_metrics.py": "a0cc9295af1640d725b27d207c47ab0732698853dc7ca3e834d4060569136f3b",
+    "run.py": "7f79df9c930c2231cf016159ebe1fd70f49c07c803c856273a3ba56680fb1158",
+    "score_external_benchmark.py": "080631651296002512b8719ed5a6b93f67c22bb1acff2f0d728e455a6d8a00a1",
+    "score_fukuyama.py": "3ecccd01359910d2e0a768076fcd4f4cd68e867dd6c4644996c164037f5c74a6",
+    "standalone_chemistry.py": "5ee29d4b07069840b098eec72efd8f2b1ed0cf658f9bb18f8c88d2b79f495dae"
+  },
+  "component_sha256": {
+    "candidate_transients": "94bce348f921eb3045d89af5cc4703b707cc928363bd71681e1f0ede69615b81",
+    "rank_case": "48a9a94ff6da2172d2b985f4140545ab38c647a12776ddb81d1798d176e23635",
+    "shortlist_hint": "0692c01203d8a0a983ec74a9823825d6442221765390f1de845768c447c20a22",
+    "run_case": "69372064f9cb047e531fa2be736317b8ff4d00392c1370abe3df2fabd48c9adb",
+    "parse_path": "45f62de0e10226610ca10135c4d63aef61f587a48f37e87daaff749708fb344b",
+    "Model": "05aa26152e466c703eec49590226c934f0731dca4481a51795f6d75acf35db80",
+    "RANK_TASK": "16d1a7a443c2e40b34ee831240887a53940643b3b0a3288a37867fd50739568e",
+    "SCHEMA": "9b750dab5650cee1398a14c0aee904458a3ae68085c1bbba08a9267483687ca1",
+    "AUDIT": "915d421bdf5ff39185103d9ec4c19acd03c05789caee09351c676cb80f814b44"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceCard",
+  "description": "One mechanistic experiment reported in a paper or its SI. outcome_* fields hold only what was observed; the authors' reading goes to author_interpretation, which is hidden at evaluation time.",
+  "type": "object",
+  "required": ["experiment_type", "perturbation", "observable", "outcome_raw", "outcome_bin", "location"],
+  "properties": {
+    "id": {"type": "string"},
+    "experiment_type": {
+      "enum": ["kie", "radical_trap", "radical_clock", "light_on_off", "quantum_yield", "crossover", "isotope_label",
+               "hammett", "kinetic_order", "nonlinear_effect", "control", "stern_volmer", "electrochemistry",
+               "spectroscopy", "stoichiometric_intermediate", "stereochemical_probe", "competition", "other"]
+    },
+    "perturbation": {"type": "string", "description": "What was changed relative to the standard conditions (reagent added/omitted, substrate swapped for a probe, isotopic label, light switched off ...)."},
+    "observable": {"type": "string", "description": "What was measured (yield of product X, kH/kD from parallel runs, deuterium content at C2, EPR signal ...)."},
+    "outcome_raw": {"type": "string", "description": "The measured result as reported: numbers with units, detected species, yes/no. No interpretive words."},
+    "outcome_bin": {"type": ["string", "null"], "description": "Discretised outcome, see bins below; null when no bin applies."},
+    "location": {
+      "type": "object",
+      "properties": {"file": {"enum": ["main", "si"]}, "page": {"type": "integer"}, "label": {"type": "string", "description": "Scheme/Table/Figure/Entry label if given."}}
+    },
+    "author_interpretation": {"type": ["string", "null"], "description": "What the authors conclude from this result. Hidden at evaluation time."},
+    "quote": {"type": "string", "description": "Verbatim snippet (<=30 words) from the source supporting outcome_raw, for checking."}
+  },
+  "bins": {
+    "kie": ["inverse (<0.9)", "none (0.9-1.3)", "small (1.3-2.5)", "primary (>2.5)"],
+    "radical_trap": ["unaffected (>=80% of standard yield)", "reduced (10-80%)", "suppressed (<10%)"],
+    "radical_trap_adduct": ["adduct_detected", "adduct_not_detected"],
+    "radical_clock": ["ring_opened", "not_opened", "mixed"],
+    "light_on_off": ["stops_in_dark", "continues_in_dark"],
+    "quantum_yield": ["below_1", "above_1"],
+    "crossover": ["crossover", "no_crossover"],
+    "isotope_label": ["<label position>:<none|partial (<50%)|major (>=50%)>"],
+    "hammett": ["<sign of rho>:<|rho| <1 | 1-3 | >3>"],
+    "kinetic_order": ["<component>:<0|1|2|fractional|saturation|inverse>"],
+    "nonlinear_effect": ["linear", "positive_NLE", "negative_NLE"],
+    "control": ["unaffected (>=80%)", "reduced (10-80%)", "suppressed (<10%)"],
+    "stern_volmer": ["quenches", "no_quenching"],
+    "spectroscopy": ["observed", "not_observed"],
+    "stoichiometric_intermediate": ["competent (gives product)", "not_competent"],
+    "stereochemical_probe": ["retention", "inversion", "racemization", "scrambling"],
+    "competition": ["<preferred partner>:<ratio bin <2 | 2-10 | >10>"]
+  }
+}

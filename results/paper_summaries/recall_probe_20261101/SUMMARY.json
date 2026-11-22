@@ -1,0 +1,54 @@
+{
+  "steps": 115,
+  "enum": {
+    "steps": 115,
+    "set_size_median": 7148,
+    "set_size_valid_median": 3810,
+    "recall_depth<=1": 0.113,
+    "recall_depth<=2": 0.6087,
+    "recall_depth<=3": 0.8435,
+    "gt_passes_validity_filter": 0.8174,
+    "recall@5_rank_by_tdist": 0.4,
+    "recall@10_rank_by_tdist": 0.4783,
+    "recall@20_rank_by_tdist": 0.5478,
+    "recall@50_rank_by_tdist": 0.6696,
+    "recall@5_rank_by_burden": 0.3217,
+    "recall@10_rank_by_burden": 0.3565,
+    "recall@20_rank_by_burden": 0.4261,
+    "recall@50_rank_by_burden": 0.5565
+  },
+  "sample": {
+    "steps": 115,
+    "proposal_classes": {
+      "later": 60,
+      "next": 415,
+      "miss": 99
+    },
+    "recall_next@1": 0.7304,
+    "recall_next_or_later@1": 0.8348,
+    "recall_next@3": 0.7565,
+    "recall_next_or_later@3": 0.8435,
+    "recall_next@5": 0.7652,
+    "recall_next_or_later@5": 0.8522,
+    "distinct_valid_states_median": 1
+  },
+  "list": {
+    "steps": 115,
+    "proposal_classes": {
+      "next": 120,
+      "later": 48,
+      "miss": 400,
+      "invalid": 2
+    },
+    "recall_next@1": 0.6957,
+    "recall_next_or_later@1": 0.8087,
+    "recall_next@3": 0.8174,
+    "recall_next_or_later@3": 0.9043,
+    "recall_next@5": 0.8522,
+    "recall_next_or_later@5": 0.9217,
+    "distinct_valid_states_median": 5
+  },
+  "union_list5+sample5+enum_top5_recall": 0.8783,
+  "union_list5+sample5+enum_top10_recall": 0.8783,
+  "union_list5+sample5+enum_top20_recall": 0.887
+}

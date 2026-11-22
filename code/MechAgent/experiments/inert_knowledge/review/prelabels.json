@@ -1,0 +1,532 @@
+{
+ "A073:C4-Se11": {
+  "classes": [
+   "other"
+  ],
+  "note": "Neutral alpha-phenylseleno ketone intermediate formed by alpha-functionalization prior to oxidation and selenoxide elimination."
+ },
+ "C074:C10-Rh16": {
+  "classes": [
+   "carbene / carbenoid / ketene / nitrene",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The hidden intermediate is a rhodium carbenoid species formed by the catalytic decomposition of an alpha-diazo carbonyl compound."
+ },
+ "B021:C3-Pd17": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The allylpalladium complex is formed via oxidative addition of Pd(0) to the allyl carbamate."
+ },
+ "A029:C24-O30": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The hidden intermediate is a secondary ozonide (1,2,4-trioxolane) formed by cycloaddition of the Criegee intermediate with formaldehyde."
+ },
+ "B041:C4-Cr9": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The crotylchromium(III) species is a metal-bound organometallic adduct formed via oxidative addition/reduction that serves as a nucleophile."
+ },
+ "C108:C16-O6": {
+  "classes": [
+   "other"
+  ],
+  "note": "The key species is an enol carbonate intermediate acting as a transient protecting group during the sequence."
+ },
+ "B057:Br1-C8": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The species is a cyclic bromonium (halonium) ion formed by electrophilic addition of bromine to the double bond."
+ },
+ "B081:C2-O5": {
+  "classes": [
+   "neighbouring-group participation / bridged intermediate"
+  ],
+  "note": "The alpha-lactone intermediate is formed via neighboring-group participation of the carboxylic acid/carboxylate group."
+ },
+ "C066:Mg25-N6": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct"
+  ],
+  "note": "The hidden intermediate is an indolylmagnesium bromide species, functioning as an organometallic adduct prior to final protonation."
+ },
+ "C061:C1-Pd16": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an alkylpalladium(II) complex formed via migratory insertion during the palladium-catalyzed cascade."
+ },
+ "C061:Br15-Pd16": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an organopalladium species formed by oxidative addition of palladium into the alkenyl bromide bond."
+ },
+ "C044:C5-N39": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an iminium (onium) ion formed by condensation of the aldehyde with the ethylenediamine catalyst."
+ },
+ "C085:C11-Cl16": {
+  "classes": [
+   "other"
+  ],
+  "note": "The species is a neutral allylic chloride intermediate synthesized in situ prior to Grignard reagent formation."
+ },
+ "B021:O4-Pd17": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The key intermediate is an allyl-palladium complex formed via oxidative addition of the allyl carbamate to palladium(0)."
+ },
+ "B125:C15-S5": {
+  "classes": [
+   "other"
+  ],
+  "note": "The hidden intermediate is a neutral phenacyl sulfide formed by SN2 alkylation that serves as a photochemical precursor to generate thiobenzaldehyde in situ."
+ },
+ "B040:C6-Pd7": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The hidden intermediate is a pi-allylpalladium complex formed via oxidative addition of the palladium catalyst to the allylic epoxide."
+ },
+ "B020:O20-Si21": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an O-silylated carbamate bearing an iminium (ammonium-type onium) ion."
+ },
+ "C026:C23-O19": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "Hemiacetal alkoxide intermediate formed by addition of the aldol alkoxide to isobutyraldehyde in an Aldol-Tishchenko cascade."
+ },
+ "A075:C11-Pd14": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "Arylpalladium(II) complex formed via oxidative addition of the aryl bromide to palladium."
+ },
+ "A029:C25-O31": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The secondary ozonide (1,2,4-trioxolane) is a classic cyclic transient adduct formed during ozonolysis."
+ },
+ "B057:Br2-C7": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The key species is a dibromide addition adduct formed by electrophilic addition of bromine across the conjugated alkene."
+ },
+ "C061:C13-Pd16": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an alkenylpalladium species formed via oxidative addition of the vinyl bromide to palladium(0)."
+ },
+ "C063:Br32-C14": null,
+ "C032_b:C3-C8": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The cyclohexadienone intermediate is involved in an abnormal Claisen skeletal rearrangement."
+ },
+ "B031:C2-N8": {
+  "classes": [
+   "tetrahedral or addition adduct",
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is a protonated tetrahedral addition adduct (oxonium ion) formed by the addition of phenylhydrazine to the ketone."
+ },
+ "B033:C10-Cl35": {
+  "classes": [
+   "other"
+  ],
+  "note": "The intermediate is a neutral chloroalkylamine (alkyl chloride) formed by radical chlorination prior to intramolecular cyclization, fitting none of the specified reactive intermediate categories."
+ },
+ "B066:I5-O16": {
+  "classes": [
+   "other"
+  ],
+  "note": "Hypervalent iodine(III) intermediate formed via ligand exchange on PhI(OAc)2."
+ },
+ "B105:C2-Pd18": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "Alkylpalladium species formed via migratory insertion during intramolecular hydrosilylation."
+ },
+ "B084:C2-O19": null,
+ "C014:N16-O7": {
+  "classes": [
+   "other"
+  ],
+  "note": "The intermediate is an alkyl nitrite ester formed temporarily to generate an alkoxy radical upon photolysis, which does not fit any of the listed specific categories."
+ },
+ "B019:C5-N8": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "Acylammonium intermediate formed by nucleophilic attack of the tertiary amine onto the chloroformate carbonyl."
+ },
+ "C074:C10-S1": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The thiirane (episulfide) formed during the Eschenmoser sulfide contraction is a cyclic transient adduct that subsequently undergoes desulfurization."
+ },
+ "C046:C3-C9": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The intermediate is a transient bicyclic cyclopropane cycloadduct formed by intramolecular carbene addition that subsequently undergoes ring opening."
+ },
+ "C025:Hg30-O33": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct"
+  ],
+  "note": "The intermediate is a mercury enolate (organometallic adduct) formed during a Ferrier II carbocyclization."
+ },
+ "B105:Pd18-Si15": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The key species is a metal-bound intermediate formed by oxidative addition of the Si\u2013H bond to the transition metal catalyst."
+ },
+ "B114:C10-O3": null,
+ "C062:Al18-O17": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an oxonium ion formed by coordination of the Lewis acid ethylaluminum dichloride to the aldehyde carbonyl oxygen."
+ },
+ "C033:C6-S11": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The allylic sulfoxide hidden intermediate is formed and subsequently cleaved via [2,3]-sigmatropic skeletal rearrangements."
+ },
+ "B058:C11-I12": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is a three-membered cyclic iodonium (halonium) ion formed by electrophilic addition of molecular iodine to the double bond."
+ },
+ "A022:C7-N1": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The species is a zwitterionic tetrahedral intermediate formed by the nucleophilic addition of pyrrolidine to cyclohexanone."
+ },
+ "A068:C8-Se3": null,
+ "B095:C3-S9": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an allylic sulfonium ion formed by S-alkylation of 1,3-dithiane prior to ylide formation and [2,3]-sigmatropic rearrangement."
+ },
+ "A075:Br12-Pd14": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an arylpalladium(II) bromide complex formed by oxidative addition of the aryl bromide to the palladium(0) catalyst."
+ },
+ "A075:C19-Pd14": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an alkylpalladium species formed by migratory insertion of methyl acrylate into the aryl-palladium bond during a Heck reaction."
+ },
+ "B105:C1-Si15": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is a metal-bound species formed by migratory insertion of the alkene during intramolecular hydrosilylation."
+ },
+ "C061:C14-Pd16": null,
+ "C060:C4-Pd7": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The allenylpalladium intermediate is formed by oxidative addition of Pd(0) into the ethynyloxirane."
+ },
+ "B097:N29-O28": {
+  "classes": [
+   "other"
+  ],
+  "note": "The intermediate is an alkyl nitrite ester formed in the Barton reaction."
+ },
+ "B006:C15-C31": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The hidden intermediate is a tetrahedral addition adduct formed by the nucleophilic attack of the thiazolium-derived carbene/ylide onto heptanal."
+ },
+ "C075:C13-C6": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The intermediate is formed by a Claisen rearrangement and undergoes a subsequent 1,2-shift/alpha-ketol rearrangement to give the final product."
+ },
+ "A062:C13-O9": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The allyl aryl ether intermediate undergoes a thermal Claisen rearrangement to yield the ortho-allylated phenol."
+ },
+ "B084:C2-O22": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)",
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is a protonated orthoester tetrahedral adduct containing an oxonium ion formed by the addition of methanol."
+ },
+ "C061:C7-Pd16": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The hidden intermediate is an alkenylpalladium species formed by migratory insertion (carbopalladation) into the alkyne."
+ },
+ "B052:C15-O14": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is a tetrahedral hemiacetal alkoxide adduct formed by addition to formaldehyde."
+ },
+ "B001:C22-O27": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is a carbinolamine (hemiaminal), which is a tetrahedral addition adduct of an amine to an aldehyde carbonyl."
+ },
+ "A056:C2-O11": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The key intermediate is a tetrahedral adduct formed by nucleophilic addition of hydroperoxide to the aldehyde carbonyl group."
+ },
+ "B005:C1-C10": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "Nucleophilic addition of cyanide to the aldehyde generates a tetrahedral addition adduct (cyanohydrin alkoxide)."
+ },
+ "C063:C14-Zn40": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an organozinc bromide formed by oxidative addition of zinc into the primary alkyl bromide."
+ },
+ "C038:C11-N6": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The 2H-azirine is a cyclic transient adduct formed during thermal decomposition of the vinyl azide that subsequently undergoes ring-opening to a vinyl nitrene."
+ },
+ "B089:C13-Cl3": {
+  "classes": [
+   "other"
+  ],
+  "note": "The alpha-chloronitroso compound is a neutral covalent intermediate formed by electrophilic chlorination of the oxime that does not fit the defined reactive intermediate classes."
+ },
+ "C064:C11-C18": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The transient bicyclo[2.2.2]oct-1-ene intermediate is formed via a 1,2-carbon shift skeletal rearrangement of 1-norbornylcarbene."
+ },
+ "C037:C1-S7": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The key species is a sulfonium ylide formed by the addition of dimethylallenylidene carbene to the allylic sulfide."
+ },
+ "C063:Br32-C16": {
+  "classes": [
+   "other"
+  ],
+  "note": "The hidden intermediate is a neutral alpha-bromoacetal (alpha-halo ether) formed via radical bromination, which does not fall under any of the canonical reactive intermediate categories."
+ },
+ "B058:C10-I12": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The hidden intermediate is a cyclic iodonium (halonium) ion formed by electrophilic addition of iodine across the alkene."
+ },
+ "A031:C10-Hg5": {
+  "classes": [
+   "neighbouring-group participation / bridged intermediate",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The cyclic mercurinium ion functions as a bridged intermediate and a metal-bound metallacyclopropane."
+ },
+ "C036:Br53-C15": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The hidden intermediate is a cyclic bromonium (halonium) ion formed by the addition of electrophilic bromine to the terminal alkene."
+ },
+ "C075:C5-Rh11": {
+  "classes": [
+   "carbene / carbenoid / ketene / nitrene"
+  ],
+  "note": "Rhodium carbenoid intermediate generated by rhodium-catalyzed diazo decomposition."
+ },
+ "C066:Mg17-N6": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is an organometallic addition adduct formed by the 1,2-addition of vinylmagnesium bromide across the N=O bond of the nitrosoarene."
+ },
+ "A019:C6-O3": {
+  "classes": [
+   "neighbouring-group participation / bridged intermediate"
+  ],
+  "note": "The oxazolone intermediate is formed via neighbouring-group participation of the N-acetyl oxygen attacking the activated mixed anhydride to displace acetate."
+ },
+ "C039:C13-O14": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The key intermediate is an oxonium ion featuring a protonated methyl ether moiety formed upon capture of the propargyl/allenyl cation by methanol."
+ },
+ "A017:C13-N17": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "Tetrahedral intermediate formed by the nucleophilic addition of hydrazine to the ketone carbonyl group."
+ },
+ "C085:C9-Mg18": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is an alkyl Grignard reagent formed via intramolecular alkene insertion (magnesium-ene cyclization) that subsequently acts as an organometallic/carbanionic nucleophile."
+ },
+ "C096:C2-C6": {
+  "classes": [
+   "cyclic transient adduct (e.g. ozonide, oxaphosphetane, cycloadduct before retro-reaction)"
+  ],
+  "note": "The intermediate is a transient cyclopropane adduct formed by intramolecular carbene cycloaddition to the vinyl group, which subsequently undergoes ring-opening cleavage."
+ },
+ "C059:Cl15-S10": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The sulfenyl chloride intermediate is formed via a skeletal rearrangement involving intramolecular ipso-acylation at C3 followed by ring-opening."
+ },
+ "C085:Mg18-O22": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is a magnesium alkoxide formed by nucleophilic addition of a Grignard reagent to an aldehyde, representing both an organometallic adduct and a tetrahedral addition adduct."
+ },
+ "A031:C11-Hg5": {
+  "classes": [
+   "neighbouring-group participation / bridged intermediate",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The cyclic mercurinium ion is both a bridged intermediate and a three-membered metallacycle."
+ },
+ "B126:C13-Rh20": {
+  "classes": [
+   "carbene / carbenoid / ketene / nitrene",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The intermediate is a rhodium-bound diazo complex that serves as a metal carbenoid precursor in transition-metal catalysis."
+ },
+ "A048:C10-C6": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The hidden intermediate is a spirocyclic carbocation formed via a 1,2-shift during a dienone-phenol skeletal rearrangement."
+ },
+ "C085:C11-Mg18": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The allylic Grignard reagent features a C\u2013Mg bond formed via oxidative addition of magnesium to an allylic chloride and subsequently cleaved during an intramolecular magnesium-ene cyclization."
+ },
+ "C037:C2-Hg14": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)",
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate features a catalytic carbon\u2013mercury bond from allene mercuration and an alpha-thionium (sulfonium) cation moiety."
+ },
+ "B105:C1-O19": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The intermediate is formed by a 1,2-shift of the alkyl group from silicon to oxygen during the Tamao-Fleming oxidation."
+ },
+ "B084:C1-I16": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an alpha-iodo oxocarbenium ion, which is classified as an oxonium ion."
+ },
+ "C078:C20-N22": {
+  "classes": [
+   "onium ion or ylide"
+  ],
+  "note": "The key hidden intermediate is a nitrone (azomethine N-oxide), which is an onium/ylide-type dipolar species featuring a formal positive charge on nitrogen."
+ },
+ "C066:C16-O5": {
+  "classes": [
+   "tetrahedral or addition adduct"
+  ],
+  "note": "The intermediate is an addition adduct formed by the addition of vinylmagnesium bromide across the N=O bond of the nitrosoarene."
+ },
+ "C025:C6-Hg30": {
+  "classes": [
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)",
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The intermediate is an oxocarbenium (oxonium) ion bearing a covalent carbon\u2013mercury bond resulting from electrophilic addition of the metal salt."
+ },
+ "B057:Br1-C7": {
+  "classes": [
+   "onium ion or ylide (oxonium, ammonium, sulfonium, phosphonium, halonium, aziridinium, episulfonium)"
+  ],
+  "note": "The key hidden intermediate is a cyclic bromonium ion, which is a halonium (onium) ion formed by electrophilic addition of bromine across the double bond."
+ },
+ "C033:C3-O4": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The intermediate is formed via an Evans-Mislow [2,3]-sigmatropic rearrangement, which represents a skeletal rearrangement."
+ },
+ "A057:Cl15-N8": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The N-chloroamide is the key intermediate in the Hofmann rearrangement that undergoes a 1,2-shift/skeletal rearrangement to yield the isocyanate."
+ },
+ "B041:Cr9-O13": {
+  "classes": [
+   "carbanion / enolate / organometallic adduct",
+   "tetrahedral or addition adduct",
+   "metal-bound intermediate (oxidative addition, insertion, metallacycle)"
+  ],
+  "note": "The chromium(III) alkoxide intermediate is a metal-bound species formed as an organometallic tetrahedral addition adduct via carbonyl insertion into the crotylchromium reagent."
+ },
+ "A056:C8-O11": {
+  "classes": [
+   "carbocation / 1,2-shift / skeletal rearrangement"
+  ],
+  "note": "The key species is the intermediate of the 1,2-aryl shift in the Dakin oxidation, representing a skeletal rearrangement."
+ }
+}

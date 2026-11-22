@@ -1,0 +1,42 @@
+{
+  "gemini": {
+    "pairs": 109,
+    "original": [
+      0.394,
+      0.303,
+      0.486
+    ],
+    "homologue": [
+      0.376,
+      0.294,
+      0.468
+    ],
+    "original_minus_homologue": [
+      0.018,
+      -0.028,
+      0.064
+    ],
+    "only_original_correct": 4,
+    "only_homologue_correct": 2
+  },
+  "gpt-6-luna": {
+    "pairs": 109,
+    "original": [
+      0.266,
+      0.183,
+      0.349
+    ],
+    "homologue": [
+      0.257,
+      0.174,
+      0.339
+    ],
+    "original_minus_homologue": [
+      0.009,
+      -0.028,
+      0.055
+    ],
+    "only_original_correct": 3,
+    "only_homologue_correct": 2
+  }
+}

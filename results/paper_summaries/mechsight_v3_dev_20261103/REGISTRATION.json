@@ -1,0 +1,7 @@
+{
+  "registered_at": "2026-11-03, before any MechSight v3 call",
+  "status": "DEVELOPMENT on T3_dev (47 cases, fixed split in benchmarks_20261103/splits.json). Purpose: design and tune (GAP_SIGMA, LAMBDA, thresholds) once, then freeze. No claim from this set.",
+  "method": "5 narratives (T=0.7) -> consensus C (>=3/5), broad B (>=2/5) -> P1 (C), P2 (B) -> gap filling on P1 steps with >=3 sigma events (3 local narratives, >=2/3) -> P3 -> select among E, P1, P2, P3 by consistency with narratives (score = |path intermediates in C'| - 0.5 |path intermediates never narrated|)",
+  "model": "gemini via two-endpoint failover",
+  "freeze_rule": "after this dev run, at most one parameter adjustment justified by dev diagnostics; then freeze and pre-register confirmation on T3_confirm (48) + oMe-Gold (169) with gemini and gpt-6-luna, primary metrics in-order GT intermediates and sigma-L1"
+}

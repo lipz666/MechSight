@@ -1,0 +1,18 @@
+{
+  "registered_at": "2026-11-02, before any visibility-manipulation model call",
+  "question": "If one hidden intermediate is made visible (shown as an observed structure), does the model use the corresponding hidden event in its executable mechanism, beyond an equal-information control?",
+  "model_scoring": "gemini-3.8-flash, same endpoint and settings; executable PGL with the E prompt and audit turn; hidden events and scoring as in REGISTRATION.json. Concurrency 300.",
+  "conditions": {
+    "V_plus": "E prompt + 'Experimental observation: the following intermediate was detected during this reaction (SMILES, atom labels not given): <GT hidden species>'. Hidden species = earliest GT species containing a heavy-atom transient bond (H-transfer species if the case has none). Run on all 89 cases with a probeable hidden event.",
+    "V_zero": "Same sentence with a GT visible intermediate (differs from both endpoints, contains no transient bond, >2 atoms). Available and run for 55 cases."
+  },
+  "baseline": "mean of E and E_r2 per event",
+  "primary": "Shown hidden events in the 55 paired cases: recall V_plus minus V_zero (paired by event), case-clustered bootstrap 95% CI. Supported if CI excludes 0.",
+  "secondary": [
+    "V_plus minus baseline on all 89 cases",
+    "split of shown events by free-text knowledge (known in S or G vs not) - prediction: larger effect for known events",
+    "spillover: recall of hidden events NOT shown, V_plus minus V_zero",
+    "sigma-L1 V_plus minus V_zero (paired) and V_plus minus baseline (all)"
+  ],
+  "caveat_declared": "Showing the structure of the hidden species partially discloses the answer; the key questions are whether the model can integrate a given structure into a valid executable path, whether the effect differs for known vs unknown events, and whether it spills over to unshown events."
+}

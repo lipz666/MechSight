@@ -1,0 +1,259 @@
+{
+ "T3_confirm": {
+  "Direct": {
+   "n": 48,
+   "all_present": [
+    0.521,
+    0.375,
+    0.667
+   ],
+   "in_order_frac": [
+    0.75,
+    0.649,
+    0.841
+   ],
+   "heavy_hidden_recall": [
+    0.679,
+    0.525,
+    0.833
+   ]
+  },
+  "SelfConsistency": {
+   "n": 48,
+   "all_present": [
+    0.479,
+    0.333,
+    0.625
+   ],
+   "in_order_frac": [
+    0.745,
+    0.646,
+    0.834
+   ],
+   "heavy_hidden_recall": [
+    0.698,
+    0.532,
+    0.857
+   ]
+  },
+  "MechAgent": {
+   "n": 48,
+   "all_present": [
+    0.562,
+    0.417,
+    0.708
+   ],
+   "in_order_frac": [
+    0.791,
+    0.696,
+    0.876
+   ],
+   "heavy_hidden_recall": [
+    0.736,
+    0.558,
+    0.889
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   -0.042,
+   -0.104,
+   0.0
+  ],
+  "MechAgent_minus_Direct": [
+   0.042,
+   0.0,
+   0.104
+  ],
+  "MechAgent_minus_SelfConsistency": [
+   0.083,
+   0.021,
+   0.167
+  ],
+  "strata_all_present": {
+   "0": {
+    "Direct": [
+     10,
+     0.8
+    ],
+    "SelfConsistency": [
+     10,
+     0.8
+    ],
+    "MechAgent": [
+     10,
+     0.8
+    ]
+   },
+   "1-2": {
+    "Direct": [
+     28,
+     0.5
+    ],
+    "SelfConsistency": [
+     28,
+     0.429
+    ],
+    "MechAgent": [
+     28,
+     0.571
+    ]
+   },
+   ">=3": {
+    "Direct": [
+     10,
+     0.3
+    ],
+    "SelfConsistency": [
+     10,
+     0.3
+    ],
+    "MechAgent": [
+     10,
+     0.3
+    ]
+   }
+  }
+ },
+ "gold": {
+  "Direct": {
+   "n": 195,
+   "all_present": [
+    0.374,
+    0.308,
+    0.441
+   ],
+   "in_order_frac": [
+    0.695,
+    0.651,
+    0.735
+   ],
+   "S_partial": [
+    0.547,
+    0.497,
+    0.596
+   ],
+   "S_total": [
+    0.499,
+    0.45,
+    0.547
+   ],
+   "in_order_full": [
+    0.369,
+    0.303,
+    0.436
+   ]
+  },
+  "SelfConsistency": {
+   "n": 195,
+   "all_present": [
+    0.395,
+    0.328,
+    0.462
+   ],
+   "in_order_frac": [
+    0.71,
+    0.667,
+    0.749
+   ],
+   "S_partial": [
+    0.568,
+    0.519,
+    0.615
+   ],
+   "S_total": [
+    0.523,
+    0.473,
+    0.572
+   ],
+   "in_order_full": [
+    0.39,
+    0.323,
+    0.456
+   ]
+  },
+  "MechAgent": {
+   "n": 195,
+   "all_present": [
+    0.41,
+    0.344,
+    0.477
+   ],
+   "in_order_frac": [
+    0.713,
+    0.669,
+    0.753
+   ],
+   "S_partial": [
+    0.497,
+    0.447,
+    0.546
+   ],
+   "S_total": [
+    0.457,
+    0.406,
+    0.506
+   ],
+   "in_order_full": [
+    0.395,
+    0.328,
+    0.462
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.021,
+   0.005,
+   0.041
+  ],
+  "MechAgent_minus_Direct": [
+   0.036,
+   -0.005,
+   0.077
+  ],
+  "MechAgent_minus_SelfConsistency": [
+   0.015,
+   -0.021,
+   0.051
+  ],
+  "MechAgent_minus_Direct_S_partial": [
+   -0.05,
+   -0.087,
+   -0.015
+  ]
+ },
+ "pooled_primary": {
+  "Direct": {
+   "n": 243,
+   "all_present": [
+    0.403,
+    0.342,
+    0.465
+   ]
+  },
+  "SelfConsistency": {
+   "n": 243,
+   "all_present": [
+    0.412,
+    0.35,
+    0.473
+   ]
+  },
+  "MechAgent": {
+   "n": 243,
+   "all_present": [
+    0.44,
+    0.374,
+    0.502
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.008,
+   -0.008,
+   0.029
+  ],
+  "MechAgent_minus_Direct": [
+   0.037,
+   0.004,
+   0.07
+  ]
+ }
+}

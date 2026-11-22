@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-03, before any pilot model call",
+  "status": "development pilot (gate), NOT confirmatory: the 147 J3 cases were used for all diagnostics",
+  "model": "gemini-3.8-flash (LLM-GATEWAY-1.example; resume on vps gemini-3.8-flash-high if the endpoint fails, recorded per file)",
+  "method_MS": "1) candidates = model's own free-text intermediates (S and G of the inert-knowledge probe), unique by sigma key, endpoint species removed; 2) M = executable PGL mechanism (E prompt + audit) with candidates listed as 'possible intermediates, some may be incorrect'; 3) pairwise judge E vs M in both orders, M taken only if preferred in both",
+  "compute_matched_baseline_DS": "same judge between E and E_r2 (E_r2 taken only if preferred in both orders)",
+  "gate": {
+    "primary": "sigma-L1 MS - DS >= +6 pp with case-clustered 95% CI excluding 0",
+    "required_also": ["heavy hidden-event recall MS > DS", "spurious transient bonds per case MS - DS <= +0.2"],
+    "pass": "freeze method, add gpt-6-luna, pre-register confirmation on unused data (Fukuyama T3, oMe-Gold, fresh literature set)",
+    "fail": "inspect M alone vs MS (judge failure vs candidate failure) before any redesign; no claim from this set"
+  },
+  "secondary": ["M alone (no judge) vs E and DS", "intermediates-in-order", "take rates", "hidden-event recall all/heavy"]
+}

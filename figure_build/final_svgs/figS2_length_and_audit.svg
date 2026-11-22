@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175mm" height="64.75mm" viewBox="0 0 1000 370" font-family="Arial, Helvetica, sans-serif"><rect width="1000" height="370" fill="#fff"/><defs><marker id="aInk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#182026"/></marker><marker id="aTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#0F5C8C"/></marker><marker id="aGray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#6E7785"/></marker><marker id="aMuted" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#545E6B"/></marker><marker id="aPurple" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#C84B31"/></marker><marker id="aRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#B8293D"/></marker><marker id="aAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#D9822B"/></marker><marker id="aE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.6 L10,5 L0,9.4 L2.4,5 Z" fill="#B8293D"/></marker><marker id="aEh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.6 L10,5 L2.4,5 Z" fill="#B8293D"/></marker><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5"/></filter><linearGradient id="gainFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F5C8C" stop-opacity="0.22"/><stop offset="1" stop-color="#0F5C8C" stop-opacity="0.08"/></linearGradient></defs>
+<text x="0.0" y="18.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">a</text>
+<text x="24.0" y="18.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Step-length controlled pathway accuracy by hidden intermediates</text>
+<line x1="54.0" y1="286.0" x2="514.0" y2="286.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="48.0" y="290.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="54.0" y1="232.8" x2="514.0" y2="232.8" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="48.0" y="236.8" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">25</text>
+<line x1="54.0" y1="179.5" x2="514.0" y2="179.5" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="48.0" y="183.5" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">50</text>
+<line x1="54.0" y1="126.3" x2="514.0" y2="126.3" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="48.0" y="130.3" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">75</text>
+<line x1="54.0" y1="73.0" x2="514.0" y2="73.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="48.0" y="77.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">100</text>
+<text transform="translate(24,171.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">Direct complete pathway (%)</text>
+<line x1="54.0" y1="286.0" x2="514.0" y2="286.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<rect x="66.0" y="115.6" width="36.0" height="170.4" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="84.0" y="110.6" font-size="9.5" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">80.0%</text>
+<text x="84.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">2 steps</text>
+<text x="84.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">0 hid (n=35)</text>
+<rect x="130.0" y="122.2" width="36.0" height="163.8" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="148.0" y="117.2" font-size="9.5" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">76.9%</text>
+<text x="148.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">3 steps</text>
+<text x="148.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">0 hid (n=13)</text>
+<rect x="194.0" y="182.3" width="36.0" height="103.7" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="212.0" y="177.3" font-size="9.5" fill="#5A8EC8" text-anchor="middle" font-weight="bold" font-style="normal">48.7%</text>
+<text x="212.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">3 steps</text>
+<text x="212.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">1–2 hid (n=39)</text>
+<rect x="258.0" y="73.0" width="36.0" height="213.0" rx="2.5" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="276.0" y="68.0" font-size="9.5" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">100.0%</text>
+<text x="276.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">4–6 steps</text>
+<text x="276.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">0 hid (n=30)</text>
+<rect x="322.0" y="162.9" width="36.0" height="123.1" rx="2.5" fill="#D9822B" stroke="none" stroke-width="0" opacity="1"/>
+<text x="340.0" y="157.9" font-size="9.5" fill="#D9822B" text-anchor="middle" font-weight="bold" font-style="normal">57.8%</text>
+<text x="340.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">4–6 steps</text>
+<text x="340.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">1–2 hid (n=45)</text>
+<rect x="386.0" y="259.4" width="36.0" height="26.6" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="404.0" y="254.4" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">12.5%</text>
+<text x="404.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">4–6 steps</text>
+<text x="404.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">≥3 hid (n=8)</text>
+<rect x="450.0" y="240.9" width="36.0" height="45.1" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="468.0" y="235.9" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">21.2%</text>
+<text x="468.0" y="301.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">≥7 steps</text>
+<text x="468.0" y="313.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">≥3 hid (n=33)</text>
+<path d="M276.0,62.03703703703704 L276.0,57.03703703703704 L404.0,57.03703703703704 L404.0,62.03703703703704" stroke="#B8293D" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="340.0" y="52.0" font-size="9.8" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">Fixed 4–6 steps: −87.5 pp (30/30 → 1/8)</text>
+<text x="548.0" y="18.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">b</text>
+<text x="572.0" y="18.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Single-step audit given reference S<tspan baseline-shift="sub" font-size="8.5">k−1</tspan> (n = 115 steps)</text>
+<rect x="562.0" y="37.0" width="308.5" height="21.0" rx="3" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="871.5" y="37.0" width="91.0" height="21.0" rx="0" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="963.5" y="37.0" width="22.5" height="21.0" rx="3" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="716.8" y="51.0" font-size="9.8" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">Exact match: 73.0% (84/115)</text>
+<text x="917.5" y="51.0" font-size="9.0" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">Granul.: 21.7%</text>
+<text x="986.0" y="31.5" font-size="9.5" fill="#0F5C8C" text-anchor="end" font-weight="bold" font-style="normal">94.8% (109/115) chemically valid · 5.2% (6) error</text>
+<text x="718.0" y="80.0" font-size="9.5" fill="#182026" text-anchor="end" font-weight="bold" font-style="normal">Exact reference match</text>
+<rect x="726.0" y="70.0" width="200.8" height="14.0" rx="2" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="932.8" y="81.0" font-size="9.2" fill="#0F5C8C" text-anchor="start" font-weight="bold" font-style="normal">73.0% (84)</text>
+<text x="718.0" y="106.0" font-size="9.5" fill="#182026" text-anchor="end" font-weight="normal" font-style="normal">±H+ proton-transfer merge</text>
+<rect x="726.0" y="96.0" width="38.2" height="14.0" rx="2" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="770.2" y="107.0" font-size="9.2" fill="#5A8EC8" text-anchor="start" font-weight="bold" font-style="normal">13.9% (16)</text>
+<text x="718.0" y="132.0" font-size="9.5" fill="#182026" text-anchor="end" font-weight="normal" font-style="normal">Stepwise / concerted split</text>
+<rect x="726.0" y="122.0" width="26.4" height="14.0" rx="2" fill="#26A69A" stroke="none" stroke-width="0" opacity="1"/>
+<text x="758.4" y="133.0" font-size="9.2" fill="#26A69A" text-anchor="start" font-weight="bold" font-style="normal">9.6% (11)</text>
+<text x="718.0" y="158.0" font-size="9.5" fill="#182026" text-anchor="end" font-weight="normal" font-style="normal">Symmetry / valid alternative</text>
+<rect x="726.0" y="148.0" width="16.8" height="14.0" rx="2" fill="#D9822B" stroke="none" stroke-width="0" opacity="1"/>
+<text x="748.8" y="159.0" font-size="9.2" fill="#D9822B" text-anchor="start" font-weight="bold" font-style="normal">6.1% (7)</text>
+<text x="718.0" y="184.0" font-size="9.5" fill="#182026" text-anchor="end" font-weight="bold" font-style="normal">True site / valence error</text>
+<rect x="726.0" y="174.0" width="14.3" height="14.0" rx="2" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="746.3" y="185.0" font-size="9.2" fill="#B8293D" text-anchor="start" font-weight="bold" font-style="normal">5.2% (6)</text>
+<text x="986.0" y="203.0" font-size="8.0" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="italic">*Granularity subcategories are non-exclusive (25 unique steps = 21.7%)</text>
+<rect x="562.0" y="212.0" width="424.0" height="118.0" rx="6" fill="#F8FAFC" stroke="#E4E7EC" stroke-width="1.0" opacity="1"/>
+<text x="574.0" y="229.0" font-size="9.8" fill="#346399" text-anchor="start" font-weight="bold" font-style="normal">Example of acceptable granularity (21.7%): ±H<tspan baseline-shift="super" font-size="8.5">+</tspan> proton-transfer bundling</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='593.1' y='267.0' width='33.7' height='34.1' viewBox='-19.88 -27.51 39.69 40.09'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="17.31" y1="10.08" x2="0.00" y2="0.00"/><line x1="1.80" y1="1.05" x2="1.85" y2="-12.83"/><line x1="-1.81" y1="1.04" x2="-1.76" y2="-12.83"/><line x1="0.00" y1="0.00" x2="-17.38" y2="9.95"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="-5.34" y="-15.05" font-size="13.91">O</text></g></svg>
+<text x="610.0" y="320.0" font-size="9.2" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal"> S<tspan baseline-shift="sub" font-size="8.5">k−1</tspan> (ketone)</text>
+<line x1="640.0" y1="284.0" x2="698.0" y2="284.0" stroke="#182026" stroke-width="1.1" stroke-linecap="round" opacity="1" marker-end="url(#aInk)"/>
+<text x="669.0" y="277.0" font-size="9.0" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">+ MeOH</text>
+<rect x="706.0" y="258.0" width="68.0" height="52.0" rx="5" fill="#FEF5E7" stroke="#D9822B" stroke-width="1.0" opacity="1"/>
+<svg xmlns='http://www.w3.org/2000/svg' x='715.8' y='262.2' width='48.5' height='43.7' viewBox='-31.41 -27.93 57.05 51.36'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="15.79" y1="-14.92" x2="5.79" y2="2.44"/><line x1="5.79" y1="2.44" x2="-0.08" y2="-7.70"/><line x1="5.79" y1="2.44" x2="-3.92" y2="8.05"/><line x1="-19.19" y1="8.07" x2="-28.91" y2="2.47"/><line x1="5.79" y1="2.44" x2="23.14" y2="12.44"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="-9.66" y="-9.92" font-size="13.91">O</text><text x="2.43" y="-17.46" font-size="11.13" text-anchor="middle">−</text><text x="-16.97" y="17.45" font-size="13.91">O</text></g></svg>
+<text x="740.0" y="320.0" font-size="9.2" fill="#D9822B" text-anchor="middle" font-weight="bold" font-style="normal">Ref. S<tspan baseline-shift="sub" font-size="8.5">k</tspan> (alkoxide)</text>
+<line x1="780.0" y1="284.0" x2="834.0" y2="284.0" stroke="#182026" stroke-width="1.1" stroke-linecap="round" opacity="1" marker-end="url(#aInk)"/>
+<text x="807.0" y="277.0" font-size="9.2" fill="#545E6B" text-anchor="middle" font-weight="bold" font-style="normal">±H<tspan baseline-shift="super" font-size="8.5">+</tspan></text>
+<rect x="842.0" y="256.0" width="72.0" height="56.0" rx="5" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.1" opacity="1"/>
+<svg xmlns='http://www.w3.org/2000/svg' x='853.8' y='258.5' width='48.5' height='51.0' viewBox='-31.41 -36.57 57.05 60.00'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="15.79" y1="-14.92" x2="5.79" y2="2.44"/><line x1="5.79" y1="2.44" x2="-0.08" y2="-7.70"/><line x1="5.79" y1="2.44" x2="-3.92" y2="8.05"/><line x1="-19.19" y1="8.07" x2="-28.91" y2="2.47"/><line x1="5.79" y1="2.44" x2="23.14" y2="12.44"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="-19.50" y="-9.92" font-size="13.91">HO</text><text x="-16.97" y="17.45" font-size="13.91">O</text></g></svg>
+<text x="878.0" y="320.0" font-size="9.2" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">Hemiacetal (same σ-key)</text>
+<path d="M924.5,284.0 L928.6,287.9 L935.5,279.6" stroke="#0F5C8C" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="956.0" y="288.0" font-size="9.8" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">Valid</text>
+<path d="M626,262 Q752,232 862,258" stroke="#346399" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="4 2.5" marker-end="url(#aInk)"/>
+<text x="752.0" y="244.0" font-size="9.2" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">LLM 1-step ±H+ bundle</text></svg>

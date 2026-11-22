@@ -1,0 +1,4756 @@
+[
+ {
+  "pmcid": "PMC6122159",
+  "doi": "10.3762/bjoc.14.172",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Cationic cobalt-catalyzed [1,3]-rearrangement of <i>N</i>-alkoxycarbonyloxyanilines.",
+  "cited_by": 0,
+  "cites_gm": 1.0,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "crossover",
+   "isotope_label",
+   "kie",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC2956481",
+  "doi": "10.3762/bjoc.6.84",
+  "year": 2010,
+  "journal": "Beilstein J Org Chem",
+  "title": "EPR and pulsed ENDOR study of intermediates from reactions of aromatic azides with group 13 metal trichlorides.",
+  "cited_by": 0,
+  "cites_gm": 1.0,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 7,
+  "experiments": [
+   "epr",
+   "isotope_label",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC2244621",
+  "doi": "10.1186/1860-5397-4-9",
+  "year": 2008,
+  "journal": "Beilstein J Org Chem",
+  "title": "Mechanistic aspects of the isomerization of Z-vinylic tellurides double bonds in the synthesis of potassium Z-vinyltrifluoroborate salts.",
+  "cited_by": 0,
+  "cites_gm": 1.4142135623730951,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 4,
+  "experiments": [
+   "epr",
+   "radical_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5238569",
+  "doi": "10.3762/bjoc.12.233",
+  "year": 2016,
+  "journal": "Beilstein J Org Chem",
+  "title": "Combined experimental and theoretical studies of regio- and stereoselectivity in reactions of β-isoxazolyl- and β-imidazolyl enamines with nitrile oxides.",
+  "cited_by": 1,
+  "cites_gm": 2.6457513110645907,
+  "exposure": "low",
+  "reaction_class": "pericyclic/rearrangement",
+  "n_int": 4,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC3678633",
+  "doi": "10.3762/bjoc.9.91",
+  "year": 2013,
+  "journal": "Beilstein J Org Chem",
+  "title": "Spectroscopic characterization of photoaccumulated radical anions: a litmus test to evaluate the efficiency of photoinduced electron transfer (PET) processes.",
+  "cited_by": 4,
+  "cites_gm": 4,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 7,
+  "experiments": [
+   "quantum_yield",
+   "cv",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC6761863",
+  "doi": "10.1039/c9sc01766f",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Mapping free energy regimes in electrocatalytic reductions to screen transition metal-based catalysts.",
+  "cited_by": 3,
+  "cites_gm": 4.242640687119285,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "cv",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC4578348",
+  "doi": "10.3762/bjoc.11.136",
+  "year": 2015,
+  "journal": "Beilstein J Org Chem",
+  "title": "Intermolecular addition reactions of N-alkyl-N-chlorosulfonamides to unsaturated compounds.",
+  "cited_by": 3,
+  "cites_gm": 4.242640687119285,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_clock",
+   "radical_trap",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5480364",
+  "doi": "10.3762/bjoc.13.107",
+  "year": 2017,
+  "journal": "Beilstein J Org Chem",
+  "title": "α-Acetoxyarone synthesis via iodine-catalyzed and <i>tert</i>-butyl hydroperoxide-mediateded self-intermolecular oxidative coupling of aryl ketones.",
+  "cited_by": 2,
+  "cites_gm": 4.69041575982343,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 6,
+  "experiments": [
+   "radical_trap",
+   "isotope_label",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5836886",
+  "doi": "10.1002/chem.201705273",
+  "year": 2018,
+  "journal": "Chemistry",
+  "title": "Resolving a Reactive Organometallic Intermediate from Dynamic Directing Group Systems by Selective C-H Activation.",
+  "cited_by": 5,
+  "cites_gm": 5.0,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "hrms_trap",
+   "in_situ_nmr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4660904",
+  "doi": "10.3762/bjoc.11.181",
+  "year": 2015,
+  "journal": "Beilstein J Org Chem",
+  "title": "Fates of imine intermediates in radical cyclizations of N-sulfonylindoles and ene-sulfonamides.",
+  "cited_by": 3,
+  "cites_gm": 5.196152422706632,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 8,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 11
+ },
+ {
+  "pmcid": "PMC7687115",
+  "doi": "10.1002/chem.201902610",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "Formation of Transient Anionic Metal Clusters in Palladium/Diene-Catalyzed Cross-Coupling Reactions.",
+  "cited_by": 5,
+  "cites_gm": 6.708203932499369,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "hrms_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5994744",
+  "doi": "10.1039/c8sc01269e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Thermodynamic and reactivity studies of a tin corrole-cobalt porphyrin heterobimetallic complex.",
+  "cited_by": 4,
+  "cites_gm": 7.211102550927978,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 8,
+  "experiments": [
+   "radical_trap",
+   "kinetic_order",
+   "hrms_trap",
+   "epr",
+   "isolation",
+   "in_situ_nmr",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6176842",
+  "doi": "10.3762/bjoc.14.228",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Synthesis of aryl sulfides via radical-radical cross coupling of electron-rich arenes using visible light photoredox catalysis.",
+  "cited_by": 5,
+  "cites_gm": 7.416198487095663,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "hrms_trap",
+   "stern_volmer",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5355911",
+  "doi": "10.3762/bjoc.13.41",
+  "year": 2017,
+  "journal": "Beilstein J Org Chem",
+  "title": "Decarboxylative and dehydrative coupling of dienoic acids and pentadienyl alcohols to form 1,3,6,8-tetraenes.",
+  "cited_by": 6,
+  "cites_gm": 7.745966692414834,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4168886",
+  "doi": "10.3762/bjoc.10.201",
+  "year": 2014,
+  "journal": "Beilstein J Org Chem",
+  "title": "Relay cross metathesis reactions of vinylphosphonates.",
+  "cited_by": 6,
+  "cites_gm": 7.745966692414834,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "control",
+   "in_situ_nmr",
+   "isolation"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5905278",
+  "doi": "10.3762/bjoc.14.67",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Chlorination of phenylallene derivatives with 1-chloro-1,2-benziodoxol-3-one: synthesis of <i>vicinal</i>-dichlorides and chlorodienes.",
+  "cited_by": 6,
+  "cites_gm": 9.16515138991168,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 1,
+  "experiments": [
+   "isotope_label",
+   "radical_trap",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5853554",
+  "doi": "10.1039/c7sc03366d",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Thiosemicarbazone organocatalysis: tetrahydropyranylation and 2-deoxygalactosylation reactions and kinetics-based mechanistic investigation.",
+  "cited_by": 7,
+  "cites_gm": 9.539392014169456,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 2,
+  "experiments": [
+   "hammett",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6013812",
+  "doi": "10.1039/c5sc04594k",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Catalytic discrimination between formyl groups in regio- and stereoselective intramolecular cross-aldol reactions.",
+  "cited_by": 6,
+  "cites_gm": 9.797958971132712,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC8146099",
+  "doi": "10.1039/c9sc05662a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Monoaurated <i>vs.</i> diaurated intermediates: causality or independence?",
+  "cited_by": 7,
+  "cites_gm": 9.899494936611665,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "hrms_trap",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5869292",
+  "doi": "10.1039/c7sc04283c",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "<i>Z</i>-Selective iridium-catalyzed cross-coupling of allylic carbonates and α-diazo esters.",
+  "cited_by": 6,
+  "cites_gm": 10.677078252031311,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "crossover",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6899486",
+  "doi": "10.1002/anie.201908689",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Conversion of a Fleeting Open-Shell Iron Nitride into an Iron Nitrosyl.",
+  "cited_by": 9,
+  "cites_gm": 11.224972160321824,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "isotope_label",
+   "hrms_trap",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC4506563",
+  "doi": "10.1002/chem.201304929",
+  "year": 2014,
+  "journal": "Chemistry",
+  "title": "Catalyst-free photoredox addition-cyclisations: exploitation of natural synergy between aryl acetic acids and maleimide.",
+  "cited_by": 8,
+  "cites_gm": 11.661903789690601,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "in_situ_nmr",
+   "epr",
+   "dft",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5582606",
+  "doi": "10.1002/chem.201701576",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Complexity in Acid-Base Titrations: Multimer Formation Between Phosphoric Acids and Imines.",
+  "cited_by": 10,
+  "cites_gm": 13.038404810405298,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 2,
+  "experiments": [
+   "in_situ_nmr",
+   "dft",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC6009179",
+  "doi": "10.3762/bjoc.14.103",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Investigations of alkynylbenziodoxole derivatives for radical alkynylations in photoredox catalysis.",
+  "cited_by": 10,
+  "cites_gm": 13.416407864998739,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "cv",
+   "stern_volmer",
+   "crossover",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC2982084",
+  "doi": "10.3762/bjoc.6.119",
+  "year": 2010,
+  "journal": "Beilstein J Org Chem",
+  "title": "Kinetics and mechanism of vanadium catalysed asymmetric cyanohydrin synthesis in propylene carbonate.",
+  "cited_by": 5,
+  "cites_gm": 13.96424004376894,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 1,
+  "experiments": [
+   "kinetic_order",
+   "in_situ_nmr",
+   "hammett"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6187372",
+  "doi": "10.1021/jacs.8b08296",
+  "year": 2018,
+  "journal": "J Am Chem Soc",
+  "title": "Catalytic Cyclooligomerization of Enones with Three Methylene Equivalents.",
+  "cited_by": 9,
+  "cites_gm": 14.071247279470288,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isotope_label",
+   "control",
+   "hammett"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6906420",
+  "doi": "10.1038/s41467-019-13611-6",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Acyl radical to rhodacycle addition and cyclization relay to access butterfly flavylium fluorophores.",
+  "cited_by": 10,
+  "cites_gm": 14.142135623730951,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 12,
+  "experiments": [
+   "control",
+   "radical_trap",
+   "epr",
+   "hrms_trap",
+   "isolation",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC7069235",
+  "doi": "10.1039/c9sc04513a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Interconversion and reactivity of manganese silyl, silylene, and silene complexes.",
+  "cited_by": 10,
+  "cites_gm": 14.491376746189438,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 9,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 19
+ },
+ {
+  "pmcid": "PMC6368603",
+  "doi": "10.1038/s41467-019-08619-x",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Lithium promoted mesoporous manganese oxide catalyzed oxidation of allyl ethers.",
+  "cited_by": 6,
+  "cites_gm": 14.491376746189438,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "kinetic_order",
+   "dft",
+   "epr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6296426",
+  "doi": "10.3762/bjoc.14.283",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Degenerative xanthate transfer to olefins under visible-light photocatalysis.",
+  "cited_by": 10,
+  "cites_gm": 15.811388300841896,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 4,
+  "experiments": [
+   "stern_volmer",
+   "quantum_yield",
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4818983",
+  "doi": "10.1002/chem.201502986",
+  "year": 2016,
+  "journal": "Chemistry",
+  "title": "The Synthesis, Characterization and Dehydrogenation of Sigma-Complexes of BN-Cyclohexanes.",
+  "cited_by": 11,
+  "cites_gm": 16.24807680927192,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isotope_label",
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC6568277",
+  "doi": "10.1039/c9sc01598a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "s-Block cooperative catalysis: alkali metal magnesiate-catalysed cyclisation of alkynols.",
+  "cited_by": 9,
+  "cites_gm": 16.431676725154983,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 5,
+  "experiments": [
+   "kinetic_order",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6594078",
+  "doi": "10.1002/anie.201900861",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "A New Mode of Chemical Reactivity for Metal-Free Hydrogen Activation by Lewis Acidic Boranes.",
+  "cited_by": 11,
+  "cites_gm": 17.233687939614086,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "isotope_label",
+   "epr",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6563809",
+  "doi": "10.1002/chem.201900377",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "Uncatalyzed Oxidative C-H Amination of 9,10-Dihydro-9-Heteroanthracenes: A Mechanistic Study.",
+  "cited_by": 14,
+  "cites_gm": 17.549928774784245,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "kie",
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6973166",
+  "doi": "10.1002/chem.201904148",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "Early Main Group Metal Catalysts for Imine Hydrosilylation.",
+  "cited_by": 10,
+  "cites_gm": 17.60681686165901,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 4,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC4646816",
+  "doi": "10.1126/sciadv.1500656",
+  "year": 2015,
+  "journal": "Sci Adv",
+  "title": "Copper-catalyzed aerobic oxidative coupling: From ketone and diamine to pyrazine.",
+  "cited_by": 12,
+  "cites_gm": 18.0,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC6137435",
+  "doi": "10.1039/c8sc02815j",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Catalyst-dependent selectivity in sulfonium ylide cycloisomerization reactions.",
+  "cited_by": 15,
+  "cites_gm": 18.57417562100671,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 10,
+  "experiments": [
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6563444",
+  "doi": "10.1002/chem.201901197",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "A Highly Active Bidentate Magnesium Catalyst for Amine-Borane Dehydrocoupling: Kinetic and Mechanistic Studies.",
+  "cited_by": 15,
+  "cites_gm": 18.973665961010276,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6375363",
+  "doi": "10.1039/c8sc04808h",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "The role of halogens in the catalyst transfer polycondensation for π-conjugated polymers.",
+  "cited_by": 12,
+  "cites_gm": 19.595917942265423,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC6054104",
+  "doi": "10.1039/c5sc02126j",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Copper-catalyzed direct transformation of simple alkynes to alkenyl nitriles <i>via</i> aerobic oxidative N-incorporation.",
+  "cited_by": 13,
+  "cites_gm": 20.074859899884732,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "control",
+   "isotope_label",
+   "kie",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6340404",
+  "doi": "10.1039/c8sc03153c",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Rhodium(ii)-catalyzed C-H aminations using <i>N</i>-mesyloxycarbamates: reaction pathway and by-product formation.",
+  "cited_by": 14,
+  "cites_gm": 20.149441679609886,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "dft",
+   "kie",
+   "isolation"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC8148384",
+  "doi": "10.1039/c9sc04062e",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "A denitrogenative palladium-catalyzed cascade for regioselective synthesis of fluorenes.",
+  "cited_by": 13,
+  "cites_gm": 20.396078054371138,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 10,
+  "experiments": [
+   "control",
+   "isotope_label",
+   "hrms_trap"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC3935511",
+  "doi": "10.1002/chem.201301809",
+  "year": 2013,
+  "journal": "Chemistry",
+  "title": "Decarboxylative palladium(II)-catalyzed synthesis of aryl amidines from aryl carboxylic acids: development and mechanistic investigation.",
+  "cited_by": 11,
+  "cites_gm": 20.71231517720798,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "control",
+   "dft",
+   "hrms_trap"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC4497321",
+  "doi": "10.1002/chem.201400295",
+  "year": 2014,
+  "journal": "Chemistry",
+  "title": "On the role of pre- and post-electron-transfer steps in the SmI2 /amine/H(2)O-mediated reduction of esters: new mechanistic insights and kinetic studies.",
+  "cited_by": 16,
+  "cites_gm": 21.166010488516726,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 8,
+  "experiments": [
+   "kie",
+   "radical_clock",
+   "isotope_label",
+   "hammett",
+   "kinetic_order",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5838720",
+  "doi": "10.1002/chem.201706063",
+  "year": 2018,
+  "journal": "Chemistry",
+  "title": "Hydrative Aminoxylation of Ynamides: One Reaction, Two Mechanisms.",
+  "cited_by": 20,
+  "cites_gm": 21.908902300206645,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 5,
+  "experiments": [
+   "radical_clock",
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6595435",
+  "doi": "10.1021/jacs.9b02092",
+  "year": 2019,
+  "journal": "J Am Chem Soc",
+  "title": "Mechanism of Olefin Metathesis with Neutral and Cationic Molybdenum Imido Alkylidene N-Heterocyclic Carbene Complexes.",
+  "cited_by": 11,
+  "cites_gm": 22.978250586152114,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "kinetic_order",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5477040",
+  "doi": "10.1039/c5sc04794c",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Experimental and computational study of alkane dehydrogenation catalyzed by a carbazolide-based rhodium PNP pincer complex.",
+  "cited_by": 15,
+  "cites_gm": 23.874672772626646,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "kinetic_order",
+   "isolation",
+   "in_situ_nmr",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5989653",
+  "doi": "10.1039/c8sc01315b",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Cobalt-catalysed alkene hydrogenation: a metallacycle can explain the hydroxyl activating effect and the diastereoselectivity.",
+  "cited_by": 16,
+  "cites_gm": 24.657656011875904,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "dft",
+   "isotope_label",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6546735",
+  "doi": "10.1038/s41467-019-10407-6",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "On-surface synthesis of planar dendrimers via divergent cross-coupling reaction.",
+  "cited_by": 19,
+  "cites_gm": 24.657656011875904,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5440670",
+  "doi": "10.1038/ncomms15088",
+  "year": 2017,
+  "journal": "Nat Commun",
+  "title": "New Blatter-type radicals from a bench-stable carbene.",
+  "cited_by": 14,
+  "cites_gm": 25.099800796022265,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 4,
+  "experiments": [
+   "epr",
+   "cv",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6062554",
+  "doi": "10.1038/s41467-018-05350-x",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "Exploring the performance of nanostructured reagents with organic-group-defined morphology in cross-coupling reaction.",
+  "cited_by": 17,
+  "cites_gm": 25.41653005427767,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5909176",
+  "doi": "10.1021/jacs.8b00821",
+  "year": 2018,
+  "journal": "J Am Chem Soc",
+  "title": "Stereospecific Ring Contraction of Bromocycloheptenes through Dyotropic Rearrangements via Nonclassical Carbocation-Anion Pairs.",
+  "cited_by": 19,
+  "cites_gm": 25.41653005427767,
+  "exposure": "low",
+  "reaction_class": "pericyclic/rearrangement",
+  "n_int": 1,
+  "experiments": [
+   "radical_trap",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6429592",
+  "doi": "10.1039/c8sc05819a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Dinuclear manganese alkoxide complexes as catalysts for C-N bond cleavage of simple tertiary <i>N</i>,<i>N</i>-dialkylamides to give esters.",
+  "cited_by": 16,
+  "cites_gm": 25.612496949731394,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6122362",
+  "doi": "10.3762/bjoc.14.202",
+  "year": 2018,
+  "journal": "Beilstein J Org Chem",
+  "title": "Hydroarylations by cobalt-catalyzed C-H activation.",
+  "cited_by": 15,
+  "cites_gm": 25.69046515733026,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 32,
+  "experiments": [
+   "kie",
+   "crossover",
+   "control",
+   "isolation",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6611065",
+  "doi": "10.1039/c9sc01454c",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Highly diastereoselective preparation of chiral NHC-boranes stereogenic at the boron atom.",
+  "cited_by": 19,
+  "cites_gm": 25.787593916455254,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "radical_trap",
+   "epr",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6432624",
+  "doi": "10.1039/c8sc05657a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Synthesis of acyl(chloro)phosphines enabled by phosphinidene transfer.",
+  "cited_by": 20,
+  "cites_gm": 26.076809620810597,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 1,
+  "experiments": [
+   "isolation",
+   "hammett",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6899844",
+  "doi": "10.1002/chem.201903702",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "Light-Mediated Formal Radical Deoxyfluorination of Tertiary Alcohols through Selective Single-Electron Oxidation with TEDA<sup>2+.</sup>",
+  "cited_by": 16,
+  "cites_gm": 26.5329983228432,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "quantum_yield",
+   "light_on_off",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC4686670",
+  "doi": "10.1038/ncomms10041",
+  "year": 2015,
+  "journal": "Nat Commun",
+  "title": "Asymmetric intramolecular α-cyclopropanation of aldehydes using a donor/acceptor carbene mimetic.",
+  "cited_by": 21,
+  "cites_gm": 26.720778431774775,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 5,
+  "experiments": [
+   "in_situ_nmr",
+   "isolation",
+   "control",
+   "radical_trap"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6449804",
+  "doi": "10.1021/jacs.9b00039",
+  "year": 2019,
+  "journal": "J Am Chem Soc",
+  "title": "Inline Reaction Monitoring of Amine-Catalyzed Acetylation of Benzyl Alcohol Using a Microfluidic Stripline Nuclear Magnetic Resonance Setup.",
+  "cited_by": 19,
+  "cites_gm": 27.2213151776324,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 3,
+  "experiments": [
+   "in_situ_nmr",
+   "isotope_label",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6534616",
+  "doi": "10.1038/s41467-019-10151-x",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "A redox-neutral synthesis of ketones by coupling of alkenes and amides.",
+  "cited_by": 20,
+  "cites_gm": 27.568097504180443,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "isotope_label",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5688446",
+  "doi": "10.1039/c7sc02859h",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Origins of high catalyst loading in copper(i)-catalysed Ullmann-Goldberg C-N coupling reactions.",
+  "cited_by": 14,
+  "cites_gm": 28.0,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kinetic_order",
+   "hrms_trap",
+   "epr",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5785089",
+  "doi": "10.1038/nchem.2907",
+  "year": 2018,
+  "journal": "Nat Chem",
+  "title": "Labelling and determination of the energy in reactive intermediates in solution enabled by energy-dependent reaction selectivity.",
+  "cited_by": 25,
+  "cites_gm": 28.284271247461902,
+  "exposure": "low",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "isotope_label",
+   "crossover",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6844217",
+  "doi": "10.1039/c9sc02372k",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Oxidant speciation and anionic ligand effects in the gold-catalyzed oxidative coupling of arenes and alkynes.",
+  "cited_by": 21,
+  "cites_gm": 28.61817604250837,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC4277774",
+  "doi": "10.1021/ja508909u",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Dimer involvement and origin of crossover in nickel-catalyzed aldehyde-alkyne reductive couplings.",
+  "cited_by": 21,
+  "cites_gm": 28.61817604250837,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "isotope_label",
+   "crossover",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC6900109",
+  "doi": "10.1002/anie.201911282",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Catalytic Difunctionalization of Unactivated Alkenes with Unreactive Hexamethyldisilane through Regeneration of Silylium Ions.",
+  "cited_by": 20,
+  "cites_gm": 28.635642126552707,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6594957",
+  "doi": "10.1038/s41467-019-09832-4",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Homo- and heterodehydrocoupling of phosphines mediated by alkali metal catalysts.",
+  "cited_by": 20,
+  "cites_gm": 28.635642126552707,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 9,
+  "experiments": [
+   "radical_trap",
+   "epr",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5811073",
+  "doi": "10.1039/c4sc02148g",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Suzuki-Miyaura coupling of arylboronic acids to gold(iii).",
+  "cited_by": 23,
+  "cites_gm": 28.77498913987632,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5642147",
+  "doi": "10.1039/c7sc02240a",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Mechanistic analysis of a copper-catalyzed C-H oxidative cyclization of carboxylic acids.",
+  "cited_by": 20,
+  "cites_gm": 28.982753492378876,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "hrms_trap",
+   "hammett",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6368212",
+  "doi": "10.1039/c8sc04195d",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Metal-free visible light photoredox enables generation of carbyne equivalents <i>via</i> phosphonium ylide C-H activation.",
+  "cited_by": 20,
+  "cites_gm": 29.32575659723036,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 4,
+  "experiments": [
+   "control",
+   "cv",
+   "stern_volmer",
+   "isotope_label",
+   "radical_trap",
+   "hrms_trap"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC8145361",
+  "doi": "10.1039/c9sc05627k",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "An umpolung approach to the hydroboration of pyridines: a novel and efficient synthesis of <i>N</i>-H 1,4-dihydropyridines.",
+  "cited_by": 18,
+  "cites_gm": 29.393876913398138,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "in_situ_nmr",
+   "isotope_label",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6916381",
+  "doi": "10.1002/anie.201912161",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Mechanistic Divergence in the Hydrogenative Synthesis of Furans and Butenolides: Ruthenium Carbenes Formed by gem-Hydrogenation or through Carbophilic Activation of Alkynes.",
+  "cited_by": 20,
+  "cites_gm": 29.664793948382652,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "isotope_label",
+   "kie",
+   "crossover",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4230825",
+  "doi": "10.1021/ja504532d",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Transition state analysis of enantioselective Brønsted base catalysis by chiral cyclopropenimines.",
+  "cited_by": 21,
+  "cites_gm": 29.698484809834994,
+  "exposure": "low",
+  "reaction_class": "organocatalysis",
+  "n_int": 2,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6300312",
+  "doi": "10.1021/jacs.8b10923",
+  "year": 2018,
+  "journal": "J Am Chem Soc",
+  "title": "Unlocking a Diazirine Long-Lived Nuclear Singlet State via Photochemistry: NMR Detection and Lifetime of an Unstabilized Diazo-Compound.",
+  "cited_by": 26,
+  "cites_gm": 29.732137494637012,
+  "exposure": "low",
+  "reaction_class": "pericyclic/rearrangement",
+  "n_int": 4,
+  "experiments": [
+   "isotope_label",
+   "hrms_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC7017866",
+  "doi": "10.1039/c9sc01446b",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Nickel-catalyzed C-H alkylation of indoles with unactivated alkyl chlorides: evidence of a Ni(i)/Ni(iii) pathway.",
+  "cited_by": 16,
+  "cites_gm": 30.199337741083,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "radical_clock",
+   "isotope_label",
+   "hrms_trap",
+   "epr",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5994747",
+  "doi": "10.1039/c8sc01093e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Metal-free borylative dearomatization of indoles: exploring the divergent reactivity of aminoborane C-H borylation catalysts.",
+  "cited_by": 19,
+  "cites_gm": 30.199337741083,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 3,
+  "experiments": [
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6984385",
+  "doi": "10.1039/c9sc03758f",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Aerobic C-C and C-O bond formation reactions mediated by high-valent nickel species.",
+  "cited_by": 23,
+  "cites_gm": 30.331501776206203,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "cv",
+   "isolation",
+   "epr",
+   "in_situ_nmr",
+   "hrms_trap"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC5941282",
+  "doi": "10.1039/c7sc04736c",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Unusual mechanisms in Claisen rearrangements: an ionic fragmentation leading to a <i>meta</i>-selective rearrangement.",
+  "cited_by": 24,
+  "cites_gm": 30.59411708155671,
+  "exposure": "low",
+  "reaction_class": "pericyclic/rearrangement",
+  "n_int": 9,
+  "experiments": [
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC4557049",
+  "doi": "10.1002/anie.201504073",
+  "year": 2015,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "P-C-Activated Bimetallic Rhodium Xantphos Complexes: Formation and Catalytic Dehydrocoupling of Amine-Boranes.",
+  "cited_by": 21,
+  "cites_gm": 30.740852297878796,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "crossover",
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5322523",
+  "doi": "10.1038/ncomms14524",
+  "year": 2017,
+  "journal": "Nat Commun",
+  "title": "Mass spectrometric monitoring of interfacial photoelectron transfer and imaging of active crystalline facets of semiconductors.",
+  "cited_by": 24,
+  "cites_gm": 30.983866769659336,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 16,
+  "experiments": [
+   "hrms_trap",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC5384211",
+  "doi": "10.1038/ncomms14875",
+  "year": 2017,
+  "journal": "Nat Commun",
+  "title": "Naked d-orbital in a centrochiral Ni(II) complex as a catalyst for asymmetric [3+2] cycloaddition.",
+  "cited_by": 22,
+  "cites_gm": 31.11269837220809,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5396369",
+  "doi": "10.1002/anie.201610905",
+  "year": 2017,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Lithium Dihydropyridine Dehydrogenation Catalysis: A Group 1 Approach to the Cyclization of Diamine Boranes.",
+  "cited_by": 24,
+  "cites_gm": 32.12475680841802,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6771573",
+  "doi": "10.1002/anie.201906807",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Lithium-Aluminate-Catalyzed Hydrophosphination Applications.",
+  "cited_by": 19,
+  "cites_gm": 32.32645975048923,
+  "exposure": "low",
+  "reaction_class": "main-group/other",
+  "n_int": 1,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6013813",
+  "doi": "10.1039/c6sc00058d",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Divergent reaction pathways in gold-catalyzed cycloisomerization of 1,5-enynes containing a cyclopropane ring: dramatic <i>ortho</i> substituent and temperature effects.",
+  "cited_by": 21,
+  "cites_gm": 32.4037034920393,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 11,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 14
+ },
+ {
+  "pmcid": "PMC5900874",
+  "doi": "10.1002/chem.201800527",
+  "year": 2018,
+  "journal": "Chemistry",
+  "title": "Enantiospecific Three-Component Alkylation of Furan and Indole.",
+  "cited_by": 22,
+  "cites_gm": 32.49615361854384,
+  "exposure": "low",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "quantum_yield",
+   "stern_volmer",
+   "cv",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4902085",
+  "doi": "10.3762/bjoc.12.99",
+  "year": 2016,
+  "journal": "Beilstein J Org Chem",
+  "title": "Cationic Pd(II)-catalyzed C-H activation/cross-coupling reactions at room temperature: synthetic and mechanistic studies.",
+  "cited_by": 24,
+  "cites_gm": 32.49615361854384,
+  "exposure": "low",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC6120528",
+  "doi": "10.1002/chem.201800730",
+  "year": 2018,
+  "journal": "Chemistry",
+  "title": "Mechanism of the Dehydrogenative Phenothiazination of Phenols.",
+  "cited_by": 26,
+  "cites_gm": 33.04542328371661,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "epr",
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6076287",
+  "doi": "10.1038/s41467-018-05352-9",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "In situ formation of catalytically active graphene in ethylene photo-epoxidation.",
+  "cited_by": 22,
+  "cites_gm": 33.166247903554,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 4,
+  "experiments": [
+   "quantum_yield",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5657409",
+  "doi": "10.1039/c5sc00238a",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Copper-catalyzed intermolecular C(sp<sup>3</sup>)-H bond functionalization towards the synthesis of tertiary carbamates.",
+  "cited_by": 21,
+  "cites_gm": 33.36165463522455,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6006490",
+  "doi": "10.1039/c5sc04214c",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Evaluation of the coordination preferences and catalytic pathways of heteroaxial cobalt oximes towards hydrogen generation.",
+  "cited_by": 21,
+  "cites_gm": 33.36165463522455,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "cv",
+   "epr",
+   "in_situ_nmr",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6899653",
+  "doi": "10.1002/anie.201908372",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Titanium(III)-Catalyzed Reductive Decyanation of Geminal Dinitriles by a Non-Free-Radical Mechanism.",
+  "cited_by": 23,
+  "cites_gm": 34.249087579087416,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "control",
+   "dft",
+   "radical_clock",
+   "isotope_label",
+   "kinetic_order",
+   "cv"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6771515",
+  "doi": "10.1002/chem.201900679",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "Dehydrogenation of Amine-Boranes Using p-Block Compounds.",
+  "cited_by": 22,
+  "cites_gm": 34.785054261852174,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 45,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "hammett",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6013814",
+  "doi": "10.1039/c5sc04151a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Asymmetric [3 + 2] cycloaddition of donor-acceptor aziridines with aldehydes <i>via</i> carbon-carbon bond cleavage.",
+  "cited_by": 22,
+  "cites_gm": 35.09985754956849,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 3,
+  "experiments": [
+   "control",
+   "hrms_trap",
+   "in_situ_nmr"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC3557922",
+  "doi": "10.1021/jo302547q",
+  "year": 2013,
+  "journal": "J Org Chem",
+  "title": "Mechanistic investigations and substrate scope evaluation of ruthenium-catalyzed direct sp3 arylation of benzylic positions directed by 3-substituted pyridines.",
+  "cited_by": 23,
+  "cites_gm": 35.566838487557476,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6892813",
+  "doi": "10.1038/s41467-019-13463-0",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Synthesis of higher carboxylic acids from ethers, CO<sub>2</sub> and H<sub>2</sub>.",
+  "cited_by": 19,
+  "cites_gm": 36.207733980463345,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "isotope_label",
+   "hrms_trap",
+   "control"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC6563703",
+  "doi": "10.1002/chem.201900587",
+  "year": 2019,
+  "journal": "Chemistry",
+  "title": "[Co(TPP)]-Catalyzed Formation of Substituted Piperidines.",
+  "cited_by": 29,
+  "cites_gm": 36.52396473549935,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "dft",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6979496",
+  "doi": "10.1039/c9sc03716k",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Catalytic, transannular carbonyl-olefin metathesis reactions.",
+  "cited_by": 26,
+  "cites_gm": 36.76955262170047,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 4,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6991184",
+  "doi": "10.1039/c9sc03672e",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Rhodium(i)-catalyzed C6-selective C-H alkenylation and polyenylation of 2-pyridones with alkenyl and conjugated polyenyl carboxylic acids.",
+  "cited_by": 24,
+  "cites_gm": 37.30951621235526,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "control",
+   "isotope_label",
+   "kie",
+   "kinetic_order"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5627187",
+  "doi": "10.1039/c7sc02516e",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Photoredox mediated nickel catalyzed C(sp<sup>3</sup>)-H thiocarbonylation of ethers.",
+  "cited_by": 26,
+  "cites_gm": 37.469987990390386,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 7,
+  "experiments": [
+   "control",
+   "dft",
+   "cv",
+   "radical_trap",
+   "isotope_label",
+   "isolation"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5811151",
+  "doi": "10.1039/c4sc02285h",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Formation and characterization of a reactive chromium(v)-oxo complex: mechanistic insight into hydrogen-atom transfer reactions.",
+  "cited_by": 28,
+  "cites_gm": 37.78888725538237,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "epr",
+   "cv",
+   "isolation",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5625593",
+  "doi": "10.1039/c7sc01684k",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Selective C-O bond formation <i>via</i> a photocatalytic radical coupling strategy: access to perfluoroalkoxylated (OR<sub>F</sub>) arenes and heteroarenes.",
+  "cited_by": 27,
+  "cites_gm": 37.82856063875548,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "stern_volmer",
+   "control",
+   "isolation"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4271674",
+  "doi": "10.1002/anie.201405348",
+  "year": 2014,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Regioselective dihalohydration reactions of propargylic alcohols: gold-catalyzed and noncatalyzed reactions.",
+  "cited_by": 25,
+  "cites_gm": 38.07886552931954,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "control",
+   "isolation",
+   "in_situ_nmr"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6468272",
+  "doi": "10.1002/anie.201804829",
+  "year": 2018,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Cu-Catalyzed Cross-Dehydrogenative ortho-Aminomethylation of Phenols.",
+  "cited_by": 26,
+  "cites_gm": 38.157568056677825,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "isotope_label",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6115638",
+  "doi": "10.1039/c8sc00913a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Synergistic formal ring contraction for the enantioselective synthesis of spiropyrazolones.",
+  "cited_by": 26,
+  "cites_gm": 38.49675310984031,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "hrms_trap",
+   "dft",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6984443",
+  "doi": "10.1039/c9sc03779a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Selectivity of tungsten mediated dinitrogen splitting <i>vs.</i> proton reduction.",
+  "cited_by": 30,
+  "cites_gm": 38.72983346207417,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "isotope_label",
+   "kinetic_order",
+   "hrms_trap",
+   "epr",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6120490",
+  "doi": "10.1002/anie.201804092",
+  "year": 2018,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Remote Control of Anion-π Catalysis on Fullerene-Centered Catalytic Triads.",
+  "cited_by": 33,
+  "cites_gm": 38.961519477556315,
+  "exposure": "mid",
+  "reaction_class": "organocatalysis",
+  "n_int": 2,
+  "experiments": [
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6296296",
+  "doi": "10.1039/c8sc03730b",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Silver-mediated oxidative functionalization of alkylsilanes.",
+  "cited_by": 27,
+  "cites_gm": 39.230090491866065,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5935059",
+  "doi": "10.1039/c8sc01016a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Transition-metal-free decarboxylative bromination of aromatic carboxylic acids.",
+  "cited_by": 25,
+  "cites_gm": 39.370039370059054,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 1,
+  "experiments": [
+   "radical_clock",
+   "kie",
+   "dft",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC8133029",
+  "doi": "10.1039/c9sc04987h",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Photocatalytic carbanion generation from C-H bonds - reductant free Barbier/Grignard-type reactions.",
+  "cited_by": 27,
+  "cites_gm": 39.57271787481876,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 2,
+  "experiments": [
+   "control",
+   "radical_clock",
+   "stern_volmer",
+   "cv"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5869575",
+  "doi": "10.1039/c7sc02757e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Diastereodivergent asymmetric Michael-alkylation reactions using chiral <i>N</i>,<i>N</i>'-dioxide/metal complexes.",
+  "cited_by": 27,
+  "cites_gm": 40.24922359499622,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 3,
+  "experiments": [
+   "hrms_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5868387",
+  "doi": "10.1039/c7sc04086e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Gold-catalyzed stereoselective dearomatization/metal-free aerobic oxidation: access to 3-substituted indolines/oxindoles.",
+  "cited_by": 30,
+  "cites_gm": 40.620192023179804,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5602144",
+  "doi": "10.1039/c6sc04899d",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "A well-defined NHC-Ir(iii) catalyst for the silylation of aromatic C-H bonds: substrate survey and mechanistic insights.",
+  "cited_by": 28,
+  "cites_gm": 40.64480286580315,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC6929042",
+  "doi": "10.1021/acs.orglett.9b04235",
+  "year": 2019,
+  "journal": "Org Lett",
+  "title": "Catalytic Generation and Use of Ketyl Radical from Unactivated Aliphatic Carbonyl Compounds.",
+  "cited_by": 30,
+  "cites_gm": 41.352146256270665,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "control",
+   "radical_clock",
+   "cv"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4531818",
+  "doi": "10.1002/anie.201503208",
+  "year": 2015,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Well-Defined and Robust Rhodium Catalysts for the Hydroacylation of Terminal and Internal Alkenes.",
+  "cited_by": 33,
+  "cites_gm": 41.82104733265297,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC8145529",
+  "doi": "10.1039/c9sc05969e",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Base induced isomerisation of a phosphaethynolato-borane: mechanistic insights into boryl migration and decarbonylation to afford a triplet phosphinidene.",
+  "cited_by": 31,
+  "cites_gm": 42.035699113967404,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5958344",
+  "doi": "10.1039/c8sc01214h",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "β C-H di-halogenation <i>via</i> iterative hydrogen atom transfer.",
+  "cited_by": 34,
+  "cites_gm": 42.04759208325728,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 3,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5308286",
+  "doi": "10.1039/c6sc03169b",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Unified synthesis of mono/bis-arylated phenols <i>via</i> Rh<sup>III</sup>-catalyzed dehydrogenative coupling.",
+  "cited_by": 32,
+  "cites_gm": 42.708313008125245,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "hrms_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6053651",
+  "doi": "10.1039/c8sc01575a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Inhibition of hydrocarbon autoxidation by nitroxide-catalyzed cross-dismutation of hydroperoxyl and alkylperoxyl radicals.",
+  "cited_by": 34,
+  "cites_gm": 43.243496620879306,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "radical_trap",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5914464",
+  "doi": "10.1039/c7sc04687a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Tuning the redox non-innocence of a phenalenyl ligand toward efficient nickel-assisted catalytic hydrosilylation.",
+  "cited_by": 33,
+  "cites_gm": 43.749285708454714,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "hrms_trap",
+   "epr",
+   "cv",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5765429",
+  "doi": "10.1002/chem.201704380",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Sulfonylative and Azidosulfonylative Cyclizations by Visible-Light-Photosensitization of Sulfonyl Azides in THF.",
+  "cited_by": 33,
+  "cites_gm": 44.12482294582042,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 9,
+  "experiments": [
+   "isotope_label",
+   "cv",
+   "control"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC5820744",
+  "doi": "10.1002/chem.201703609",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "1-Alkali-metal-2-alkyl-1,2-dihydropyridines: Soluble Hydride Surrogates for Catalytic Dehydrogenative Coupling and Hydroboration Applications.",
+  "cited_by": 33,
+  "cites_gm": 44.12482294582042,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 5,
+  "experiments": [
+   "in_situ_nmr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6349018",
+  "doi": "10.1039/c8sc03969k",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Development and mechanistic investigation of the manganese(iii) salen-catalyzed dehydrogenation of alcohols.",
+  "cited_by": 26,
+  "cites_gm": 44.15880433163923,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "isotope_label",
+   "hammett",
+   "control",
+   "dft"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5374491",
+  "doi": "10.1021/jacs.7b01446",
+  "year": 2017,
+  "journal": "J Am Chem Soc",
+  "title": "Studies on the Enantioselective Iminium Ion Trapping of Radicals Triggered by an Electron-Relay Mechanism.",
+  "cited_by": 31,
+  "cites_gm": 44.88875137492688,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "hammett",
+   "kinetic_order",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC4687849",
+  "doi": "10.1021/acs.joc.5b02043",
+  "year": 2015,
+  "journal": "J Org Chem",
+  "title": "Synthesis of Ethers via Reaction of Carbanions and Monoperoxyacetals.",
+  "cited_by": 35,
+  "cites_gm": 45.05552130427524,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "radical_clock",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5768789",
+  "doi": "10.1038/s41467-017-02231-7",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "Radical asymmetric intramolecular α-cyclopropanation of aldehydes towards bicyclo[3.1.0]hexanes containing vicinal all-carbon quaternary stereocenters.",
+  "cited_by": 34,
+  "cites_gm": 45.16635916254486,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 9,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5572462",
+  "doi": "10.1038/s41467-017-00416-8",
+  "year": 2017,
+  "journal": "Nat Commun",
+  "title": "Modifying electron transfer between photoredox and organocatalytic units via framework interpenetration for β-carbonyl functionalization.",
+  "cited_by": 33,
+  "cites_gm": 45.95650117230423,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 4,
+  "experiments": [
+   "stern_volmer",
+   "cv",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC6026776",
+  "doi": "10.1021/acscentsci.8b00264",
+  "year": 2018,
+  "journal": "ACS Cent Sci",
+  "title": "Delineating Physical Organic Parameters in Site-Selective C-H Functionalization of Indoles.",
+  "cited_by": 33,
+  "cites_gm": 45.95650117230423,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "dft",
+   "isolation",
+   "kie"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC6048739",
+  "doi": "10.1039/c8sc01353e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Revealing the unusual role of bases in activation/deactivation of catalytic systems: O-NHC coupling in M/NHC catalysis.",
+  "cited_by": 25,
+  "cites_gm": 46.09772228646444,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "hrms_trap",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC3963454",
+  "doi": "10.1021/jo4027929",
+  "year": 2014,
+  "journal": "J Org Chem",
+  "title": "Titania-promoted carboxylic acid alkylations of alkenes and cascade addition-cyclizations.",
+  "cited_by": 35,
+  "cites_gm": 46.20606020859169,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "epr",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5595123",
+  "doi": "10.1039/c5sc04237b",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Aminofluorination: transition-metal-free N-F bond insertion into diazocarbonyl compounds.",
+  "cited_by": 34,
+  "cites_gm": 46.281745861624536,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 2,
+  "experiments": [
+   "radical_trap",
+   "control",
+   "kinetic_order",
+   "hammett",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6492636",
+  "doi": "10.1039/c9sc00711c",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Photoinitiated carbonyl-metathesis: deoxygenative reductive olefination of aromatic aldehydes <i>via</i> photoredox catalysis.",
+  "cited_by": 33,
+  "cites_gm": 46.314144707637645,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 7,
+  "experiments": [
+   "radical_trap",
+   "stern_volmer",
+   "isotope_label",
+   "hrms_trap",
+   "cv",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC5625289",
+  "doi": "10.1039/c7sc01491k",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Solid-state molecular organometallic chemistry. Single-crystal to single-crystal reactivity and catalysis with light hydrocarbon substrates.",
+  "cited_by": 37,
+  "cites_gm": 46.72258554489466,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5698765",
+  "doi": "10.1002/anie.201706534",
+  "year": 2017,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Radical Hydrodehalogenation of Aryl Bromides and Chlorides with Sodium Hydride and 1,4-Dioxane.",
+  "cited_by": 31,
+  "cites_gm": 46.9148164229596,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 3,
+  "experiments": [
+   "dft",
+   "cv",
+   "control",
+   "radical_clock",
+   "isotope_label"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6391947",
+  "doi": "10.1002/chem.201804515",
+  "year": 2018,
+  "journal": "Chemistry",
+  "title": "Palladium-Catalyzed C(sp<sup>3</sup> )-H Arylation of Primary Amines Using a Catalytic Alkyl Acetal to Form a Transient Directing Group.",
+  "cited_by": 37,
+  "cites_gm": 47.11687595755899,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC4285142",
+  "doi": "10.1039/c4sc02026j",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Mechanistic insights into hydroacylation with non-chelating aldehydes†Electronic supplementary information (ESI) available: Materials and methods, reaction procedures, characterization data. CCDC 1012849. For ESI and crystallographic data in CIF or other electronic format see DOI: 10.1039/c4sc02026jClick here for additional data file.",
+  "cited_by": 38,
+  "cites_gm": 47.34976240700686,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "hammett",
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5729417",
+  "doi": "10.1039/c4sc03710c",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Ru(ii)-Re(i) binuclear photocatalysts connected by -CH<sub>2</sub>XCH<sub>2</sub>- (X = O, S, CH<sub>2</sub>) for CO<sub>2</sub> reduction.",
+  "cited_by": 30,
+  "cites_gm": 47.43416490252569,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 1,
+  "experiments": [
+   "quantum_yield",
+   "stern_volmer",
+   "cv",
+   "hrms_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5027285",
+  "doi": "10.1038/ncomms12720",
+  "year": 2016,
+  "journal": "Nat Commun",
+  "title": "Asymmetric cyanation of imines via dipeptide-derived organophosphine dual-reagent catalysis.",
+  "cited_by": 29,
+  "cites_gm": 47.56048780237646,
+  "exposure": "mid",
+  "reaction_class": "organocatalysis",
+  "n_int": 1,
+  "experiments": [
+   "control",
+   "in_situ_nmr",
+   "hrms_trap"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC4091274",
+  "doi": "10.1021/ja504296x",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Rh(I)-catalyzed intermolecular hydroacylation: enantioselective cross-coupling of aldehydes and ketoamides.",
+  "cited_by": 36,
+  "cites_gm": 47.62352359916263,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order",
+   "in_situ_nmr",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC4204129",
+  "doi": "10.1002/chem.201403040",
+  "year": 2014,
+  "journal": "Chemistry",
+  "title": "1,2-N-migration in a gold-catalysed synthesis of functionalised indenes by the 1,1-carboalkoxylation of ynamides.",
+  "cited_by": 35,
+  "cites_gm": 48.062459362791664,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "crossover",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5857932",
+  "doi": "10.1039/c7sc03909c",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Catalytic 1,2-dihydronaphthalene and <i>E</i>-aryl-diene synthesis <i>via</i> Co<sup>III</sup>-Carbene radical and <i>o</i>-quinodimethane intermediates.",
+  "cited_by": 39,
+  "cites_gm": 49.95998398718719,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "radical_trap",
+   "hrms_trap",
+   "epr",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6124909",
+  "doi": "10.1039/c8sc02074d",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Divergent ring-opening coupling between cyclopropanols and alkynes under cobalt catalysis.",
+  "cited_by": 35,
+  "cites_gm": 50.547007824400445,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "control",
+   "isotope_label",
+   "radical_trap",
+   "dft"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC4301077",
+  "doi": "10.1021/ol5034805",
+  "year": 2015,
+  "journal": "Org Lett",
+  "title": "Regioselective gold-catalyzed oxidative C-N bond formation.",
+  "cited_by": 35,
+  "cites_gm": 51.234753829797995,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5861671",
+  "doi": "10.1002/chem.201605222",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Alkene Metalates as Hydrogenation Catalysts.",
+  "cited_by": 32,
+  "cites_gm": 51.536394906900505,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "radical_clock",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6509109",
+  "doi": "10.1038/s41467-019-09904-5",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Asymmetric synthesis of tetrazole and dihydroisoquinoline derivatives by isocyanide-based multicomponent reactions.",
+  "cited_by": 36,
+  "cites_gm": 53.32916650389353,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "crossover",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5354063",
+  "doi": "10.1039/c6sc04145k",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Cu-Catalyzed aromatic C-H imidation with <i>N</i>-fluorobenzenesulfonimide: mechanistic details and predictive models.",
+  "cited_by": 38,
+  "cites_gm": 53.38539126015655,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "dft",
+   "hrms_trap",
+   "kie",
+   "control"
+  ],
+  "n_gold": 16
+ },
+ {
+  "pmcid": "PMC5654342",
+  "doi": "10.1039/c4sc03709j",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Visible light photocatalytic reduction of aldehydes by Rh(iii)-H: a detailed mechanistic study.",
+  "cited_by": 37,
+  "cites_gm": 53.72150407425317,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 1,
+  "experiments": [
+   "control",
+   "hammett",
+   "cv",
+   "stern_volmer",
+   "epr",
+   "quantum_yield"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5963672",
+  "doi": "10.1039/c5sc04037j",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Dichotomous mechanistic behavior in Narasaka-Heck cyclizations: electron rich Pd-catalysts generate iminyl radicals.",
+  "cited_by": 40,
+  "cites_gm": 54.405882034941776,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "isotope_label",
+   "radical_clock",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC3656830",
+  "doi": "10.1021/ja402833w",
+  "year": 2013,
+  "journal": "J Am Chem Soc",
+  "title": "Dissociation or cyclization: options for a triad of radicals released from oxime carbamates.",
+  "cited_by": 40,
+  "cites_gm": 54.772255750516614,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 7,
+  "experiments": [
+   "dft",
+   "epr",
+   "control"
+  ],
+  "n_gold": 16
+ },
+ {
+  "pmcid": "PMC6899485",
+  "doi": "10.1002/anie.201908268",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Light-Induced Mechanistic Divergence in Gold(I) Catalysis: Revisiting the Reactivity of Diazonium Salts.",
+  "cited_by": 39,
+  "cites_gm": 54.79963503528103,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6369408",
+  "doi": "10.1039/c8sc04279a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Ni-catalysed reductive arylalkylation of unactivated alkenes.",
+  "cited_by": 41,
+  "cites_gm": 55.452682532047085,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "control",
+   "radical_trap",
+   "radical_clock"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6684548",
+  "doi": "10.1038/s41467-019-11420-5",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Rhodium-catalysed direct hydroarylation of alkenes and alkynes with phosphines through phosphorous-assisted C-H activation.",
+  "cited_by": 38,
+  "cites_gm": 55.82114294781145,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 11,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 16
+ },
+ {
+  "pmcid": "PMC6092714",
+  "doi": "10.1039/c7sc00117g",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Hydrodeoxygenation of isocyanates: snapshots of a magnesium-mediated C[double bond, length as m-dash]O bond cleavage.",
+  "cited_by": 42,
+  "cites_gm": 56.868268832451726,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 6,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6090528",
+  "doi": "10.1039/c6sc00145a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Chemoselective dehydrogenative esterification of aldehydes and alcohols with a dimeric rhodium(ii) catalyst.",
+  "cited_by": 35,
+  "cites_gm": 57.05260730238365,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5873043",
+  "doi": "10.1039/c7sc04611a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Site-selective bromination of sp<sup>3</sup> C-H bonds.",
+  "cited_by": 46,
+  "cites_gm": 57.148928248918196,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 3,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "crossover",
+   "hrms_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4999968",
+  "doi": "10.1021/acscentsci.6b00176",
+  "year": 2016,
+  "journal": "ACS Cent Sci",
+  "title": "Low Temperature Activation of Supported Metathesis Catalysts by Organosilicon Reducing Agents.",
+  "cited_by": 36,
+  "cites_gm": 57.23635208501674,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isotope_label",
+   "crossover",
+   "epr",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC4674969",
+  "doi": "10.1002/anie.201505949",
+  "year": 2015,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Alkaline-Earth-Catalyzed Dehydrocoupling of Amines and Boranes.",
+  "cited_by": 39,
+  "cites_gm": 57.57603668193913,
+  "exposure": "mid",
+  "reaction_class": "main-group/other",
+  "n_int": 4,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "kinetic_order",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6137453",
+  "doi": "10.1039/c8sc02106f",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "A synergistic LUMO lowering strategy using Lewis acid catalysis in water to enable photoredox catalytic, functionalizing C-C cross-coupling of styrenes.",
+  "cited_by": 41,
+  "cites_gm": 57.62811813689564,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "stern_volmer",
+   "cv",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC5811138",
+  "doi": "10.1039/c4sc02891k",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Synergistic photocatalytic aerobic oxidation of sulfides and amines on TiO<sub>2</sub> under visible-light irradiation.",
+  "cited_by": 37,
+  "cites_gm": 59.28743543112655,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "kinetic_order",
+   "hrms_trap",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5266430",
+  "doi": "10.1021/jacs.6b09243",
+  "year": 2016,
+  "journal": "J Am Chem Soc",
+  "title": "NMR Spectroscopic Characterization of Charge Assisted Strong Hydrogen Bonds in Brønsted Acid Catalysis.",
+  "cited_by": 51,
+  "cites_gm": 59.74947698515862,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 2,
+  "experiments": [
+   "isotope_label",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6024180",
+  "doi": "10.1039/c6sc01120a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Palladium-catalyzed regioselective and stereo-invertive ring-opening borylation of 2-arylaziridines with bis(pinacolato)diboron: experimental and computational studies.",
+  "cited_by": 45,
+  "cites_gm": 60.74537019394976,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "isotope_label",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 11
+ },
+ {
+  "pmcid": "PMC4835565",
+  "doi": "10.1038/ncomms11297",
+  "year": 2016,
+  "journal": "Nat Commun",
+  "title": "Enantioselective acyl transfer catalysis by a combination of common catalytic motifs and electrostatic interactions.",
+  "cited_by": 37,
+  "cites_gm": 61.43289021363068,
+  "exposure": "mid",
+  "reaction_class": "organocatalysis",
+  "n_int": 3,
+  "experiments": [
+   "crossover",
+   "kinetic_order",
+   "control",
+   "dft"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC6247822",
+  "doi": "10.1039/c8sc03081b",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Palladium(ii)-catalyzed γ-selective hydroarylation of alkenyl carbonyl compounds with arylboronic acids.",
+  "cited_by": 45,
+  "cites_gm": 61.84658438426491,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "kinetic_order"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC8145945",
+  "doi": "10.1039/c9sc04822g",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Brønsted acid catalysis of photosensitized cycloadditions.",
+  "cited_by": 50,
+  "cites_gm": 62.048368229954285,
+  "exposure": "mid",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 5,
+  "experiments": [
+   "stern_volmer",
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6598176",
+  "doi": "10.1021/acscentsci.9b00194",
+  "year": 2019,
+  "journal": "ACS Cent Sci",
+  "title": "Brønsted Acid Scaling Relationships Enable Control Over Product Selectivity from O<sub>2</sub> Reduction with a Mononuclear Cobalt Porphyrin Catalyst.",
+  "cited_by": 46,
+  "cites_gm": 62.52999280345393,
+  "exposure": "mid",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kinetic_order",
+   "epr",
+   "cv",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6020523",
+  "doi": "10.1039/c6sc00308g",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Advances and mechanistic insight on the catalytic Mitsunobu reaction using recyclable azo reagents.",
+  "cited_by": 43,
+  "cites_gm": 63.23764701504951,
+  "exposure": "mid",
+  "reaction_class": "organocatalysis",
+  "n_int": 2,
+  "experiments": [
+   "isotope_label",
+   "hammett",
+   "kinetic_order",
+   "hrms_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC6148494",
+  "doi": "10.1039/c8sc02038h",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Photocatalytic Barbier reaction - visible-light induced allylation and benzylation of aldehydes and ketones.",
+  "cited_by": 45,
+  "cites_gm": 63.28506932918696,
+  "exposure": "mid",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "control",
+   "radical_trap",
+   "stern_volmer",
+   "cv",
+   "quantum_yield"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5645917",
+  "doi": "10.1039/c4sc03726j",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "<i>N</i>-Heterocyclic carbene catalysed redox isomerisation of esters to functionalised benzaldehydes.",
+  "cited_by": 48,
+  "cites_gm": 64.62197768561404,
+  "exposure": "mid",
+  "reaction_class": "organocatalysis",
+  "n_int": 8,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "in_situ_nmr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6419930",
+  "doi": "10.1039/c8sc05685d",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Catalytic β C-H amination <i>via</i> an imidate radical relay.",
+  "cited_by": 53,
+  "cites_gm": 65.52098900352466,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 5,
+  "experiments": [
+   "hammett",
+   "control",
+   "in_situ_nmr"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6289102",
+  "doi": "10.1039/c8sc03346c",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "A general electrochemical strategy for the Sandmeyer reaction.",
+  "cited_by": 47,
+  "cites_gm": 66.82065548915246,
+  "exposure": "mid",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 1,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "epr",
+   "cv",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC5297334",
+  "doi": "10.1039/c6sc03303b",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Chromium photocatalysis: accessing structural complements to Diels-Alder adducts with electron-deficient dienophiles.",
+  "cited_by": 47,
+  "cites_gm": 67.52036729757918,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "control",
+   "isolation",
+   "cv",
+   "quantum_yield",
+   "crossover"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5951209",
+  "doi": "10.1039/c5sc02855h",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Peripheral mechanism of a carbonyl hydrosilylation catalysed by an SiNSi iron pincer complex.",
+  "cited_by": 46,
+  "cites_gm": 68.1615727518079,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 1,
+  "experiments": [
+   "kie",
+   "radical_clock",
+   "isotope_label",
+   "crossover",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5669215",
+  "doi": "10.1039/c5sc02186c",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "NHC-catalysed benzoin condensation - is it all down to the Breslow intermediate?",
+  "cited_by": 42,
+  "cites_gm": 68.27884006044626,
+  "exposure": "high",
+  "reaction_class": "organocatalysis",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "epr",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5892352",
+  "doi": "10.1039/c7sc04916a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Stereoselective cobalt-catalyzed halofluoroalkylation of alkynes.",
+  "cited_by": 46,
+  "cites_gm": 68.49817515817483,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "crossover",
+   "kinetic_order",
+   "hrms_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6831602",
+  "doi": "10.1038/s41467-019-12949-1",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Nickel-catalyzed intermolecular oxidative Heck arylation driven by transfer hydrogenation.",
+  "cited_by": 49,
+  "cites_gm": 68.58571279792899,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 11,
+  "experiments": [
+   "control",
+   "in_situ_nmr",
+   "isotope_label",
+   "kinetic_order",
+   "dft"
+  ],
+  "n_gold": 11
+ },
+ {
+  "pmcid": "PMC5768022",
+  "doi": "10.1002/anie.201710441",
+  "year": 2018,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Evidence for Triplet Sensitization in the Visible-Light-Induced [2+2] Photocycloaddition of Eniminium Ions.",
+  "cited_by": 53,
+  "cites_gm": 69.06518659932803,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 1,
+  "experiments": [
+   "stern_volmer",
+   "cv",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC5994879",
+  "doi": "10.1039/c8sc01476k",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Enantioselective radical process for synthesis of chiral indolines by metalloradical alkylation of diverse C(sp<sup>3</sup>)-H bonds.",
+  "cited_by": 50,
+  "cites_gm": 69.2820323027551,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "epr"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC4291758",
+  "doi": "10.1021/ja5104525",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Endo-selective Pd-catalyzed silyl methyl Heck reaction.",
+  "cited_by": 52,
+  "cites_gm": 69.91423317179414,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "isotope_label"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5056441",
+  "doi": "10.1038/ncomms12937",
+  "year": 2016,
+  "journal": "Nat Commun",
+  "title": "Stille coupling via C-N bond cleavage.",
+  "cited_by": 47,
+  "cites_gm": 70.24955515873393,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "isolation",
+   "control",
+   "isotope_label",
+   "dft"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC5201211",
+  "doi": "10.1039/c5sc04709a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "A mechanistic investigation of the photoinduced, copper-mediated cross-coupling of an aryl thiol with an aryl halide.",
+  "cited_by": 51,
+  "cites_gm": 70.33491309442275,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_clock",
+   "quantum_yield",
+   "stern_volmer",
+   "hrms_trap",
+   "epr",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC6707287",
+  "doi": "10.1038/s41467-019-11688-7",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Photocatalytic enantioselective α-aminoalkylation of acyclic imine derivatives by a chiral copper catalyst.",
+  "cited_by": 48,
+  "cites_gm": 70.9929573971954,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "radical_trap",
+   "quantum_yield",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5952523",
+  "doi": "10.1039/c5sc03530a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Mechanism of the Cu<sup>II</sup>-catalyzed benzylic oxygenation of (aryl)(heteroaryl)methanes with oxygen.",
+  "cited_by": 50,
+  "cites_gm": 71.06335201775947,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "radical_clock",
+   "isotope_label",
+   "kinetic_order",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC5633266",
+  "doi": "10.1021/jacs.5b04034",
+  "year": 2015,
+  "journal": "J Am Chem Soc",
+  "title": "Cobalt-Catalyzed [2π + 2π] Cycloadditions of Alkenes: Scope, Mechanism, and Elucidation of Electronic Structure of Catalytic Intermediates.",
+  "cited_by": 52,
+  "cites_gm": 71.386273190299,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "isotope_label",
+   "kinetic_order",
+   "epr",
+   "cv",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC3914395",
+  "doi": "10.1021/ja410408c",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Stereodivergent synthesis of chiral fullerenes by [3 + 2] cycloadditions to C₆₀.",
+  "cited_by": 51,
+  "cites_gm": 71.4142842854285,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 15
+ },
+ {
+  "pmcid": "PMC5740077",
+  "doi": "10.1038/s41467-017-02148-1",
+  "year": 2017,
+  "journal": "Nat Commun",
+  "title": "Catalytic asymmetric synthesis of a nitrogen heterocycle through stereocontrolled direct photoreaction from electronically excited state.",
+  "cited_by": 53,
+  "cites_gm": 73.16419889536138,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "isolation",
+   "control",
+   "quantum_yield",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4482415",
+  "doi": "10.1021/jacs.5b04613",
+  "year": 2015,
+  "journal": "J Am Chem Soc",
+  "title": "Halide-Dependent Mechanisms of Reductive Elimination from Gold(III).",
+  "cited_by": 52,
+  "cites_gm": 73.18469785412795,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "kinetic_order",
+   "in_situ_nmr",
+   "isolation",
+   "control",
+   "isotope_label"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC4309444",
+  "doi": "10.1038/ncomms6801",
+  "year": 2015,
+  "journal": "Nat Commun",
+  "title": "Bond cleavage, fragment modification and reassembly in enantioselective three-component reactions.",
+  "cited_by": 56,
+  "cites_gm": 74.83314773547883,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 8,
+  "experiments": [
+   "control",
+   "isolation",
+   "in_situ_nmr",
+   "hrms_trap",
+   "crossover",
+   "dft"
+  ],
+  "n_gold": 10
+ },
+ {
+  "pmcid": "PMC5767734",
+  "doi": "10.1002/anie.201711028",
+  "year": 2018,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Catalytic Dibenzocyclooctene Synthesis via Cobalt(III)-Carbene Radical and ortho-Quinodimethane Intermediates.",
+  "cited_by": 60,
+  "cites_gm": 75.49834435270749,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "dft",
+   "radical_trap",
+   "epr",
+   "hrms_trap",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4161672",
+  "doi": "10.1021/ja505405u",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Pd-catalyzed aerobic oxidative coupling of arenes: evidence for transmetalation between two Pd(II)-aryl intermediates.",
+  "cited_by": 50,
+  "cites_gm": 75.82875444051551,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "kinetic_order",
+   "kie",
+   "isotope_label"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6488649",
+  "doi": "10.1038/s41467-019-09825-3",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Regioselective radical α-borylation of α,β-unsaturated carbonyl compounds for direct synthesis of α-borylcarbonyl molecules.",
+  "cited_by": 51,
+  "cites_gm": 76.58328799418317,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 2,
+  "experiments": [
+   "radical_clock",
+   "stern_volmer",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6695427",
+  "doi": "10.1038/s41467-019-11652-5",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Molecular mass growth through ring expansion in polycyclic aromatic hydrocarbons via radical-radical reactions.",
+  "cited_by": 50,
+  "cites_gm": 76.81145747868608,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 9,
+  "experiments": [
+   "isotope_label",
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC6884519",
+  "doi": "10.1038/s41467-019-13524-4",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Electrochemical oxidation induced intermolecular aromatic C-H imidation.",
+  "cited_by": 52,
+  "cites_gm": 76.99350621968063,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "kie",
+   "cv",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC5374492",
+  "doi": "10.1021/jacs.6b11851",
+  "year": 2017,
+  "journal": "J Am Chem Soc",
+  "title": "Catalytic Enantioselective [2,3]-Rearrangements of Allylic Ammonium Ylides: A Mechanistic and Computational Study.",
+  "cited_by": 56,
+  "cites_gm": 77.76888838089432,
+  "exposure": "high",
+  "reaction_class": "organocatalysis",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "crossover",
+   "hammett",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC6377619",
+  "doi": "10.1038/s41467-019-08741-w",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Copper-catalyzed remote C(sp<sup>3</sup>)-H azidation and oxidative trifluoromethylation of benzohydrazides.",
+  "cited_by": 58,
+  "cites_gm": 79.51100552753688,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 9,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "radical_clock",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 13
+ },
+ {
+  "pmcid": "PMC5958049",
+  "doi": "10.1038/s41467-018-04331-4",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "Iodine-catalyzed diazo activation to access radical reactivity.",
+  "cited_by": 62,
+  "cites_gm": 81.06787279804497,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 6,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "epr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC4931026",
+  "doi": "10.1038/ncomms11676",
+  "year": 2016,
+  "journal": "Nat Commun",
+  "title": "Multimetallic catalysed radical oxidative C(sp(3))-H/C(sp)-H cross-coupling between unactivated alkanes and terminal alkynes.",
+  "cited_by": 55,
+  "cites_gm": 81.24038404635961,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "kie",
+   "control"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5530359",
+  "doi": "10.1039/c5sc04163e",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Spatial separation of oxidation and reduction co-catalysts for efficient charge separation: Pt@TiO<sub>2</sub>@MnO <sub><i>x</i></sub> hollow spheres for photocatalytic reactions.",
+  "cited_by": 44,
+  "cites_gm": 81.24038404635961,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 1,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "quantum_yield",
+   "control"
+  ],
+  "n_gold": 1
+ },
+ {
+  "pmcid": "PMC5950197",
+  "doi": "10.1039/c5sc01885d",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Rh<sup>I</sup>/Rh<sup>III</sup> catalyst-controlled divergent aryl/heteroaryl C-H bond functionalization of picolinamides with alkynes.",
+  "cited_by": 60,
+  "cites_gm": 82.3407554009556,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 11,
+  "experiments": [
+   "isolation",
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 32
+ },
+ {
+  "pmcid": "PMC8146146",
+  "doi": "10.1039/c9sc04643g",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "A novel photoredox-active group for the generation of fluorinated radicals from difluorostyrenes.",
+  "cited_by": 61,
+  "cites_gm": 83.02409288875127,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "isolation",
+   "cv",
+   "stern_volmer",
+   "control",
+   "radical_trap",
+   "epr"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5911827",
+  "doi": "10.1039/c7sc04486k",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Incorporation of redox-inactive cations promotes iron catalyzed aerobic C-H oxidation at mild potentials.",
+  "cited_by": 64,
+  "cites_gm": 84.2852300228219,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "cv",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6440757",
+  "doi": "10.1126/sciadv.aav9839",
+  "year": 2019,
+  "journal": "Sci Adv",
+  "title": "Intermolecular dialkylation of alkenes with two distinct C(sp<sup>3</sup>)─H bonds enabled by synergistic photoredox catalysis and iron catalysis.",
+  "cited_by": 62,
+  "cites_gm": 85.89528508596965,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "light_on_off",
+   "stern_volmer",
+   "cv",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4262675",
+  "doi": "10.1021/ja510093x",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Copper-catalyzed oxidative dehydrogenative carboxylation of unactivated alkanes to allylic esters via alkenes.",
+  "cited_by": 67,
+  "cites_gm": 89.29165694509202,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "epr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 8
+ },
+ {
+  "pmcid": "PMC6972584",
+  "doi": "10.1002/anie.201912334",
+  "year": 2020,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Acyl Migration versus Epoxidation in Gold Catalysis: Facile, Switchable, and Atom-Economic Synthesis of Acylindoles and Quinoline Derivatives.",
+  "cited_by": 62,
+  "cites_gm": 90.46546302318913,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 10,
+  "experiments": [
+   "isotope_label",
+   "crossover",
+   "dft"
+  ],
+  "n_gold": 15
+ },
+ {
+  "pmcid": "PMC5814878",
+  "doi": "10.1002/chem.201705442",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Teaching Old Compounds New Tricks: DDQ-Photocatalyzed C-H Amination of Arenes with Carbamates, Urea, and N-Heterocycles.",
+  "cited_by": 62,
+  "cites_gm": 90.80748867797193,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 2,
+  "experiments": [
+   "control",
+   "epr",
+   "isolation"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5662929",
+  "doi": "10.1021/jacs.7b05155",
+  "year": 2017,
+  "journal": "J Am Chem Soc",
+  "title": "Transition-Metal-Free Decarboxylative Iodination: New Routes for Decarboxylative Oxidative Cross-Couplings.",
+  "cited_by": 64,
+  "cites_gm": 91.56418513807678,
+  "exposure": "high",
+  "reaction_class": "main-group/other",
+  "n_int": 1,
+  "experiments": [
+   "radical_clock",
+   "hammett",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4805314",
+  "doi": "10.1021/jacs.6b01615",
+  "year": 2016,
+  "journal": "J Am Chem Soc",
+  "title": "Ru-Catalyzed C-H Arylation of Fluoroarenes with Aryl Halides.",
+  "cited_by": 60,
+  "cites_gm": 91.6515138991168,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 1,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "isotope_label",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5968449",
+  "doi": "10.1039/c5sc04319k",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Origins of unique gold-catalysed chemo- and site-selective C-H functionalization of phenols with diazo compounds.",
+  "cited_by": 62,
+  "cites_gm": 95.46727187890099,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 23,
+  "experiments": [
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 20
+ },
+ {
+  "pmcid": "PMC5911971",
+  "doi": "10.1039/c8sc00008e",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Super electron donors derived from diboron.",
+  "cited_by": 71,
+  "cites_gm": 95.7026645397086,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 8,
+  "experiments": [
+   "crossover",
+   "epr",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6240041",
+  "doi": "10.1038/s41467-018-07081-5",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "Mechanism of copper-free Sonogashira reaction operates through palladium-palladium transmetallation.",
+  "cited_by": 59,
+  "cites_gm": 99.8548947222919,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 11
+ },
+ {
+  "pmcid": "PMC5868389",
+  "doi": "10.1039/c7sc03140h",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Dual nickel and Lewis acid catalysis for cross-electrophile coupling: the allylation of aryl halides with allylic alcohols.",
+  "cited_by": 75,
+  "cites_gm": 102.46950765959599,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6519288",
+  "doi": "10.1002/anie.201814497",
+  "year": 2019,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "A Redox-Active Nickel Complex that Acts as an Electron Mediator in Photochemical Giese Reactions.",
+  "cited_by": 79,
+  "cites_gm": 102.50365847129555,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "radical_trap",
+   "quantum_yield",
+   "isotope_label",
+   "cv",
+   "in_situ_nmr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4333595",
+  "doi": "10.1021/ja501988b",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Redox-neutral α-oxygenation of amines: reaction development and elucidation of the mechanism.",
+  "cited_by": 75,
+  "cites_gm": 106.06601717798213,
+  "exposure": "high",
+  "reaction_class": "Lewis/Brønsted acid",
+  "n_int": 8,
+  "experiments": [
+   "in_situ_nmr",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4768687",
+  "doi": "10.1021/jacs.5b10219",
+  "year": 2015,
+  "journal": "J Am Chem Soc",
+  "title": "Mechanistic Studies Lead to Dramatically Improved Reaction Conditions for the Cu-Catalyzed Asymmetric Hydroamination of Olefins.",
+  "cited_by": 80,
+  "cites_gm": 108.44353369380767,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 1,
+  "experiments": [
+   "kie",
+   "isotope_label",
+   "hammett",
+   "kinetic_order",
+   "hrms_trap",
+   "in_situ_nmr"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5947531",
+  "doi": "10.1039/c5sc01807b",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Mechanistic insights into cobalt(ii/iii)-catalyzed C-H oxidation: a combined theoretical and experimental study.",
+  "cited_by": 68,
+  "cites_gm": 108.77499712709718,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC6836942",
+  "doi": "10.1039/c9sc02185j",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Solid-state Suzuki-Miyaura cross-coupling reactions: olefin-accelerated C-C coupling using mechanochemistry.",
+  "cited_by": 66,
+  "cites_gm": 109.59927007056206,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "hrms_trap",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC6328001",
+  "doi": "10.1039/c8sc03315c",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "Transition-metal free C-C bond cleavage/borylation of cycloketone oxime esters.",
+  "cited_by": 87,
+  "cites_gm": 113.85517116055819,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "control",
+   "dft"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6005156",
+  "doi": "10.1039/c5sc04712a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Strong Brønsted acid promoted asymmetric hydrogenation of isoquinolines and quinolines catalyzed by a Rh-thiourea chiral phosphine complex <i>via</i> anion binding.",
+  "cited_by": 83,
+  "cites_gm": 115.59844289608749,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 5,
+  "experiments": [
+   "isotope_label",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5488222",
+  "doi": "10.1002/chem.201700358",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Cobalt-Porphyrin-Catalysed Intramolecular Ring-Closing C-H Amination of Aliphatic Azides: A Nitrene-Radical Approach to Saturated Heterocycles.",
+  "cited_by": 89,
+  "cites_gm": 118.5833040524677,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "kinetic_order",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC5437376",
+  "doi": "10.1039/c6sc05533h",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Mild, visible light-mediated decarboxylation of aryl carboxylic acids to access aryl radicals.",
+  "cited_by": 83,
+  "cites_gm": 120.86355943790502,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "stern_volmer",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5431698",
+  "doi": "10.1039/c6sc05093j",
+  "year": 2017,
+  "journal": "Chem Sci",
+  "title": "Dual gold and photoredox catalysis: visible light-mediated intermolecular atom transfer thiosulfonylation of alkenes.",
+  "cited_by": 83,
+  "cites_gm": 125.90869707847826,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "radical_trap",
+   "stern_volmer",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6977546",
+  "doi": "10.1039/c9sc03765a",
+  "year": 2019,
+  "journal": "Chem Sci",
+  "title": "New avenues for C-B bond formation <i>via</i> radical intermediates.",
+  "cited_by": 96,
+  "cites_gm": 128.12493902437572,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 2,
+  "experiments": [
+   "quantum_yield",
+   "radical_trap",
+   "control",
+   "isolation",
+   "epr",
+   "radical_clock",
+   "stern_volmer",
+   "dft"
+  ],
+  "n_gold": 15
+ },
+ {
+  "pmcid": "PMC5768772",
+  "doi": "10.1038/s41467-017-02472-6",
+  "year": 2018,
+  "journal": "Nat Commun",
+  "title": "Ligands with 1,10-phenanthroline scaffold for highly regioselective iron-catalyzed alkene hydrosilylation.",
+  "cited_by": 86,
+  "cites_gm": 132.4537655183876,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "isotope_label",
+   "kie",
+   "epr",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4648026",
+  "doi": "10.1002/anie.201506432",
+  "year": 2015,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Acyl Radicals from Aromatic Carboxylic Acids by Means of Visible-Light Photoredox Catalysis.",
+  "cited_by": 93,
+  "cites_gm": 134.320512208672,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 6,
+  "experiments": [
+   "control",
+   "isolation",
+   "cv",
+   "stern_volmer"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC5952893",
+  "doi": "10.1039/c5sc03114a",
+  "year": 2016,
+  "journal": "Chem Sci",
+  "title": "Magnesium-catalysed nitrile hydroboration.",
+  "cited_by": 97,
+  "cites_gm": 134.68110483657313,
+  "exposure": "high",
+  "reaction_class": "main-group/other",
+  "n_int": 6,
+  "experiments": [
+   "kie",
+   "hammett",
+   "kinetic_order",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 12
+ },
+ {
+  "pmcid": "PMC4333594",
+  "doi": "10.1021/ja502639e",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Direct β-alkylation of aldehydes via photoredox organocatalysis.",
+  "cited_by": 103,
+  "cites_gm": 147.42116537322585,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 4,
+  "experiments": [
+   "control",
+   "stern_volmer",
+   "epr",
+   "cv"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC6014685",
+  "doi": "10.1021/jacs.8b03333",
+  "year": 2018,
+  "journal": "J Am Chem Soc",
+  "title": "Transition Metal-Free 1,2-Carboboration of Unactivated Alkenes.",
+  "cited_by": 112,
+  "cites_gm": 150.41276541570534,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 6,
+  "experiments": [
+   "radical_clock",
+   "control",
+   "dft"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4183636",
+  "doi": "10.1021/ja508317j",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Decarboxylative allylation of amino alkanoic acids and esters via dual catalysis.",
+  "cited_by": 118,
+  "cites_gm": 157.79100101083077,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "radical_trap",
+   "control",
+   "in_situ_nmr"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC6470957",
+  "doi": "10.1002/anie.201810782",
+  "year": 2018,
+  "journal": "Angew Chem Int Ed Engl",
+  "title": "Metal-Free Radical Borylation of Alkyl and Aryl Iodides.",
+  "cited_by": 117,
+  "cites_gm": 158.23400393088713,
+  "exposure": "high",
+  "reaction_class": "radical (non-photo)",
+  "n_int": 5,
+  "experiments": [
+   "radical_clock",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC6377667",
+  "doi": "10.1038/s41467-019-08697-x",
+  "year": 2019,
+  "journal": "Nat Commun",
+  "title": "Oxygen vacancy associated single-electron transfer for photofixation of CO<sub>2</sub> to long-chain chemicals.",
+  "cited_by": 85,
+  "cites_gm": 170.0,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 1,
+  "experiments": [
+   "epr",
+   "radical_trap",
+   "isotope_label",
+   "control",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC3985683",
+  "doi": "10.1021/ja411911s",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Controlling first-row catalysts: amination of aryl and heteroaryl chlorides and bromides with primary aliphatic amines catalyzed by a BINAP-ligated single-component Ni(0) complex.",
+  "cited_by": 118,
+  "cites_gm": 171.75564037317667,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 2,
+  "experiments": [
+   "kinetic_order",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC5656926",
+  "doi": "10.1002/chem.201702537",
+  "year": 2017,
+  "journal": "Chemistry",
+  "title": "Nitrene Radical Intermediates in Catalytic Synthesis.",
+  "cited_by": 130,
+  "cites_gm": 173.29166165744962,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_clock",
+   "isotope_label",
+   "kinetic_order",
+   "hrms_trap",
+   "epr",
+   "dft"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC4640605",
+  "doi": "10.1126/sciadv.1500304",
+  "year": 2015,
+  "journal": "Sci Adv",
+  "title": "Isolation of bis(copper) key intermediates in Cu-catalyzed azide-alkyne \"click reaction\".",
+  "cited_by": 117,
+  "cites_gm": 174.0775689168481,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4929524",
+  "doi": "10.1021/jacs.6b04871",
+  "year": 2016,
+  "journal": "J Am Chem Soc",
+  "title": "Mechanism of the Stereoselective α-Alkylation of Aldehydes Driven by the Photochemical Activity of Enamines.",
+  "cited_by": 126,
+  "cites_gm": 177.8370040233472,
+  "exposure": "high",
+  "reaction_class": "organocatalysis",
+  "n_int": 8,
+  "experiments": [
+   "radical_trap",
+   "quantum_yield",
+   "stern_volmer",
+   "kinetic_order",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5869318",
+  "doi": "10.1039/c7sc03149a",
+  "year": 2018,
+  "journal": "Chem Sci",
+  "title": "Nickel-catalyzed difunctionalization of allyl moieties using organoboronic acids and halides with divergent regioselectivities.",
+  "cited_by": 139,
+  "cites_gm": 179.57728141388043,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "isotope_label",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC3970324",
+  "doi": "10.1038/nchem.1822",
+  "year": 2014,
+  "journal": "Nat Chem",
+  "title": "Exceptionally fast carbon-carbon bond reductive elimination from gold(III).",
+  "cited_by": 142,
+  "cites_gm": 182.28549037155975,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "radical_trap",
+   "kinetic_order",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 9
+ },
+ {
+  "pmcid": "PMC4077370",
+  "doi": "10.3762/bjoc.10.97",
+  "year": 2014,
+  "journal": "Beilstein J Org Chem",
+  "title": "On the mechanism of photocatalytic reactions with eosin Y.",
+  "cited_by": 119,
+  "cites_gm": 185.44810594880715,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "quantum_yield",
+   "cv",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC6289870",
+  "doi": "10.1038/s41557-018-0048-1",
+  "year": 2018,
+  "journal": "Nat Chem",
+  "title": "Controlling Pd(IV) reductive elimination pathways enables Pd(II)-catalysed enantioselective C(sp<sup>3</sup>)-H fluorination.",
+  "cited_by": 132,
+  "cites_gm": 187.7338541659442,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "control",
+   "dft"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC5707511",
+  "doi": "10.1039/c5sc01467k",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Iron catalyzed CO<sub>2</sub> hydrogenation to formate enhanced by Lewis acid co-catalysts.",
+  "cited_by": 124,
+  "cites_gm": 201.36533961930985,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 6,
+  "experiments": [
+   "isotope_label",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC3985719",
+  "doi": "10.1021/ja411912p",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Copper-catalyzed intermolecular amidation and imidation of unactivated alkanes.",
+  "cited_by": 157,
+  "cites_gm": 207.78594755180148,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 4,
+  "experiments": [
+   "kie",
+   "radical_trap",
+   "kinetic_order",
+   "epr",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 6
+ },
+ {
+  "pmcid": "PMC4629195",
+  "doi": "10.1021/jacs.5b09671",
+  "year": 2015,
+  "journal": "J Am Chem Soc",
+  "title": "Catalytic Olefin Hydroamidation Enabled by Proton-Coupled Electron Transfer.",
+  "cited_by": 164,
+  "cites_gm": 216.95160750729642,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 2,
+  "experiments": [
+   "control",
+   "stern_volmer",
+   "dft"
+  ],
+  "n_gold": 2
+ },
+ {
+  "pmcid": "PMC4275847",
+  "doi": "10.1039/c4sc02591a",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Carbon-Hydrogen (C-H) Bond Activation at Pd<sup>IV</sup>: A Frontier in C-H Functionalization Catalysis.",
+  "cited_by": 160,
+  "cites_gm": 223.42784070030305,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 7,
+  "experiments": [
+   "kie",
+   "crossover",
+   "kinetic_order",
+   "hrms_trap",
+   "isolation",
+   "in_situ_nmr"
+  ],
+  "n_gold": 7
+ },
+ {
+  "pmcid": "PMC4277776",
+  "doi": "10.1021/ja506228u",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Mechanistic insight into the photoredox catalysis of anti-markovnikov alkene hydrofunctionalization reactions.",
+  "cited_by": 228,
+  "cites_gm": 293.9591808397894,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 3,
+  "experiments": [
+   "quantum_yield",
+   "stern_volmer",
+   "crossover",
+   "kinetic_order",
+   "cv",
+   "control",
+   "dft"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4277758",
+  "doi": "10.1021/ja508718m",
+  "year": 2014,
+  "journal": "J Am Chem Soc",
+  "title": "Nickel-catalyzed Negishi arylations of propargylic bromides: a mechanistic investigation.",
+  "cited_by": 244,
+  "cites_gm": 324.6659822032484,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_trap",
+   "radical_clock",
+   "hrms_trap",
+   "epr",
+   "cv",
+   "isolation",
+   "in_situ_nmr",
+   "control"
+  ],
+  "n_gold": 3
+ },
+ {
+  "pmcid": "PMC5054938",
+  "doi": "10.1021/jacs.6b04789",
+  "year": 2016,
+  "journal": "J Am Chem Soc",
+  "title": "Photochemical Nickel-Catalyzed C-H Arylation: Synthetic Scope and Mechanistic Investigations.",
+  "cited_by": 274,
+  "cites_gm": 377.10210818822003,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 5,
+  "experiments": [
+   "kie",
+   "isolation",
+   "control"
+  ],
+  "n_gold": 4
+ },
+ {
+  "pmcid": "PMC4049235",
+  "doi": "10.1021/jo500507s",
+  "year": 2014,
+  "journal": "J Org Chem",
+  "title": "Cross-electrophile coupling: principles of reactivity and selectivity.",
+  "cited_by": 373,
+  "cites_gm": 501.7718605103319,
+  "exposure": "high",
+  "reaction_class": "transition-metal catalysis",
+  "n_int": 3,
+  "experiments": [
+   "radical_clock",
+   "isolation",
+   "cv",
+   "control"
+  ],
+  "n_gold": 5
+ },
+ {
+  "pmcid": "PMC4676763",
+  "doi": "10.1039/c5sc02185e",
+  "year": 2015,
+  "journal": "Chem Sci",
+  "title": "Characterizing Chain Processes in Visible Light Photoredox Catalysis.",
+  "cited_by": 622,
+  "cites_gm": 622,
+  "exposure": "high",
+  "reaction_class": "photoredox",
+  "n_int": 9,
+  "experiments": [
+   "light_on_off",
+   "quantum_yield",
+   "stern_volmer",
+   "control"
+  ],
+  "n_gold": 8
+ }
+]

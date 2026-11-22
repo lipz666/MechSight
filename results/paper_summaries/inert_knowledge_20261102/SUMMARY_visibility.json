@@ -1,0 +1,269 @@
+{
+  "model": "gemini-3.8-flash-high",
+  "cases_all": 89,
+  "cases_paired": 55,
+  "primary_shown_events_paired": {
+    "events": 70,
+    "cases": 55,
+    "recall_meanE": [
+      0.464,
+      0.355,
+      0.585
+    ],
+    "recall_V_plus": [
+      0.757,
+      0.647,
+      0.866
+    ],
+    "V_plus_minus_meanE": [
+      0.293,
+      0.191,
+      0.41
+    ],
+    "recall_V_zero": [
+      0.514,
+      0.389,
+      0.647
+    ],
+    "V_plus_minus_V_zero": [
+      0.243,
+      0.121,
+      0.369
+    ],
+    "V_zero_minus_meanE": [
+      0.05,
+      -0.023,
+      0.127
+    ]
+  },
+  "shown_events_known_paired": {
+    "events": 54,
+    "cases": 42,
+    "recall_meanE": [
+      0.519,
+      0.393,
+      0.656
+    ],
+    "recall_V_plus": [
+      0.704,
+      0.569,
+      0.839
+    ],
+    "V_plus_minus_meanE": [
+      0.185,
+      0.091,
+      0.297
+    ],
+    "recall_V_zero": [
+      0.593,
+      0.451,
+      0.735
+    ],
+    "V_plus_minus_V_zero": [
+      0.111,
+      0.0,
+      0.224
+    ],
+    "V_zero_minus_meanE": [
+      0.074,
+      -0.019,
+      0.172
+    ]
+  },
+  "shown_events_unknown_paired": {
+    "events": 16,
+    "cases": 13,
+    "recall_meanE": [
+      0.281,
+      0.094,
+      0.5
+    ],
+    "recall_V_plus": [
+      0.938,
+      0.824,
+      1.0
+    ],
+    "V_plus_minus_meanE": [
+      0.656,
+      0.433,
+      0.875
+    ],
+    "recall_V_zero": [
+      0.25,
+      0.062,
+      0.467
+    ],
+    "V_plus_minus_V_zero": [
+      0.688,
+      0.471,
+      0.882
+    ],
+    "V_zero_minus_meanE": [
+      -0.031,
+      -0.088,
+      0.0
+    ]
+  },
+  "shown_heavy_events_paired": {
+    "events": 41,
+    "cases": 36,
+    "recall_meanE": [
+      0.402,
+      0.26,
+      0.554
+    ],
+    "recall_V_plus": [
+      0.878,
+      0.744,
+      1.0
+    ],
+    "V_plus_minus_meanE": [
+      0.476,
+      0.321,
+      0.631
+    ],
+    "recall_V_zero": [
+      0.439,
+      0.282,
+      0.595
+    ],
+    "V_plus_minus_V_zero": [
+      0.439,
+      0.282,
+      0.6
+    ],
+    "V_zero_minus_meanE": [
+      0.037,
+      -0.073,
+      0.143
+    ]
+  },
+  "spillover_unshown_hidden_paired": {
+    "events": 27,
+    "cases": 17,
+    "recall_meanE": [
+      0.481,
+      0.352,
+      0.619
+    ],
+    "recall_V_plus": [
+      0.407,
+      0.25,
+      0.556
+    ],
+    "V_plus_minus_meanE": [
+      -0.074,
+      -0.205,
+      0.0
+    ],
+    "recall_V_zero": [
+      0.519,
+      0.368,
+      0.682
+    ],
+    "V_plus_minus_V_zero": [
+      -0.111,
+      -0.292,
+      0.0
+    ],
+    "V_zero_minus_meanE": [
+      0.037,
+      -0.042,
+      0.136
+    ]
+  },
+  "secondary_shown_events_all_cases": {
+    "events": 121,
+    "cases": 89,
+    "recall_meanE": [
+      0.591,
+      0.5,
+      0.677
+    ],
+    "recall_V_plus": [
+      0.843,
+      0.772,
+      0.912
+    ],
+    "V_plus_minus_meanE": [
+      0.252,
+      0.175,
+      0.336
+    ]
+  },
+  "secondary_shown_known_all_cases": {
+    "events": 98,
+    "cases": 74,
+    "recall_meanE": [
+      0.668,
+      0.567,
+      0.768
+    ],
+    "recall_V_plus": [
+      0.827,
+      0.737,
+      0.91
+    ],
+    "V_plus_minus_meanE": [
+      0.158,
+      0.092,
+      0.231
+    ]
+  },
+  "secondary_shown_unknown_all_cases": {
+    "events": 23,
+    "cases": 18,
+    "recall_meanE": [
+      0.261,
+      0.104,
+      0.45
+    ],
+    "recall_V_plus": [
+      0.913,
+      0.783,
+      1.0
+    ],
+    "V_plus_minus_meanE": [
+      0.652,
+      0.45,
+      0.833
+    ]
+  },
+  "sigma_L1_paired": {
+    "E": [
+      0.345,
+      0.218,
+      0.473
+    ],
+    "E_r2": [
+      0.345,
+      0.218,
+      0.473
+    ],
+    "V_plus": [
+      0.491,
+      0.364,
+      0.618
+    ],
+    "V_zero": [
+      0.382,
+      0.255,
+      0.509
+    ]
+  },
+  "sigma_L1_V_plus_minus_V_zero": [
+    0.109,
+    -0.018,
+    0.236
+  ],
+  "sigma_L1_V_zero_minus_meanE": [
+    0.036,
+    -0.036,
+    0.118
+  ],
+  "sigma_L1_V_plus_minus_meanE_all_cases": [
+    0.118,
+    0.045,
+    0.197
+  ]
+}

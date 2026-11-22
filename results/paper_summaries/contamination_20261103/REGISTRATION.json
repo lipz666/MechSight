@@ -1,0 +1,12 @@
+{
+  "registered_at": "2026-11-03, before any call of this probe",
+  "question": "Is the models' performance on FukuyamaBench explained by memorised problems?",
+  "design": "J3 cases with an eligible spectator carbon (ks.analog_case). From reactants and conditions only, predict the major product(s); original vs. homologue with one CH3 added >= 3 bonds from every atom any GT step touches (mechanism unchanged). Scored by sigma-graph key on new product species.",
+  "models": ["gemini (two-endpoint failover)", "gpt-6-luna (vps)"],
+  "decision": {
+    "memorisation_signal": "original - homologue >= +15 pp with case-clustered 95% CI excluding 0",
+    "no_evidence_of_memorisation": "CI within +-10 pp or point estimate <= +5 pp",
+    "otherwise": "inconclusive"
+  },
+  "complements": "existing KS results: 'seen this problem' unrelated to knowledge (-1.9 pp); free-text hidden-intermediate recall on homologues 69% -> 60%"
+}

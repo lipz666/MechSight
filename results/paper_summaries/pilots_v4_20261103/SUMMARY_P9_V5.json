@@ -1,0 +1,1287 @@
+{
+ "summary": {
+  "A0": {
+   "n": 29,
+   "author_intermediate_recall": [
+    0.373,
+    0.263,
+    0.486
+   ],
+   "all_present": [
+    0.069,
+    0.0,
+    0.172
+   ]
+  },
+  "M_ms_none": {
+   "n": 28,
+   "author_intermediate_recall": [
+    0.524,
+    0.397,
+    0.639
+   ],
+   "all_present": [
+    0.179,
+    0.036,
+    0.321
+   ]
+  },
+  "V5_r1": {
+   "n": 29,
+   "author_intermediate_recall": [
+    0.516,
+    0.392,
+    0.633
+   ],
+   "all_present": [
+    0.172,
+    0.069,
+    0.31
+   ]
+  },
+  "V5": {
+   "n": 29,
+   "author_intermediate_recall": [
+    0.527,
+    0.403,
+    0.648
+   ],
+   "all_present": [
+    0.207,
+    0.069,
+    0.379
+   ]
+  },
+  "O_llm": {
+   "n": 26,
+   "author_intermediate_recall": [
+    0.51,
+    0.38,
+    0.637
+   ],
+   "all_present": [
+    0.154,
+    0.038,
+    0.308
+   ]
+  },
+  "O_ms": {
+   "n": 26,
+   "author_intermediate_recall": [
+    0.535,
+    0.41,
+    0.654
+   ],
+   "all_present": [
+    0.154,
+    0.038,
+    0.308
+   ]
+  },
+  "V5_obs": {
+   "n": 26,
+   "author_intermediate_recall": [
+    0.561,
+    0.43,
+    0.688
+   ],
+   "all_present": [
+    0.231,
+    0.077,
+    0.385
+   ]
+  },
+  "M_ms_none_minus_A0_recall": [
+   0.156,
+   0.076,
+   0.244
+  ],
+  "M_ms_none_minus_A0_all_present": [
+   0.107,
+   0.0,
+   0.214
+  ],
+  "V5_r1_minus_A0_recall": [
+   0.143,
+   0.067,
+   0.218
+  ],
+  "V5_r1_minus_A0_all_present": [
+   0.103,
+   0.0,
+   0.207
+  ],
+  "V5_minus_A0_recall": [
+   0.154,
+   0.079,
+   0.232
+  ],
+  "V5_minus_A0_all_present": [
+   0.138,
+   0.034,
+   0.276
+  ],
+  "O_llm_minus_A0_recall": [
+   0.12,
+   0.016,
+   0.226
+  ],
+  "O_llm_minus_A0_all_present": [
+   0.077,
+   0.0,
+   0.192
+  ],
+  "O_ms_minus_A0_recall": [
+   0.145,
+   0.061,
+   0.236
+  ],
+  "O_ms_minus_A0_all_present": [
+   0.077,
+   0.0,
+   0.192
+  ],
+  "V5_obs_minus_A0_recall": [
+   0.171,
+   0.078,
+   0.27
+  ],
+  "V5_obs_minus_A0_all_present": [
+   0.154,
+   0.038,
+   0.308
+  ],
+  "O_ms_minus_O_llm_recall": [
+   0.025,
+   -0.039,
+   0.094
+  ],
+  "O_ms_minus_V5_recall": [
+   0.011,
+   -0.059,
+   0.084
+  ],
+  "V5_obs_minus_O_llm_recall": [
+   0.051,
+   -0.034,
+   0.134
+  ],
+  "V5_obs_minus_V5_recall": [
+   0.038,
+   -0.014,
+   0.117
+  ]
+ },
+ "per_paper": [
+  {
+   "id": "PMC12780792",
+   "n_author_intermediates": 4,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "O_llm": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC12794647",
+   "n_author_intermediates": 4,
+   "has_clues": true,
+   "A0": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "M_ms_none": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "V5_r1": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "O_llm": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "O_ms": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC12809706",
+   "n_author_intermediates": 6,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.333,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC12831795",
+   "n_author_intermediates": 3,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC12857298",
+   "n_author_intermediates": 7,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.143,
+    "hits": 1,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.571,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.571,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.571,
+    "hits": 4,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.286,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.571,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.571,
+    "hits": 4,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13034179",
+   "n_author_intermediates": 8,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13036046",
+   "n_author_intermediates": 3,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.333,
+    "hits": 1,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_r1": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13039371",
+   "n_author_intermediates": 5,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.6,
+    "hits": 3,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 1.0,
+    "hits": 5,
+    "all_present": true
+   },
+   "V5_r1": {
+    "recall": 1.0,
+    "hits": 5,
+    "all_present": true
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 5,
+    "all_present": true
+   },
+   "O_llm": {
+    "recall": 0.6,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.6,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 5,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13133923",
+   "n_author_intermediates": 6,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.667,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.5,
+    "hits": 3,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13134566",
+   "n_author_intermediates": 5,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.2,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13171995",
+   "n_author_intermediates": 7,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.429,
+    "hits": 3,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.714,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.714,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.714,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.429,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.429,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.714,
+    "hits": 5,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13230889",
+   "n_author_intermediates": 8,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.625,
+    "hits": 5,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13289785",
+   "n_author_intermediates": 3,
+   "has_clues": false,
+   "A0": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13319112",
+   "n_author_intermediates": 2,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13321810",
+   "n_author_intermediates": 3,
+   "has_clues": false,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13342334",
+   "n_author_intermediates": 8,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13376514",
+   "n_author_intermediates": 4,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13381962",
+   "n_author_intermediates": 6,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.833,
+    "hits": 5,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13385794",
+   "n_author_intermediates": 8,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.5,
+    "hits": 4,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13408493",
+   "n_author_intermediates": 4,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.25,
+    "hits": 1,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.25,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.25,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.25,
+    "hits": 1,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   },
+   "O_ms": {
+    "recall": 0.75,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 4,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13438561",
+   "n_author_intermediates": 8,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.25,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13464617",
+   "n_author_intermediates": 4,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13482915",
+   "n_author_intermediates": 2,
+   "has_clues": false,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13502330",
+   "n_author_intermediates": 5,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13530165",
+   "n_author_intermediates": 3,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.667,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_r1": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "O_llm": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "O_ms": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13592431",
+   "n_author_intermediates": 7,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.286,
+    "hits": 2,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.429,
+    "hits": 3,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.286,
+    "hits": 2,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.286,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.857,
+    "hits": 6,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.714,
+    "hits": 5,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.429,
+    "hits": 3,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13602958",
+   "n_author_intermediates": 3,
+   "has_clues": true,
+   "A0": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "M_ms_none": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_r1": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "O_llm": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "O_ms": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   },
+   "V5_obs": {
+    "recall": 1.0,
+    "hits": 3,
+    "all_present": true
+   }
+  },
+  {
+   "id": "PMC13625736",
+   "n_author_intermediates": 5,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.4,
+    "hits": 2,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.0,
+    "hits": 0,
+    "all_present": false
+   }
+  },
+  {
+   "id": "PMC13703958",
+   "n_author_intermediates": 6,
+   "has_clues": true,
+   "A0": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "M_ms_none": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_r1": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "O_llm": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "O_ms": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   },
+   "V5_obs": {
+    "recall": 0.167,
+    "hits": 1,
+    "all_present": false
+   }
+  }
+ ]
+}

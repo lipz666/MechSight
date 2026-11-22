@@ -1,0 +1,132 @@
+{
+ "Direct": {
+  "n": 28,
+  "all_present": [
+   0.5,
+   0.321,
+   0.679
+  ],
+  "in_order_full": [
+   0.5,
+   0.321,
+   0.679
+  ],
+  "in_order_frac": [
+   0.623,
+   0.467,
+   0.781
+  ]
+ },
+ "CoT": {
+  "n": 28,
+  "all_present": [
+   0.536,
+   0.357,
+   0.714
+  ],
+  "in_order_full": [
+   0.536,
+   0.357,
+   0.714
+  ],
+  "in_order_frac": [
+   0.65,
+   0.498,
+   0.795
+  ]
+ },
+ "SelfConsistency": {
+  "n": 28,
+  "all_present": [
+   0.5,
+   0.321,
+   0.679
+  ],
+  "in_order_full": [
+   0.5,
+   0.321,
+   0.679
+  ],
+  "in_order_frac": [
+   0.632,
+   0.476,
+   0.792
+  ]
+ },
+ "M_ms_none": {
+  "n": 28,
+  "all_present": [
+   0.5,
+   0.321,
+   0.714
+  ],
+  "in_order_full": [
+   0.5,
+   0.321,
+   0.714
+  ],
+  "in_order_frac": [
+   0.579,
+   0.398,
+   0.75
+  ]
+ },
+ "MechAgent": {
+  "n": 28,
+  "all_present": [
+   0.571,
+   0.393,
+   0.75
+  ],
+  "in_order_full": [
+   0.571,
+   0.393,
+   0.75
+  ],
+  "in_order_frac": [
+   0.68,
+   0.521,
+   0.832
+  ]
+ },
+ "CoT_minus_Direct_all_present": [
+  0.036,
+  0.0,
+  0.107
+ ],
+ "CoT_minus_Direct_in_order_full": [
+  0.036,
+  0.0,
+  0.107
+ ],
+ "SelfConsistency_minus_Direct_all_present": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "SelfConsistency_minus_Direct_in_order_full": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "M_ms_none_minus_Direct_all_present": [
+  0.0,
+  -0.179,
+  0.179
+ ],
+ "M_ms_none_minus_Direct_in_order_full": [
+  0.0,
+  -0.179,
+  0.179
+ ],
+ "MechAgent_minus_Direct_all_present": [
+  0.071,
+  -0.071,
+  0.214
+ ],
+ "MechAgent_minus_Direct_in_order_full": [
+  0.071,
+  -0.071,
+  0.214
+ ]
+}

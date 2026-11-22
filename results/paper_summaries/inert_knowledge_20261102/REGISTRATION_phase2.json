@@ -1,0 +1,17 @@
+{
+  "registered_at": "2026-11-02, after phase 1 results, before any phase-2 model call",
+  "purpose": "Decompose the phase-1 gap between E (executable PGL) and S/G (free text) into sampling noise, the net-change facts in the E prompt, and a generic cue, all within the executable PGL format.",
+  "model_cases_scoring": "Same as REGISTRATION.json (gemini-3.8-flash, 147 J3 cases, H-anonymised transient pairs, sigma-graph keys for free text). Concurrency 300.",
+  "conditions": {
+    "E_r2": "E resampled with the identical prompt",
+    "E_nofacts": "E prompt with the 'Endpoint-derived facts' block (net bond changes computed from initial/target) removed",
+    "E_cue": "E prompt plus the generic cue text of condition G"
+  },
+  "primary_analyses_heavy_atom_hidden_events": {
+    "noise": "Among events omitted in E: re-appearance rate in E_r2 vs. rate known in free text (S or G). Inert knowledge over noise is supported if the free-text rate exceeds the E_r2 re-appearance rate by >= 15 pp; additionally report free-text knowledge among events omitted in both E and E_r2.",
+    "net_facts": "E_nofacts minus mean(E, E_r2) hidden-event recall; effect present if the 95% case-clustered CI excludes 0.",
+    "cue_in_pgl": "E_cue minus mean(E, E_r2) hidden-event recall; effect present if the 95% CI excludes 0."
+  },
+  "secondary": ["same for all events and H-transfer events", "sigma-L1 per condition and differences vs mean(E, E_r2)"],
+  "note": "Phase-1 primary result is unchanged by this phase; these analyses qualify its interpretation."
+}

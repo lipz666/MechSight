@@ -1,0 +1,58 @@
+{
+ "heavy": {
+  "K_named_minus_unnamed": [
+   0.221,
+   -0.107,
+   0.554
+  ],
+  "E_named_minus_unnamed": [
+   0.117,
+   -0.169,
+   0.381
+  ],
+  "K_seen_minus_unseen": [
+   -0.019,
+   -0.224,
+   0.184
+  ],
+  "K_A_minus_C": [
+   0.191,
+   0.023,
+   0.371
+  ],
+  "E_A_minus_C": [
+   0.315,
+   0.004,
+   0.627
+  ],
+  "unnamed_cases": 12
+ },
+ "all": {
+  "K_named_minus_unnamed": [
+   0.258,
+   0.019,
+   0.482
+  ],
+  "E_named_minus_unnamed": [
+   0.069,
+   -0.121,
+   0.258
+  ],
+  "K_seen_minus_unseen": [
+   0.113,
+   -0.038,
+   0.264
+  ],
+  "K_A_minus_C": [
+   0.171,
+   -0.003,
+   0.347
+  ],
+  "E_A_minus_C": [
+   0.245,
+   0.028,
+   0.449
+  ],
+  "unnamed_cases": 24
+ }
+}

@@ -1,0 +1,20 @@
+{
+  "registered_at": "2026-11-02, before any model call of this experiment",
+  "question": "When gemini-3.8-flash omits a hidden (net-invisible) sigma event in its executable mechanism, does it know the corresponding hidden intermediate when asked in free text?",
+  "model": "gemini-3.8-flash via http://LLM-GATEWAY-1.example:8080/v1, reasoning_effort=high, temperature=0.2, max_tokens=65536, one sample per condition",
+  "cases": "J3 set: FukuyamaBench held-out primary T0-T2 (123) + dev (24) = 147; 95 have hidden events; 174 probeable events (90 heavy-atom, 84 H-transfer); 12 events without a distinct hidden species are excluded",
+  "conditions": {
+    "E": "executable PGL mechanism, same prompt and audit turn as J3 (agent_v2.generate)",
+    "S": "free-text mechanism with SMILES of each intermediate in <intermediates>",
+    "G": "S plus a generic, case-independent cue to consider short-lived species not visible in the overall equation"
+  },
+  "scoring": "E uses an event if the predicted path forms and breaks the same H-anonymised pair. S/G recall an event if any listed SMILES matches a GT hidden species in the event window by sigma-graph key (heavy-atom connectivity + H count per heavy atom; bond orders and charges ignored). Skeleton key (no H) is a sensitivity analysis.",
+  "primary": "Heavy-atom hidden events omitted in E: fraction recalled in S or G (exact sigma-key), case-clustered bootstrap 95% CI.",
+  "decision_rule": {
+    "inert_knowledge": "primary >= 0.50 (strong if >= 0.70)",
+    "knowledge_gap": "primary <= 0.30",
+    "mixed": "0.30 < primary < 0.50"
+  },
+  "secondary": ["same quantity for all events and for H-transfer events", "recall in E vs S vs G", "G - S paired difference (does a generic cue activate knowledge)", "skeleton-key sensitivity", "E sigma-L1 on all 147 cases (comparison with the main law)"],
+  "limitations_declared_in_advance": ["one model, one sample per condition", "free-text recall is a recall test, not a recognition test", "S/G and E differ in format as well as in cueing"]
+}

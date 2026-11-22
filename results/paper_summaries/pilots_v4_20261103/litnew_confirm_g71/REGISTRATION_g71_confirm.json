@@ -1,0 +1,90 @@
+{
+ "title": "Guided v7.1 (consensus-anchored revision) confirmation on new 2026 literature",
+ "registered": "2026-11-06T10:19:58+08:00",
+ "status": "registered before any method arm was run on the confirmation papers",
+ "development": "lit172g (165 papers) was used to diagnose v7, choose the support threshold (3/7, 2-fold CV) and run v7.1 once: v7.1 - Direct_clues recall +4.4 [1.0, 8.1]; v7.1 - SC15 +4.0 [1.6, 6.7]; precision -0.2. These papers are excluded from confirmation.",
+ "confirmation_set": {
+  "DS": "litnew_g",
+  "run": "outputs/pilots_v4_20261103/litnew_confirm_g71",
+  "manifest": "MANIFEST.json (batches)",
+  "batch1": "the 58 lit150 PDFs not in the lit172 manifest (46 usable after argon gold)",
+  "batch2": "experiments/lit_more/fetch_more.py rule (2026-01-01..2026-11-05 OA mechanistic papers, >=3 mechanistic-experiment categories, rank order, TARGET 260 PDFs), appended as batch 2 unchanged",
+  "gold": "p29_gold_rebuild.py with gemini-4-argon-build reading the PDF; usable = reaction_ok and >=1 gold substrate intermediate and clues present; a paper whose extraction fails after the scripted retries (or returns malformed JSON twice) is excluded before any arm is scored"
+ },
+ "arms": [
+  "Direct",
+  "Direct_clues",
+  "MechSight_Auto",
+  "Guided_v7",
+  "SC7",
+  "SC15",
+  "Guided_v71"
+ ],
+ "models": {
+  "methods": "gemini-3.8-flash on the 117 gateway",
+  "gold": "gemini-4-argon-build"
+ },
+ "primary": {
+  "contrast": "Guided_v71 - Direct_clues",
+  "metric": "per-paper recall of gold substrate intermediates (sigma-graph keys, species de-duplicated)",
+  "population": "all usable papers of batch 1 + batch 2",
+  "test": "reaction-clustered paired bootstrap 95% CI (K.paired); PASS iff lower bound > 0"
+ },
+ "key_secondary": [
+  {
+   "contrast": "Guided_v71 - SC15",
+   "metric": "recall",
+   "criterion": "lower bound > 0 (compute-matched sampling control)"
+  },
+  {
+   "contrast": "Guided_v71 - Direct_clues",
+   "metric": "precision",
+   "criterion": "non-inferiority: lower bound > -3 percentage points"
+  }
+ ],
+ "other_secondary": [
+  "F1 and relaxed recall for all contrasts",
+  "Guided_v71 - Guided_v7",
+  "MechSight_Auto - Direct",
+  "SC15 - Direct_clues"
+ ],
+ "interim": "batch 1 (46 papers) is analyzed first and reported descriptively (--batch 1). It does not stop, extend or change the study; no code, prompt, threshold or rule may change after registration. The primary result is the analysis of batch 1 + batch 2.",
+ "deviations": "any deviation is recorded here with date and reason; failed calls are retried from cache only",
+ "code_sha256": {
+  "p31_guided71.py": "6bb41ff8cf875ed45b8b01188312a2f48f93f42796b3f683ce6d196f6875cafc",
+  "p30_lit172_gold.py": "5f8fd6b4b56487e8e0ef41c47b7e7ef14676699f684242558f895f12f0523ba7",
+  "p29_gold_rebuild.py": "43c0f71c1d5d6d276107c1030ca117f76bce28bbe1c6163c5089cd848786feb8",
+  "p28_lit172_v7.py": "ea99ad7faa841511c0c02d9bf305c25d81cbf903e2aae9aa46fdec219b93f133",
+  "p25_guided7.py": "efdb0ed5402f9bad8bb60c8edabd8ae405351a2f00df6585877525555124cb15",
+  "p11_mechagent.py": "7a3a58dc3b3769774dcd939e7be05dc14dad3e61dcc80d0f918072e06a0897ad",
+  "p24_v6.py": "afd89beec3c37fc31a3641ad63d848428007dd548e25e7bf73aba534873124ae",
+  "common4.py": "90f558c14804b6c57e8e439a9aa3e4543d866f552f817d776feabb384b4b50dc",
+  "p2_enumerate.py": "524ae422bae42c521252035ab27b9803860dc9566160572947b7ed29f8194b12",
+  "p6_baselines.py": "b49f8a542dd0ec4f06ed9cd7584d77fa8bce2d574d9fe6138877c20588fe83d2",
+  "p8_observations.py": "25e415195888c083f06c68830e19daea245a396356a23cf372919f5db12247da",
+  "stepmap.py": "2a55a48c52ea98128e5b2fb7df2a62c4ed169d23054b74afdb1d29662d5b85dc",
+  "../lit_more/fetch_more.py": "4fef38ef6bfcf2f1cf6d03b82da03db5286c14feb747d33f3ba8dd257474617d"
+ },
+ "log": [
+  {
+   "when": "2026-11-06T12:28:16+08:00",
+   "note": "batch 2 gold: 259/260 extracted (1 paper PMC excluded: argon 413 payload too large after scripted retries; 122 first-pass 502s retried at concurrency 30 with unchanged code), 225 usable. Batch-1 arm run (not yet analyzed) merged into one run over batch 1 + batch 2 for efficiency; cached calls reused, no code change."
+  },
+  {
+   "when": "2026-11-06T13:45+08:00",
+   "note": "merged batch 1+2 run stopped in auto_pool (1350/1626 jobs failed): gateway 429, gemini-3.8-flash quota exhausted on all accounts (earliest reset 15:59). The per-batch analyses that ran after the failure used incomplete arms; they were moved unread to _invalid_incomplete_20261106/. Resuming the same frozen code and model from cache once quota returns; no code, prompt, model or threshold change."
+  },
+  {
+   "when": "2026-11-06T14:55+08:00",
+   "note": "Scope reduction decided before any confirmation outcome was computed or seen, following the paper plan (D3/D4: no version comparisons in the paper; SC@15 reported on the dev set): the confirmation runs only Direct, MechSight_Auto, Direct_clues and Guided_v71 via p31_confirm_core.py (sha256 22d5426149a5868046ac342071bc2ba81facbe4055a3a1473dc2846bd8d5bdc0), which selects phases of the unchanged p31_guided71.py. Dropped arms: Guided_v7, SC7, SC15 (with clue samples 3..14). The key secondary Guided_v71 - SC15 is withdrawn; the primary (Guided_v71 - Direct_clues recall, CI lower bound > 0) and precision non-inferiority (-3 pp) are unchanged."
+  },
+  {
+   "when": "2026-11-06T17:10+08:00",
+   "note": "Amendment before any confirmation outcome was computed or seen. (1) Primary method frozen as MechSight-Guided = v7.1 revision + A1 insertion of left-out >=3/7 consensus species (selected on the lit172g dev set: 3.6 pilot ranking, then 3.8 dev check +10.7 [6.8,15.0] vs Direct+clues). Primary test: MechSight_Guided - Direct_clues recall, pass iff 95% CI lower bound > 0; reported with F1, relaxed recall and n_pred. (2) The precision non-inferiority criterion is withdrawn by the PI decision; precision is no longer a reported metric (the per-paper value is still written in the raw summary file). Code: p31_confirm_core.py sha256 9cb856c82e73f277595b556b022febd6cdf1443b0898e9dcfcff611913141702, p34_pilot36.py sha256 9ed76c822158f69a34cc5e63d9f4635a7f0ee9dbc42ff8450d10f70b117278f2, p31_guided71.py unchanged (6bb41ff8cf875ed45b8b01188312a2f48f93f42796b3f683ce6d196f6875cafc). Model gemini-3.8-flash."
+  },
+  {
+   "when": "2026-11-06T20:28+08:00",
+   "note": "Result (run completed 20:28, 0 job errors; A1 insertion call on 129 of 271 papers). Primary MechSight_Guided - Direct_clues recall +10.0 pp [7.3, 12.6], n=271: PASS (CI lower bound > 0). Reported with F1 +3.9 [1.8, 5.9], relaxed recall +8.2 [5.2, 11.1]; n_pred 5.34 vs 4.06. Pre-specified batches: batch1 (n=46) +11.2 [5.1, 17.8]; batch2 (n=225) +9.7 [6.8, 12.7]. Files SUMMARY_G71.json, SUMMARY_G71_batch1.json, SUMMARY_G71_batch2.json."
+  }
+ ]
+}

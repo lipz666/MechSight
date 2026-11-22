@@ -1,0 +1,22 @@
+{
+  "steps": 110,
+  "candidates_per_step": 8,
+  "mean_changes_gt": 5.03,
+  "mean_changes_negatives": 4.99,
+  "gemini-3.8-flash-high": {
+    "steps_scored": 110,
+    "chance": 0.125,
+    "direct_top1": 0.9909,
+    "direct_no_answer": 0,
+    "by_gt_step_size": {
+      "3-4 changes": {
+        "n": 61,
+        "direct": 1
+      },
+      "5+ changes": {
+        "n": 49,
+        "direct": 0.98
+      }
+    }
+  }
+}

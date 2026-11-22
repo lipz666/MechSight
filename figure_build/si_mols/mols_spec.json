@@ -1,0 +1,89 @@
+{
+ "m3_parent": {
+  "smi": "OCc1ccccc1",
+  "template": ["OCc1ccccc1", "[#8]-[#6]-c1ccccc1"],
+  "rot": -30
+ },
+ "m3_preserve": {
+  "smi": "Cc1ccc(CO)cc1",
+  "template": ["OCc1ccccc1", "[#8]-[#6]-c1ccccc1"],
+  "rot": -30
+ },
+ "m3_blocked": {
+  "smi": "CC(C)(O)c1ccccc1",
+  "template": ["OCc1ccccc1", "[#8]-[#6]-c1ccccc1"],
+  "rot": -30
+ },
+ "hom_parent": {
+  "smi": "CC(=O)c1ccccc1",
+  "rot": -15
+ },
+ "hom_ch3": {
+  "smi": "CC(=O)c1ccc(C)cc1",
+  "template": ["CC(=O)c1ccccc1", "CC(=O)c1ccccc1"],
+  "rot": -15
+ },
+ "gran_ketone": {
+  "smi": "CC(=O)C"
+ },
+ "gran_alkoxide": {
+  "smi": "CC([O-])(OC)C"
+ },
+ "gran_hemiacetal": {
+  "smi": "CC(O)(OC)C"
+ },
+ "fam_bromonium": {
+  "smi": "CC1(C)[Br+]C1C"
+ },
+ "fam_betaine": {
+  "smi": "CC([O-])C[P+](C)(C)C"
+ },
+ "fam_radical": {
+  "smi": "CC([CH2])c1ccccc1",
+  "rot": -20
+ },
+ "fam_iminium": {
+  "smi": "CC(=[NH+]C)c1ccccc1",
+  "rot": -20
+ },
+ "da_diene": {
+  "smi": "C=CC=C",
+  "rot": 90,
+  "tweaks": {
+   "0": [20.0, 0.0],
+   "2": [10.0, 2.7],
+   "3": [20.0, -5.4]
+  }
+ },
+ "da_ene": {
+  "smi": "C=CC=O",
+  "rot": 90
+ },
+ "da_adduct": {
+  "smi": "O=CC1CC=CCC1",
+  "rot": 30
+ },
+ "claisen_sub": {
+  "smi": "C=CCOC=C",
+  "rot": 30,
+  "tweaks": {
+   "0": [10.0, 2.7],
+   "2": [-2.7, -17.3],
+   "3": [4.6, -7.3],
+   "4": [-15.4, 17.3],
+   "5": [-42.7, 54.6]
+  }
+ },
+ "claisen_prod": {
+  "smi": "C=CCCC=O",
+  "rot": -30,
+  "tweaks": {
+   "0": [-66.3, -27.4],
+   "1": [-64.5, -10.0],
+   "2": [-54.5, 27.3],
+   "3": [-17.0, 39.6],
+   "4": [10.3, 39.6],
+   "5": [30.4, 7.5]
+  }
+ }
+}

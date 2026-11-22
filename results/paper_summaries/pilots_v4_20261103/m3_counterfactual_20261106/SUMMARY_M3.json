@@ -1,0 +1,10938 @@
+{
+ "summary": {
+  "designs": 244,
+  "accepted": 140,
+  "type_counts": {
+   "other_site_specific": 68,
+   "directed_CH_activation": 18,
+   "intramolecular_trap_cyclization": 25,
+   "enolization_alpha_deprotonation": 20,
+   "1,2_shift": 4,
+   "beta_H_elimination": 5
+  },
+  "prefilter_pass": 85,
+  "analyzed": 84,
+  "novel_both": 23,
+  "judge_agreement": 0.983,
+  "kstar_use": {
+   "parent": [
+    88.1,
+    83.3,
+    92.3,
+    84
+   ],
+   "preserve": [
+    81.0,
+    73.2,
+    88.1,
+    84
+   ],
+   "break": [
+    9.5,
+    4.2,
+    15.5,
+    84
+   ]
+  },
+  "PRIMARY_break_minus_preserve": [
+   -71.4,
+   -79.8,
+   -62.5,
+   84
+  ],
+  "ghost_any": {
+   "parent": [
+    2.4,
+    0.0,
+    5.4,
+    84
+   ],
+   "preserve": [
+    0.0,
+    0.0,
+    0.0,
+    84
+   ],
+   "break": [
+    3.6,
+    0.6,
+    7.7,
+    84
+   ]
+  },
+  "ghost_smarts_break": [
+   3.0,
+   0.0,
+   7.1,
+   84
+  ],
+  "parsed": {
+   "parent": 0.994,
+   "preserve": 0.994,
+   "break": 1.0
+  },
+  "novel_only_break_minus_preserve": [
+   -78.3,
+   -91.3,
+   -65.2,
+   23
+  ],
+  "exploratory_by_requirement": {
+   "H": {
+    "n": 63,
+    "kstar_use": {
+     "parent": [
+      88.9,
+      83.3,
+      93.7,
+      63
+     ],
+     "preserve": [
+      85.7,
+      77.8,
+      92.1,
+      63
+     ],
+     "break": [
+      8.7,
+      2.4,
+      15.1,
+      63
+     ]
+    },
+    "break_minus_preserve": [
+     -77.0,
+     -85.7,
+     -67.5,
+     63
+    ]
+   },
+   "group": {
+    "n": 21,
+    "kstar_use": {
+     "parent": [
+      85.7,
+      76.2,
+      95.2,
+      21
+     ],
+     "preserve": [
+      66.7,
+      47.6,
+      83.3,
+      21
+     ],
+     "break": [
+      11.9,
+      2.4,
+      23.8,
+      21
+     ]
+    },
+    "break_minus_preserve": [
+     -54.8,
+     -73.8,
+     -35.7,
+     21
+    ]
+   }
+  },
+  "PRIMARY_verdict": "reasoning: break < preserve",
+  "main_text_eligible": true
+ },
+ "rows": [
+  {
+   "id": "PMC2956481",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 2
+     },
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC3557922",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC3656830",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC3914395",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC3935511",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC3963454",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC3985683",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4091274",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4161672",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4168886",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4183636",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4204129",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4230825",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4271674",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4275847",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4277774",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4277776",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4285142",
+   "type": "directed_CH_activation",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4291758",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4301077",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4309444",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4333594",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4333595",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4506563",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4531818",
+   "type": "directed_CH_activation",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4629195",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4640605",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4646816",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4648026",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4674969",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4676763",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4686670",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4805314",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4818983",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4902085",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC4929524",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC4931026",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5054938",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5238569",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5266430",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5297334",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5308286",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5322523",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5354063",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5355911",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5374491",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5374492",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5384211",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5396369",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5437376",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5440670",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5480364",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5488222",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 1
+     },
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5530359",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5602144",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5625593",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5633266",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5642147",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5645917",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "valence": 4
+     }
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5656926",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 1
+     },
+     {
+      "valence": 1
+     }
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5662929",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5669215",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5729417",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5740077",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5765429",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5767734",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5768789",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5811151",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5814878",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     1.0,
+     1.0
+    ],
+    "ghost_flags": [
+     {
+      "smarts": 5
+     },
+     {
+      "smarts": 5
+     }
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5836886",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0
+    ],
+    "use_b": [
+     1.0
+    ],
+    "parsed": 0.5,
+    "ghost_any": [
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 1
+     }
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5853554",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     1.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "smarts": 1
+     },
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5857932",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5868387",
+   "type": "1,2_shift",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 1
+     },
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0
+    ],
+    "use_b": [
+     0.0
+    ],
+    "parsed": 0.5,
+    "ghost_any": [
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0
+    ],
+    "ghost_flags": [
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5869292",
+   "type": "beta_H_elimination",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5869318",
+   "type": "beta_H_elimination",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5869575",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5873043",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5935059",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5941282",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5947531",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5950197",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5952523",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5958344",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5963672",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC5968449",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "valence": 1
+     }
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5989653",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC5994879",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6005156",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6013812",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6013813",
+   "type": "1,2_shift",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6013814",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6026776",
+   "type": "directed_CH_activation",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "valence": 1
+     }
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "valence": 1
+     }
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6053651",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6054104",
+   "type": "1,2_shift",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6090528",
+   "type": "beta_H_elimination",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6120490",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6120528",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6122159",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6122362",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6137435",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6176842",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6240041",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6247822",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6289870",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6328001",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     1.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "smarts": 1
+     }
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6340404",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6349018",
+   "type": "beta_H_elimination",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6368212",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6368603",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6369408",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6377619",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6391947",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6419930",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6440757",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6468272",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6519288",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6534616",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6563703",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6563809",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6568277",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     1.0,
+     1.0
+    ],
+    "ghost_flags": [
+     {
+      "smarts": 3
+     },
+     {
+      "smarts": 3
+     }
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6595435",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6684548",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [],
+    "use_b": [],
+    "parsed": 0.0,
+    "ghost_any": [],
+    "ghost_smarts": [],
+    "ghost_flags": []
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6771573",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6831602",
+   "type": "beta_H_elimination",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6844217",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6884519",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6899485",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6899653",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     1.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {
+      "element": 2
+     }
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6906420",
+   "type": "enolization_alpha_deprotonation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6916381",
+   "type": "intramolecular_trap_cyclization",
+   "requirement": "group",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6973166",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     1.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "smarts": 1
+     },
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC6977546",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6979496",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": true,
+   "novel_break": true,
+   "parent": {
+    "use": [
+     0.0,
+     1.0
+    ],
+    "use_b": [
+     0.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC6991184",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     1.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {
+      "valence": 4
+     },
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC7017866",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC7069235",
+   "type": "1,2_shift",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": false
+  },
+  {
+   "id": "PMC8133029",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC8145945",
+   "type": "other_site_specific",
+   "requirement": "group",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     0.0
+    ],
+    "use_b": [
+     1.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC8146146",
+   "type": "other_site_specific",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  },
+  {
+   "id": "PMC8148384",
+   "type": "directed_CH_activation",
+   "requirement": "H",
+   "novel_preserve": false,
+   "novel_break": false,
+   "parent": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "preserve": {
+    "use": [
+     1.0,
+     1.0
+    ],
+    "use_b": [
+     1.0,
+     1.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "break": {
+    "use": [
+     0.0,
+     0.0
+    ],
+    "use_b": [
+     0.0,
+     0.0
+    ],
+    "parsed": 1.0,
+    "ghost_any": [
+     0.0,
+     0.0
+    ],
+    "ghost_smarts": [
+     0.0,
+     0.0
+    ],
+    "ghost_flags": [
+     {},
+     {}
+    ]
+   },
+   "prefilter": true
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use MechSight, its evaluation scripts, or archived benchmark outputs, please cite the accompanying Angewandte Chemie International Edition manuscript."
+type: software
+title: "MechSight: Knowledge-Driven Reaction Mechanism Elucidation"
+license: MIT
+repository-code: "https://github.com/lipz666/MechSight"
+authors:
+  - family-names: Li
+    given-names: Peize
+    affiliation: "Cuiying Honors College, Lanzhou University, Lanzhou, China"
+  - family-names: Wang
+    given-names: Yimi
+    affiliation: "School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, Shenzhen, China"
+  - family-names: Liu
+    given-names: Chengchun
+    affiliation: "School of AI for Science, Peking University Shenzhen Graduate School, Shenzhen, China"
+    orcid: "https://orcid.org/0009-0002-5550-4145"
+  - family-names: Mo
+    given-names: Fanyang
+    affiliation: "School of AI for Science, Peking University Shenzhen Graduate School, Shenzhen, China"
+    email: "fmo@pku.edu.cn"
+    orcid: "https://orcid.org/0000-0002-4140-3020"
+keywords:
+  - "large language models"
+  - "reaction mechanisms"
+  - "physical organic chemistry"
+  - "reactive intermediates"
+  - "out-of-distribution generalization"
+preferred-citation:
+  type: article
+  title: "Knowledge-Driven Reaction Mechanism Elucidation: Unlocking Inert Chemical Knowledge and Bridging Blind Spots in Large Language Models"
+  authors:
+    - family-names: Li
+      given-names: Peize
+    - family-names: Wang
+      given-names: Yimi
+    - family-names: Liu
+      given-names: Chengchun
+    - family-names: Mo
+      given-names: Fanyang
+  journal: "Angewandte Chemie International Edition"
+  year: 2026

@@ -1,0 +1,49 @@
+{
+ "registered": "2026-11-05T01:13:31",
+ "method": "MechSight-Guided v7 (frozen after dev: J3 + T3_dev blind spots, 41 cases)",
+ "held_out": {
+  "T3_confirm": 14,
+  "oMe-Gold": 62,
+  "total": 76,
+  "definition": "first GT hidden intermediate missed by Direct, absent from every pool candidate and every checked v5 completion state; simulated HRMS clue = formula + exact mass, no structure"
+ },
+ "primary": "blind_species_written: Guided_v7 - Direct_clue, pooled 76, paired reaction-clustered bootstrap 95% CI; success = CI lower bound > 0",
+ "secondary": [
+  "all_present: Guided_v7 - Direct_clue",
+  "blind_species_written: Guided_v7 - Guided_v5",
+  "per-set results"
+ ],
+ "dev_result": {
+  "blind_species_written": {
+   "Guided_v7": 0.439,
+   "Direct_clue": 0.268,
+   "diff": [
+    0.171,
+    0.073,
+    0.293
+   ]
+  }
+ },
+ "note": "T3_confirm blind-spot Direct_clue / Guided_v5 outputs exist from P22 (v5 era) and were seen only as part of the pooled P22 summary; no v6/v7 development used T3_confirm or oMe-Gold.",
+ "model": "gemini-3.8-flash on the 117 gateway",
+ "code_sha256": {
+  "p25_guided7.py": "efdb0ed5402f9bad8bb60c8edabd8ae405351a2f00df6585877525555124cb15",
+  "p24_v6.py": "afd89beec3c37fc31a3641ad63d848428007dd548e25e7bf73aba534873124ae",
+  "p27_g7_confirm.py": "4506b8f0ae9e7d447c23cdd7bbf286ecb916001267e3776cf0b70a54bbfb2303",
+  "p22_extras.py": "6cbe8a883c1ae506cfff1540657cfad98eeaf52d9ff7fc4928cdbf9f2dd1abc9",
+  "p11_mechagent.py": "7a3a58dc3b3769774dcd939e7be05dc14dad3e61dcc80d0f918072e06a0897ad",
+  "p16_supplement_g38.py": "1df9fd15f9ed6885f100576394f3828bd8e35dbed022b960bb3c14efe3f76962",
+  "common4.py": "90f558c14804b6c57e8e439a9aa3e4543d866f552f817d776feabb384b4b50dc"
+ },
+ "addendum_scale": {
+  "registered": "2026-11-05T01:40:43",
+  "sets": [
+   "template",
+   "silver_conf"
+  ],
+  "definition": "same blind-spot definition, on the scale-up sets after their pre-registered v5 run (REGISTRATION_v5_scale.json)",
+  "primary": "blind_species_written: Guided_v7 - Direct_clue, pooled, paired bootstrap 95% CI lower bound > 0",
+  "code_change": "p27_g7_confirm.py only gained --sets and data loading for the scale sets; the method code (p25_guided7.py, p24_v6.py, p11_mechagent.py) is unchanged",
+  "p27_sha256_after_change": "d07dc043eba83431bca1987c68aec7c6adaaba78460fcc5bdaa38f5efc59ded9"
+ }
+}

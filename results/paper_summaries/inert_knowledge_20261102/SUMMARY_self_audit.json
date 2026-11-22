@@ -1,0 +1,38 @@
+{
+  "samples": 582,
+  "paths_changed_by_audit": 118,
+  "heavy_hidden_recall_before": [
+    0.521,
+    0.459,
+    0.586,
+    353
+  ],
+  "heavy_hidden_recall_after": [
+    0.527,
+    0.463,
+    0.592,
+    353
+  ],
+  "heavy_hidden_after_minus_before": [
+    0.006,
+    0.0,
+    0.017,
+    353
+  ],
+  "hidden_events_gained_by_audit": 2,
+  "hidden_events_lost_by_audit": 0,
+  "sigma_L1_before": [
+    0.608,
+    0.567,
+    0.644,
+    582
+  ],
+  "sigma_L1_after": [
+    0.607,
+    0.565,
+    0.644,
+    582
+  ],
+  "sigma_L1_fixed": 1,
+  "sigma_L1_broken": 2
+}

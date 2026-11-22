@@ -1,0 +1,62 @@
+{
+  "steps": 115,
+  "candidates_per_step": 8,
+  "gemini-4-argon-build": {
+    "steps_scored": 50,
+    "chance": 0.125,
+    "direct_top1": 1.0,
+    "direct_no_answer": 0,
+    "scale_top1": 0.5,
+    "scale_no_answer": 0,
+    "scale - direct": {
+      "delta": -0.5,
+      "ci95": [
+        -0.7,
+        -0.2857
+      ],
+      "scale_only": 0,
+      "direct_only": 25
+    },
+    "by_gt_step_size": {
+      "3-4 changes": {
+        "n": 25,
+        "direct": 1,
+        "scale": 0.6
+      },
+      "5+ changes": {
+        "n": 25,
+        "direct": 1,
+        "scale": 0.4
+      }
+    }
+  },
+  "gemini-3.8-flash-build": {
+    "steps_scored": 54,
+    "chance": 0.125,
+    "direct_top1": 1.0,
+    "direct_no_answer": 0,
+    "scale_top1": 0.3333,
+    "scale_no_answer": 0,
+    "scale - direct": {
+      "delta": -0.6667,
+      "ci95": [
+        -0.8077,
+        -0.5469
+      ],
+      "scale_only": 0,
+      "direct_only": 36
+    },
+    "by_gt_step_size": {
+      "3-4 changes": {
+        "n": 28,
+        "direct": 1,
+        "scale": 0.393
+      },
+      "5+ changes": {
+        "n": 26,
+        "direct": 1,
+        "scale": 0.269
+      }
+    }
+  }
+}

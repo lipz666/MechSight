@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-03, before the main SMILES runs (smoke tests only)",
+  "representation": "SMILES state sequences (smiles_mech.TASK); species-level sigma-graph keys; RXNMapper for sigma events where needed",
+  "runs": {
+    "J3 (diagnostics)": "M1, M2 (law, inertness noise) and Vp/V0 (visibility) for gemini, gpt-6-luna, gemini-4-argon (claude-opus-5-5-high when the gateway serves it)",
+    "T3 (95) and oMe-Gold (169)": "M1, M2 direct baselines for the same models; T3 split fixed in benchmarks_20261103/splits.json"
+  },
+  "criteria_replication": {
+    "law": "hidden-species recall < visible-species recall; all-GT-intermediates-present falls with the number of hidden events",
+    "inertness": "heavy hidden events omitted in M1: known in other narratives exceeds re-appearance in M2 by >= 15 pp",
+    "visibility": "shown hidden events, paired J3 cases: Vp - V0 recall with case-clustered 95% CI excluding 0"
+  },
+  "gemini_J3_M1_M2": "copied from smiles_validation_20261103 (same prompt and client)"
+}

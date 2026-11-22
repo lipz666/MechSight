@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175mm" height="115.50mm" viewBox="0 0 1000 660" font-family="Arial, Helvetica, sans-serif"><rect width="1000" height="660" fill="#fff"/><defs><marker id="aInk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#182026"/></marker><marker id="aTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#0F5C8C"/></marker><marker id="aGray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#6E7785"/></marker><marker id="aMuted" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#545E6B"/></marker><marker id="aPurple" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#C84B31"/></marker><marker id="aRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#B8293D"/></marker><marker id="aAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0.8 L10,5 L0,9.2 L2.6,5 Z" fill="#D9822B"/></marker><marker id="aE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.6 L10,5 L0,9.4 L2.4,5 Z" fill="#B8293D"/></marker><marker id="aEh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0.6 L10,5 L2.4,5 Z" fill="#B8293D"/></marker><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5"/></filter><linearGradient id="gainFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F5C8C" stop-opacity="0.22"/><stop offset="1" stop-color="#0F5C8C" stop-opacity="0.08"/></linearGradient></defs>
+<text x="0.0" y="18.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">a</text>
+<text x="24.0" y="18.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Counterfactual active-site blocking (n = 84 triplets, 504 trajectories)</text>
+<rect x="16.0" y="30.0" width="184.0" height="250.0" rx="6" fill="#F8FAFC" stroke="#E4E7EC" stroke-width="0.9" opacity="1"/>
+<text x="24.0" y="46.0" font-size="9.5" fill="#1F3A56" text-anchor="start" font-weight="bold" font-style="normal">Parent (intact)</text>
+<text x="192.0" y="46.0" font-size="10.0" fill="#1F3A56" text-anchor="end" font-weight="bold" font-style="normal">88.1%</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='61.0' y='65.7' width='58.0' height='44.6' viewBox='-30.06 -33.44 80.62 61.97'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="24.97" y1="-25.97" x2="12.57" y2="-26.00"/><line x1="12.57" y1="-26.00" x2="2.52" y2="-8.67"/><line x1="2.52" y1="-8.67" x2="-17.51" y2="-8.71"/><line x1="0.43" y1="-5.07" x2="-15.44" y2="-5.10"/><line x1="-17.51" y1="-8.71" x2="-27.56" y2="8.62"/><line x1="-27.56" y1="8.62" x2="-17.58" y2="25.99"/><line x1="-23.40" y1="8.63" x2="-15.49" y2="22.39"/><line x1="-17.58" y1="25.99" x2="2.45" y2="26.03"/><line x1="2.45" y1="26.03" x2="12.50" y2="8.70"/><line x1="0.38" y1="22.42" x2="8.34" y2="8.69"/><line x1="12.50" y1="8.70" x2="2.52" y2="-8.67"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="27.19" y="-20.98" font-size="13.91">O</text><text x="38.02" y="-20.98" font-size="13.91">H</text></g></svg>
+<circle cx="91.7" cy="71.1" r="6.8" fill="#D9822B" stroke="none" stroke-width="0" opacity="0.3"/>
+<path d="M115.2,77.1 L118.5,80.2 L124.2,73.5" stroke="#0F5C8C" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="24.0" y="126.0" font-size="9.5" fill="#346399" text-anchor="start" font-weight="bold" font-style="normal">Remote edit (≥3 bonds)</text>
+<text x="192.0" y="126.0" font-size="10.0" fill="#346399" text-anchor="end" font-weight="bold" font-style="normal">81.0%</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='61.0' y='139.5' width='58.1' height='57.1' viewBox='-30.13 -33.44 80.69 79.25'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="-27.63" y1="43.31" x2="-17.58" y2="25.99"/><line x1="-17.58" y1="25.99" x2="-27.56" y2="8.62"/><line x1="-27.56" y1="8.62" x2="-17.51" y2="-8.71"/><line x1="-23.40" y1="8.63" x2="-15.44" y2="-5.10"/><line x1="-17.51" y1="-8.71" x2="2.52" y2="-8.67"/><line x1="2.52" y1="-8.67" x2="12.57" y2="-26.00"/><line x1="12.57" y1="-26.00" x2="24.97" y2="-25.97"/><line x1="2.52" y1="-8.67" x2="12.50" y2="8.70"/><line x1="0.43" y1="-5.07" x2="8.34" y2="8.69"/><line x1="12.50" y1="8.70" x2="2.45" y2="26.03"/><line x1="2.45" y1="26.03" x2="-17.58" y2="25.99"/><line x1="0.38" y1="22.42" x2="-15.49" y2="22.39"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="27.19" y="-20.98" font-size="13.91">O</text><text x="38.02" y="-20.98" font-size="13.91">H</text></g></svg>
+<circle cx="91.7" cy="144.8" r="6.8" fill="#D9822B" stroke="none" stroke-width="0" opacity="0.3"/>
+<circle cx="62.7" cy="194.7" r="6.8" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="0.35"/>
+<path d="M115.2,150.8 L118.6,154.0 L124.2,147.2" stroke="#0F5C8C" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="24.0" y="206.0" font-size="9.5" fill="#B8293D" text-anchor="start" font-weight="bold" font-style="normal">Site blocked (no Cα–H)</text>
+<text x="192.0" y="206.0" font-size="10.0" fill="#B8293D" text-anchor="end" font-weight="bold" font-style="normal">9.5%</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='61.0' y='220.4' width='58.0' height='55.3' viewBox='-30.06 -48.22 80.62 76.75'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="-6.24" y1="-32.88" x2="12.57" y2="-26.00"/><line x1="12.57" y1="-26.00" x2="16.09" y2="-45.72"/><line x1="12.57" y1="-26.00" x2="24.97" y2="-25.97"/><line x1="12.57" y1="-26.00" x2="2.52" y2="-8.67"/><line x1="2.52" y1="-8.67" x2="-17.51" y2="-8.71"/><line x1="0.43" y1="-5.07" x2="-15.44" y2="-5.10"/><line x1="-17.51" y1="-8.71" x2="-27.56" y2="8.62"/><line x1="-27.56" y1="8.62" x2="-17.58" y2="25.99"/><line x1="-23.40" y1="8.63" x2="-15.49" y2="22.39"/><line x1="-17.58" y1="25.99" x2="2.45" y2="26.03"/><line x1="2.45" y1="26.03" x2="12.50" y2="8.70"/><line x1="0.38" y1="22.42" x2="8.34" y2="8.69"/><line x1="12.50" y1="8.70" x2="2.52" y2="-8.67"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="27.19" y="-20.98" font-size="13.91">O</text><text x="38.02" y="-20.98" font-size="13.91">H</text></g></svg>
+<circle cx="91.7" cy="236.4" r="6.8" fill="#B8293D" stroke="none" stroke-width="0" opacity="0.3"/>
+<circle cx="78.1" cy="231.4" r="5.8" fill="#B8293D" stroke="none" stroke-width="0" opacity="0.25"/>
+<circle cx="94.2" cy="222.2" r="5.8" fill="#B8293D" stroke="none" stroke-width="0" opacity="0.25"/>
+<line x1="115.2" y1="237.9" x2="124.2" y2="246.9" stroke="#B8293D" stroke-width="1.8" stroke-linecap="round" opacity="1"/>
+<line x1="115.2" y1="246.9" x2="124.2" y2="237.9" stroke="#B8293D" stroke-width="1.8" stroke-linecap="round" opacity="1"/>
+<line x1="238.0" y1="224.0" x2="508.0" y2="224.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="232.0" y="228.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="238.0" y1="183.5" x2="508.0" y2="183.5" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="232.0" y="187.5" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">25</text>
+<line x1="238.0" y1="143.0" x2="508.0" y2="143.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="232.0" y="147.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">50</text>
+<line x1="238.0" y1="102.5" x2="508.0" y2="102.5" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="232.0" y="106.5" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">75</text>
+<line x1="238.0" y1="62.0" x2="508.0" y2="62.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="232.0" y="66.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">100</text>
+<text transform="translate(210,143.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">Target step adopted (%)</text>
+<line x1="238.0" y1="224.0" x2="508.0" y2="224.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<rect x="244.0" y="81.3" width="16.0" height="142.7" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="252.0" y="77.3" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">88</text>
+<rect x="262.0" y="92.8" width="16.0" height="131.2" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="270.0" y="88.8" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">81</text>
+<rect x="280.0" y="208.6" width="16.0" height="15.4" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="288.0" y="204.6" font-size="9.0" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">10</text>
+<text x="270.0" y="238.0" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">All triplets</text>
+<text x="270.0" y="249.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 84</text>
+<text x="270.0" y="57.0" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">−71.4</text>
+<rect x="311.0" y="79.7" width="16.0" height="144.3" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="319.0" y="75.7" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">89</text>
+<rect x="329.0" y="86.6" width="16.0" height="137.4" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="337.0" y="82.6" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">85</text>
+<rect x="347.0" y="213.5" width="16.0" height="10.5" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="355.0" y="209.5" font-size="9.0" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<text x="337.0" y="238.0" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Non-PubChem</text>
+<text x="337.0" y="249.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 23</text>
+<text x="337.0" y="57.0" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">−78.3</text>
+<rect x="378.0" y="80.0" width="16.0" height="144.0" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="386.0" y="76.0" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">89</text>
+<rect x="396.0" y="85.2" width="16.0" height="138.8" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="404.0" y="81.2" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">86</text>
+<rect x="414.0" y="209.9" width="16.0" height="14.1" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="422.0" y="205.9" font-size="9.0" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">9</text>
+<text x="404.0" y="238.0" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">H → Me</text>
+<text x="404.0" y="249.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 63</text>
+<text x="404.0" y="57.0" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">−77.0</text>
+<rect x="445.0" y="85.2" width="16.0" height="138.8" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="453.0" y="81.2" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">86</text>
+<rect x="463.0" y="115.9" width="16.0" height="108.1" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="471.0" y="111.9" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">67</text>
+<rect x="481.0" y="204.7" width="16.0" height="19.3" rx="2.5" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="489.0" y="200.7" font-size="9.0" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">12</text>
+<text x="471.0" y="238.0" font-size="9.0" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Deleted</text>
+<text x="471.0" y="249.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 21</text>
+<text x="471.0" y="57.0" font-size="9.5" fill="#B8293D" text-anchor="middle" font-weight="bold" font-style="normal">−54.8</text>
+<rect x="238.0" y="32.0" width="9.0" height="9.0" rx="2" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="251.0" y="40.0" font-size="9.5" fill="#545E6B" text-anchor="start" font-weight="normal" font-style="normal">Parent</text>
+<rect x="300.0" y="32.0" width="9.0" height="9.0" rx="2" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="313.0" y="40.0" font-size="9.5" fill="#545E6B" text-anchor="start" font-weight="normal" font-style="normal">Remote edit</text>
+<rect x="388.0" y="32.0" width="9.0" height="9.0" rx="2" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="401.0" y="40.0" font-size="9.5" fill="#B8293D" text-anchor="start" font-weight="bold" font-style="normal">Site blocked (Δ pp)</text>
+<rect x="238.0" y="269.0" width="242.7" height="14.0" rx="2" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="480.7" y="269.0" width="17.6" height="14.0" rx="0" fill="#D9822B" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="498.3" y="269.0" width="9.7" height="14.0" rx="2" fill="#B8293D" stroke="none" stroke-width="0" opacity="1"/>
+<text x="244.0" y="279.5" font-size="9.2" fill="#fff" text-anchor="start" font-weight="bold" font-style="normal">89.9% redirected (151/168)</text>
+<text x="508.0" y="265.0" font-size="9.0" fill="#B8293D" text-anchor="end" font-weight="bold" font-style="normal">ghost structures: 3.6% (6/168)</text>
+<text x="532.0" y="18.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">b</text>
+<text x="556.0" y="18.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Citation-exposure stratification (N = 409 papers)</text>
+<line x1="576.0" y1="224.0" x2="984.0" y2="224.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="570.0" y="228.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="576.0" y1="170.0" x2="984.0" y2="170.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="570.0" y="174.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">20</text>
+<line x1="576.0" y1="116.0" x2="984.0" y2="116.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="570.0" y="120.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">40</text>
+<line x1="576.0" y1="62.0" x2="984.0" y2="62.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="570.0" y="66.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">60</text>
+<text transform="translate(548,143.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">intermediate recall (%)</text>
+<line x1="576.0" y1="224.0" x2="984.0" y2="224.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<rect x="592.0" y="134.1" width="26.0" height="89.9" rx="2.5" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="621.0" y="127.3" width="26.0" height="96.7" rx="2.5" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="605.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">33.3</text>
+<text x="634.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">35.8</text>
+<text x="619.0" y="238.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Low cites</text>
+<text x="619.0" y="249.0" font-size="9.0" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 85</text>
+<rect x="692.0" y="128.4" width="26.0" height="95.6" rx="2.5" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="721.0" y="125.5" width="26.0" height="98.5" rx="2.5" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="705.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">35.4</text>
+<text x="734.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">36.5</text>
+<text x="719.0" y="238.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Mid cites</text>
+<text x="719.0" y="249.0" font-size="9.0" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 83</text>
+<rect x="792.0" y="124.4" width="26.0" height="99.6" rx="2.5" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="821.0" y="107.6" width="26.0" height="116.4" rx="2.5" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="805.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">36.9</text>
+<text x="834.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">43.1</text>
+<text x="819.0" y="238.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">High cites</text>
+<text x="819.0" y="249.0" font-size="9.0" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 76</text>
+<rect x="892.0" y="114.9" width="26.0" height="109.1" rx="2.5" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="921.0" y="100.3" width="26.0" height="123.7" rx="2.5" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="905.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">40.4</text>
+<text x="934.0" y="218.0" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">45.8</text>
+<text x="919.0" y="238.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">2026 papers</text>
+<text x="919.0" y="249.0" font-size="9.0" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 165</text>
+<path d="M805,95.0 L805,89.0 L905,89.0 L905,95.0" stroke="#0F5C8C" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="855.0" y="84.0" font-size="9.5" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">Adjusted Δ = +0.1 pp [−8.9, 9.2] (±10 pp equiv.)</text>
+<rect x="576.0" y="32.0" width="9.0" height="9.0" rx="2" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<text x="589.0" y="40.0" font-size="9.5" fill="#545E6B" text-anchor="start" font-weight="normal" font-style="normal">Direct (slope +8.7 pp/10× cites, n.s.)</text>
+<rect x="792.0" y="32.0" width="9.0" height="9.0" rx="2" fill="#0F5C8C" stroke="none" stroke-width="0" opacity="1"/>
+<text x="805.0" y="40.0" font-size="9.5" fill="#0F5C8C" text-anchor="start" font-weight="bold" font-style="normal">MechSight-Auto (+5.4 to +6.1 pp)</text>
+<line x1="14.0" y1="304.0" x2="986.0" y2="304.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round" opacity="1"/>
+<text x="0.0" y="322.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">c</text>
+<text x="24.0" y="322.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Bibliographic recall vs. citation cueing and counterfactual evidence override</text>
+<line x1="48.0" y1="504.6" x2="250.0" y2="504.6" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="42.0" y="508.6" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="48.0" y1="457.7" x2="250.0" y2="457.7" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="42.0" y="461.7" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">8</text>
+<line x1="48.0" y1="410.9" x2="250.0" y2="410.9" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="42.0" y="414.9" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">16</text>
+<line x1="48.0" y1="364.0" x2="250.0" y2="364.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="42.0" y="368.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">24</text>
+<text transform="translate(22,446.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">rate / Δ recall (%)</text>
+<line x1="48.0" y1="528.0" x2="250.0" y2="528.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<line x1="48.0" y1="504.6" x2="250.0" y2="504.6" stroke="#8E99A6" stroke-width="0.8" stroke-linecap="round" opacity="1" stroke-dasharray="2 2"/>
+<path d="M70.0,504.6 L122.0,466.5 L174.0,448.3 L226.0,407.9" stroke="#1F3A56" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M70.0,498.7 L122.0,487.0 L174.0,505.2 L226.0,485.2" stroke="#0F5C8C" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1" stroke-dasharray="4 3"/>
+<circle cx="70.0" cy="504.6" r="4.0" fill="#1F3A56" stroke="#fff" stroke-width="0.9" opacity="1"/>
+<rect x="66.2" y="494.9" width="7.6" height="7.6" transform="rotate(45 70.0 498.7)" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.2"/>
+<text x="70.0" y="518.6" font-size="9.0" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">0.0</text>
+<text x="70.0" y="490.7" font-size="9.0" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">+1.0</text>
+<text x="70.0" y="543.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">2026</text>
+<circle cx="122.0" cy="466.5" r="4.0" fill="#1F3A56" stroke="#fff" stroke-width="0.9" opacity="1"/>
+<rect x="118.2" y="483.2" width="7.6" height="7.6" transform="rotate(45 122.0 487.0)" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.2"/>
+<text x="122.0" y="459.5" font-size="9.2" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">6.5</text>
+<text x="122.0" y="501.0" font-size="9.0" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">+3.0</text>
+<text x="122.0" y="543.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Low</text>
+<circle cx="174.0" cy="448.3" r="4.0" fill="#1F3A56" stroke="#fff" stroke-width="0.9" opacity="1"/>
+<rect x="170.2" y="501.4" width="7.6" height="7.6" transform="rotate(45 174.0 505.2)" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.2"/>
+<text x="174.0" y="441.3" font-size="9.2" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">9.6</text>
+<text x="174.0" y="519.2" font-size="9.0" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">−0.1</text>
+<text x="174.0" y="543.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Mid</text>
+<circle cx="226.0" cy="407.9" r="4.0" fill="#1F3A56" stroke="#fff" stroke-width="0.9" opacity="1"/>
+<rect x="222.2" y="481.4" width="7.6" height="7.6" transform="rotate(45 226.0 485.2)" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.2"/>
+<text x="226.0" y="400.9" font-size="9.2" fill="#1F3A56" text-anchor="middle" font-weight="bold" font-style="normal">16.5</text>
+<text x="226.0" y="499.2" font-size="9.0" fill="#0F5C8C" text-anchor="middle" font-weight="bold" font-style="normal">+3.3</text>
+<text x="226.0" y="543.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">High</text>
+<text x="149.0" y="556.0" font-size="9.2" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Citation stratum (N = 409)</text>
+<circle cx="54.0" cy="337.0" r="3.8" fill="#1F3A56" stroke="#fff" stroke-width="0.8" opacity="1"/>
+<text x="62.0" y="341.0" font-size="9.2" fill="#1F3A56" text-anchor="start" font-weight="bold" font-style="normal">Bibliographic recall (+11.8 pp/10×)</text>
+<rect x="50.5" y="346.5" width="7.0" height="7.0" transform="rotate(45 54.0 350.0)" fill="#E8F2F8" stroke="#0F5C8C" stroke-width="1.1"/>
+<text x="62.0" y="354.0" font-size="9.2" fill="#0F5C8C" text-anchor="start" font-weight="bold" font-style="normal">Citation-cueing gain (−0.5 pp/10×)</text>
+<line x1="298.0" y1="528.0" x2="496.0" y2="528.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="292.0" y="532.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="298.0" y1="487.0" x2="496.0" y2="487.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="292.0" y="491.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">25</text>
+<line x1="298.0" y1="446.0" x2="496.0" y2="446.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="292.0" y="450.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">50</text>
+<line x1="298.0" y1="405.0" x2="496.0" y2="405.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="292.0" y="409.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">75</text>
+<line x1="298.0" y1="364.0" x2="496.0" y2="364.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="292.0" y="368.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">100</text>
+<text transform="translate(272,446.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">polar pathway (%)</text>
+<line x1="298.0" y1="528.0" x2="496.0" y2="528.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<rect x="314.0" y="495.0" width="36.0" height="33.0" rx="2.5" fill="#6E7785" stroke="none" stroke-width="0" opacity="1"/>
+<text x="332.0" y="490.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">20.1%</text>
+<text x="332.0" y="542.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">No clues</text>
+<text x="332.0" y="553.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Direct</text>
+<rect x="374.0" y="525.4" width="36.0" height="2.6" rx="2.5" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="1"/>
+<text x="392.0" y="520.4" font-size="9.5" fill="#5A8EC8" text-anchor="middle" font-weight="bold" font-style="normal">1.6%</text>
+<text x="392.0" y="542.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Radical clues</text>
+<text x="392.0" y="553.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">TEMPO/clock</text>
+<rect x="434.0" y="386.6" width="36.0" height="141.4" rx="2.5" fill="#C84B31" stroke="none" stroke-width="0" opacity="1"/>
+<text x="452.0" y="401.6" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">86.2%</text>
+<text x="452.0" y="542.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Polar clues</text>
+<text x="452.0" y="553.0" font-size="8.8" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Contradictory</text>
+<path d="M392,379.84000000000003 L392,373.84000000000003 L452,373.84000000000003 L452,379.84000000000003" stroke="#C84B31" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<text x="422.0" y="368.8" font-size="9.5" fill="#C84B31" text-anchor="middle" font-weight="bold" font-style="normal">+84.6 pp override (n = 250)</text>
+<text x="532.0" y="322.0" font-size="16.5" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">d</text>
+<text x="556.0" y="322.0" font-size="12" fill="#182026" text-anchor="start" font-weight="bold" font-style="normal">Remote +CH3 homologues &amp; randomized SMILES invariance</text>
+<rect x="546.0" y="350.0" width="122.0" height="198.0" rx="6" fill="#F8FAFC" stroke="#E4E7EC" stroke-width="0.9" opacity="1"/>
+<text x="607.0" y="366.0" font-size="9.5" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Remote +CH<tspan baseline-shift="sub" font-size="8.5">3</tspan> edit</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='583.2' y='378.6' width='47.5' height='50.8' viewBox='-39.17 -44.13 72.04 76.99'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="-36.67" y1="-12.10" x2="-17.33" y2="-17.30"/><line x1="-15.85" y1="-15.83" x2="-12.21" y2="-29.45"/><line x1="-19.34" y1="-16.76" x2="-15.95" y2="-29.45"/><line x1="-17.33" y1="-17.30" x2="-3.15" y2="-3.15"/><line x1="-3.15" y1="-3.15" x2="-8.32" y2="16.21"/><line x1="-0.20" y1="-0.20" x2="-4.30" y2="15.13"/><line x1="-8.32" y1="16.21" x2="5.86" y2="30.36"/><line x1="5.86" y1="30.36" x2="25.20" y2="25.16"/><line x1="6.93" y1="26.34" x2="22.25" y2="22.22"/><line x1="25.20" y1="25.16" x2="30.37" y2="5.81"/><line x1="30.37" y1="5.81" x2="16.19" y2="-8.34"/><line x1="26.35" y1="6.89" x2="15.12" y2="-4.32"/><line x1="16.19" y1="-8.34" x2="-3.15" y2="-3.15"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="-17.57" y="-31.67" font-size="13.91">O</text></g></svg>
+<circle cx="597.6" cy="396.3" r="6.5" fill="#D9822B" stroke="none" stroke-width="0" opacity="0.3"/>
+<text x="607.0" y="446.0" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">↓ ≥ 3 bonds away</text>
+<svg xmlns='http://www.w3.org/2000/svg' x='580.3' y='461.6' width='53.5' height='56.7' viewBox='-39.17 -44.13 81.05 85.94'><g stroke="#000" stroke-width="0.835" stroke-linecap="round" fill="#000"><line x1="-36.67" y1="-12.10" x2="-17.33" y2="-17.30"/><line x1="-15.85" y1="-15.83" x2="-12.21" y2="-29.45"/><line x1="-19.34" y1="-16.76" x2="-15.95" y2="-29.45"/><line x1="-17.33" y1="-17.30" x2="-3.15" y2="-3.15"/><line x1="-3.15" y1="-3.15" x2="-8.32" y2="16.21"/><line x1="-8.32" y1="16.21" x2="5.86" y2="30.36"/><line x1="-4.30" y1="15.13" x2="6.93" y2="26.34"/><line x1="5.86" y1="30.36" x2="25.20" y2="25.16"/><line x1="25.20" y1="25.16" x2="39.38" y2="39.31"/><line x1="25.20" y1="25.16" x2="30.37" y2="5.81"/><line x1="22.25" y1="22.22" x2="26.35" y2="6.89"/><line x1="30.37" y1="5.81" x2="16.19" y2="-8.34"/><line x1="16.19" y1="-8.34" x2="-3.15" y2="-3.15"/><line x1="15.12" y1="-4.32" x2="-0.20" y2="-0.20"/></g><g font-family="Arial, Helvetica, sans-serif" fill="#000"><text x="-17.57" y="-31.67" font-size="13.91">O</text></g></svg>
+<circle cx="594.7" cy="479.3" r="6.5" fill="#D9822B" stroke="none" stroke-width="0" opacity="0.3"/>
+<circle cx="632.1" cy="516.7" r="7.0" fill="#5A8EC8" stroke="none" stroke-width="0" opacity="0.38"/>
+<line x1="702.0" y1="522.0" x2="994.0" y2="522.0" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="696.0" y="526.0" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<line x1="702.0" y1="475.5" x2="994.0" y2="475.5" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="696.0" y="479.5" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">25</text>
+<line x1="702.0" y1="429.1" x2="994.0" y2="429.1" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="696.0" y="433.1" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">50</text>
+<line x1="702.0" y1="382.6" x2="994.0" y2="382.6" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="butt" opacity="1"/>
+<text x="696.0" y="386.6" font-size="11" fill="#545E6B" text-anchor="end" font-weight="normal" font-style="normal">75</text>
+<text transform="translate(676,443.0) rotate(-90)" font-size="11.5" fill="#545E6B" text-anchor="middle">accuracy / recall (%)</text>
+<line x1="702.0" y1="522.0" x2="994.0" y2="522.0" stroke="#182026" stroke-width="0.9" stroke-linecap="butt" opacity="1"/>
+<rect x="710.0" y="448.8" width="19.0" height="73.2" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="731.0" y="452.1" width="19.0" height="69.9" rx="2.5" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="730.0" y="443.8" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">+1.8 pp</text>
+<text x="730.0" y="535.0" font-size="8.4" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">+CH3 prod</text>
+<text x="730.0" y="546.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Fukuyama</text>
+<text x="730.0" y="556.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 109</text>
+<rect x="767.0" y="394.9" width="19.0" height="127.1" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="788.0" y="404.5" width="19.0" height="117.5" rx="2.5" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="787.0" y="389.9" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">+5.3 pp</text>
+<text x="787.0" y="535.0" font-size="8.4" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">+CH3 prod</text>
+<text x="787.0" y="546.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">oMe-Gold</text>
+<text x="787.0" y="556.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 133</text>
+<rect x="824.0" y="388.5" width="19.0" height="133.5" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="845.0" y="385.9" width="19.0" height="136.1" rx="2.5" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="844.0" y="380.9" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">−1.4 pp</text>
+<text x="844.0" y="535.0" font-size="8.4" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">+CH3 hid</text>
+<text x="844.0" y="546.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Fukuyama</text>
+<text x="844.0" y="556.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 74</text>
+<rect x="881.0" y="427.2" width="19.0" height="94.8" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="902.0" y="433.5" width="19.0" height="88.5" rx="2.5" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="901.0" y="422.2" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">+3.4 pp</text>
+<text x="901.0" y="535.0" font-size="8.4" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">Rand SMILES</text>
+<text x="901.0" y="546.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Fukuyama</text>
+<text x="901.0" y="556.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 147</text>
+<rect x="938.0" y="471.6" width="19.0" height="50.4" rx="2.5" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="959.0" y="475.3" width="19.0" height="46.7" rx="2.5" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="958.0" y="466.6" font-size="8.8" fill="#346399" text-anchor="middle" font-weight="bold" font-style="normal">+2.0 pp</text>
+<text x="958.0" y="535.0" font-size="8.4" fill="#182026" text-anchor="middle" font-weight="bold" font-style="normal">5× Rand</text>
+<text x="958.0" y="546.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">Fukuyama</text>
+<text x="958.0" y="556.0" font-size="7.6" fill="#545E6B" text-anchor="middle" font-weight="normal" font-style="normal">n = 48</text>
+<rect x="702.0" y="336.0" width="9.0" height="9.0" rx="2" fill="#1F3A56" stroke="none" stroke-width="0" opacity="1"/>
+<text x="715.0" y="344.0" font-size="9.2" fill="#545E6B" text-anchor="start" font-weight="normal" font-style="normal">Canonical / Parent</text>
+<rect x="826.0" y="336.0" width="9.0" height="9.0" rx="2" fill="#EDF4FB" stroke="#5A8EC8" stroke-width="1.1" opacity="1"/>
+<text x="839.0" y="344.0" font-size="9.2" fill="#346399" text-anchor="start" font-weight="normal" font-style="normal">Homologue / Permuted SMILES</text></svg>

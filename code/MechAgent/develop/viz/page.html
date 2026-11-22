@@ -1,0 +1,702 @@
+<meta charset="utf-8">
+<title>推电子视图</title>
+<style>
+:root{
+  --ground:#EDEFEC; --surface:#FAFBF9; --surface2:#E3E7E2; --sunk:#E7EAE6;
+  --ink:#121A18; --ink2:#4C5956; --ink3:#7B8884; --rule:#D2D9D4; --rule2:#BEC7C1;
+  --accent:#2F45B5; --accent-soft:#DDE1F5; --break-soft:#F4D8D4;
+  --form:#17876A; --break:#C0392B; --gt:#B5820E; --pred:#6A3FD1;
+  --shadow:0 1px 2px rgba(18,26,24,.05), 0 8px 24px -18px rgba(18,26,24,.35);
+  --serif:"Iowan Old Style","Charter",Georgia,"Songti SC","Source Han Serif SC",serif;
+  --sans:"PingFang SC",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans GB",sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,"Cascadia Mono",monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0E1211; --surface:#151A18; --surface2:#1E2523; --sunk:#111614;
+    --ink:#E7EDE9; --ink2:#A2AFAB; --ink3:#74817D; --rule:#28302D; --rule2:#333D39;
+    --accent:#8496FF; --accent-soft:#232C4E; --break-soft:#4A2622;
+    --form:#2FA985; --break:#E05A50; --gt:#BE8E1E; --pred:#8B78F0;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0E1211; --surface:#151A18; --surface2:#1E2523; --sunk:#111614;
+  --ink:#E7EDE9; --ink2:#A2AFAB; --ink3:#74817D; --rule:#28302D; --rule2:#333D39;
+  --accent:#8496FF; --accent-soft:#232C4E; --break-soft:#4A2622;
+  --form:#2FA985; --break:#E05A50; --gt:#BE8E1E; --pred:#8B78F0;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--sans); font-size:15.5px; line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1140px; margin:0 auto; padding:0 28px 96px}
+a{color:var(--accent)}
+h1,h2,h3{font-family:var(--serif); font-weight:600; text-wrap:balance; margin:0}
+h1{font-size:clamp(34px,5vw,52px); line-height:1.12; letter-spacing:-.015em}
+h2{font-size:clamp(23px,3vw,29px); line-height:1.25; letter-spacing:-.01em}
+h3{font-size:18px; line-height:1.35}
+p{margin:0}
+.eyebrow{
+  font-family:var(--mono); font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--ink3);
+}
+.lede{font-size:18.5px; line-height:1.62; color:var(--ink2); max-width:62ch}
+.muted{color:var(--ink2)}
+.small{font-size:13.5px; line-height:1.6}
+.mono{font-family:var(--mono)}
+.num{font-family:var(--mono); font-variant-numeric:tabular-nums}
+
+/* ── masthead ─────────────────────────────── */
+header.top{
+  border-bottom:1px solid var(--rule);
+  background:
+    repeating-linear-gradient(0deg,transparent 0 39px,var(--rule) 39px 40px),
+    repeating-linear-gradient(90deg,transparent 0 39px,var(--rule) 39px 40px),
+    var(--surface);
+  background-blend-mode:normal;
+}
+header.top .wrap{padding-top:56px; padding-bottom:44px}
+.masthead{display:grid; gap:22px}
+.title-line{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap}
+.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chip{
+  font-family:var(--mono); font-size:11.5px; letter-spacing:.04em;
+  border:1px solid var(--rule2); border-radius:2px; padding:3px 9px;
+  color:var(--ink2); background:var(--surface);
+}
+.chip.hot{border-color:var(--accent); color:var(--accent); background:var(--accent-soft)}
+
+/* ── sections ─────────────────────────────── */
+section{padding-top:64px}
+.sec-head{display:grid; gap:10px; margin-bottom:26px; max-width:70ch}
+.rule{height:1px; background:var(--rule); margin-top:8px}
+
+.grid-4{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule)}
+.grid-4 .cell{background:var(--surface); padding:18px 18px 20px; display:grid; gap:7px; align-content:start}
+.cell h3{font-family:var(--sans); font-size:14.5px; font-weight:650; letter-spacing:.01em}
+.cell p{font-size:13.5px; line-height:1.6; color:var(--ink2)}
+
+/* ── viewer ───────────────────────────────── */
+.viewer{
+  border:1px solid var(--rule); background:var(--surface); box-shadow:var(--shadow);
+  display:grid; grid-template-columns:268px 1fr;
+}
+.rail{border-right:1px solid var(--rule); display:grid; align-content:start; background:var(--sunk)}
+.rail-block{padding:14px 16px; border-bottom:1px solid var(--rule); display:grid; gap:9px}
+.seg{display:flex; border:1px solid var(--rule2); border-radius:2px; overflow:hidden}
+.seg button{
+  flex:1; appearance:none; border:0; background:transparent; cursor:pointer;
+  font-family:var(--mono); font-size:11.5px; letter-spacing:.05em; padding:6px 4px; color:var(--ink2);
+}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+.caselist{display:grid; gap:6px}
+.caselist button{
+  text-align:left; appearance:none; cursor:pointer; background:var(--surface);
+  border:1px solid var(--rule); border-left:3px solid var(--rule2); padding:7px 10px;
+  font-family:inherit; font-size:13px; color:var(--ink2); display:grid; gap:2px;
+}
+.caselist button[aria-pressed="true"]{border-left-color:var(--accent); color:var(--ink); background:var(--surface)}
+.caselist button:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
+.caselist .cs{font-family:var(--mono); font-size:10.5px; color:var(--ink3); letter-spacing:.04em}
+
+.steplist{display:grid; gap:0; padding:0; max-height:318px; overflow-y:auto}
+.steplist button{
+  appearance:none; cursor:pointer; text-align:left; width:100%; background:transparent;
+  border:0; border-bottom:1px solid var(--rule); padding:9px 14px 10px 12px;
+  display:grid; grid-template-columns:22px 1fr; gap:9px; align-items:start;
+  font-family:inherit; color:var(--ink2); font-size:12.8px; line-height:1.45;
+}
+.steplist button:hover{background:var(--surface)}
+.steplist button[aria-pressed="true"]{background:var(--surface); color:var(--ink); box-shadow:inset 3px 0 0 var(--accent)}
+.steplist button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+.stepno{font-family:var(--mono); font-size:11px; color:var(--ink3); padding-top:1px}
+.dots{display:flex; gap:3px; margin-top:4px}
+.dot{width:7px; height:7px; border-radius:50%}
+.dot.shared{background:var(--ink3)}
+.dot.unique{background:var(--gt)}
+.pred .dot.unique{background:var(--pred)}
+
+.stage{position:relative; display:grid; grid-template-rows:auto 1fr auto; min-height:540px}
+.toolbar{
+  display:flex; gap:8px; align-items:center; justify-content:space-between;
+  padding:10px 14px; border-bottom:1px solid var(--rule); flex-wrap:wrap;
+}
+.tools{display:flex; gap:6px; flex-wrap:wrap}
+.tbtn{
+  appearance:none; cursor:pointer; background:var(--surface); border:1px solid var(--rule2);
+  border-radius:2px; padding:5px 10px; font-family:var(--mono); font-size:11.5px; color:var(--ink2);
+  letter-spacing:.04em;
+}
+.tbtn[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--surface)}
+.tbtn:hover{border-color:var(--ink3)}
+.tbtn:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
+.legend{display:flex; gap:14px; flex-wrap:wrap; align-items:center}
+.lg{display:inline-flex; gap:6px; align-items:center; font-size:11.5px; color:var(--ink2); font-family:var(--mono)}
+.lg i{width:16px; height:0; border-top:2px solid currentColor; display:inline-block}
+.lg.form{color:var(--form)} .lg.break{color:var(--break)} .lg.shift{color:var(--accent)}
+#canvasHost{background:var(--surface); overflow:hidden}
+svg.mol{display:block; width:100%; height:100%; min-height:400px; touch-action:none}
+.foot{
+  border-top:1px solid var(--rule); padding:11px 14px; display:grid; gap:8px;
+  grid-template-columns:1fr auto; align-items:center;
+}
+.caption{font-size:13.5px; color:var(--ink2); max-width:74ch}
+.caption b{color:var(--ink); font-weight:640}
+.meter{display:grid; gap:5px; justify-items:end; min-width:190px}
+.meter .bar{width:190px; height:6px; background:var(--surface2); border-radius:3px; overflow:hidden}
+.meter .bar i{display:block; height:100%; background:var(--accent); transition:width .45s cubic-bezier(.4,0,.2,1)}
+.meter .lab{font-family:var(--mono); font-size:10.5px; color:var(--ink3); letter-spacing:.04em}
+
+/* marks emitted by develop/viz/render_rdkit.py */
+#mol .mol-layer path{stroke-linecap:round}
+#mol .ghost{stroke:var(--form); stroke-width:1.7; stroke-dasharray:2.5 5; opacity:.9; fill:none}
+#mol .pgl{font-family:var(--mono); font-size:10.5px; fill:var(--ink2); text-anchor:middle; dominant-baseline:middle}
+#mol .lp{fill:var(--ink)}
+#mol .charge{font-family:var(--sans); font-size:13px; font-weight:650; fill:var(--ink); text-anchor:middle; dominant-baseline:central}
+#mol .arrow{fill:none; stroke-width:2.2; stroke-linecap:round}
+#mol .arrow.form{stroke:var(--form)} #mol .arrow.break{stroke:var(--break)} #mol .arrow.shift{stroke:var(--accent)}
+#mol .head.form{fill:var(--form)} #mol .head.break{fill:var(--break)} #mol .head.shift{fill:var(--accent)}
+#mol .draw{stroke-dasharray:100; stroke-dashoffset:100; animation:draw .62s cubic-bezier(.35,.9,.35,1) forwards}
+#mol .head{opacity:0; animation:pop .28s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+  #mol .draw{animation:none; stroke-dashoffset:0} #mol .head{animation:none; opacity:1}
+  .meter .bar i{transition:none}
+}
+
+/* ── alignment ribbon ─────────────────────── */
+.align{border:1px solid var(--rule); background:var(--surface); box-shadow:var(--shadow)}
+.align-row{display:grid; grid-template-columns:96px 1fr; border-bottom:1px solid var(--rule)}
+.align-row:last-child{border-bottom:0}
+.align-tag{
+  padding:14px 12px; border-right:1px solid var(--rule); background:var(--sunk);
+  display:grid; gap:3px; align-content:start;
+}
+.align-tag .t{font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase}
+.align-tag .n{font-size:12px; color:var(--ink3)}
+.tag-gt .t{color:var(--gt)} .tag-pred .t{color:var(--pred)}
+.steps{display:flex; gap:0; overflow-x:auto}
+.stepcard{
+  border-right:1px dashed var(--rule2); padding:12px 14px; min-width:186px; display:grid; gap:7px; align-content:start;
+}
+.stepcard:last-child{border-right:0}
+.stepcard .sn{font-family:var(--mono); font-size:10.5px; color:var(--ink3); letter-spacing:.05em}
+.tf{
+  display:flex; align-items:center; gap:6px; font-family:var(--mono); font-size:11.5px;
+  border:1px solid var(--rule); border-radius:2px; padding:3px 7px; color:var(--ink2); background:var(--surface);
+}
+.tf.shared{border-color:var(--rule2)}
+.tf.unique-gt{border-color:var(--gt); color:var(--gt); background:transparent; border-style:dashed}
+.tf.unique-pred{border-color:var(--pred); color:var(--pred); background:transparent; border-style:dashed}
+.verdicts{display:flex; gap:8px; flex-wrap:wrap; padding:14px 16px; border-top:1px solid var(--rule); background:var(--sunk)}
+.vd{
+  display:grid; gap:1px; border:1px solid var(--rule2); padding:6px 11px; border-radius:2px; background:var(--surface);
+}
+.vd .k{font-family:var(--mono); font-size:10px; letter-spacing:.08em; color:var(--ink3); text-transform:uppercase}
+.vd .v{font-family:var(--mono); font-size:13px; font-weight:600}
+.vd.pass .v{color:var(--form)} .vd.fail .v{color:var(--break)}
+
+/* ── trace ────────────────────────────────── */
+.trace{display:grid; gap:0; border:1px solid var(--rule); background:var(--surface); box-shadow:var(--shadow)}
+.trow{
+  display:grid; grid-template-columns:132px 1fr 108px; gap:14px; padding:12px 16px;
+  border-bottom:1px solid var(--rule); align-items:start;
+}
+.trow:last-child{border-bottom:0}
+.trow .id{font-family:var(--mono); font-size:11px; color:var(--ink3); line-height:1.5}
+.trow .sm{font-size:13.5px; color:var(--ink2)}
+.pill{
+  justify-self:start; font-family:var(--mono); font-size:10.5px; letter-spacing:.06em;
+  padding:3px 8px; border-radius:2px; border:1px solid currentColor;
+}
+.pill.ok{color:var(--form)} .pill.no{color:var(--break)} .pill.wait{color:var(--gt)}
+
+/* ── dashboard ────────────────────────────── */
+.dash{display:grid; grid-template-columns:1.35fr 1fr; gap:1px; background:var(--rule); border:1px solid var(--rule)}
+.panel{background:var(--surface); padding:20px 20px 22px; display:grid; gap:16px; align-content:start}
+.panel h3{font-family:var(--sans); font-size:14px; font-weight:650}
+.bars{display:grid; gap:14px}
+.barrow{display:grid; grid-template-columns:120px 1fr 54px; gap:12px; align-items:center}
+.barrow .k{font-family:var(--mono); font-size:11.5px; color:var(--ink2)}
+.track{position:relative; height:22px; background:var(--sunk); border-radius:2px}
+.fill{position:absolute; inset:0 auto 0 0; background:var(--accent); border-radius:2px 4px 4px 2px; opacity:.9}
+.ci{position:absolute; top:50%; height:9px; transform:translateY(-50%); border-left:2px solid var(--ink2); border-right:2px solid var(--ink2)}
+.ci::after{content:""; position:absolute; top:50%; left:0; right:0; height:2px; background:var(--ink2); transform:translateY(-50%)}
+.barrow .v{font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:13px; text-align:right}
+.diag{display:grid; gap:7px}
+.drow{display:grid; grid-template-columns:112px 1fr 34px; gap:10px; align-items:center; font-size:12.5px}
+.drow .dk{font-family:var(--mono); font-size:11px; color:var(--ink2)}
+.dbar{height:12px; background:var(--sunk); border-radius:2px; overflow:hidden}
+.dbar i{display:block; height:100%; border-radius:2px}
+.drow .dv{font-family:var(--mono); font-variant-numeric:tabular-nums; font-size:12px; text-align:right; color:var(--ink2)}
+table.plain{border-collapse:collapse; width:100%; font-size:13px}
+table.plain th,table.plain td{text-align:left; padding:7px 10px; border-bottom:1px solid var(--rule)}
+table.plain th{font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase; color:var(--ink3); font-weight:500}
+table.plain td.n{font-family:var(--mono); font-variant-numeric:tabular-nums; text-align:right}
+
+/* ── build notes ──────────────────────────── */
+.steps-list{display:grid; gap:1px; background:var(--rule); border:1px solid var(--rule)}
+.snode{background:var(--surface); padding:16px 18px; display:grid; grid-template-columns:26px 1fr; gap:14px}
+.snode .i{font-family:var(--mono); font-size:11.5px; color:var(--accent); padding-top:3px}
+.snode h3{font-family:var(--sans); font-size:14.5px; font-weight:650; margin-bottom:4px}
+.snode p{font-size:13.5px; color:var(--ink2)}
+code{font-family:var(--mono); font-size:12.5px; background:var(--sunk); border:1px solid var(--rule); padding:1px 5px; border-radius:2px}
+pre{
+  font-family:var(--mono); font-size:12px; line-height:1.65; background:var(--sunk);
+  border:1px solid var(--rule); padding:14px 16px; overflow-x:auto; margin:0;
+}
+footer{margin-top:72px; padding-top:20px; border-top:1px solid var(--rule); color:var(--ink3); font-size:12.5px}
+
+@media (max-width:900px){
+  .viewer{grid-template-columns:1fr}
+  .rail{border-right:0; border-bottom:1px solid var(--rule)}
+  .dash{grid-template-columns:1fr}
+  .trow{grid-template-columns:1fr; gap:6px}
+}
+</style>
+
+<header class="top">
+  <div class="wrap masthead">
+    <div class="eyebrow">MechAgent · 可视化设计提案</div>
+    <div class="title-line">
+      <h1>推电子视图</h1>
+    </div>
+    <p class="lede">
+      机理预测的输出本身就是化学家熟悉的一种图：弯箭头。Agent 每一步吐出的
+      <span class="mono">ElectronTransfer(source, target)</span> 就是一支箭的起点和终点。
+      所以可视化不该是又一个力导向图或 JSON 折叠面板——结构式交给 RDKit 画，弯箭头叠在它的同一套坐标上，
+      再把 GT 路径和预测路径摆在一起对齐看。下面每一屏都用本仓库
+      <span class="mono">outputs/gemini37_oracle_steps/full.jsonl</span> 的真实 rollout 渲染。
+    </p>
+    <div class="chips">
+      <span class="chip hot">真实数据 · 非示意图</span>
+      <span class="chip">180 rollouts / 60 反应类</span>
+      <span class="chip">结构由 RDKit 绘制</span>
+      <span class="chip">前端零依赖</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section id="principles">
+  <div class="sec-head">
+    <div class="eyebrow">为什么这么画</div>
+    <h2>四条来自数据本身的约束</h2>
+    <p class="muted small">这些不是审美偏好，是 PGL 数据结构决定的。照着做，图就对了；不照做，怎么调色都别扭。</p>
+  </div>
+  <div class="grid-4">
+    <div class="cell">
+      <h3>原子标号全程稳定</h3>
+      <p><span class="mono">C101</span>、<span class="mono">O205</span> 在整条路径里指同一个原子。所以整条机理只算<b>一套坐标</b>：把所有状态的键取并集布局一次，每一步复用。原子从此不会在步与步之间乱跳，动画自然连贯。</p>
+    </div>
+    <div class="cell">
+      <h3>电子转移即弯箭头</h3>
+      <p><span class="mono">source=('O1','lone_pair')</span> → <span class="mono">target=('O1','H302','new_sigma_bond')</span>：起点是孤对，终点是尚不存在的键的中点。两个电子画双钩箭头，单电子画鱼钩。不需要再发明一套视觉语言。</p>
+    </div>
+    <div class="cell">
+      <h3>GT 与预测同构</h3>
+      <p>两边都是 <span class="mono">ReactionTransformation</span> 序列，可以逐 transfer 归一化比对。所以差异必须画成<b>对齐带</b>而不是两张分开的图——评测的三个层级 L1/L2/L3 正好是对齐带上三种松紧度。</p>
+    </div>
+    <div class="cell">
+      <h3>剩余变化是可算的</h3>
+      <p><span class="mono">state_diff</span> 每一步都能算出「还差几个键没形成/没断」。这是整条轨迹唯一的客观进度条，比 Planner 自己说的「完成了」可信，应该常驻在画布下方。</p>
+    </div>
+  </div>
+</section>
+
+<section id="viewer">
+  <div class="sec-head">
+    <div class="eyebrow">主视图</div>
+    <h2>单步推电子画布</h2>
+    <p class="muted small">
+      结构由 RDKit 的 <span class="mono">MolDraw2DSVG</span> 绘制——键角、CH<sub>3</sub>/OH 缩写、
+      字体避让都归它管；氢默认折进重原子标签，参与本步反应时才单独现身。弯箭头由
+      <span class="mono">GetDrawCoords</span> 取得的仿射变换叠加上去，落点精确锚在原子上。
+      要移动的孤对画成一对点，箭头从点上出发；碳正碳负不写成 <span class="mono">C+</span> 而是留作顶点、把电荷标在旁边，碳负还配上它应有的孤对。
+      只有反应中心的原子会亮出 PGL 标号——这是模型说话用的词，图上要能对得上。
+    </p>
+  </div>
+  <div class="viewer">
+    <div class="rail">
+      <div class="rail-block">
+        <div class="eyebrow">案例</div>
+        <div class="caselist" id="caseList"></div>
+      </div>
+      <div class="rail-block">
+        <div class="eyebrow">路径</div>
+        <div class="seg" id="pathSeg">
+          <button data-path="gt" aria-pressed="false">标注 GT</button>
+          <button data-path="pred" aria-pressed="true">Agent 预测</button>
+        </div>
+      </div>
+      <div class="steplist" id="stepList"></div>
+    </div>
+    <div class="stage">
+      <div class="toolbar">
+        <div class="tools">
+          <button class="tbtn" id="btnPlay">▶ 播放</button>
+          <button class="tbtn" id="btnPrev">←</button>
+          <button class="tbtn" id="btnNext">→</button>
+          <button class="tbtn" id="btnFocus" aria-pressed="true">聚焦反应中心</button>
+        </div>
+        <div class="legend">
+          <span class="lg form"><i></i>成键</span>
+          <span class="lg break"><i></i>断键</span>
+          <span class="lg shift"><i></i>电子迁移</span>
+        </div>
+      </div>
+      <div id="canvasHost"><svg class="mol" id="mol" role="img" aria-label="反应机理单步推电子图"></svg></div>
+      <div class="foot">
+        <p class="caption" id="caption"></p>
+        <div class="meter">
+          <div class="bar"><i id="meterFill" style="width:0%"></i></div>
+          <div class="lab" id="meterLab"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="alignment">
+  <div class="sec-head">
+    <div class="eyebrow">对比视图</div>
+    <h2>GT 与预测的对齐带</h2>
+    <p class="muted small">
+      每个方块是一个 elementary step，里面每个胶囊是一次电子转移（已按 <span class="mono">metrics.transfer_key</span> 归一化，
+      氢标号折叠为 <span class="mono">H*</span>）。实线＝两边都有，虚线＝只此一家。
+      这样「漏步 / 多步 / 换序 / 换路径」四种失败模式在同一张图上长得不一样。
+    </p>
+  </div>
+  <div class="align" id="alignHost"></div>
+  <p class="small muted" style="margin-top:12px">
+    上面选中的案例会同步到这里。<span class="mono">imine formation</span> 是最值得看的一个：两条路径都是化学上说得通的成亚胺，
+    但 GT 先加成后转质子、预测先质子化再加成，于是 transfer 集合就对不上——环境判定成功、评测判定 content_mismatch，
+    这正是 README 里说的「环境成功 ≠ 机理正确」。
+  </p>
+</section>
+
+<section id="trace">
+  <div class="sec-head">
+    <div class="eyebrow">过程视图</div>
+    <h2>Planner–Executor 决策轨迹</h2>
+    <p class="muted small">被否决的提案和被接受的提案一样重要：它记录了 review 在拦什么。每一行是一次 Executor 提案及其结局。</p>
+  </div>
+  <div class="trace" id="traceHost"></div>
+</section>
+
+<section id="dash">
+  <div class="sec-head">
+    <div class="eyebrow">全局视图</div>
+    <h2>批次仪表盘</h2>
+    <p class="muted small">
+      单条轨迹好看不代表方法有效。仪表盘只回答一件事：这批 rollout 在三个严格度层级上各对了多少，错的那些错在哪。
+      数据取自 <span class="mono">outputs/gemini37_oracle_steps/report.json</span>。
+    </p>
+  </div>
+  <div class="dash">
+    <div class="panel">
+      <h3>三级严格度通过率（误差线为 95% CI，按反应重采样）</h3>
+      <div class="bars" id="levelBars"></div>
+      <p class="small muted">L1 只问电子对不对，L2 加因果顺序，L3 再加标注自己的分步边界。三条一起看才知道差距出在化学还是出在标注约定。</p>
+    </div>
+    <div class="panel">
+      <h3>失败模式分布（180 条）</h3>
+      <div class="diag" id="diagBars"></div>
+      <h3 style="margin-top:6px">氢标号敏感性</h3>
+      <table class="plain" id="hTable"></table>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="sec-head">
+    <div class="eyebrow">怎么落地</div>
+    <h2>实现路径</h2>
+    <p class="muted small">整套东西是离线渲染管线 + 一个零依赖前端，不需要在浏览器里跑化学库。</p>
+  </div>
+  <div class="steps-list">
+    <div class="snode"><div class="i">01</div><div>
+      <h3>回放：把 action 序列变成状态序列</h3>
+      <p>复用 <span class="mono">standalone_chemistry.apply_action</span>，从 <span class="mono">initial_state_pgl</span> 依次施加 GT 与已接受的预测动作，得到两串 <span class="mono">ReactionState</span>。回放失败的位置本身就是一个可视化信号（标注引入了初始态没有的原子，或预测的编辑非法）。</p>
+    </div></div>
+    <div class="snode"><div class="i">02</div><div>
+      <h3>布局：并集图算一次坐标</h3>
+      <p>把全路径出现过的原子取并集、键取并集（同一对原子取最高键级），建一个未 sanitize 的 <span class="mono">RWMol</span>，<span class="mono">FastFindRings</span> + <span class="mono">Compute2DCoords</span>。超价的并集键在布局前按度数裁掉，只影响排布不影响渲染。产物是 <span class="mono">{原子标号: [x, y]}</span>，写进 JSON。</p>
+    </div></div>
+    <div class="snode"><div class="i">03</div><div>
+      <h3>绘制：RDKit 画结构，我们画箭头</h3>
+      <p>每帧用 <span class="mono">MolDraw2DSVG</span> 出图，<span class="mono">fixedBondLength</span> 固定尺度，再按 <span class="mono">GetDrawCoords</span> 求出的仿射变换归一化到同一个世界坐标系——RDKit 会把每个分子重新居中，不归一化结构就会逐步跳动。箭头用二次贝塞尔，对弧线采样后按「离键和原子最远」挑边和弧度，所以长距离进攻不会横穿分子。颜色以哨兵色值出图，再替换成 CSS 变量，一次渲染同时适配深浅色。</p>
+    </div></div>
+    <div class="snode"><div class="i">04</div><div>
+      <h3>对齐：复用评测已有的归一化</h3>
+      <p>不要另写一套匹配逻辑。<span class="mono">metrics.transfer_key</span> 已经处理了端点方言（<span class="mono">'O205'</span> vs <span class="mono">('O205','lone_pair')</span>）和氢匿名化，直接拿它的 key 做多重集配对，得到每个 transfer 的 shared / unique 标记。</p>
+    </div></div>
+    <div class="snode"><div class="i">05</div><div>
+      <h3>产出：交互页与论文图共用一个渲染器</h3>
+      <p><span class="mono">export_figure.py</span> 把整条路径排成一幅图：每格一个状态，格间是反应箭头，全部按同一裁剪和同一尺度绘制，读者的眼睛只需跟着弯箭头走。白底黑线、可 <span class="mono">--mono</span> 出黑白版、可关掉 PGL 标号和反应中心底色。屏幕上看到的和投出去的是同一套几何，不存在「示意图和真实结果不一致」。</p>
+    </div></div>
+  </div>
+  <div style="margin-top:18px">
+    <pre>develop/viz/
+├── extract.py        # 动作序列 → 状态序列；并集图 → 共享坐标（rdCoordGen）
+├── render_rdkit.py   # 单帧：RDKit 画结构，孤对/电荷/弯箭头叠加在同一坐标系
+├── build_payload.py  # 多 rollout → 一个自洽的 JSON，并直出 index.html
+├── export_figure.py  # 同一渲染器 → 论文用的整幅机理图（SVG，可 --mono）
+└── index.html        # 交互页（本页即原型）</pre>
+  </div>
+</section>
+
+<section id="next">
+  <div class="sec-head">
+    <div class="eyebrow">再往后</div>
+    <h2>值得加，但不该现在加</h2>
+  </div>
+  <div class="grid-4">
+    <div class="cell"><h3>失败模式画廊</h3><p>按 <span class="mono">boundary_diagnosis</span> 分组的缩略图墙，一屏看 60 个反应哪里塌。找系统性错误比看单条轨迹快得多。</p></div>
+    <div class="cell"><h3>重复轨迹叠图</h3><p>同一反应的 3 次 repeat 叠在一张图上，箭头按出现频次调透明度：一眼看出模型是稳定错还是随机漂。</p></div>
+    <div class="cell"><h3>review 分支树</h3><p>被拒提案画成主干旁的虚线分支，鼠标悬停出 <span class="mono">plan_objection</span>。适合排查 review 是否形同虚设。</p></div>
+    <div class="cell"><h3>能量剖面轴（谨慎）</h3><p>教科书式的能垒曲线很好看，但当前数据里没有能量。除非接了计算，否则画出来就是编的——宁可空着。</p></div>
+  </div>
+</section>
+
+<footer>
+  原型数据：<span class="mono">MechAgent/outputs/gemini37_oracle_steps/</span> · 3 个 rollout 完整回放 + 180 条批次统计。
+  坐标由 RDKit 2026.03 离线生成，页面本身不含任何外部依赖。
+</footer>
+</div>
+
+<script>
+const DATA = __PAYLOAD__;
+
+/* ── state ─────────────────────────────────────────────── */
+const S = {caseIdx:0, path:"pred", step:0, focus:true, playing:false, timer:null};
+let VIEW = {x:0, y:0, w:0, h:0};
+
+const $ = (id)=>document.getElementById(id);
+const cur = ()=>DATA.cases[S.caseIdx];
+const frames = ()=>cur()[S.path];
+const frame = ()=>frames()[Math.min(S.step, frames().length-1)];
+
+/* ── frames ────────────────────────────────────────────── */
+function activeAtoms(f){
+  const s = new Set();
+  for(const t of (f.transfers||[])){ t.source.atoms.forEach(a=>s.add(a)); t.target.atoms.forEach(a=>s.add(a)); }
+  return s;
+}
+
+/* The structure and its arrows are drawn offline by RDKit + render_rdkit.py and
+   arrive as one SVG group per frame; the page only places the camera. */
+function render(){
+  const c = cur(), f = frame();
+  const svg = $("mol");
+  svg.innerHTML = f.svg;
+  svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+  const W = c.canvas[0], H = c.canvas[1];
+  let vb = {x:0, y:0, w:W, h:H};
+  if(S.focus && f.focus){
+    const [x0, y0, x1, y1] = f.focus;
+    const host = $("canvasHost").getBoundingClientRect();
+    const aspect = (host.width > 10 && host.height > 10) ? host.width / host.height : W / H;
+    const pad = 86;
+    let w = Math.max(x1 - x0 + 2*pad, W/1.55), h = Math.max(y1 - y0 + 2*pad, H/1.55);
+    if(w/h < aspect) w = h*aspect; else h = w/aspect;
+    vb = {x:(x0+x1)/2 - w/2, y:(y0+y1)/2 - h/2, w, h};
+  }
+  animateView(vb);
+}
+
+let raf = null;
+function animateView(target){
+  const svg = $("mol");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // a hidden tab never runs rAF, so the camera has to land synchronously there
+  if(reduce || !VIEW.w || !svg.getAttribute("viewBox") || document.hidden){
+    VIEW = target;
+    svg.setAttribute("viewBox", `${target.x} ${target.y} ${target.w} ${target.h}`);
+    return;
+  }
+  const from = {...VIEW}, t0 = performance.now(), dur = 480;
+  cancelAnimationFrame(raf);
+  const tick = (now)=>{
+    const k = Math.min(1, (now-t0)/dur), e = k<.5 ? 2*k*k : 1-Math.pow(-2*k+2,2)/2;
+    const v = {x:from.x+(target.x-from.x)*e, y:from.y+(target.y-from.y)*e, w:from.w+(target.w-from.w)*e, h:from.h+(target.h-from.h)*e};
+    svg.setAttribute("viewBox", `${v.x} ${v.y} ${v.w} ${v.h}`);
+    VIEW = v;
+    if(k < 1) raf = requestAnimationFrame(tick);
+  };
+  raf = requestAnimationFrame(tick);
+}
+
+/* ── rails, caption, meter ─────────────────────────────── */
+function stepSummary(i){
+  const c = cur();
+  if(S.path === "pred"){
+    const acc = c.proposals.filter(p=>p.accepted);
+    return acc[i] ? acc[i].summary : null;
+  }
+  const f = c.gt[i];
+  if(!f || !f.transfers) return null;
+  return f.transfers.map(t=>`${t.source.atoms.join("+")} → ${t.target.atoms.join("+")}`).join("；");
+}
+function renderRail(){
+  const c = cur();
+  $("caseList").innerHTML = "";
+  DATA.cases.forEach((cc, i)=>{
+    const b = document.createElement("button");
+    b.setAttribute("aria-pressed", String(i === S.caseIdx));
+    b.innerHTML = `<span>${cc.label}</span><span class="cs">${cc.gt.length-1} 步 GT · ${cc.pred.length-1} 步预测 · ${cc.comparison.boundary_diagnosis}</span>`;
+    b.onclick = ()=>{ S.caseIdx = i; S.step = 0; VIEW.w = 0; renderAll(); };
+    $("caseList").append(b);
+  });
+  document.querySelectorAll("#pathSeg button").forEach(b=>{
+    b.setAttribute("aria-pressed", String(b.dataset.path === S.path));
+    b.onclick = ()=>{ S.path = b.dataset.path; S.step = 0; renderAll(); };
+  });
+  const fs = frames();
+  const list = $("stepList");
+  list.className = "steplist" + (S.path === "pred" ? " pred" : "");
+  list.innerHTML = "";
+  fs.forEach((f, i)=>{
+    const b = document.createElement("button");
+    b.setAttribute("aria-pressed", String(i === S.step));
+    const last = !f.transfers;
+    const dots = (f.transfers||[]).map(t=>`<span class="dot ${t.match}"></span>`).join("");
+    const text = last ? "终态：与 target 比对" : (stepSummary(i) || "—");
+    b.innerHTML = `<span class="stepno">${last ? "END" : "S"+(i+1)}</span>
+      <span><span>${text}</span>${dots ? `<span class="dots">${dots}</span>` : ""}</span>`;
+    b.onclick = ()=>{ S.step = i; stop(); renderAll(); };
+    list.append(b);
+  });
+}
+function renderCaption(){
+  const c = cur(), f = frame(), fs = frames();
+  const last = !f.transfers;
+  const who = S.path === "gt" ? "标注 GT" : "Agent 预测";
+  let text;
+  if(last){
+    text = `<b>${who} · 终态。</b> 环境判定 <span class="mono">${c.stop_reason}</span>。`;
+  } else {
+    const tr = f.transfers.map(t=>`<span class="mono">${t.source.atoms.join("·")}${t.source.tag?"("+t.source.tag+")":""} → ${t.target.atoms.join("·")}</span>`).join(" ， ");
+    const uniq = f.transfers.filter(t=>t.match === "unique").length;
+    text = `<b>${who} · 第 ${S.step+1} 步。</b> ${tr}。` +
+      (uniq ? ` 其中 <b>${uniq}</b> 次转移在另一条路径里没有对应。` : " 本步所有转移在另一条路径中都能配上。");
+  }
+  $("caption").innerHTML = text;
+  const peak = Math.max(1, ...fs.map(x=>x.outstanding.total));
+  const now = f.outstanding.total;
+  const done = Math.max(0, Math.min(1, 1 - now/peak));
+  $("meterFill").style.width = (done*100).toFixed(1) + "%";
+  $("meterLab").textContent = `距目标态还差 ${now} 处结构变化（全程峰值 ${peak}）`;
+}
+
+/* ── alignment ribbon ──────────────────────────────────── */
+function tfLabel(t){ return `${t.source.atoms.join("+")}→${t.target.atoms.filter(a=>!t.source.atoms.includes(a)).join("+") || t.target.atoms.join("+")}`; }
+function renderAlign(){
+  const c = cur(), host = $("alignHost");
+  const row = (which, frames, name, sub) => {
+    const cards = frames.filter(f=>f.transfers).map((f, i)=>{
+      const pills = f.transfers.map(t=>{
+        const cls = t.match === "shared" ? "shared" : (which === "gt" ? "unique-gt" : "unique-pred");
+        return `<span class="tf ${cls}" title="${t.kind}">${tfLabel(t)}</span>`;
+      }).join("");
+      return `<div class="stepcard"><span class="sn">STEP ${i+1}</span>${pills}</div>`;
+    }).join("");
+    return `<div class="align-row"><div class="align-tag tag-${which}"><span class="t">${name}</span><span class="n">${sub}</span></div><div class="steps">${cards}</div></div>`;
+  };
+  const cm = c.comparison;
+  const vd = (k, ok, v) => `<div class="vd ${ok?"pass":"fail"}"><span class="k">${k}</span><span class="v">${v}</span></div>`;
+  host.innerHTML =
+    row("gt", c.gt, "标注 GT", `${c.gt.length-1} 步 / ${cm.gold_transfers} 次转移`) +
+    row("pred", c.pred, "Agent 预测", `${c.pred.length-1} 步 / ${cm.predicted_transfers} 次转移`) +
+    `<div class="verdicts">
+      ${vd("L1 电子集合", cm.transfer_set_match, cm.transfer_set_match ? "PASS" : "FAIL")}
+      ${vd("L2 因果顺序", cm.transfer_sequence_match, cm.transfer_sequence_match ? "PASS" : "FAIL")}
+      ${vd("L3 分步边界", cm.step_partition_match, cm.step_partition_match ? "PASS" : "FAIL")}
+      <div class="vd"><span class="k">诊断</span><span class="v">${cm.boundary_diagnosis}</span></div>
+      <div class="vd"><span class="k">转移命中</span><span class="v">${cm.set_matched}/${cm.gold_transfers}</span></div>
+      <div class="vd"><span class="k">环境结局</span><span class="v">${c.success ? "success" : "fail"}</span></div>
+    </div>`;
+}
+
+/* ── trace ─────────────────────────────────────────────── */
+function renderTrace(){
+  const c = cur();
+  $("traceHost").innerHTML = c.proposals.map(p=>{
+    const cls = p.decision === "APPROVE" ? "ok" : (p.decision === "REJECT" ? "no" : "wait");
+    const note = p.objection ? `<div class="small" style="color:var(--break); margin-top:4px">review 异议：${p.objection}</div>` : "";
+    return `<div class="trow">
+      <div class="id">${p.proposal_id}<br>review r${p.review_round} · ${p.valid ? "编辑合法" : "编辑非法"}</div>
+      <div class="sm">${p.summary || "—"}${note}</div>
+      <span class="pill ${cls}">${p.decision}${p.accepted ? " · 入历史" : ""}</span>
+    </div>`;
+  }).join("");
+}
+
+/* ── dashboard ─────────────────────────────────────────── */
+function renderDash(){
+  const b = DATA.benchmark;
+  const names = {L1_transfer_set:"L1 电子集合", L2_transfer_sequence:"L2 因果顺序", L3_step_partition:"L3 分步边界"};
+  $("levelBars").innerHTML = Object.entries(b.levels).map(([k,v])=>{
+    const pct = (v.rate*100), lo = v.ci95[0]*100, hi = v.ci95[1]*100;
+    return `<div class="barrow">
+      <span class="k">${names[k]}</span>
+      <div class="track" title="${v.count}/${b.num_paths} · 95% CI ${lo.toFixed(1)}–${hi.toFixed(1)}%">
+        <span class="fill" style="width:${pct.toFixed(1)}%"></span>
+        <span class="ci" style="left:${lo.toFixed(1)}%; width:${(hi-lo).toFixed(1)}%"></span>
+      </div>
+      <span class="v">${pct.toFixed(1)}%</span>
+    </div>`;
+  }).join("");
+
+  const dnames = {match:"完全一致", content_mismatch:"路径不同", missing_events:"漏事件", extra_events:"多事件", reordered:"顺序不同", split_steps:"拆步", merged_steps:"并步"};
+  const entries = Object.entries(b.diagnosis).sort((a,c)=>c[1]-a[1]);
+  const maxv = Math.max(...entries.map(e=>e[1]));
+  $("diagBars").innerHTML = entries.map(([k,v])=>{
+    const color = k === "match" ? "var(--form)" : (k === "content_mismatch" ? "var(--break)" : "var(--gt)");
+    return `<div class="drow" title="${v} 条 / ${b.num_paths}">
+      <span class="dk">${dnames[k]||k}</span>
+      <span class="dbar"><i style="width:${(v/maxv*100).toFixed(1)}%; background:${color}"></i></span>
+      <span class="dv">${v}</span>
+    </div>`;
+  }).join("");
+
+  $("hTable").innerHTML = `<tr><th>层级</th><th style="text-align:right">H 匿名</th><th style="text-align:right">H 字面</th><th style="text-align:right">差值</th></tr>` +
+    Object.entries(b.h_sensitivity).map(([k,v])=>
+      `<tr><td class="mono" style="font-size:11.5px">${k.split("_")[0]}</td><td class="n">${(v.anonymized*100).toFixed(1)}%</td><td class="n">${(v.literal*100).toFixed(1)}%</td><td class="n">+${(v.delta*100).toFixed(1)}</td></tr>`
+    ).join("");
+}
+
+/* ── playback ──────────────────────────────────────────── */
+function stop(){ S.playing = false; clearInterval(S.timer); $("btnPlay").textContent = "▶ 播放"; }
+function play(){
+  if(S.playing) return stop();
+  S.playing = true; $("btnPlay").textContent = "❚❚ 暂停";
+  S.timer = setInterval(()=>{
+    S.step = (S.step + 1) % frames().length;
+    renderAll();
+    if(S.step === frames().length - 1) setTimeout(stop, 1400);
+  }, 1900);
+}
+
+/* ── wiring ────────────────────────────────────────────── */
+function renderAll(){ renderRail(); render(); renderCaption(); renderAlign(); renderTrace(); }
+function boot(){ renderAll(); }
+$("btnPlay").onclick = play;
+$("btnPrev").onclick = ()=>{ stop(); S.step = Math.max(0, S.step-1); renderAll(); };
+$("btnNext").onclick = ()=>{ stop(); S.step = Math.min(frames().length-1, S.step+1); renderAll(); };
+$("btnFocus").onclick = (e)=>{ S.focus = !S.focus; e.currentTarget.setAttribute("aria-pressed", String(S.focus)); render(); };
+addEventListener("keydown", (e)=>{
+  if(e.key === "ArrowRight"){ stop(); S.step = Math.min(frames().length-1, S.step+1); renderAll(); }
+  if(e.key === "ArrowLeft"){ stop(); S.step = Math.max(0, S.step-1); renderAll(); }
+});
+addEventListener("resize", ()=>{ VIEW.w = 0; render(); });
+boot();
+renderDash();
+</script>

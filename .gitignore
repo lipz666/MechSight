@@ -1,0 +1,42 @@
+# macOS / Windows / Editor junk
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Notebooks & logs
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Unpacked raw outputs (restored locally by ./unpack_raw_outputs.sh)
+results/raw_outputs/
+code/MechAgent/outputs/

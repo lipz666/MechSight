@@ -1,0 +1,281 @@
+{
+ "summary": {
+  "net_check": {
+   "n": 3,
+   "titles_correct": 0
+  },
+  "R1_recall_rate": {
+   "low": [
+    0.0,
+    0.0,
+    0.0,
+    2
+   ],
+   "mid": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "high": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "recent": [
+    0.0,
+    0.0,
+    0.0,
+    3
+   ]
+  },
+  "R1_slope_per_10x_cites": [
+   0.0,
+   0.0,
+   0.0,
+   6
+  ],
+  "refs_listed_mean": {
+   "low": 1.75,
+   "mid": NaN,
+   "high": 0.0,
+   "recent": 2.5
+  },
+  "listed_doi_exists_on_crossref": [
+   2,
+   7,
+   0.286
+  ],
+  "A": {
+   "low": [
+    27.5,
+    25.0,
+    30.0,
+    2
+   ],
+   "mid": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "high": [
+    80.0,
+    80.0,
+    80.0,
+    1
+   ],
+   "recent": [
+    56.06,
+    18.18,
+    83.33,
+    3
+   ]
+  },
+  "C": {
+   "low": [
+    50.0,
+    50.0,
+    50.0,
+    2
+   ],
+   "mid": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "high": [
+    80.0,
+    80.0,
+    80.0,
+    1
+   ],
+   "recent": [
+    47.73,
+    18.18,
+    66.67,
+    3
+   ]
+  },
+  "memory_index_CminusA": {
+   "low": [
+    22.5,
+    20.0,
+    25.0,
+    2
+   ],
+   "mid": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "high": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "recent": [
+    -8.33,
+    -25.0,
+    0.0,
+    3
+   ]
+  },
+  "memory_index_slope_per_10x_cites": [
+   -25.4,
+   -42.08,
+   17.07,
+   6
+  ],
+  "old_all_memory_index": [
+   15.0,
+   0.0,
+   25.0,
+   3
+  ],
+  "high_Direct_by_R1": {
+   "recalled": null,
+   "not_recalled": null
+  },
+  "old_Direct_by_R1": {
+   "recalled": null,
+   "not_recalled": [
+    35.0,
+    0.0,
+    80.0,
+    3
+   ]
+  },
+  "M4": {
+   "n": 4,
+   "by_stratum": {
+    "low": 0,
+    "mid": 0,
+    "high": 1,
+    "recent": 3
+   },
+   "polar_rate": {
+    "none": [
+     0.0,
+     0.0,
+     0.0,
+     4
+    ],
+    "consistent": [
+     0.0,
+     0.0,
+     0.0,
+     4
+    ],
+    "contradictory": [
+     75.0,
+     25.0,
+     100.0,
+     4
+    ]
+   },
+   "PRIMARY_contradictory_minus_consistent": [
+    75.0,
+    25.0,
+    100.0,
+    4
+   ],
+   "old_only": [
+    100.0,
+    100.0,
+    100.0,
+    1
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "PMC12780792",
+   "stratum": "recent",
+   "log_cites": null,
+   "year": null,
+   "R1": 0.0,
+   "n_refs": 0.0,
+   "A": 0.6666666666666666,
+   "C": 0.6666666666666666,
+   "CminusA": 0.0,
+   "Direct": 0.6666666666666666,
+   "polar_consistent": 0.0,
+   "polar_contradictory": 1.0,
+   "polar_none": 0.0
+  },
+  {
+   "id": "PMC12787511",
+   "stratum": "recent",
+   "log_cites": null,
+   "year": null,
+   "R1": 0.0,
+   "n_refs": 3.0,
+   "A": 0.8333333333333334,
+   "C": 0.5833333333333334,
+   "CminusA": -0.25,
+   "Direct": 0.8333333333333334,
+   "polar_consistent": 0.0,
+   "polar_contradictory": 0.0,
+   "polar_none": 0.0
+  },
+  {
+   "id": "PMC12787521",
+   "stratum": "recent",
+   "log_cites": null,
+   "year": null,
+   "R1": 0.0,
+   "n_refs": 4.5,
+   "A": 0.18181818181818182,
+   "C": 0.18181818181818182,
+   "CminusA": 0.0,
+   "Direct": 0.18181818181818182,
+   "polar_consistent": 0.0,
+   "polar_contradictory": 1.0,
+   "polar_none": 0.0
+  },
+  {
+   "id": "PMC8146099",
+   "stratum": "low",
+   "log_cites": 1.0374063739658947,
+   "year": 2019,
+   "R1": 0.0,
+   "n_refs": 3.5,
+   "A": 0.30000000000000004,
+   "C": 0.5,
+   "CminusA": 0.19999999999999996,
+   "Direct": 0.0
+  },
+  {
+   "id": "PMC8146146",
+   "stratum": "high",
+   "log_cites": 1.9244038325900563,
+   "year": 2019,
+   "R1": 0.0,
+   "n_refs": 0.0,
+   "A": 0.8,
+   "C": 0.8,
+   "CminusA": 0.0,
+   "Direct": 0.8,
+   "polar_consistent": 0.0,
+   "polar_contradictory": 1.0,
+   "polar_none": 0.0
+  },
+  {
+   "id": "PMC8148384",
+   "stratum": "low",
+   "log_cites": 1.3303341735621477,
+   "year": 2019,
+   "R1": 0.0,
+   "n_refs": 0.0,
+   "A": 0.25,
+   "C": 0.5,
+   "CminusA": 0.25,
+   "Direct": 0.25
+  }
+ ]
+}

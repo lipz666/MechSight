@@ -1,0 +1,62 @@
+MIT License
+
+Copyright (c) 2026 Peize Li, Yimi Wang, Chengchun Liu, and Fanyang Mo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-Party Benchmarks, Tools, and Data Attributions
+-------------------------------------------------------------------------------
+
+The MIT License above applies to all original MechSight code, prompts,
+analysis scripts, figure-build scripts, and generated summary/model-output
+artifacts created by the authors. Third-party benchmarks and software
+referenced or bundled in this repository remain subject to their respective
+licenses and copyright holders:
+
+1. oMeBench (`code/external/oMeBench/`):
+   Distributed unmodified under the MIT License (see
+   `code/external/oMeBench/LICENSE`).
+   Reference: R. Xu, Y. Zhang, Q. Wang, C. Edwards, H. Ji, "oMeBench: Towards
+   Robust Benchmarking of LLMs in Organic Mechanism Elucidation and Reasoning,"
+   arXiv:2510.07731 (2025).
+
+2. FukuyamaBench:
+   Reaction problems originate from T. Fukuyama, "Natural Products Chemistry
+   Lab Problem Sets," Nagoya University
+   (https://www.ps.nagoya-u.ac.jp/lab_pages/natural_products/), evaluated using
+   the PGL reaction-state representation described in X. Dang, H. Tang,
+   J. Wang, Y. Li, arXiv:2607.12771 (2026).
+
+3. mech-USPTO-31k:
+   Reference: S. Chen, R. Babazade, T. Kim, S. Han, Y. Jung, "A Large-Scale
+   Reaction Dataset of Mechanistic Pathways of Organic Reactions," Scientific
+   Data 2024, 11, 863 (https://doi.org/10.1038/s41597-024-03709-y).
+
+4. Specialist Baselines (FlowER and ChRIMP):
+   Evaluated externally using their official open-source code and weights:
+   - FlowER: J. F. Joung et al., Nature 2025, 645, 115–123.
+   - ChRIMP: T. A. Neukomm, Z. Jončev, P. Schwaller, arXiv:2512.05722 (2025).
+   No specialist model weights are redistributed in this repository.
+
+5. 2026 Open-Access Literature Corpus:
+   Bibliographic metadata and extracted experimental clue summaries correspond
+   to open-access articles retrieved via Europe PMC and individually cited by
+   PMC ID and DOI in Supporting Information Tables S20–S21. No third-party
+   copyrighted article PDFs are redistributed in this repository.

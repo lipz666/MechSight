@@ -1,0 +1,518 @@
+{
+ "T3_dev_formula": {
+  "O0": {
+   "n": 36,
+   "all_present": [
+    0.139,
+    0.028,
+    0.25
+   ],
+   "clue_species_present": [
+    0.583,
+    0.417,
+    0.722
+   ],
+   "in_order_frac": [
+    0.56,
+    0.464,
+    0.654
+   ],
+   "heavy_hidden_recall": [
+    0.596,
+    0.441,
+    0.755
+   ]
+  },
+  "O_llm": {
+   "n": 36,
+   "all_present": [
+    0.167,
+    0.056,
+    0.306
+   ],
+   "clue_species_present": [
+    0.778,
+    0.639,
+    0.889
+   ],
+   "in_order_frac": [
+    0.641,
+    0.545,
+    0.73
+   ],
+   "heavy_hidden_recall": [
+    0.649,
+    0.519,
+    0.808
+   ]
+  },
+  "O_ms": {
+   "n": 36,
+   "all_present": [
+    0.222,
+    0.083,
+    0.361
+   ],
+   "clue_species_present": [
+    0.694,
+    0.528,
+    0.833
+   ],
+   "in_order_frac": [
+    0.627,
+    0.533,
+    0.72
+   ],
+   "heavy_hidden_recall": [
+    0.614,
+    0.481,
+    0.756
+   ]
+  },
+  "O_llm_minus_O0": [
+   0.028,
+   -0.056,
+   0.139
+  ],
+  "O_ms_minus_O0": [
+   0.083,
+   -0.056,
+   0.222
+  ],
+  "O_ms_minus_O_llm": [
+   0.056,
+   -0.056,
+   0.167
+  ]
+ },
+ "T3_dev_label": {
+  "O0": {
+   "n": 36,
+   "all_present": [
+    0.139,
+    0.028,
+    0.25
+   ],
+   "clue_species_present": [
+    0.583,
+    0.417,
+    0.722
+   ],
+   "in_order_frac": [
+    0.56,
+    0.464,
+    0.654
+   ],
+   "heavy_hidden_recall": [
+    0.596,
+    0.441,
+    0.755
+   ]
+  },
+  "O_llm": {
+   "n": 36,
+   "all_present": [
+    0.167,
+    0.056,
+    0.306
+   ],
+   "clue_species_present": [
+    0.667,
+    0.5,
+    0.806
+   ],
+   "in_order_frac": [
+    0.595,
+    0.498,
+    0.688
+   ],
+   "heavy_hidden_recall": [
+    0.596,
+    0.449,
+    0.735
+   ]
+  },
+  "O_ms": {
+   "n": 36,
+   "all_present": [
+    0.194,
+    0.083,
+    0.333
+   ],
+   "clue_species_present": [
+    0.639,
+    0.472,
+    0.778
+   ],
+   "in_order_frac": [
+    0.624,
+    0.534,
+    0.713
+   ],
+   "heavy_hidden_recall": [
+    0.632,
+    0.482,
+    0.759
+   ]
+  },
+  "O_llm_minus_O0": [
+   0.028,
+   -0.056,
+   0.111
+  ],
+  "O_ms_minus_O0": [
+   0.056,
+   -0.056,
+   0.167
+  ],
+  "O_ms_minus_O_llm": [
+   0.028,
+   -0.056,
+   0.139
+  ]
+ },
+ "T3_dev_struct": {
+  "O0": {
+   "n": 36,
+   "all_present": [
+    0.139,
+    0.028,
+    0.25
+   ],
+   "clue_species_present": [
+    0.583,
+    0.417,
+    0.722
+   ],
+   "in_order_frac": [
+    0.56,
+    0.464,
+    0.654
+   ],
+   "heavy_hidden_recall": [
+    0.596,
+    0.441,
+    0.755
+   ]
+  },
+  "O_llm": {
+   "n": 36,
+   "all_present": [
+    0.306,
+    0.167,
+    0.472
+   ],
+   "clue_species_present": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "in_order_frac": [
+    0.689,
+    0.591,
+    0.78
+   ],
+   "heavy_hidden_recall": [
+    0.719,
+    0.603,
+    0.857
+   ]
+  },
+  "O_ms": {
+   "n": 36,
+   "all_present": [
+    0.278,
+    0.139,
+    0.444
+   ],
+   "clue_species_present": [
+    0.917,
+    0.806,
+    1.0
+   ],
+   "in_order_frac": [
+    0.709,
+    0.632,
+    0.785
+   ],
+   "heavy_hidden_recall": [
+    0.772,
+    0.639,
+    0.896
+   ]
+  },
+  "O_llm_minus_O0": [
+   0.167,
+   0.0,
+   0.333
+  ],
+  "O_ms_minus_O0": [
+   0.139,
+   0.0,
+   0.278
+  ],
+  "O_ms_minus_O_llm": [
+   -0.028,
+   -0.167,
+   0.111
+  ]
+ },
+ "J3_formula": {
+  "O0": {
+   "n": 89,
+   "all_present": [
+    0.371,
+    0.27,
+    0.472
+   ],
+   "clue_species_present": [
+    0.663,
+    0.562,
+    0.764
+   ],
+   "in_order_frac": [
+    0.672,
+    0.601,
+    0.738
+   ],
+   "heavy_hidden_recall": [
+    0.6,
+    0.485,
+    0.713
+   ]
+  },
+  "O_llm": {
+   "n": 89,
+   "all_present": [
+    0.393,
+    0.292,
+    0.494
+   ],
+   "clue_species_present": [
+    0.809,
+    0.719,
+    0.888
+   ],
+   "in_order_frac": [
+    0.727,
+    0.662,
+    0.79
+   ],
+   "heavy_hidden_recall": [
+    0.778,
+    0.693,
+    0.859
+   ]
+  },
+  "O_ms": {
+   "n": 89,
+   "all_present": [
+    0.483,
+    0.382,
+    0.584
+   ],
+   "clue_species_present": [
+    0.888,
+    0.82,
+    0.944
+   ],
+   "in_order_frac": [
+    0.779,
+    0.722,
+    0.832
+   ],
+   "heavy_hidden_recall": [
+    0.844,
+    0.752,
+    0.927
+   ]
+  },
+  "O_llm_minus_O0": [
+   0.022,
+   -0.056,
+   0.101
+  ],
+  "O_ms_minus_O0": [
+   0.112,
+   0.034,
+   0.202
+  ],
+  "O_ms_minus_O_llm": [
+   0.09,
+   0.0,
+   0.18
+  ]
+ },
+ "J3_label": {
+  "O0": {
+   "n": 89,
+   "all_present": [
+    0.371,
+    0.27,
+    0.472
+   ],
+   "clue_species_present": [
+    0.663,
+    0.562,
+    0.764
+   ],
+   "in_order_frac": [
+    0.672,
+    0.601,
+    0.738
+   ],
+   "heavy_hidden_recall": [
+    0.6,
+    0.485,
+    0.713
+   ]
+  },
+  "O_llm": {
+   "n": 89,
+   "all_present": [
+    0.348,
+    0.247,
+    0.449
+   ],
+   "clue_species_present": [
+    0.697,
+    0.596,
+    0.787
+   ],
+   "in_order_frac": [
+    0.667,
+    0.597,
+    0.732
+   ],
+   "heavy_hidden_recall": [
+    0.689,
+    0.579,
+    0.788
+   ]
+  },
+  "O_ms": {
+   "n": 89,
+   "all_present": [
+    0.449,
+    0.348,
+    0.551
+   ],
+   "clue_species_present": [
+    0.775,
+    0.685,
+    0.865
+   ],
+   "in_order_frac": [
+    0.728,
+    0.665,
+    0.788
+   ],
+   "heavy_hidden_recall": [
+    0.789,
+    0.695,
+    0.875
+   ]
+  },
+  "O_llm_minus_O0": [
+   -0.022,
+   -0.101,
+   0.056
+  ],
+  "O_ms_minus_O0": [
+   0.079,
+   0.011,
+   0.157
+  ],
+  "O_ms_minus_O_llm": [
+   0.101,
+   0.011,
+   0.191
+  ]
+ },
+ "J3_struct": {
+  "O0": {
+   "n": 89,
+   "all_present": [
+    0.371,
+    0.27,
+    0.472
+   ],
+   "clue_species_present": [
+    0.663,
+    0.562,
+    0.764
+   ],
+   "in_order_frac": [
+    0.672,
+    0.601,
+    0.738
+   ],
+   "heavy_hidden_recall": [
+    0.6,
+    0.485,
+    0.713
+   ]
+  },
+  "O_llm": {
+   "n": 89,
+   "all_present": [
+    0.461,
+    0.36,
+    0.573
+   ],
+   "clue_species_present": [
+    0.978,
+    0.944,
+    1.0
+   ],
+   "in_order_frac": [
+    0.766,
+    0.7,
+    0.824
+   ],
+   "heavy_hidden_recall": [
+    0.789,
+    0.676,
+    0.902
+   ]
+  },
+  "O_ms": {
+   "n": 89,
+   "all_present": [
+    0.539,
+    0.438,
+    0.64
+   ],
+   "clue_species_present": [
+    0.978,
+    0.944,
+    1.0
+   ],
+   "in_order_frac": [
+    0.83,
+    0.779,
+    0.877
+   ],
+   "heavy_hidden_recall": [
+    0.9,
+    0.822,
+    0.966
+   ]
+  },
+  "O_llm_minus_O0": [
+   0.09,
+   0.0,
+   0.18
+  ],
+  "O_ms_minus_O0": [
+   0.169,
+   0.067,
+   0.27
+  ],
+  "O_ms_minus_O_llm": [
+   0.079,
+   -0.011,
+   0.169
+  ]
+ }
+}

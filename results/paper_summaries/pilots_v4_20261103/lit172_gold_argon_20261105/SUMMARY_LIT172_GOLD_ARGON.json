@@ -1,0 +1,3798 @@
+{
+ "summary": {
+  "n_papers": 165,
+  "n_with_clues": 165,
+  "n_gold_species": 920,
+  "ceiling_any_output": {
+   "strict": [
+    568,
+    920,
+    0.617
+   ],
+   "relaxed": [
+    499,
+    821,
+    0.608
+   ]
+  },
+  "strict": {
+   "all_papers": {
+    "Direct": {
+     "n": 165,
+     "recall": [
+      0.404,
+      0.351,
+      0.455
+     ],
+     "all_present": [
+      0.115,
+      0.067,
+      0.164
+     ]
+    },
+    "MechSight_Auto": {
+     "n": 165,
+     "recall": [
+      0.458,
+      0.404,
+      0.511
+     ],
+     "all_present": [
+      0.164,
+      0.109,
+      0.218
+     ]
+    }
+   },
+   "all_Auto_minus_Direct": {
+    "recall": [
+     0.054,
+     0.022,
+     0.087
+    ],
+    "all_present": [
+     0.048,
+     0.012,
+     0.091
+    ]
+   },
+   "paired_with_clues": {
+    "Direct": {
+     "n": 165,
+     "recall": [
+      0.404,
+      0.351,
+      0.455
+     ],
+     "all_present": [
+      0.115,
+      0.067,
+      0.164
+     ]
+    },
+    "MechSight_Auto": {
+     "n": 165,
+     "recall": [
+      0.458,
+      0.404,
+      0.511
+     ],
+     "all_present": [
+      0.164,
+      0.109,
+      0.218
+     ]
+    },
+    "Direct_clues": {
+     "n": 165,
+     "recall": [
+      0.505,
+      0.45,
+      0.556
+     ],
+     "all_present": [
+      0.194,
+      0.133,
+      0.255
+     ]
+    },
+    "MechSight_Guided": {
+     "n": 165,
+     "recall": [
+      0.525,
+      0.47,
+      0.578
+     ],
+     "all_present": [
+      0.194,
+      0.133,
+      0.255
+     ]
+    },
+    "MechSight_Auto_minus_Direct": {
+     "recall": [
+      0.054,
+      0.022,
+      0.087
+     ],
+     "all_present": [
+      0.048,
+      0.012,
+      0.091
+     ]
+    },
+    "Direct_clues_minus_Direct": {
+     "recall": [
+      0.101,
+      0.066,
+      0.137
+     ],
+     "all_present": [
+      0.079,
+      0.042,
+      0.121
+     ]
+    },
+    "MechSight_Guided_minus_Direct": {
+     "recall": [
+      0.121,
+      0.082,
+      0.162
+     ],
+     "all_present": [
+      0.079,
+      0.036,
+      0.127
+     ]
+    },
+    "MechSight_Guided_minus_Direct_clues": {
+     "recall": [
+      0.02,
+      -0.012,
+      0.057
+     ],
+     "all_present": [
+      0.0,
+      -0.048,
+      0.048
+     ]
+    },
+    "MechSight_Guided_minus_MechSight_Auto": {
+     "recall": [
+      0.067,
+      0.036,
+      0.102
+     ],
+     "all_present": [
+      0.03,
+      0.0,
+      0.067
+     ]
+    }
+   }
+  },
+  "relaxed": {
+   "all_papers": {
+    "Direct": {
+     "n": 160,
+     "recall": [
+      0.356,
+      0.305,
+      0.407
+     ],
+     "all_present": [
+      0.106,
+      0.062,
+      0.156
+     ]
+    },
+    "MechSight_Auto": {
+     "n": 160,
+     "recall": [
+      0.405,
+      0.349,
+      0.459
+     ],
+     "all_present": [
+      0.138,
+      0.087,
+      0.194
+     ]
+    }
+   },
+   "all_Auto_minus_Direct": {
+    "recall": [
+     0.049,
+     0.015,
+     0.085
+    ],
+    "all_present": [
+     0.031,
+     -0.006,
+     0.069
+    ]
+   },
+   "paired_with_clues": {
+    "Direct": {
+     "n": 160,
+     "recall": [
+      0.356,
+      0.305,
+      0.407
+     ],
+     "all_present": [
+      0.106,
+      0.062,
+      0.156
+     ]
+    },
+    "MechSight_Auto": {
+     "n": 160,
+     "recall": [
+      0.405,
+      0.349,
+      0.459
+     ],
+     "all_present": [
+      0.138,
+      0.087,
+      0.194
+     ]
+    },
+    "Direct_clues": {
+     "n": 160,
+     "recall": [
+      0.447,
+      0.393,
+      0.498
+     ],
+     "all_present": [
+      0.156,
+      0.106,
+      0.212
+     ]
+    },
+    "MechSight_Guided": {
+     "n": 160,
+     "recall": [
+      0.48,
+      0.427,
+      0.532
+     ],
+     "all_present": [
+      0.181,
+      0.125,
+      0.237
+     ]
+    },
+    "MechSight_Auto_minus_Direct": {
+     "recall": [
+      0.049,
+      0.015,
+      0.085
+     ],
+     "all_present": [
+      0.031,
+      -0.006,
+      0.069
+     ]
+    },
+    "Direct_clues_minus_Direct": {
+     "recall": [
+      0.091,
+      0.055,
+      0.13
+     ],
+     "all_present": [
+      0.05,
+      0.019,
+      0.087
+     ]
+    },
+    "MechSight_Guided_minus_Direct": {
+     "recall": [
+      0.124,
+      0.089,
+      0.164
+     ],
+     "all_present": [
+      0.075,
+      0.031,
+      0.125
+     ]
+    },
+    "MechSight_Guided_minus_Direct_clues": {
+     "recall": [
+      0.033,
+      -0.001,
+      0.066
+     ],
+     "all_present": [
+      0.025,
+      -0.013,
+      0.062
+     ]
+    },
+    "MechSight_Guided_minus_MechSight_Auto": {
+     "recall": [
+      0.075,
+      0.043,
+      0.107
+     ],
+     "all_present": [
+      0.044,
+      0.013,
+      0.075
+     ]
+    }
+   }
+  }
+ },
+ "per_paper": [
+  {
+   "id": "PMC12780792",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC12787511",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC12787521",
+   "n_gold": 11,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12794647",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC12809706",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12815245",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC12834221",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC12835886",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12848737",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC12856901",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12856908",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC12857298",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12917259",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC12923525",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC12947841",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC12951465",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC12957386",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12964415",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC12964421",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC12974600",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 7,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 7,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC12982757",
+   "n_gold": 11,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC12983302",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13007570",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13007792",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13014238",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13014267",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13014268",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13021922",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13031794",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13034179",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 6,
+    "relaxed": 7
+   },
+   "Direct_clues": {
+    "strict": 6,
+    "relaxed": 7
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 7
+   }
+  },
+  {
+   "id": "PMC13036046",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13036800",
+   "n_gold": 10,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13037352",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13039371",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 6,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13066409",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13080434",
+   "n_gold": 10,
+   "has_clues": true,
+   "Direct": {
+    "strict": 6,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 6,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13080436",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13089765",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13098307",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13103363",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13106799",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13107439",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13110766",
+   "n_gold": 14,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13126179",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 6
+   }
+  },
+  {
+   "id": "PMC13133923",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13134566",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 6
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 6
+   }
+  },
+  {
+   "id": "PMC13135463",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13136360",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13148268",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13155299",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13159295",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13162315",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13162318",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 6,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13168262",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13171995",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13174901",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13184977",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13185130",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13187312",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13195649",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 6
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 6,
+    "relaxed": 6
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 6
+   }
+  },
+  {
+   "id": "PMC13195658",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13195677",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 7,
+    "relaxed": 7
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 7,
+    "relaxed": 7
+   }
+  },
+  {
+   "id": "PMC13198982",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13200257",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13202470",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13206243",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13213398",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13213477",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13213512",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13234857",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13237386",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13243443",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13250366",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13266924",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13270633",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13281526",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13288677",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13289785",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13290410",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 8,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13291968",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13291971",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13307311",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13312053",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13315566",
+   "n_gold": 11,
+   "has_clues": true,
+   "Direct": {
+    "strict": 9,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 9,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 9,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 9,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13321810",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13339155",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13344364",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13347295",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13347296",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 6,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 6,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13360835",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13365470",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13365806",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13376514",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13376901",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13378512",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13378574",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13383067",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13383711",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13385794",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 7,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 7,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13386205",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13397559",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13398413",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13408099",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13417194",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13417243",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13423811",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13426269",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 6
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 6
+   }
+  },
+  {
+   "id": "PMC13430768",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13434812",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13435849",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13438561",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13442844",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13448636",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13449957",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13449958",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13450392",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13458445",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13462583",
+   "n_gold": 11,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13464617",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13470219",
+   "n_gold": 10,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13473639",
+   "n_gold": 15,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 4,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13474942",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 6,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 6,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 6,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 6,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13482915",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13485175",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13488434",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13488887",
+   "n_gold": 12,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 7
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13488897",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13490395",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 4,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 6
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13500704",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13505769",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13524950",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13532196",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13537190",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 4,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13542144",
+   "n_gold": 1,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13544145",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 7
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 7
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 7
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 7
+   }
+  },
+  {
+   "id": "PMC13545234",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13573116",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13582963",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13587640",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13592308",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 4,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13592321",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13592431",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13597299",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13597512",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 7,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13602958",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13613150",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13621808",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13625736",
+   "n_gold": 13,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13625739",
+   "n_gold": 8,
+   "has_clues": true,
+   "Direct": {
+    "strict": 7,
+    "relaxed": 5
+   },
+   "MechSight_Auto": {
+    "strict": 7,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 7,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 7,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13628520",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13669357",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13676386",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 4
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 4
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 4
+   }
+  },
+  {
+   "id": "PMC13676390",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13676404",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "Direct_clues": {
+    "strict": 5,
+    "relaxed": 5
+   },
+   "MechSight_Guided": {
+    "strict": 5,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13682201",
+   "n_gold": 7,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13690704",
+   "n_gold": 6,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13693385",
+   "n_gold": 3,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 3
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13703788",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 3,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 3
+   }
+  },
+  {
+   "id": "PMC13703958",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 5
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 4
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 5
+   }
+  },
+  {
+   "id": "PMC13714319",
+   "n_gold": 4,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13714829",
+   "n_gold": 2,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 2
+   },
+   "MechSight_Guided": {
+    "strict": 2,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13714858",
+   "n_gold": 18,
+   "has_clues": true,
+   "Direct": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "Direct_clues": {
+    "strict": 1,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 1,
+    "relaxed": 1
+   }
+  },
+  {
+   "id": "PMC13715327",
+   "n_gold": 19,
+   "has_clues": true,
+   "Direct": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Auto": {
+    "strict": 3,
+    "relaxed": 2
+   },
+   "Direct_clues": {
+    "strict": 2,
+    "relaxed": 1
+   },
+   "MechSight_Guided": {
+    "strict": 3,
+    "relaxed": 2
+   }
+  },
+  {
+   "id": "PMC13715468",
+   "n_gold": 9,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  },
+  {
+   "id": "PMC13725559",
+   "n_gold": 5,
+   "has_clues": true,
+   "Direct": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Auto": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "Direct_clues": {
+    "strict": 0,
+    "relaxed": 0
+   },
+   "MechSight_Guided": {
+    "strict": 0,
+    "relaxed": 0
+   }
+  }
+ ]
+}

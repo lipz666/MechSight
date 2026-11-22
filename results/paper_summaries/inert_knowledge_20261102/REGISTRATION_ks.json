@@ -1,0 +1,17 @@
+{
+  "registered_at": "2026-11-02, before any knowledge-source model call",
+  "purpose": "Where does the inert knowledge of hidden intermediates come from, and how is it accessed? (story claim C5)",
+  "model_cases_scoring": "Same as REGISTRATION.json: gemini-3.8-flash, 147 J3 cases (89 with probeable hidden events), sigma-graph keys. K = hidden species recalled in S or G (phase 1). Concurrency 300.",
+  "experiments": {
+    "KS-1 ID": "Free-text identification from SMILES endpoints and conditions: named_reaction (or null), reaction_class, confidence, seen_problem. No mechanism. 147 calls.",
+    "KS-2 E_selfname": "E prompt plus the model's own KS-1 identification as a hint (no GT information). 89 cases x 2 calls.",
+    "KS-3 S_analog": "S on a homologue with one CH3 on the spectator carbon farthest (>= 3 bonds) from every atom touched by any GT step; 62 eligible cases. S_r2 = S resampled on the original (89 calls) as the noise reference."
+  },
+  "primary_heavy_atom_events": {
+    "schema_index": "K among events in reactions the model names (named_reaction non-null) vs. not named; difference reported with case-bootstrap CIs. Schema-indexed knowledge is supported if K(named) - K(not named) >= 15 pp with CI excluding 0.",
+    "schema_activation": "E_selfname minus mean(E, E_r2) hidden-event recall; activation supported if the 95% CI excludes 0 (positive).",
+    "transfer": "S_analog minus mean(S, S_r2) on the same events. General (non-memorised) knowledge is supported if the 95% CI lies within [-10, +10] pp or the point estimate is >= -5 pp; memorisation is supported if the CI lies entirely below -10 pp."
+  },
+  "secondary": ["the same for all events", "K and E by partition A/B/C (C = research-lab problems, less likely textbook-memorised)", "K by self-reported confidence (>= 0.7 vs < 0.7) and by seen_problem"],
+  "declared_limitations": ["self-identification is not checked against GT names (FukuyamaBench has none)", "one model", "the analog is a single, minimal perturbation"]
+}

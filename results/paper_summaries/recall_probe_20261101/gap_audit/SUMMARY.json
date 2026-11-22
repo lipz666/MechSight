@@ -1,0 +1,77 @@
+{
+  "select_own": {
+    "answers": 37,
+    "cases": 18,
+    "categories": {
+      "merged": 16,
+      "partial": 9,
+      "subpath": 6,
+      "same_molecules": 3,
+      "on_atoms": 2,
+      "off_path": 1
+    },
+    "convention_candidates": 31,
+    "verdicts": {
+      "acceptable": 31,
+      "questionable": 1,
+      "wrong": 5
+    },
+    "types": {
+      "granularity": 22,
+      "chemistry": 5,
+      "metric artifact": 3,
+      "order": 2,
+      "literature": 2,
+      "proton/tautomer": 1,
+      "metric artifact + literature": 1,
+      "counterion": 1
+    },
+    "accuracy_strict": 0.6783,
+    "accuracy_acceptable": 0.9478,
+    "accuracy_acceptable_or_questionable": 0.9565,
+    "accuracy_acceptable_excluding_merged": 0.8087
+  },
+  "one_sample": {
+    "answers": 31,
+    "cases": 18,
+    "categories": {
+      "merged": 12,
+      "partial": 10,
+      "subpath": 5,
+      "same_molecules": 2,
+      "on_atoms": 2
+    },
+    "convention_candidates": 27,
+    "verdicts": {
+      "acceptable": 25,
+      "wrong": 5,
+      "questionable": 1
+    },
+    "types": {
+      "granularity": 19,
+      "chemistry": 5,
+      "metric artifact": 2,
+      "order": 2,
+      "proton/tautomer": 1,
+      "metric artifact + literature": 1,
+      "literature": 1
+    },
+    "accuracy_strict": 0.7304,
+    "accuracy_acceptable": 0.9478,
+    "accuracy_acceptable_or_questionable": 0.9565,
+    "accuracy_acceptable_excluding_merged": 0.8435
+  },
+  "any": {
+    "answers": 43,
+    "cases": 19,
+    "categories": {
+      "merged": 16,
+      "partial": 13,
+      "subpath": 8,
+      "same_molecules": 3,
+      "on_atoms": 2,
+      "off_path": 1
+    },
+    "convention_candidates": 37
+  }
+}

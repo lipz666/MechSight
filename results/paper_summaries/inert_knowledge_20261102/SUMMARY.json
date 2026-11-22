@@ -1,0 +1,193 @@
+{
+  "model": "gemini-3.8-flash",
+  "cases_with_hidden_events": 95,
+  "all_events": {
+    "events": 174,
+    "cases": 89,
+    "recall_E": [
+      0.563,
+      0.476,
+      0.646
+    ],
+    "recall_S": [
+      0.713,
+      0.619,
+      0.801
+    ],
+    "recall_G": [
+      0.741,
+      0.648,
+      0.822
+    ],
+    "recall_S_skel": [
+      0.759,
+      0.667,
+      0.842
+    ],
+    "recall_G_skel": [
+      0.793,
+      0.703,
+      0.875
+    ],
+    "omitted_in_E": 76,
+    "omitted_known_S_or_G": [
+      0.645,
+      0.527,
+      0.761
+    ],
+    "omitted_known_G": [
+      0.605,
+      0.488,
+      0.726
+    ],
+    "omitted_known_S": [
+      0.539,
+      0.413,
+      0.658
+    ],
+    "omitted_known_S_or_G_skel": [
+      0.711,
+      0.602,
+      0.818
+    ],
+    "G_minus_S": [
+      0.029,
+      -0.024,
+      0.083
+    ],
+    "contingency_E_vs_SorG": {
+      "E0_K1": 49,
+      "E0_K0": 27,
+      "E1_K1": 86,
+      "E1_K0": 12
+    }
+  },
+  "heavy_atom_events": {
+    "events": 90,
+    "cases": 59,
+    "recall_E": [
+      0.533,
+      0.412,
+      0.657
+    ],
+    "recall_S": [
+      0.678,
+      0.56,
+      0.782
+    ],
+    "recall_G": [
+      0.733,
+      0.626,
+      0.83
+    ],
+    "recall_S_skel": [
+      0.689,
+      0.571,
+      0.795
+    ],
+    "recall_G_skel": [
+      0.756,
+      0.648,
+      0.853
+    ],
+    "omitted_in_E": 42,
+    "omitted_known_S_or_G": [
+      0.571,
+      0.425,
+      0.722
+    ],
+    "omitted_known_G": [
+      0.571,
+      0.425,
+      0.722
+    ],
+    "omitted_known_S": [
+      0.476,
+      0.333,
+      0.619
+    ],
+    "omitted_known_S_or_G_skel": [
+      0.571,
+      0.425,
+      0.722
+    ],
+    "G_minus_S": [
+      0.056,
+      0.0,
+      0.122
+    ],
+    "contingency_E_vs_SorG": {
+      "E1_K1": 43,
+      "E0_K1": 24,
+      "E1_K0": 5,
+      "E0_K0": 18
+    }
+  },
+  "h_transfer_events": {
+    "events": 84,
+    "cases": 63,
+    "recall_E": [
+      0.595,
+      0.481,
+      0.709
+    ],
+    "recall_S": [
+      0.75,
+      0.636,
+      0.857
+    ],
+    "recall_G": [
+      0.75,
+      0.63,
+      0.854
+    ],
+    "recall_S_skel": [
+      0.833,
+      0.727,
+      0.927
+    ],
+    "recall_G_skel": [
+      0.833,
+      0.731,
+      0.921
+    ],
+    "omitted_in_E": 34,
+    "omitted_known_S_or_G": [
+      0.735,
+      0.541,
+      0.903
+    ],
+    "omitted_known_G": [
+      0.647,
+      0.455,
+      0.833
+    ],
+    "omitted_known_S": [
+      0.618,
+      0.417,
+      0.806
+    ],
+    "omitted_known_S_or_G_skel": [
+      0.882,
+      0.743,
+      1.0
+    ],
+    "G_minus_S": [
+      0.0,
+      -0.086,
+      0.09
+    ],
+    "contingency_E_vs_SorG": {
+      "E0_K1": 25,
+      "E0_K0": 9,
+      "E1_K1": 43,
+      "E1_K0": 7
+    }
+  },
+  "E_sigma_L1_all_cases": 0.599,
+  "E_cases": 147,
+  "free_text_missing_tag": {
+    "S": 0,
+    "G": 1
+  }
+}

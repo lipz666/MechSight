@@ -1,0 +1,94 @@
+{
+  "cases": 147,
+  "M1": {
+    "visible_species_recall": 0.807,
+    "hidden_species_recall": 0.697,
+    "heavy_hidden_event_recall": [
+      0.711,
+      0.602,
+      0.811
+    ],
+    "all_GT_intermediates_present": [
+      0.565,
+      0.483,
+      0.646
+    ],
+    "in_order_fraction": [
+      0.786,
+      0.739,
+      0.832
+    ],
+    "parse_rate": 0.991,
+    "balanced_step_rate": 0.948,
+    "median_states": 6,
+    "all_present_by_hidden_events": {
+      "0": "41/58",
+      "1-2": "36/67",
+      ">=3": "6/22"
+    }
+  },
+  "M2": {
+    "visible_species_recall": 0.825,
+    "hidden_species_recall": 0.65,
+    "heavy_hidden_event_recall": [
+      0.711,
+      0.602,
+      0.812
+    ],
+    "all_GT_intermediates_present": [
+      0.578,
+      0.497,
+      0.66
+    ],
+    "in_order_fraction": [
+      0.777,
+      0.726,
+      0.826
+    ],
+    "parse_rate": 0.99,
+    "balanced_step_rate": 0.932,
+    "median_states": 6,
+    "all_present_by_hidden_events": {
+      "0": "43/58",
+      "1-2": "33/67",
+      ">=3": "9/22"
+    }
+  },
+  "E": {
+    "visible_species_recall": 0.86,
+    "hidden_species_recall": 0.592,
+    "heavy_hidden_event_recall": [
+      0.611,
+      0.485,
+      0.738
+    ],
+    "all_GT_intermediates_present": [
+      0.497,
+      0.422,
+      0.571
+    ],
+    "in_order_fraction": [
+      0.329,
+      0.288,
+      0.372
+    ],
+    "all_present_by_hidden_events": {
+      "0": "38/58",
+      "1-2": "30/67",
+      ">=3": "5/22"
+    }
+  },
+  "inertness_smiles": {
+    "heavy_omitted_in_M1": 26,
+    "reappear_in_M2": [
+      0.115,
+      0.0,
+      0.261
+    ],
+    "known_in_other_narratives": [
+      0.385,
+      0.174,
+      0.583
+    ]
+  }
+}

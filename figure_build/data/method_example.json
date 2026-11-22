@@ -1,0 +1,712 @@
+{
+ "reactants": [
+  "BrBr",
+  "CC(C)=C1CCC(C)CC1=O",
+  "CC[O-]",
+  "CC[O-]"
+ ],
+ "products": [
+  "[Br-]",
+  "[Br-]",
+  "CCOC(=O)C1C(=C(C)C)CCC1C",
+  "CCO"
+ ],
+ "conditions": "reagent: Br2; reagent: NaHCO3; solvent: Et2O; temperature: 0\u00b0C; reagent: NaOEt; solvent: EtOH-Et2O; temperature: reflux",
+ "pool_members": {
+  "base_default": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "samp1": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "samp2": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "samp3": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "samp4": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CCOC1([O-])C2C(C)CCC12C(C)(C)Br",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "enum1": [
+   "CC1(C)[Br+]C12CCC(C)CC2=O",
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "enum2": [
+   "CC(C)([C+])C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)C=C1[O-]",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1[C-](C(Br)(Me)2)CCC1C",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "enum3": [
+   "CC1(C)[Br+]C12CCC(C)CC2=O",
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)C=C1[O-]",
+   "CC(C)(Br)[C+]1CCC(C)C=C1[O-]",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ]
+ },
+ "pool_profiles": {
+  "base_default": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "samp1": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "samp2": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "samp3": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "samp4": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "enum1": [
+   3,
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "enum2": [
+   4,
+   3,
+   0,
+   2,
+   1,
+   "unparsable",
+   2
+  ],
+  "enum3": [
+   3,
+   3,
+   0,
+   1,
+   1,
+   1,
+   2
+  ]
+ },
+ "cands": [
+  {
+   "smiles": [
+    "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+    "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+    "CC(C)(Br)C12CCC(C)C1C2=O",
+    "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+    "CCOC(=O)C1C(=C(C)C)CCC1C"
+   ],
+   "types": [
+    "electrophilic_addition",
+    "acid_base_proton_transfer",
+    "nucleophilic_substitution",
+    "nucleophilic_addition",
+    "leaving_group_elimination"
+   ],
+   "dbonds": [
+    3,
+    0,
+    2,
+    1,
+    2
+   ],
+   "gaps": [
+    [
+     0,
+     "several heavy-atom bonds change in this one step"
+    ]
+   ]
+  },
+  {
+   "smiles": [
+    "CC1(C)[Br+]C12CCC(C)CC2=O",
+    "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+    "CC(C)(Br)C1(Br)CCC(C)C=C1[O-]",
+    "CC(C)(Br)[C+]1CCC(C)C=C1[O-]",
+    "CC(C)(Br)C12CCC(C)C1C2=O",
+    "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+    "CCOC(=O)C1C(=C(C)C)CCC1C"
+   ],
+   "types": [
+    "electrophilic_addition",
+    "nucleophilic_substitution",
+    "acid_base_proton_transfer",
+    "leaving_group_elimination",
+    "electrocyclization",
+    "nucleophilic_addition",
+    "leaving_group_elimination"
+   ],
+   "dbonds": [
+    3,
+    3,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "gaps": [
+    [
+     0,
+     "several heavy-atom bonds change in this one step"
+    ],
+    [
+     1,
+     "several heavy-atom bonds change in this one step"
+    ]
+   ]
+  },
+  {
+   "smiles": [
+    "CC(C)([C+])C1(Br)CCC(C)CC1=O",
+    "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+    "CC(C)(Br)C1(Br)CCC(C)C=C1[O-]",
+    "CC(C)(Br)C12CCC(C)C1C2=O",
+    "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+    "CCOC(=O)C1[C-](C(Br)(Me)2)CCC1C",
+    "CCOC(=O)C1C(=C(C)C)CCC1C"
+   ],
+   "types": [
+    "electrophilic_addition",
+    "nucleophilic_addition",
+    "acid_base_proton_transfer",
+    "nucleophilic_substitution",
+    "nucleophilic_addition",
+    "heterolytic_cleavage",
+    "leaving_group_elimination"
+   ],
+   "dbonds": [
+    4,
+    3,
+    0,
+    2,
+    1,
+    "unparsable",
+    2
+   ],
+   "gaps": [
+    [
+     0,
+     "several heavy-atom bonds change in this one step"
+    ],
+    [
+     1,
+     "several heavy-atom bonds change in this one step"
+    ],
+    [
+     5,
+     "species does not parse"
+    ]
+   ]
+  },
+  {
+   "smiles": [
+    "CC1(C)[Br+]C12CCC(C)CC2=O",
+    "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+    "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+    "CC(C)(Br)C12CCC(C)C1C2=O",
+    "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+    "CCOC(=O)C1C(=C(C)C)CCC1C"
+   ],
+   "types": [
+    "electrophilic_addition",
+    "nucleophilic_substitution",
+    "acid_base_proton_transfer",
+    "nucleophilic_substitution",
+    "nucleophilic_addition",
+    "leaving_group_elimination"
+   ],
+   "dbonds": [
+    3,
+    3,
+    0,
+    2,
+    1,
+    2
+   ],
+   "gaps": [
+    [
+     0,
+     "several heavy-atom bonds change in this one step"
+    ],
+    [
+     1,
+     "several heavy-atom bonds change in this one step"
+    ]
+   ]
+  }
+ ],
+ "comp1_answer": "<states>\nC1.S1: CC1(C)[Br+]C12CCC(C)CC2=O\n</states>",
+ "comp1_checked": [
+  [
+   "C1.S1",
+   "CC1CCC2([Br+]C2(C)C)C(=O)C1"
+  ]
+ ],
+ "V5_rev1_raw": "To determine the correct stepwise mechanism, let us evaluate the proposed candidates:\n\n- **Candidate 1** collapses the electrophilic addition of $\\text{Br}_2$ into a single elementary step, bypassing the discrete bromonium ion intermediate. While intermediate `(C1.S1)` was proposed to split this step, inspection reveals that `(C1.S1)` (`CC1CCC2([Br+]C2(C)C)C(=O)C1`) contains only 9 carbons (a cyclopentyl ring) instead of the 10 carbons required for pulegone, making it chemically incorrect.\n- **Candidate 2** proposes an elimination of bromide from an enolate to generate an oxyallyl cation under strongly basic conditions ($\\text{NaOEt}$), followed by electrocyclization. Generating an open oxyallyl cation under basic conditions is chemically unsound; the Favorskii rearrangement of $\\alpha$-haloketones proceeds via intramolecular nucleophilic substitution ($\\mathrm{S_N2}$) of the carbanion/enolate to yield the cyclopropanone directly.\n- **Candidate 3** contains an invalid step with an unparseable SMILES string (`CCOC(=O)C1[C-](C(Br)(Me)2)CCC1C`) and is discarded.\n- **Candidate 4** accurately represents the complete, sound elementary sequence of the Favorskii rearrangement of pulegone dibromide:\n  1. Electrophilic addition of $\\text{Br}_2$ to the exocyclic alkene of pulegone forms the 3-membered bromonium ion.\n  2. Nucleophilic ring-opening of the bromonium ion by bromide yields pulegone dibromide.\n  3. Deprotonation at the $\\alpha$-position ($\\text{C6}$) by ethoxide generates the nucleophilic carbanion/enolate.\n  4. Intramolecular nucleophilic substitution displaces the ring bromide to furnish the bicyclo[3.1.0]hexan-2-one (cyclopropanone) intermediate.\n  5. Nucleophilic addition of ethoxide to the strained cyclopropanone carbonyl gives a tetrahedral hemiacetal alkoxide intermediate.\n  6. Grob-type fragmentation with cyclopropanone ring cleavage, double bond formation, and elimination of the tertiary bromide yields ethyl pulegenate.\n\n[ANSWER]\n[\n  {\n    \"step\": 1,\n    \"type\": \"electrophilic_addition\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CC1(C)[Br+]C12CCC(C)CC2=O\"\n  },\n  {\n    \"step\": 2,\n    \"type\": \"nucleophilic_substitution\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CC(C)(Br)C1(Br)CCC(C)CC1=O\"\n  },\n  {\n    \"step\": 3,\n    \"type\": \"acid_base_proton_transfer\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O\"\n  },\n  {\n    \"step\": 4,\n    \"type\": \"nucleophilic_substitution\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CC(C)(Br)C12CCC(C)C1C2=O\"\n  },\n  {\n    \"step\": 5,\n    \"type\": \"nucleophilic_addition\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CC(C)(Br)C12CCC(C)C1C2([O-])OCC\"\n  },\n  {\n    \"step\": 6,\n    \"type\": \"leaving_group_elimination\",\n    \"subtype\": \"\",\n    \"intermediate_smiles\": \"CCOC(=O)C1C(=C(C)C)CCC1C\"\n  }\n]\n[/ANSWER]",
+ "V5_comp2_raw": "<states>\n</states>",
+ "V5_rev2_raw": null,
+ "final_r1": {
+  "smiles": [
+   "CC1(C)[Br+]C12CCC(C)CC2=O",
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "types": [
+   "electrophilic_addition",
+   "nucleophilic_substitution",
+   "acid_base_proton_transfer",
+   "nucleophilic_substitution",
+   "nucleophilic_addition",
+   "leaving_group_elimination"
+  ],
+  "dbonds": [
+   3,
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "gaps": [
+   [
+    0,
+    "several heavy-atom bonds change in this one step"
+   ],
+   [
+    1,
+    "several heavy-atom bonds change in this one step"
+   ]
+  ],
+  "score": {
+   "parsed": true,
+   "all_present": 1.0,
+   "in_order_frac": 1.0,
+   "heavy_hit": 3,
+   "heavy_n": 3,
+   "n_hidden_events": 3,
+   "hid_hit": 5,
+   "hid_n": 5
+  }
+ },
+ "final_r2": {
+  "smiles": [
+   "CC1(C)[Br+]C12CCC(C)CC2=O",
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "types": [
+   "electrophilic_addition",
+   "nucleophilic_substitution",
+   "acid_base_proton_transfer",
+   "nucleophilic_substitution",
+   "nucleophilic_addition",
+   "leaving_group_elimination"
+  ],
+  "dbonds": [
+   3,
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "gaps": [
+   [
+    0,
+    "several heavy-atom bonds change in this one step"
+   ],
+   [
+    1,
+    "several heavy-atom bonds change in this one step"
+   ]
+  ],
+  "score": {
+   "parsed": true,
+   "all_present": 1.0,
+   "in_order_frac": 1.0,
+   "heavy_hit": 3,
+   "heavy_n": 3,
+   "n_hidden_events": 3,
+   "hid_hit": 5,
+   "hid_n": 5
+  }
+ },
+ "direct": {
+  "smiles": [
+   "CC(C)(Br)C1(Br)CCC(C)CC1=O",
+   "CC(C)(Br)C1(Br)CCC(C)[CH-]C1=O",
+   "CC(C)(Br)C12CCC(C)C1C2=O",
+   "CC(C)(Br)C12CCC(C)C1C2([O-])OCC",
+   "CCOC(=O)C1C(=C(C)C)CCC1C"
+  ],
+  "dbonds": [
+   3,
+   0,
+   2,
+   1,
+   2
+  ],
+  "score": {
+   "parsed": true,
+   "all_present": 0.0,
+   "in_order_frac": 0.8,
+   "heavy_hit": 2,
+   "heavy_n": 3,
+   "n_hidden_events": 3,
+   "hid_hit": 4,
+   "hid_n": 5
+  }
+ },
+ "gt": {
+  "id": "B057",
+  "src": "J3",
+  "name": "",
+  "level": null,
+  "pgl": {
+   "case_id": "B057",
+   "partition": "B",
+   "num_steps": 6,
+   "initial_state_pgl": "ReactionState(species=[Species(role='reactant', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'Br2': Atom('Br'), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C14': Atom('C', Hcount=3), 'C15': Atom('C', Hcount=2), 'C17': Atom('C', Hcount=3), 'C18': Atom('C', Hcount=2), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O'), 'O16': Atom('O', charge=-1), 'O19': Atom('O', charge=-1)}, bondlist=[Bond('Br1', 'Br2', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'H900016', 'single', order=1.0), Bond('C14', 'C15', 'single', order=1.0), Bond('C15', 'O16', 'single', order=1.0), Bond('C17', 'C18', 'single', order=1.0), Bond('C18', 'O19', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'double', order=2.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+   "target_state_pgl": "ReactionState(species=[Species(role='product', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br', charge=-1), 'Br2': Atom('Br', charge=-1), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C14': Atom('C', Hcount=3), 'C15': Atom('C', Hcount=2), 'C17': Atom('C', Hcount=3), 'C18': Atom('C', Hcount=2), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O'), 'O16': Atom('O'), 'O19': Atom('O')}, bondlist=[Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C11', 'O19', 'single', order=1.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'C7', 'single', order=1.0), Bond('C14', 'C15', 'single', order=1.0), Bond('C15', 'O16', 'single', order=1.0), Bond('C17', 'C18', 'single', order=1.0), Bond('C18', 'O19', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'double', order=2.0), Bond('C8', 'C9', 'single', order=1.0), Bond('H900016', 'O16', 'single', order=1.0)])]))])",
+   "states_pgl": [
+    "ReactionState(species=[Species(role='reactant', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'Br2': Atom('Br'), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O')}, bondlist=[Bond('Br1', 'Br2', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'H900016', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'double', order=2.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='intermediate', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br', charge=1), 'Br2': Atom('Br', charge=-1), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O')}, bondlist=[Bond('Br1', 'C7', 'single', order=1.0), Bond('Br1', 'C8', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'H900016', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'single', order=1.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='intermediate', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'Br2': Atom('Br'), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O')}, bondlist=[Bond('Br1', 'C8', 'single', order=1.0), Bond('Br2', 'C7', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'H900016', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'single', order=1.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='intermediate', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'Br2': Atom('Br'), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C14': Atom('C', Hcount=3), 'C15': Atom('C', Hcount=2), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'H900016': Atom('H'), 'O12': Atom('O', charge=-1), 'O16': Atom('O')}, bondlist=[Bond('Br1', 'C8', 'single', order=1.0), Bond('Br2', 'C7', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'double', order=2.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'single', order=1.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C14', 'C15', 'single', order=1.0), Bond('C15', 'O16', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'single', order=1.0), Bond('C8', 'C9', 'single', order=1.0), Bond('H900016', 'O16', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='intermediate', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'Br2': Atom('Br', charge=-1), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'O12': Atom('O')}, bondlist=[Bond('Br1', 'C8', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'C7', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'single', order=1.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='intermediate', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br'), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C17': Atom('C', Hcount=3), 'C18': Atom('C', Hcount=2), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'O12': Atom('O', charge=-1), 'O19': Atom('O')}, bondlist=[Bond('Br1', 'C8', 'single', order=1.0), Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'C7', 'single', order=1.0), Bond('C11', 'O12', 'single', order=1.0), Bond('C11', 'O19', 'single', order=1.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'C7', 'single', order=1.0), Bond('C17', 'C18', 'single', order=1.0), Bond('C18', 'O19', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'single', order=1.0), Bond('C8', 'C9', 'single', order=1.0)])]))])",
+    "ReactionState(species=[Species(role='product', state='stable', molecule=Molecule(name='', substructures=[Substructure(name='main', atomdict={'Br1': Atom('Br', charge=-1), 'C10': Atom('C', Hcount=3), 'C11': Atom('C'), 'C13': Atom('C', Hcount=1), 'C17': Atom('C', Hcount=3), 'C18': Atom('C', Hcount=2), 'C3': Atom('C', Hcount=3), 'C4': Atom('C', Hcount=1), 'C5': Atom('C', Hcount=2), 'C6': Atom('C', Hcount=2), 'C7': Atom('C'), 'C8': Atom('C'), 'C9': Atom('C', Hcount=3), 'O12': Atom('O'), 'O19': Atom('O')}, bondlist=[Bond('C10', 'C8', 'single', order=1.0), Bond('C11', 'C13', 'single', order=1.0), Bond('C11', 'O12', 'double', order=2.0), Bond('C11', 'O19', 'single', order=1.0), Bond('C13', 'C4', 'single', order=1.0), Bond('C13', 'C7', 'single', order=1.0), Bond('C17', 'C18', 'single', order=1.0), Bond('C18', 'O19', 'single', order=1.0), Bond('C3', 'C4', 'single', order=1.0), Bond('C4', 'C5', 'single', order=1.0), Bond('C5', 'C6', 'single', order=1.0), Bond('C6', 'C7', 'single', order=1.0), Bond('C7', 'C8', 'double', order=2.0), Bond('C8', 'C9', 'single', order=1.0)])]))])"
+   ],
+   "gt_step_changes": [
+    {
+     "bonds_formed": [
+      [
+       "Br1",
+       "C7",
+       "single"
+      ],
+      [
+       "Br1",
+       "C8",
+       "single"
+      ]
+     ],
+     "bonds_broken": [
+      [
+       "Br1",
+       "Br2",
+       "single"
+      ]
+     ],
+     "bond_order_changes": [
+      [
+       "C7",
+       "C8",
+       "double",
+       "single"
+      ]
+     ],
+     "charge_changes": [
+      [
+       "Br1",
+       0,
+       1
+      ],
+      [
+       "Br2",
+       0,
+       -1
+      ]
+     ]
+    },
+    {
+     "bonds_formed": [
+      [
+       "Br2",
+       "C7",
+       "single"
+      ]
+     ],
+     "bonds_broken": [
+      [
+       "Br1",
+       "C7",
+       "single"
+      ]
+     ],
+     "bond_order_changes": [],
+     "charge_changes": [
+      [
+       "Br1",
+       1,
+       0
+      ],
+      [
+       "Br2",
+       -1,
+       0
+      ]
+     ]
+    },
+    {
+     "bonds_formed": [
+      [
+       "H900016",
+       "O16",
+       "single"
+      ]
+     ],
+     "bonds_broken": [
+      [
+       "C13",
+       "H900016",
+       "single"
+      ]
+     ],
+     "bond_order_changes": [
+      [
+       "C11",
+       "C13",
+       "single",
+       "double"
+      ],
+      [
+       "C11",
+       "O12",
+       "double",
+       "single"
+      ]
+     ],
+     "charge_changes": [
+      [
+       "O12",
+       0,
+       -1
+      ],
+      [
+       "O16",
+       -1,
+       0
+      ]
+     ]
+    },
+    {
+     "bonds_formed": [
+      [
+       "C13",
+       "C7",
+       "single"
+      ]
+     ],
+     "bonds_broken": [
+      [
+       "Br2",
+       "C7",
+       "single"
+      ]
+     ],
+     "bond_order_changes": [
+      [
+       "C11",
+       "C13",
+       "double",
+       "single"
+      ],
+      [
+       "C11",
+       "O12",
+       "single",
+       "double"
+      ]
+     ],
+     "charge_changes": [
+      [
+       "Br2",
+       0,
+       -1
+      ],
+      [
+       "O12",
+       -1,
+       0
+      ]
+     ]
+    },
+    {
+     "bonds_formed": [
+      [
+       "C11",
+       "O19",
+       "single"
+      ]
+     ],
+     "bonds_broken": [],
+     "bond_order_changes": [
+      [
+       "C11",
+       "O12",
+       "double",
+       "single"
+      ]
+     ],
+     "charge_changes": [
+      [
+       "O12",
+       0,
+       -1
+      ],
+      [
+       "O19",
+       -1,
+       0
+      ]
+     ]
+    },
+    {
+     "bonds_formed": [],
+     "bonds_broken": [
+      [
+       "Br1",
+       "C8",
+       "single"
+      ],
+      [
+       "C11",
+       "C7",
+       "single"
+      ]
+     ],
+     "bond_order_changes": [
+      [
+       "C11",
+       "O12",
+       "single",
+       "double"
+      ],
+      [
+       "C7",
+       "C8",
+       "single",
+       "double"
+      ]
+     ],
+     "charge_changes": [
+      [
+       "Br1",
+       0,
+       -1
+      ],
+      [
+       "O12",
+       -1,
+       0
+      ]
+     ]
+    }
+   ],
+   "reagents_introduced_after_step_1": [
+    3,
+    5
+   ],
+   "quality": {
+    "mapping_confidence_min": 0.4308211601185199,
+    "mapping_confidence_mean": 0.6268066131791652,
+    "low_confidence_steps": 1,
+    "broken_map_links": 0,
+    "mobile_hydrogens": 1,
+    "unsourced_hydrogens": 0,
+    "steps_without_change": [],
+    "unmapped_heavy_atoms": 0,
+    "initial_state_complete": true
+   },
+   "conditions": [
+    {
+     "role": "reagent",
+     "text": "Br2"
+    },
+    {
+     "role": "reagent",
+     "text": "NaHCO3"
+    },
+    {
+     "role": "solvent",
+     "text": "Et2O"
+    },
+    {
+     "role": "temperature",
+     "text": "0\u00b0C"
+    },
+    {
+     "role": "reagent",
+     "text": "NaOEt"
+    },
+    {
+     "role": "solvent",
+     "text": "EtOH-Et2O"
+    },
+    {
+     "role": "temperature",
+     "text": "reflux"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,494 @@
+{
+  "gemini": {
+    "J3": {
+      "cases": 147,
+      "M1": {
+        "visible_species_recall": 0.807,
+        "hidden_species_recall": 0.697,
+        "heavy_hidden_event_recall": [
+          0.711,
+          0.602,
+          0.811
+        ],
+        "all_present": [
+          0.565,
+          0.483,
+          0.646
+        ],
+        "in_order_fraction": [
+          0.786,
+          0.739,
+          0.832
+        ],
+        "parse_rate": 0.991,
+        "all_present_by_hidden": {
+          "0": "41/58",
+          "1-2": "36/67",
+          ">=3": "6/22"
+        }
+      },
+      "M2": {
+        "visible_species_recall": 0.825,
+        "hidden_species_recall": 0.65,
+        "heavy_hidden_event_recall": [
+          0.711,
+          0.602,
+          0.812
+        ],
+        "all_present": [
+          0.578,
+          0.497,
+          0.66
+        ],
+        "in_order_fraction": [
+          0.777,
+          0.726,
+          0.826
+        ],
+        "parse_rate": 0.99,
+        "all_present_by_hidden": {
+          "0": "43/58",
+          "1-2": "33/67",
+          ">=3": "9/22"
+        }
+      },
+      "inertness": {
+        "heavy_omitted_in_M1": 26,
+        "reappear_in_M2": [
+          0.115,
+          0.0,
+          0.261
+        ],
+        "known_in_narratives": [
+          0.385,
+          0.174,
+          0.583
+        ]
+      },
+      "visibility": {
+        "shown_events_all": 121,
+        "Vp_minus_base_all": [
+          0.215,
+          0.137,
+          0.299
+        ],
+        "paired_events": 70,
+        "Vp_paired": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "V0_paired": [
+          0.757,
+          0.631,
+          0.866
+        ],
+        "Vp_minus_V0": [
+          0.243,
+          0.134,
+          0.371
+        ],
+        "Vp_minus_V0_heavy": [
+          0.293,
+          0.146,
+          0.45
+        ]
+      }
+    },
+    "T3_all": {
+      "cases": 95,
+      "all_present": [
+        0.4,
+        0.305,
+        0.505
+      ],
+      "in_order_frac": [
+        0.662,
+        0.592,
+        0.73
+      ],
+      "heavy_hidden_event_recall": [
+        0.564,
+        0.453,
+        0.68
+      ]
+    },
+    "T3_dev": {
+      "cases": 47,
+      "all_present": [
+        0.383,
+        0.255,
+        0.511
+      ],
+      "in_order_frac": [
+        0.706,
+        0.626,
+        0.789
+      ],
+      "heavy_hidden_event_recall": [
+        0.579,
+        0.419,
+        0.726
+      ]
+    },
+    "oMe": {
+      "cases": 169,
+      "in_order_fraction": [
+        0.706,
+        0.655,
+        0.752
+      ],
+      "in_order_full": [
+        0.402,
+        0.325,
+        0.479
+      ],
+      "product_reached": [
+        0.905,
+        0.858,
+        0.947
+      ],
+      "oMeS_total": [
+        0.623,
+        0.569,
+        0.674
+      ],
+      "oMeS_partial": [
+        0.711,
+        0.667,
+        0.755
+      ]
+    }
+  },
+  "gpt-6-luna": {
+    "J3": {
+      "cases": 12,
+      "M1": {
+        "visible_species_recall": 0.696,
+        "hidden_species_recall": 0.812,
+        "heavy_hidden_event_recall": [
+          0.5,
+          0.0,
+          1.0
+        ],
+        "all_present": [
+          0.667,
+          0.417,
+          0.917
+        ],
+        "in_order_fraction": [
+          0.831,
+          0.65,
+          0.972
+        ],
+        "parse_rate": 0.917,
+        "all_present_by_hidden": {
+          "0": "3/5",
+          "1-2": "5/6",
+          ">=3": "0/1"
+        }
+      },
+      "M2": {
+        "visible_species_recall": 0.87,
+        "hidden_species_recall": 0.875,
+        "heavy_hidden_event_recall": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "all_present": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "in_order_fraction": [
+          0.908,
+          0.786,
+          1.0
+        ],
+        "parse_rate": 1.0,
+        "all_present_by_hidden": {
+          "0": "3/5",
+          "1-2": "5/6",
+          ">=3": "1/1"
+        }
+      },
+      "inertness": {
+        "heavy_omitted_in_M1": 1,
+        "reappear_in_M2": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "known_in_narratives": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visibility": {
+        "shown_events_all": 4,
+        "Vp_minus_base_all": [
+          0.25,
+          0.0,
+          0.5
+        ],
+        "paired_events": 1,
+        "Vp_paired": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "V0_paired": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Vp_minus_V0": [
+          0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "T3_all": {
+      "cases": 11,
+      "all_present": [
+        0.273,
+        0.0,
+        0.545
+      ],
+      "in_order_frac": [
+        0.544,
+        0.316,
+        0.756
+      ],
+      "heavy_hidden_event_recall": [
+        0.286,
+        0.0,
+        0.444
+      ]
+    },
+    "T3_dev": {
+      "cases": 5,
+      "all_present": [
+        0.2,
+        0.0,
+        0.6
+      ],
+      "in_order_frac": [
+        0.633,
+        0.467,
+        0.833
+      ],
+      "heavy_hidden_event_recall": [
+        0.444,
+        0.429,
+        0.5
+      ]
+    },
+    "oMe": {
+      "cases": 38,
+      "in_order_fraction": [
+        0.568,
+        0.468,
+        0.663
+      ],
+      "in_order_full": [
+        0.237,
+        0.105,
+        0.368
+      ],
+      "product_reached": [
+        0.789,
+        0.658,
+        0.921
+      ],
+      "oMeS_total": [
+        0.475,
+        0.36,
+        0.589
+      ],
+      "oMeS_partial": [
+        0.638,
+        0.526,
+        0.741
+      ]
+    }
+  },
+  "gemini-4-argon": {
+    "J3": {
+      "cases": 140,
+      "M1": {
+        "visible_species_recall": 0.918,
+        "hidden_species_recall": 0.77,
+        "heavy_hidden_event_recall": [
+          0.817,
+          0.723,
+          0.895
+        ],
+        "all_present": [
+          0.671,
+          0.593,
+          0.75
+        ],
+        "in_order_fraction": [
+          0.865,
+          0.828,
+          0.9
+        ],
+        "parse_rate": 0.999,
+        "all_present_by_hidden": {
+          "0": "49/57",
+          "1-2": "38/64",
+          ">=3": "7/19"
+        }
+      },
+      "M2": {
+        "visible_species_recall": 0.918,
+        "hidden_species_recall": 0.821,
+        "heavy_hidden_event_recall": [
+          0.829,
+          0.742,
+          0.904
+        ],
+        "all_present": [
+          0.714,
+          0.636,
+          0.793
+        ],
+        "in_order_fraction": [
+          0.88,
+          0.842,
+          0.915
+        ],
+        "parse_rate": 0.998,
+        "all_present_by_hidden": {
+          "0": "48/57",
+          "1-2": "43/64",
+          ">=3": "9/19"
+        }
+      },
+      "inertness": {
+        "heavy_omitted_in_M1": 15,
+        "reappear_in_M2": [
+          0.133,
+          0.0,
+          0.357
+        ],
+        "known_in_narratives": [
+          0.133,
+          0.0,
+          0.357
+        ]
+      },
+      "visibility": {
+        "shown_events_all": 106,
+        "Vp_minus_base_all": [
+          0.132,
+          0.069,
+          0.204
+        ],
+        "paired_events": 61,
+        "Vp_paired": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "V0_paired": [
+          0.803,
+          0.679,
+          0.912
+        ],
+        "Vp_minus_V0": [
+          0.197,
+          0.088,
+          0.321
+        ],
+        "Vp_minus_V0_heavy": [
+          0.27,
+          0.128,
+          0.436
+        ]
+      }
+    },
+    "T3_all": {
+      "cases": 92,
+      "all_present": [
+        0.554,
+        0.446,
+        0.663
+      ],
+      "in_order_frac": [
+        0.781,
+        0.718,
+        0.838
+      ],
+      "heavy_hidden_event_recall": [
+        0.726,
+        0.598,
+        0.838
+      ]
+    },
+    "T3_dev": {
+      "cases": 46,
+      "all_present": [
+        0.543,
+        0.391,
+        0.696
+      ],
+      "in_order_frac": [
+        0.818,
+        0.746,
+        0.883
+      ],
+      "heavy_hidden_event_recall": [
+        0.764,
+        0.596,
+        0.911
+      ]
+    },
+    "oMe": {
+      "cases": 168,
+      "in_order_fraction": [
+        0.73,
+        0.684,
+        0.776
+      ],
+      "in_order_full": [
+        0.44,
+        0.369,
+        0.518
+      ],
+      "product_reached": [
+        0.911,
+        0.863,
+        0.952
+      ],
+      "oMeS_total": [
+        0.651,
+        0.6,
+        0.702
+      ],
+      "oMeS_partial": [
+        0.735,
+        0.691,
+        0.779
+      ]
+    }
+  },
+  "claude-opus-5-5-high": {
+    "J3": {
+      "cases": 0
+    },
+    "T3_all": {
+      "cases": 0
+    },
+    "T3_dev": {
+      "cases": 0
+    },
+    "oMe": {
+      "cases": 0
+    }
+  }
+}

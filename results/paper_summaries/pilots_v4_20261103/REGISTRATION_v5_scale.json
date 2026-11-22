@@ -1,0 +1,17 @@
+{
+ "written": "2026-11-04, before any LLM call on these sets",
+ "method": "Mech-Agent v5 exactly as frozen in REGISTRATION_v5_confirm.json (p11_mechagent.py, GAP = 3, same pool, same prompts, gemini-3.8-flash); format-only step relabelling (p15 prompt) applied to every v5 path before official scoring, as declared in DEVIATION_v5_confirm.md",
+ "sets": {
+  "template": "oMe-Template, all 166 unique reaction ids",
+  "silver_conf": "600 oMe-Silver reactions, seed 20261104, Silver minus Silver-dev, >= 2 steps, deduplicated (reactants>>products) against oMe-Gold, Template and each other; ids in scale_split.json"
+ },
+ "why_clean": "v5 uses no retrieval or examples; neither set was used to develop or tune v5 (development used T3_dev + J3 only)",
+ "primary_endpoint": "all GT intermediates present (all_present), Mech-Agent v5 minus Direct, pooled over template + silver_conf (766 reactions), reaction-clustered bootstrap 95% CI",
+ "secondary_endpoints": [
+  "official S_partial, v5 minus Direct (pooled and per set)",
+  "v5 minus CoT and minus Self-consistency (MBR over the same pool) on all_present",
+  "all_present gain by number of hidden GT intermediates (0 / 1-2 / >=3; heavy-atom skeleton rule of p16 gold_gt_intermediates); prediction: ~0 at 0, positive at 1-2"
+ ],
+ "caveat": "oMe-Silver labels are silver-standard (model-generated, curated); Template is expert-curated",
+ "reporting": "All endpoints above are reported as computed, whatever their sign."
+}

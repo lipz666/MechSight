@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-03, before any call of this pilot",
+  "status": "development pilot, LAST iteration on the 147 J3 cases; the method is frozen after this run whatever the result",
+  "endpoint_model": "https://LLM-GATEWAY-2.example/v1 gemini-3.8-flash-high (S, G, E, E_r2 and M were produced earlier, partly on LLM-GATEWAY-1.example gemini-3.8-flash, the same model per the user; endpoint recorded per file)",
+  "method_A": "five narratives (S, G existing; N1-N3 new: S prompt, temperature 0.7) -> consensus candidates asserted in >= 3/5 narratives (sigma-graph key, endpoints removed) -> executable PGL mechanism with the consensus list, same hint wording as the MechSight pilot; no consensus candidate -> keep E",
+  "arms": {"E": "direct", "DS": "compute-matched judge(E, E_r2)", "M": "no-consensus ablation (union of S and G, MechSight pilot)", "A": "activation without judge", "AS": "activation with judge(E, A), A only if preferred in both orders"},
+  "gate": {
+    "primary": "sigma-L1 A - DS >= +6 pp with case-clustered 95% CI excluding 0",
+    "also": ["heavy hidden-event recall A > DS", "spurious transient bonds per case A - DS <= +0.2"],
+    "pass": "freeze; pre-registered confirmation on unused data with gemini-3.8-flash-high and gpt-6-luna",
+    "fail": "no further method iteration on this set; the paper reports the inert-knowledge anatomy with the method as a proof of principle"
+  },
+  "secondary": ["A - M (consensus effect)", "AS - DS", "intermediates-in-order", "candidate precision/coverage by threshold 1-5 (offline)", "best-of(E, A)"]
+}

@@ -1,0 +1,204 @@
+{
+  "model": "gemini-3.8-flash",
+  "cases_complete": 147,
+  "sigma_L1": {
+    "E": [
+      0.599,
+      0.517,
+      0.673
+    ],
+    "E_r2": [
+      0.612,
+      0.537,
+      0.687
+    ],
+    "E_nofacts": [
+      0.599,
+      0.524,
+      0.673
+    ],
+    "E_cue": [
+      0.605,
+      0.524,
+      0.68
+    ]
+  },
+  "sigma_L1_E_nofacts_minus_meanE": [
+    -0.007,
+    -0.041,
+    0.027
+  ],
+  "sigma_L1_E_cue_minus_meanE": [
+    0.0,
+    -0.027,
+    0.024
+  ],
+  "heavy_atom_events": {
+    "events": 90,
+    "cases": 59,
+    "recall_E": [
+      0.533,
+      0.412,
+      0.657
+    ],
+    "recall_E_r2": [
+      0.489,
+      0.368,
+      0.62
+    ],
+    "recall_E_nofacts": [
+      0.522,
+      0.402,
+      0.641
+    ],
+    "recall_E_cue": [
+      0.544,
+      0.419,
+      0.671
+    ],
+    "E_nofacts_minus_meanE": [
+      0.011,
+      -0.043,
+      0.064
+    ],
+    "E_cue_minus_meanE": [
+      0.033,
+      -0.042,
+      0.103
+    ],
+    "E_r2_minus_E": [
+      -0.044,
+      -0.116,
+      0.032
+    ],
+    "omitted_in_E": 42,
+    "omitted_E__reappear_in_E_r2": [
+      0.071,
+      0.0,
+      0.186
+    ],
+    "omitted_E__known_free_text": [
+      0.571,
+      0.425,
+      0.722
+    ],
+    "omitted_E_and_E_r2": 39,
+    "omitted_both__known_free_text": [
+      0.538,
+      0.378,
+      0.69
+    ]
+  },
+  "all_events": {
+    "events": 174,
+    "cases": 89,
+    "recall_E": [
+      0.563,
+      0.476,
+      0.646
+    ],
+    "recall_E_r2": [
+      0.54,
+      0.452,
+      0.627
+    ],
+    "recall_E_nofacts": [
+      0.563,
+      0.481,
+      0.644
+    ],
+    "recall_E_cue": [
+      0.563,
+      0.475,
+      0.652
+    ],
+    "E_nofacts_minus_meanE": [
+      0.011,
+      -0.022,
+      0.045
+    ],
+    "E_cue_minus_meanE": [
+      0.011,
+      -0.028,
+      0.053
+    ],
+    "E_r2_minus_E": [
+      -0.023,
+      -0.073,
+      0.027
+    ],
+    "omitted_in_E": 76,
+    "omitted_E__reappear_in_E_r2": [
+      0.079,
+      0.023,
+      0.155
+    ],
+    "omitted_E__known_free_text": [
+      0.645,
+      0.527,
+      0.761
+    ],
+    "omitted_E_and_E_r2": 70,
+    "omitted_both__known_free_text": [
+      0.614,
+      0.5,
+      0.742
+    ]
+  },
+  "h_transfer_events": {
+    "events": 84,
+    "cases": 63,
+    "recall_E": [
+      0.595,
+      0.481,
+      0.709
+    ],
+    "recall_E_r2": [
+      0.595,
+      0.482,
+      0.699
+    ],
+    "recall_E_nofacts": [
+      0.607,
+      0.494,
+      0.721
+    ],
+    "recall_E_cue": [
+      0.583,
+      0.467,
+      0.696
+    ],
+    "E_nofacts_minus_meanE": [
+      0.012,
+      -0.024,
+      0.05
+    ],
+    "E_cue_minus_meanE": [
+      -0.012,
+      -0.04,
+      0.017
+    ],
+    "E_r2_minus_E": [
+      0.0,
+      -0.057,
+      0.059
+    ],
+    "omitted_in_E": 34,
+    "omitted_E__reappear_in_E_r2": [
+      0.088,
+      0.0,
+      0.206
+    ],
+    "omitted_E__known_free_text": [
+      0.735,
+      0.541,
+      0.903
+    ],
+    "omitted_E_and_E_r2": 31,
+    "omitted_both__known_free_text": [
+      0.71,
+      0.5,
+      0.893
+    ]
+  }
+}
