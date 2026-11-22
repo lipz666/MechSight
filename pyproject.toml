@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mechsight"
+version = "1.0.0"
+description = "MechSight: Knowledge-Driven Reaction Mechanism Elucidation (MechSight-Auto and MechSight-Guided)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Peize Li" },
+  { name = "Yimi Wang" },
+  { name = "Chengchun Liu" },
+  { name = "Fanyang Mo", email = "fmo@pku.edu.cn" },
+]
+keywords = ["chemistry", "reaction-mechanism", "large-language-models", "rdkit", "rxnmapper"]
+dependencies = [
+  "rdkit>=2024.3.3",
+  "openai>=1.0.0",
+  "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+rxnmapper = [
+  "rxnmapper>=0.4.3",
+  "torch>=2.0.0",
+]
+dev = [
+  "pytest>=7.0",
+]
+
+[project.scripts]
+mechsight = "mechsight.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mechsight*"]
+
+[tool.setuptools.package-data]
+mechsight = ["assets/*.txt"]

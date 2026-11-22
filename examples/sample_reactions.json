@@ -1,0 +1,61 @@
+{
+  "fbw_nr073": {
+    "case_id": "NR-073",
+    "title": "Fritsch-Buttenberg-Wiechell Rearrangement (Main Fig. 3b / SI S8.3)",
+    "reactants": [
+      "c1ccccc1C(=C(Br))c2ccccc2"
+    ],
+    "products": [
+      "c1ccccc1C#Cc2ccccc2"
+    ],
+    "conditions": "Base (e.g., LDA)",
+    "observations": "",
+    "reference_intermediates": [
+      "c1ccccc1C(=[C])c2ccccc2"
+    ],
+    "notes": "Direct prompting jumps from the vinylic anion directly to diphenylacetylene (Delta_bond = 3). MechSight-Auto flags the 3-bond jump and splices the vinylidene carbene intermediate."
+  },
+  "wickens_jacs_2026": {
+    "case_id": "PMC13449957",
+    "title": "Photocatalytic Hydroazolation of Alkenylthianthrenium Salt (Main Fig. 4c / SI S11.1)",
+    "reactants": [
+      "c1ccc(-c2cn[nH]c2)cc1",
+      "CC/C=C/[S+]1c2ccccc2Sc2ccccc21",
+      "C[Si](C)(C)[SiH]([Si](C)(C)C)[Si](C)(C)C",
+      "CN(C)C=O"
+    ],
+    "products": [
+      "CCC(C)n1cc(-c2ccccc2)cn1",
+      "c1ccc2c(c1)Sc1ccccc1S2",
+      "C[Si](C)(C)[Si](O)([Si](C)(C)C)[Si](C)(C)C"
+    ],
+    "conditions": "4CzIPN (1 mol%), Cs2CO3 (10 mol%), 440 nm LEDs, DMF",
+    "observations": "- Time courses: rapid reduction of thianthrenium salt 1 to 2 (~95% in 30 min) only when both HSi(TMS)3 (1 equiv) and DMF were present; slow conversion without silane or in MeCN.\n- One-pot intermolecular competition KIE (HSi(TMS)3/DMF-h7 vs DSi(TMS)3/DMF-d7): [2]/[2-d] = 2.6 +/- 0.2.\n- Two-pot parallel initial-rate KIE: kH/kD = 0.90 +/- 0.38.\n- Initial-rate kinetics varying [HSi(TMS)3] (0-60 mM) and [DMF] (0-15 mM) showed positive order at low concentration followed by saturation kinetics in both.\n- Stern-Volmer quenching: neither 1 nor HSi(TMS)3 quenches 4CzIPN*, whereas byproducts TT and (TMS)3SiOH quench 4CzIPN*.\n- Thermal initiation with AIBN promoted 1 -> 2, while omitting either HSi(TMS)3 or DMF gave 0% yield.\n- Catalyst-free 390 nm irradiation promoted 1 -> 2 (slow at 440 nm).\n- Radical traps captured the primary beta-azolo alkyl radical (49-85%).",
+    "reference_intermediates": [
+      "CCC(C[S+]1c2ccccc2Sc2ccccc21)n1cc(-c2ccccc2)cn1",
+      "CCC([CH2])n1cc(-c2ccccc2)cn1",
+      "C[Si](C)(C)[Si]([Si](C)(C)C)[Si](C)(C)C",
+      "CN(C)[CH]O[Si]([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C",
+      "C[N+](C)=CO[Si]([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C",
+      "C[Si](C)(C)[Si+]([Si](C)(C)C)[Si](C)(C)C"
+    ],
+    "notes": "Post-cutoff purely wet-lab J. Am. Chem. Soc. 2026 case study (zero DFT calculations)."
+  },
+  "chen_chem_sci_2026": {
+    "case_id": "PMC13321810",
+    "title": "Energy-Transfer Dearomative [2+2] Photocycloaddition (SI S11.1)",
+    "reactants": [
+      "COC(=O)C(CC(=C(F)F)c1ccccc1)(C(=O)OC)c1cccs1"
+    ],
+    "products": [
+      "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+    ],
+    "conditions": "Ir-F (1.0 mol%), 450 nm blue LEDs, MeCN, RT, 12 h",
+    "observations": "- Standard conditions gave 93% NMR yield of 2; 0% without Ir-F at 450 nm; 0% in the dark at 60 C.\n- Photocatalyst triplet-energy screening: Ir-F (ET = 61.8 kcal/mol) gave 93%, Ir-Me (62.9 kcal/mol) 90%, while lower-ET 4-CzIPN (58.3 kcal/mol) gave 25%.\n- TEMPO (3.0 equiv) completely suppressed 2 (ND); triplet quencher hexa-2,4-diene (3.0 equiv) gave trace yield.\n- UV-Vis showed no ground-state EDA complexation; Stern-Volmer quenching of Ir-F by 1a was linear (I0/I = 0.239 C + 0.9544, R^2 = 0.9988); quantum yield Phi = 0.045.",
+    "reference_intermediates": [
+      "COC(=O)C(C[C](c1ccccc1)[C](F)F)(C(=O)OC)c1cccs1",
+      "COC(=O)C1(C(=O)OC)C[C](c2ccccc2)C(F)(F)C12SC=C[CH]2"
+    ],
+    "notes": "Post-cutoff Chem. Sci. 2026 case study (wet-lab observations alone)."
+  }
+}
