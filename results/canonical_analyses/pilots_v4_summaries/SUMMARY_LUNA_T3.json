@@ -1,0 +1,119 @@
+{
+ "T3_confirm": {
+  "model": "gpt-6-luna",
+  "n": 48,
+  "Direct": {
+   "n": 48,
+   "all_present": [
+    0.104,
+    0.021,
+    0.208
+   ],
+   "in_order_frac": [
+    0.197,
+    0.118,
+    0.283
+   ],
+   "heavy_hidden_recall": [
+    0.151,
+    0.061,
+    0.261
+   ]
+  },
+  "SelfConsistency": {
+   "n": 48,
+   "all_present": [
+    0.104,
+    0.021,
+    0.208
+   ],
+   "in_order_frac": [
+    0.238,
+    0.15,
+    0.33
+   ],
+   "heavy_hidden_recall": [
+    0.17,
+    0.062,
+    0.312
+   ]
+  },
+  "MechSight_Auto": {
+   "n": 48,
+   "all_present": [
+    0.104,
+    0.021,
+    0.208
+   ],
+   "in_order_frac": [
+    0.327,
+    0.232,
+    0.427
+   ],
+   "heavy_hidden_recall": [
+    0.226,
+    0.104,
+    0.379
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.0,
+   -0.083,
+   0.083
+  ],
+  "MechSight_Auto_minus_Direct": [
+   0.0,
+   -0.062,
+   0.062
+  ],
+  "MechSight_Auto_minus_SelfConsistency": [
+   0.0,
+   -0.062,
+   0.062
+  ],
+  "strata_all_present": {
+   "0": {
+    "Direct": [
+     10,
+     0.3
+    ],
+    "SelfConsistency": [
+     10,
+     0.4
+    ],
+    "MechSight_Auto": [
+     10,
+     0.3
+    ]
+   },
+   "1-2": {
+    "Direct": [
+     28,
+     0.071
+    ],
+    "SelfConsistency": [
+     28,
+     0.036
+    ],
+    "MechSight_Auto": [
+     28,
+     0.071
+    ]
+   },
+   ">=3": {
+    "Direct": [
+     10,
+     0.0
+    ],
+    "SelfConsistency": [
+     10,
+     0.0
+    ],
+    "MechSight_Auto": [
+     10,
+     0.0
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "T3_confirm": {
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "n": 48,
+  "Direct": {
+   "n": 48,
+   "all_present": [
+    0.521,
+    0.375,
+    0.667
+   ],
+   "in_order_frac": [
+    0.738,
+    0.638,
+    0.832
+   ],
+   "heavy_hidden_recall": [
+    0.717,
+    0.585,
+    0.849
+   ]
+  },
+  "SelfConsistency": {
+   "n": 48,
+   "all_present": [
+    0.521,
+    0.375,
+    0.667
+   ],
+   "in_order_frac": [
+    0.731,
+    0.625,
+    0.826
+   ],
+   "heavy_hidden_recall": [
+    0.717,
+    0.585,
+    0.849
+   ]
+  },
+  "MechSight_Auto": {
+   "n": 48,
+   "all_present": [
+    0.542,
+    0.396,
+    0.688
+   ],
+   "in_order_frac": [
+    0.753,
+    0.652,
+    0.844
+   ],
+   "heavy_hidden_recall": [
+    0.736,
+    0.61,
+    0.86
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "MechSight_Auto_minus_Direct": [
+   0.021,
+   -0.042,
+   0.083
+  ],
+  "MechSight_Auto_minus_SelfConsistency": [
+   0.021,
+   -0.042,
+   0.083
+  ],
+  "strata_all_present": {
+   "0": {
+    "Direct": [
+     10,
+     0.7
+    ],
+    "SelfConsistency": [
+     10,
+     0.7
+    ],
+    "MechSight_Auto": [
+     10,
+     0.8
+    ]
+   },
+   "1-2": {
+    "Direct": [
+     28,
+     0.536
+    ],
+    "SelfConsistency": [
+     28,
+     0.536
+    ],
+    "MechSight_Auto": [
+     28,
+     0.536
+    ]
+   },
+   ">=3": {
+    "Direct": [
+     10,
+     0.3
+    ],
+    "SelfConsistency": [
+     10,
+     0.3
+    ],
+    "MechSight_Auto": [
+     10,
+     0.3
+    ]
+   }
+  }
+ }
+}

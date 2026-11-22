@@ -1,0 +1,3787 @@
+[
+ {
+  "id": "uspto31k_27",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+   "CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccc(C(=O)OC)cc21"
+  ],
+  "products": [
+   "COC(=O)c1ccc2c(c1)C([NH+](C)C(=O)OC(C)(C)C)CCC2c1ccc(Cl)c(Cl)c1"
+  ],
+  "states": [
+   "COC(=O)c1ccc2c(c1)C([NH+](C)C([O-])(OC(=O)OC(C)(C)C)OC(C)(C)C)CCC2c1ccc(Cl)c(Cl)c1",
+   "CC(C)(C)OC(=O)[O-].COC(=O)c1ccc2c(c1)C([NH+](C)C(=O)OC(C)(C)C)CCC2c1ccc(Cl)c(Cl)c1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_99",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1nnc(-c2ccccc2F)n2nc(O)c(Br)c12",
+   "Cn1ncnc1CCl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "Cc1nnc(-c2ccccc2F)n2nc(OCc3ncnn3C)c(Br)c12"
+  ],
+  "states": [
+   "Cc1nnc(-c2ccccc2F)n2nc([O-])c(Br)c12.Cn1ncnc1CCl.[H][H].[Na+]",
+   "Cc1nnc(-c2ccccc2F)n2nc(OCc3ncnn3C)c(Br)c12.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_244",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+   "COC(=O)C(N)c1ccccc1F"
+  ],
+  "products": [
+   "COC(=O)C([NH2+]C(=O)OC(C)(C)C)c1ccccc1F"
+  ],
+  "states": [
+   "COC(=O)C([NH2+]C([O-])(OC(=O)OC(C)(C)C)OC(C)(C)C)c1ccccc1F",
+   "CC(C)(C)OC(=O)[O-].COC(=O)C([NH2+]C(=O)OC(C)(C)C)c1ccccc1F"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_257",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN1CCN(c2ccc(Nc3cc(N)ncn3)cc2)CC1",
+   "COc1cc(OC)c(Cl)c(N=C=O)c1Cl"
+  ],
+  "products": [
+   "CCN1CCN(c2ccc(Nc3cc(NC(=O)Nc4c(Cl)c(OC)cc(OC)c4Cl)ncn3)cc2)CC1"
+  ],
+  "states": [
+   "CCN1CCN(c2ccc(Nc3cc([NH2+]C([O-])=Nc4c(Cl)c(OC)cc(OC)c4Cl)ncn3)cc2)CC1",
+   "CCN1CCN(c2ccc(Nc3cc(NC(O)=Nc4c(Cl)c(OC)cc(OC)c4Cl)ncn3)cc2)CC1",
+   "CCN1CCN(c2ccc(Nc3cc(NC(=[OH+])[N-]c4c(Cl)c(OC)cc(OC)c4Cl)ncn3)cc2)CC1",
+   "CCN1CCN(c2ccc(Nc3cc(NC(=O)Nc4c(Cl)c(OC)cc(OC)c4Cl)ncn3)cc2)CC1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_263",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN",
+   "Cc1cc(S(=O)(=O)Cl)ccc1Br"
+  ],
+  "products": [
+   "C[NH2+]S(=O)(=O)c1ccc(Br)c(C)c1"
+  ],
+  "states": [
+   "C[NH2+]S(=O)([O-])(Cl)c1ccc(Br)c(C)c1",
+   "C[NH2+]S(=O)(=O)c1ccc(Br)c(C)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_398",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "C[C@@H]1CN(C(=O)OC(C)(C)C)CCN1",
+   "N#Cc1ccc(C(=O)O)c(F)c1"
+  ],
+  "products": [
+   "CC1CN(C(=O)OC(C)(C)C)CCN1C(=O)c1ccc(C#N)cc1F"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC1CN(C(=O)OC(C)(C)C)CCN1.N#Cc1ccc(C(=O)[O-])c(F)c1",
+   "CC1CN(C(=O)OC(C)(C)C)CCN1.N#Cc1ccc(C(=O)OC(=NC2CCCCC2)NC2CCCCC2)c(F)c1",
+   "CC1CN(C(=O)OC(C)(C)C)CC[NH+]1C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)c1ccc(C#N)cc1F",
+   "CC1CN(C(=O)OC(C)(C)C)CCN1C([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1ccc(C#N)cc1F",
+   "CC1CN(C(=O)OC(C)(C)C)CCN1C(=O)c1ccc(C#N)cc1F.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC1CN(C(=O)OC(C)(C)C)CCN1C(=O)c1ccc(C#N)cc1F.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_732",
+  "bench": "uspto31k",
+  "reactants": [
+   "C[C@@](CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NOC1CCCCO1)S(C)(=O)=O",
+   "O",
+   "[H+]"
+  ],
+  "products": [
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NO)S(C)(=O)=O"
+  ],
+  "states": [
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NOC1CCCC[OH+]1)S(C)(=O)=O.O",
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)N[O+]=CCCCCO)S(C)(=O)=O.O",
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NOC([OH2+])CCCCO)S(C)(=O)=O",
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)N[OH+]C(O)CCCCO)S(C)(=O)=O",
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NO)S(C)(=O)=O.OCCCCC=[OH+]",
+   "CC(CCn1cc(-c2nc3ccccc3o2)cn1)(C(=O)NO)S(C)(=O)=O.O=CCCCCO.[H+]"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_748",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)O)s1",
+   "NCC(F)(F)F"
+  ],
+  "products": [
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)NCC(F)(F)F)s1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)[O-])s1.NCC(F)(F)F",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)OC(=NC2CCCCC2)NC2CCCCC2)s1.NCC(F)(F)F",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C([O-])([NH2+]CC(F)(F)F)OC(=NC2CCCCC2)NC2CCCCC2)s1",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C([O-])(NCC(F)(F)F)OC(NC2CCCCC2)=[NH+]C2CCCCC2)s1",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)NCC(F)(F)F)s1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "Cc1onc(-c2ccc(F)cn2)c1CCc1ncc(C(=O)NCC(F)(F)F)s1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_1109",
+  "bench": "uspto31k",
+  "reactants": [
+   "Br",
+   "COCOCC1CCCN1C(=O)OCc1ccccc1"
+  ],
+  "products": [
+   "COCOCC1CCCN1"
+  ],
+  "states": [
+   "COCOCC1CCCN1C(=[OH+])OCc1ccccc1.[Br-]",
+   "BrCc1ccccc1.COCOCC1CCCN1C(=O)O",
+   "BrCc1ccccc1.COCOCC1CCC[NH+]1C(=O)[O-]",
+   "BrCc1ccccc1.COCOCC1CCCN1.O=C=O"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_1437",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1c(C(=O)c2cccnc2)sc2cc(Br)ccc12",
+   "NN",
+   "[H+]",
+   "[OH-]"
+  ],
+  "products": [
+   "Cc1c(Cc2cccnc2)sc2cc(Br)ccc12"
+  ],
+  "states": [
+   "Cc1c(C(O)([NH2+]N)c2cccnc2)sc2cc(Br)ccc12.[OH-]",
+   "Cc1c(C([OH2+])(NN)c2cccnc2)sc2cc(Br)ccc12.[OH-]",
+   "Cc1c(C(=[NH+]N)c2cccnc2)sc2cc(Br)ccc12.O.[OH-]",
+   "Cc1c(C(=NN)c2cccnc2)sc2cc(Br)ccc12.O.[H+].[OH-]",
+   "Cc1c([C-](N=N)c2cccnc2)sc2cc(Br)ccc12.O.O.[H+]",
+   "Cc1c(C(N=N)c2cccnc2)sc2cc(Br)ccc12.O.[H+].[OH-]",
+   "Cc1c([CH-]c2cccnc2)sc2cc(Br)ccc12.N#N.O.O.[H+]",
+   "Cc1c(Cc2cccnc2)sc2cc(Br)ccc12.N#N.O.[H+].[OH-]"
+  ],
+  "n_steps": 8
+ },
+ {
+  "id": "uspto31k_1456",
+  "bench": "uspto31k",
+  "reactants": [
+   "N=C(N)NN",
+   "O=Cc1cccc(C(F)(F)F)c1F",
+   "[H+]"
+  ],
+  "products": [
+   "N=C(N)NN=Cc1cccc(C(F)(F)F)c1F"
+  ],
+  "states": [
+   "N=C(N)N[NH2+]C(O)c1cccc(C(F)(F)F)c1F",
+   "N=C(N)NNC([OH2+])c1cccc(C(F)(F)F)c1F",
+   "N=C(N)N[NH+]=Cc1cccc(C(F)(F)F)c1F.O",
+   "N=C(N)NN=Cc1cccc(C(F)(F)F)c1F.O.[H+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_1578",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1ccnc(Cl)c1NC(=O)c1cccnc1Cl",
+   "NC1CC1"
+  ],
+  "products": [
+   "Cc1ccnc(Cl)c1NC(=O)c1cccnc1[NH2+]C1CC1"
+  ],
+  "states": [
+   "Cc1ccnc(Cl)c1NC([O-])=C1C=CC=NC1(Cl)[NH2+]C1CC1",
+   "Cc1ccnc(Cl)c1NC(=O)c1cccnc1[NH2+]C1CC1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_1828",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCNCC1",
+   "N#Cc1cc([N+](=O)O)ccc1F"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)N1CC[NH+](c2ccc([N+](=O)O)cc2C#N)CC1"
+  ],
+  "states": [
+   "C#C.CC(C)(C)OC(=O)N1CC[NH+](C(F)=C(C#N)C=C=[N+]([O-])O)CC1",
+   "CC(C)(C)OC(=O)N1CC[NH+](c2ccc([N+](=O)O)cc2C#N)CC1.[F-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_2134",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN(CC)CC",
+   "CS(C)=O",
+   "O=C(Cl)C(=O)Cl",
+   "OCCCCN1CCOCC1"
+  ],
+  "products": [
+   "O=CCCCN1CCOCC1"
+  ],
+  "states": [
+   "CCN(CC)CC.C[S+](C)OC([O-])(Cl)C(=O)Cl.OCCCCN1CCOCC1",
+   "CCN(CC)CC.C[S+](C)OC(=O)C(=O)Cl.OCCCCN1CCOCC1.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)OC(=O)C(=O)Cl.OCCCCN1CCOCC1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.O=[C-]Cl.OCCCCN1CCOCC1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.OCCCCN1CCOCC1.[C]=O.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)[OH+]CCCCN1CCOCC1.O=C=O.[C]=O.[Cl-]",
+   "CCN(CC)CC.C[S+](C)[OH+]CCCCN1CCOCC1.O=C=O.[C]=O.[Cl-].[Cl-]",
+   "CCN(CC)CC.C[S+](C)OCCCCN1CCOCC1.Cl.O=C=O.[C]=O.[Cl-]",
+   "CC[NH+](CC)CC.Cl.O=C=O.[CH2-][S+](C)OCCCCN1CCOCC1.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cl.Cl.O=C=O.[CH2-][S+](C)OCCCCN1CCOCC1.[C]=O",
+   "CCN(CC)CC.CSC.Cl.Cl.O=C=O.O=CCCCN1CCOCC1.[C]=O"
+  ],
+  "n_steps": 11
+ },
+ {
+  "id": "uspto31k_3270",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCNCC(=O)O",
+   "O=[N+](O)c1ccc(Br)cc1F"
+  ],
+  "products": [
+   "CCCC[NH+](CC(=O)O)c1cc(Br)ccc1[N+](=O)O"
+  ],
+  "states": [
+   "CCCC[NH+](CC(=O)O)C1(F)C=C(Br)C=CC1=[N+]([O-])O",
+   "CCCC[NH+](CC(=O)O)c1cc(Br)ccc1[N+](=O)O.[F-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_3767",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN(C)S(=O)(=O)Oc1ccccc1S(=O)(=O)N=C=O",
+   "Cc1cc(C)nc(N)n1"
+  ],
+  "products": [
+   "Cc1cc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2OS(=O)(=O)N(C)C)n1"
+  ],
+  "states": [
+   "Cc1cc(C)nc([NH2+]C([O-])=NS(=O)(=O)c2ccccc2OS(=O)(=O)N(C)C)n1",
+   "Cc1cc(C)nc(NC(O)=NS(=O)(=O)c2ccccc2OS(=O)(=O)N(C)C)n1",
+   "Cc1cc(C)nc(NC(=[OH+])[N-]S(=O)(=O)c2ccccc2OS(=O)(=O)N(C)C)n1",
+   "Cc1cc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2OS(=O)(=O)N(C)C)n1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_3859",
+  "bench": "uspto31k",
+  "reactants": [
+   "Nc1cc(F)c(Cl)c(F)c1",
+   "O=[N+](O)c1cccnc1Cl"
+  ],
+  "products": [
+   "O=[N+](O)c1cccnc1[NH2+]c1cc(F)c(Cl)c(F)c1"
+  ],
+  "states": [
+   "[O-][N+](O)=C1C=CC=NC1(Cl)[NH2+]c1cc(F)c(Cl)c(F)c1",
+   "O=[N+](O)c1cccnc1[NH2+]c1cc(F)c(Cl)c(F)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_4016",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(=O)O",
+   "Nc1ccc(Sc2cnc(N)s2)cc1"
+  ],
+  "products": [
+   "CC(=O)Nc1ccc(Sc2cnc(N)s2)cc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(=O)[O-].Nc1ccc(Sc2cnc(N)s2)cc1",
+   "CC(=O)OC(=NC1CCCCC1)NC1CCCCC1.Nc1ccc(Sc2cnc(N)s2)cc1",
+   "CC([O-])([NH2+]c1ccc(Sc2cnc(N)s2)cc1)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CC([O-])(Nc1ccc(Sc2cnc(N)s2)cc1)OC(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(=O)Nc1ccc(Sc2cnc(N)s2)cc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(=O)Nc1ccc(Sc2cnc(N)s2)cc1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_4112",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)c1ccc(OCc2c(-c3ccncc3)noc2C)nn1",
+   "NC1CCOCC1"
+  ],
+  "products": [
+   "Cc1onc(-c2ccncc2)c1COc1ccc(C(=O)[NH2+]C2CCOCC2)nn1"
+  ],
+  "states": [
+   "CCOC([O-])([NH2+]C1CCOCC1)c1ccc(OCc2c(-c3ccncc3)noc2C)nn1",
+   "CC[O-].Cc1onc(-c2ccncc2)c1COc1ccc(C(=O)[NH2+]C2CCOCC2)nn1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_4534",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrC(Br)(Br)Br",
+   "CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(CO)c1",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(CBr)c1"
+  ],
+  "states": [
+   "Br[C-](Br)Br.Br[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(CO)c1",
+   "BrC(Br)Br.Br[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(C[O-])c1",
+   "BrC(Br)Br.CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(COP(Br)(c2ccccc2)(c2ccccc2)c2ccccc2)c1",
+   "BrC(Br)Br.CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(CO[P+](c2ccccc2)(c2ccccc2)c2ccccc2)c1.[Br-]",
+   "BrC(Br)Br.CCCc1cc(C(OCOC)(C(F)(F)F)C(F)(F)F)ccc1Oc1cccc(CBr)c1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_4674",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "C1CN(C2CCOCC2)CCN1",
+   "CCc1nccc(-c2ccc(C(=O)O)c(F)c2)c1C#Cc1ccc(NC)nc1"
+  ],
+  "products": [
+   "CCc1nccc(-c2ccc(C(=O)N3CCN(C4CCOCC4)CC3)c(F)c2)c1C#Cc1ccc(NC)nc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.C1CN(C2CCOCC2)CCN1.CCc1nccc(-c2ccc(C(=O)[O-])c(F)c2)c1C#Cc1ccc(NC)nc1",
+   "C1CN(C2CCOCC2)CCN1.CCc1nccc(-c2ccc(C(=O)OC(=NC3CCCCC3)NC3CCCCC3)c(F)c2)c1C#Cc1ccc(NC)nc1",
+   "CCc1nccc(-c2ccc(C([O-])(OC(=NC3CCCCC3)NC3CCCCC3)[NH+]3CCN(C4CCOCC4)CC3)c(F)c2)c1C#Cc1ccc(NC)nc1",
+   "CCc1nccc(-c2ccc(C([O-])(OC(NC3CCCCC3)=[NH+]C3CCCCC3)N3CCN(C4CCOCC4)CC3)c(F)c2)c1C#Cc1ccc(NC)nc1",
+   "CCc1nccc(-c2ccc(C(=O)N3CCN(C4CCOCC4)CC3)c(F)c2)c1C#Cc1ccc(NC)nc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCc1nccc(-c2ccc(C(=O)N3CCN(C4CCOCC4)CC3)c(F)c2)c1C#Cc1ccc(NC)nc1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_4681",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN1CCN(c2ccc(CN)cc2)CC1",
+   "COc1cc2c(nc1OC)c(-c1cc3c(C=O)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "COc1cc2c(nc1OC)c(-c1cc3c(CNCc4ccc(N5CCN(C)CC5)cc4)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C"
+  ],
+  "states": [
+   "COc1cc2c(nc1OC)c(-c1cc3c(C(O)[NH2+]Cc4ccc(N5CCN(C)CC5)cc4)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C.[BH3-]C#N.[Na+]",
+   "COc1cc2c(nc1OC)c(-c1cc3c(C([OH2+])NCc4ccc(N5CCN(C)CC5)cc4)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C.[BH3-]C#N.[Na+]",
+   "COc1cc2c(nc1OC)c(-c1cc3c(C=[NH+]Cc4ccc(N5CCN(C)CC5)cc4)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C.O.[BH3-]C#N.[Na+]",
+   "BC#N.COc1cc2c(nc1OC)c(-c1cc3c(CNCc4ccc(N5CCN(C)CC5)cc4)ccnc3n1S(=O)(=O)c1ccc(C)cc1)cn2C.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_4952",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)C(=NNCCC(C)C)c1cccs1",
+   "O=C(Cl)OCc1ccccc1"
+  ],
+  "products": [
+   "CCOC(=O)C(=N[NH+](CCC(C)C)C(=O)OCc1ccccc1)c1cccs1"
+  ],
+  "states": [
+   "CCOC(=O)C(=N[NH+](CCC(C)C)C([O-])(Cl)OCc1ccccc1)c1cccs1",
+   "CCOC(=O)C(=N[NH+](CCC(C)C)C(=O)OCc1ccccc1)c1cccs1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_5451",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)c1cc(OCCN2CCOCC2)nc(N2CCOCC2)n1",
+   "Cc1[nH]c2ccc(N)cc2c1C"
+  ],
+  "products": [
+   "Cc1[nH]c2ccc([NH2+]C(=O)c3cc(OCCN4CCOCC4)nc(N4CCOCC4)n3)cc2c1C"
+  ],
+  "states": [
+   "COC([O-])([NH2+]c1ccc2[nH]c(C)c(C)c2c1)c1cc(OCCN2CCOCC2)nc(N2CCOCC2)n1",
+   "C[O-].Cc1[nH]c2ccc([NH2+]C(=O)c3cc(OCCN4CCOCC4)nc(N4CCOCC4)n3)cc2c1C"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_5764",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)O",
+   "Fc1ccc(COc2ccc3c(c2)CCNC3)cc1"
+  ],
+  "products": [
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)N1CCc2cc(OCc3ccc(F)cc3)ccc2C1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)[O-].Fc1ccc(COc2ccc3c(c2)CCNC3)cc1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)OC(=NC1CCCCC1)NC1CCCCC1.Fc1ccc(COc2ccc3c(c2)CCNC3)cc1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)[NH+]1CCc2cc(OCc3ccc(F)cc3)ccc2C1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)N1CCc2cc(OCc3ccc(F)cc3)ccc2C1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)N1CCc2cc(OCc3ccc(F)cc3)ccc2C1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(C)Oc1ccc(S(C)(=O)=O)cc1C(=O)N1CCc2cc(OCc3ccc(F)cc3)ccc2C1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_5970",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC[Mg+]",
+   "Cn1c(=O)oc2ccc(-c3cnccc3C=O)cc21",
+   "O"
+  ],
+  "products": [
+   "CCC(O)c1ccncc1-c1ccc2oc(=O)n(C)c2c1"
+  ],
+  "states": [
+   "CCC(O[Mg+])c1ccncc1-c1ccc2oc(=O)n(C)c2c1.O",
+   "CCC(O[Mg][OH2+])c1ccncc1-c1ccc2oc(=O)n(C)c2c1",
+   "CCC([O-])c1ccncc1-c1ccc2oc(=O)n(C)c2c1.[OH2+][Mg+]",
+   "CCC(O)c1ccncc1-c1ccc2oc(=O)n(C)c2c1.O[Mg+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_6184",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrCc1ccccc1",
+   "O=C(O)C1CCC(CO)CC1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "O=C(OCc1ccccc1)C1CCC(CO)CC1"
+  ],
+  "states": [
+   "BrCc1ccccc1.O=C([O-])C1CCC(CO)CC1.[H][H].[Na+]",
+   "O=C(OCc1ccccc1)C1CCC(CO)CC1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_6631",
+  "bench": "uspto31k",
+  "reactants": [
+   "C#CCBr",
+   "COCCOCCO",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "C#CCOCCOCCOC"
+  ],
+  "states": [
+   "C#CCBr.COCCOCC[O-].[H][H].[Na+]",
+   "C#CCOCCOCCOC.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_6781",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CN[C@H](CC1CCCCC1)CN1CCN(c2ccccc2OC)CC1",
+   "O=C(O)C1CCCCC1"
+  ],
+  "products": [
+   "COc1ccccc1N1CCN(CC(CC2CCCCC2)N(C)C(=O)C2CCCCC2)CC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CNC(CC1CCCCC1)CN1CCN(c2ccccc2OC)CC1.O=C([O-])C1CCCCC1",
+   "CNC(CC1CCCCC1)CN1CCN(c2ccccc2OC)CC1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)C1CCCCC1",
+   "COc1ccccc1N1CCN(CC(CC2CCCCC2)[NH+](C)C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)C2CCCCC2)CC1",
+   "COc1ccccc1N1CCN(CC(CC2CCCCC2)N(C)C([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)C2CCCCC2)CC1",
+   "COc1ccccc1N1CCN(CC(CC2CCCCC2)N(C)C(=O)C2CCCCC2)CC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COc1ccccc1N1CCN(CC(CC2CCCCC2)N(C)C(=O)C2CCCCC2)CC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_6875",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN(CC)CC",
+   "CS(C)=O",
+   "C[C@H](c1ccccc1)N1C[C@@](CO)(C(=O)OC(C)(C)C)CC1=O",
+   "O=C(Cl)C(=O)Cl"
+  ],
+  "products": [
+   "CC(c1ccccc1)N1CC(C=O)(C(=O)OC(C)(C)C)CC1=O"
+  ],
+  "states": [
+   "CC(c1ccccc1)N1CC(CO)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.C[S+](C)OC([O-])(Cl)C(=O)Cl",
+   "CC(c1ccccc1)N1CC(CO)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.C[S+](C)OC(=O)C(=O)Cl.[Cl-]",
+   "CC(c1ccccc1)N1CC(CO)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.CS(C)(Cl)OC(=O)C(=O)Cl",
+   "CC(c1ccccc1)N1CC(CO)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.C[S+](C)Cl.O=C=O.O=[C-]Cl",
+   "CC(c1ccccc1)N1CC(CO)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.C[S+](C)Cl.O=C=O.[C]=O.[Cl-]",
+   "CC(c1ccccc1)N1CC(C[OH+]S(C)(C)Cl)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.O=C=O.[C]=O.[Cl-]",
+   "CC(c1ccccc1)N1CC(C[OH+][S+](C)C)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.O=C=O.[C]=O.[Cl-].[Cl-]",
+   "CC(c1ccccc1)N1CC(CO[S+](C)C)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.Cl.O=C=O.[C]=O.[Cl-]",
+   "CC[NH+](CC)CC.Cl.O=C=O.[CH2-][S+](C)OCC1(C(=O)OC(C)(C)C)CC(=O)N(C(C)c2ccccc2)C1.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cl.Cl.O=C=O.[CH2-][S+](C)OCC1(C(=O)OC(C)(C)C)CC(=O)N(C(C)c2ccccc2)C1.[C]=O",
+   "CC(c1ccccc1)N1CC(C=O)(C(=O)OC(C)(C)C)CC1=O.CCN(CC)CC.CSC.Cl.Cl.O=C=O.[C]=O"
+  ],
+  "n_steps": 11
+ },
+ {
+  "id": "uspto31k_6995",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)n1ncc(O)c(Cl)c1=O",
+   "CCOC(C)COc1ccc(CBr)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(C)COc1ccc(COc2cnn(C(C)(C)C)c(=O)c2Cl)cc1"
+  ],
+  "states": [
+   "CC(C)(C)n1ncc([O-])c(Cl)c1=O.CCOC(C)COc1ccc(CBr)cc1.[H][H].[Na+]",
+   "CCOC(C)COc1ccc(COc2cnn(C(C)(C)C)c(=O)c2Cl)cc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_7256",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(C)(C)OC(=O)n1c(-c2cc(C(=O)O)cn(COCC[Si](C)(C)C)c2=O)cc2ccccc21",
+   "COc1ccc(Cn2cc(N)cn2)cc1"
+  ],
+  "products": [
+   "COc1ccc(Cn2cc(NC(=O)c3cc(-c4cc5ccccc5n4C(=O)OC(C)(C)C)c(=O)n(COCC[Si](C)(C)C)c3)cn2)cc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(C)(C)OC(=O)n1c(-c2cc(C(=O)[O-])cn(COCC[Si](C)(C)C)c2=O)cc2ccccc21.COc1ccc(Cn2cc(N)cn2)cc1",
+   "CC(C)(C)OC(=O)n1c(-c2cc(C(=O)OC(=NC3CCCCC3)NC3CCCCC3)cn(COCC[Si](C)(C)C)c2=O)cc2ccccc21.COc1ccc(Cn2cc(N)cn2)cc1",
+   "COc1ccc(Cn2cc([NH2+]C([O-])(OC(=NC3CCCCC3)NC3CCCCC3)c3cc(-c4cc5ccccc5n4C(=O)OC(C)(C)C)c(=O)n(COCC[Si](C)(C)C)c3)cn2)cc1",
+   "COc1ccc(Cn2cc(NC([O-])(OC(NC3CCCCC3)=[NH+]C3CCCCC3)c3cc(-c4cc5ccccc5n4C(=O)OC(C)(C)C)c(=O)n(COCC[Si](C)(C)C)c3)cn2)cc1",
+   "COc1ccc(Cn2cc(NC(=O)c3cc(-c4cc5ccccc5n4C(=O)OC(C)(C)C)c(=O)n(COCC[Si](C)(C)C)c3)cn2)cc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COc1ccc(Cn2cc(NC(=O)c3cc(-c4cc5ccccc5n4C(=O)OC(C)(C)C)c(=O)n(COCC[Si](C)(C)C)c3)cn2)cc1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_7641",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCCC(CN[C@@H]2C[C@H]2c2ccccc2)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "c1ccc(C2CC2NCC2CCCNCC2)cc1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])N1CCCC(CNC2CC2c2ccccc2)CC1",
+   "C[C+](C)C.O=C(O)N1CCCC(CNC2CC2c2ccccc2)CC1",
+   "C[C+](C)C.O=C([O-])[NH+]1CCCC(CNC2CC2c2ccccc2)CC1",
+   "C[C+](C)C.O=C=O.c1ccc(C2CC2NCC2CCCNCC2)cc1",
+   "C=C(C)C.O=C=O.[H+].c1ccc(C2CC2NCC2CCCNCC2)cc1"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_7764",
+  "bench": "uspto31k",
+  "reactants": [
+   "NC1(C(=O)O)CCCCC1",
+   "O=C(Cl)OCc1ccccc1"
+  ],
+  "products": [
+   "O=C([NH2+]C1(C(=O)O)CCCCC1)OCc1ccccc1"
+  ],
+  "states": [
+   "O=C(O)C1([NH2+]C([O-])(Cl)OCc2ccccc2)CCCCC1",
+   "O=C([NH2+]C1(C(=O)O)CCCCC1)OCc1ccccc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_7865",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCC(O)(C2Cc3cccc(F)c3O2)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "OC1(C2Cc3cccc(F)c3O2)CCNCC1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])N1CCC(O)(C2Cc3cccc(F)c3O2)CC1",
+   "C[C+](C)C.O=C(O)N1CCC(O)(C2Cc3cccc(F)c3O2)CC1",
+   "C[C+](C)C.O=C([O-])[NH+]1CCC(O)(C2Cc3cccc(F)c3O2)CC1",
+   "C[C+](C)C.O=C=O.OC1(C2Cc3cccc(F)c3O2)CCNCC1",
+   "C=C(C)C.O=C=O.OC1(C2Cc3cccc(F)c3O2)CCNCC1.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_8003",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1c[nH]cn1",
+   "ClC(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "products": [
+   "CC1=C[NH+](C(c2ccccc2)(c2ccccc2)c2ccccc2)C=N1"
+  ],
+  "states": [
+   "Cc1c[nH]cn1.[Cl-].c1ccc([C+](c2ccccc2)c2ccccc2)cc1",
+   "CC1=C[NH+](C(c2ccccc2)(c2ccccc2)c2ccccc2)C=N1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_8085",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCN(C(=O)OC(C)(C)C)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCNCC1"
+  ],
+  "states": [
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCN(C(=[OH+])OC(C)(C)C)CC1",
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCN(C(=O)O)CC1.C[C+](C)C",
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CC[NH+](C(=O)[O-])CC1.C[C+](C)C",
+   "CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCNCC1.C[C+](C)C.O=C=O",
+   "C=C(C)C.CCOCc1nc2c(N)nc3ccccc3c2n1CC1(O)CCNCC1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_8267",
+  "bench": "uspto31k",
+  "reactants": [
+   "C=CC(=O)Cl",
+   "COc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Oc1cccc(N)c1"
+  ],
+  "products": [
+   "C=CC(=O)[NH2+]c1cccc(Oc2nc(Nc3ccc(N4CCN(C)CC4)cc3)ncc2OC)c1"
+  ],
+  "states": [
+   "C=CC([O-])(Cl)[NH2+]c1cccc(Oc2nc(Nc3ccc(N4CCN(C)CC4)cc3)ncc2OC)c1",
+   "C=CC(=O)[NH2+]c1cccc(Oc2nc(Nc3ccc(N4CCN(C)CC4)cc3)ncc2OC)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_8341",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1cc(CC#N)ccc1C",
+   "O",
+   "O",
+   "[AlH4-]",
+   "[Li+]"
+  ],
+  "products": [
+   "COc1cc(CCN)ccc1C"
+  ],
+  "states": [
+   "O.O.[AlH3].[Li]N=CCc1ccc(C)c(OC)c1",
+   "O.O.[Li]N([AlH2])CCc1ccc(C)c(OC)c1",
+   "COc1cc(CCN[AlH2])ccc1C.O.[Li+].[OH-]",
+   "COc1cc(CCN)ccc1C.[AlH2+].[Li+].[OH-].[OH-]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_8645",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)c1c(Nc2ccccc2N)cc(C)n1C"
+  ],
+  "products": [
+   "Cc1cc2c(n1C)C(=O)[NH2+]c1ccccc1N2"
+  ],
+  "states": [
+   "CCOC1([O-])[NH2+]c2ccccc2Nc2cc(C)n(C)c21",
+   "CC[O-].Cc1cc2c(n1C)C(=O)[NH2+]c1ccccc1N2"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_8869",
+  "bench": "uspto31k",
+  "reactants": [
+   "O=C(Cl)OCc1ccccc1",
+   "O=C(O)[C@@H]1Cc2ccccc2N1"
+  ],
+  "products": [
+   "O=C(O)C1Cc2ccccc2[NH+]1C(=O)OCc1ccccc1"
+  ],
+  "states": [
+   "O=C(O)C1Cc2ccccc2[NH+]1C([O-])(Cl)OCc1ccccc1",
+   "O=C(O)C1Cc2ccccc2[NH+]1C(=O)OCc1ccccc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9032",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "N#Cc1cc(F)ccc1N1CCNCC1",
+   "O=C(O)CCOc1ccccc1"
+  ],
+  "products": [
+   "N#Cc1cc(F)ccc1N1CCN(C(=O)CCOc2ccccc2)CC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.N#Cc1cc(F)ccc1N1CCNCC1.O=C([O-])CCOc1ccccc1",
+   "N#Cc1cc(F)ccc1N1CCNCC1.O=C(CCOc1ccccc1)OC(=NC1CCCCC1)NC1CCCCC1",
+   "N#Cc1cc(F)ccc1N1CC[NH+](C([O-])(CCOc2ccccc2)OC(=NC2CCCCC2)NC2CCCCC2)CC1",
+   "N#Cc1cc(F)ccc1N1CCN(C([O-])(CCOc2ccccc2)OC(NC2CCCCC2)=[NH+]C2CCCCC2)CC1",
+   "N#Cc1cc(F)ccc1N1CCN(C(=O)CCOc2ccccc2)CC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "N#Cc1cc(F)ccc1N1CCN(C(=O)CCOc2ccccc2)CC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_9166",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CN",
+   "O=C(O)c1cccc(F)c1F"
+  ],
+  "products": [
+   "O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CN.O=C([O-])c1cccc(F)c1F",
+   "CN.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cccc(F)c1F",
+   "C[NH2+]C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)c1cccc(F)c1F",
+   "CNC([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1cccc(F)c1F",
+   "CNC(=O)c1cccc(F)c1F.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CNC(=O)c1cccc(F)c1F.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_9291",
+  "bench": "uspto31k",
+  "reactants": [
+   "N[C@@H](Cc1ccc(Oc2nccc3ccc(Br)cc23)cc1)C(=O)O",
+   "O=C(O)c1cc2cc(Cl)ccc2nc1Cl"
+  ],
+  "products": [
+   "O=C(O)c1cc2cc(Cl)ccc2nc1[NH2+]C(Cc1ccc(Oc2nccc3ccc(Br)cc23)cc1)C(=O)O"
+  ],
+  "states": [
+   "O=C(O)C(Cc1ccc(Oc2nccc3ccc(Br)cc23)cc1)[NH2+]C1(Cl)N=c2ccc(Cl)cc2=CC1=C([O-])O",
+   "O=C(O)c1cc2cc(Cl)ccc2nc1[NH2+]C(Cc1ccc(Oc2nccc3ccc(Br)cc23)cc1)C(=O)O.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9337",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrCC1CCCCC1",
+   "COC(=O)c1ccc(O)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "COC(=O)c1ccc(OCC2CCCCC2)cc1"
+  ],
+  "states": [
+   "BrCC1CCCCC1.COC(=O)c1ccc([O-])cc1.[H][H].[Na+]",
+   "COC(=O)c1ccc(OCC2CCCCC2)cc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9361",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOc1nnc(C(C)Br)s1",
+   "Oc1ccc(Oc2ccccn2)cc1"
+  ],
+  "products": [
+   "CCOc1nnc(C(C)[OH+]c2ccc(Oc3ccccn3)cc2)s1"
+  ],
+  "states": [
+   "C[CH+]c1nnc(OCC)s1.Oc1ccc(Oc2ccccn2)cc1.[Br-]",
+   "CCOc1nnc(C(C)[OH+]c2ccc(Oc3ccccn3)cc2)s1.[Br-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9518",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1ccc(N2CCOCC2)c2sc(-c3nc4c([nH]3)CCNCC4)nc12",
+   "O=C(Cl)c1ccc(F)cc1"
+  ],
+  "products": [
+   "COc1ccc(N2CCOCC2)c2sc(-c3nc4c([nH]3)CC[NH+](C(=O)c3ccc(F)cc3)CC4)nc12"
+  ],
+  "states": [
+   "COc1ccc(N2CCOCC2)c2sc(-c3nc4c([nH]3)CC[NH+](C([O-])(Cl)c3ccc(F)cc3)CC4)nc12",
+   "COc1ccc(N2CCOCC2)c2sc(-c3nc4c([nH]3)CC[NH+](C(=O)c3ccc(F)cc3)CC4)nc12.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9640",
+  "bench": "uspto31k",
+  "reactants": [
+   "CO",
+   "COC(=O)c1ccc(NC(C)=O)c(C=O)c1",
+   "[BH4-]"
+  ],
+  "products": [
+   "COC(=O)c1ccc(NC(C)=O)c(CO)c1"
+  ],
+  "states": [
+   "B.CO.COC(=O)c1ccc(NC(C)=O)c(C[O-])c1",
+   "B.COC(=O)c1ccc(NC(C)=O)c(CO)c1.C[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9724",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)CN",
+   "COc1ccc(S(=O)(=O)Cl)cc1"
+  ],
+  "products": [
+   "COc1ccc(S(=O)(=O)[NH2+]CC(=O)OC(C)(C)C)cc1"
+  ],
+  "states": [
+   "COc1ccc(S(=O)([O-])(Cl)[NH2+]CC(=O)OC(C)(C)C)cc1",
+   "COc1ccc(S(=O)(=O)[NH2+]CC(=O)OC(C)(C)C)cc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_9829",
+  "bench": "uspto31k",
+  "reactants": [
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCN(C(=O)OC(C)(C)C)CC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12",
+   "[H+]"
+  ],
+  "products": [
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCNCC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12"
+  ],
+  "states": [
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCN(C(=[OH+])OC(C)(C)C)CC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12",
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCN(C(=O)O)CC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12.C[C+](C)C",
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CC[NH+](C(=O)[O-])CC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12.C[C+](C)C",
+   "CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCNCC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12.C[C+](C)C.O=C=O",
+   "C=C(C)C.CNC(=O)c1c(-c2ccc(F)cc2)oc2cc(N(CC3CCNCC3)S(C)(=O)=O)c(-c3cccc(-c4nc5ncccc5o4)c3)cc12.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_10126",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(=O)N[C@@H](C)C(=O)O",
+   "CC(C)C[C@H](NC(=O)[C@H](C)N)C(=O)OCc1ccccc1"
+  ],
+  "products": [
+   "CC(=O)NC(C)C(=O)NC(C)C(=O)NC(CC(C)C)C(=O)OCc1ccccc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(=O)NC(C)C(=O)[O-].CC(C)CC(NC(=O)C(C)N)C(=O)OCc1ccccc1",
+   "CC(=O)NC(C)C(=O)OC(=NC1CCCCC1)NC1CCCCC1.CC(C)CC(NC(=O)C(C)N)C(=O)OCc1ccccc1",
+   "CC(=O)NC(C)C([O-])([NH2+]C(C)C(=O)NC(CC(C)C)C(=O)OCc1ccccc1)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CC(=O)NC(C)C([O-])(NC(C)C(=O)NC(CC(C)C)C(=O)OCc1ccccc1)OC(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(=O)NC(C)C(=O)NC(C)C(=O)NC(CC(C)C)C(=O)OCc1ccccc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(=O)NC(C)C(=O)NC(C)C(=O)NC(CC(C)C)C(=O)OCc1ccccc1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_10174",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+   "Oc1cc(O)cc(O)c1"
+  ],
+  "products": [
+   "O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)Oc1cc(O)cc(O)c1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.Oc1cc(O)cc(O)c1",
+   "O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)OC(=NC1CCCCC1)NC1CCCCC1.Oc1cc(O)cc(O)c1",
+   "[O-]C(Cc1ccccc1Nc1c(Cl)cccc1Cl)(OC(=NC1CCCCC1)NC1CCCCC1)[OH+]c1cc(O)cc(O)c1",
+   "[O-]C(Cc1ccccc1Nc1c(Cl)cccc1Cl)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)Oc1cc(O)cc(O)c1",
+   "O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)Oc1cc(O)cc(O)c1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)Oc1cc(O)cc(O)c1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_10233",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "C[C@H](CCN)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1",
+   "Cc1ncnc(C)c1C(=O)O"
+  ],
+  "products": [
+   "Cc1ncnc(C)c1C(=O)NCCC(C)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(CCN)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1.Cc1ncnc(C)c1C(=O)[O-]",
+   "CC(CCN)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1.Cc1ncnc(C)c1C(=O)OC(=NC1CCCCC1)NC1CCCCC1",
+   "Cc1ncnc(C)c1C([O-])([NH2+]CCC(C)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1)OC(=NC1CCCCC1)NC1CCCCC1",
+   "Cc1ncnc(C)c1C([O-])(NCCC(C)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1)OC(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "Cc1ncnc(C)c1C(=O)NCCC(C)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "Cc1ncnc(C)c1C(=O)NCCC(C)N1CCC(Nc2ccc(O[Si](C)(C)C(C)(C)C)cc2)CC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_10423",
+  "bench": "uspto31k",
+  "reactants": [
+   "O=Cc1ccc(-c2ccc(C(F)(F)F)cc2)nc1Cl",
+   "Oc1ccccc1Cl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "O=Cc1ccc(-c2ccc(C(F)(F)F)cc2)nc1Oc1ccccc1Cl"
+  ],
+  "states": [
+   "O=Cc1ccc(-c2ccc(C(F)(F)F)cc2)nc1Cl.[H][H].[Na+].[O-]c1ccccc1Cl",
+   "[H][H].[Na+].[O-]C=C1C=CC(c2ccc(C(F)(F)F)cc2)=NC1(Cl)Oc1ccccc1Cl",
+   "O=Cc1ccc(-c2ccc(C(F)(F)F)cc2)nc1Oc1ccccc1Cl.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_10548",
+  "bench": "uspto31k",
+  "reactants": [
+   "ClCc1coc(C=Cc2ccc3c(c2)OCO3)n1",
+   "Oc1ccc(CCCCn2ccnn2)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "C(=Cc1nc(COc2ccc(CCCCn3ccnn3)cc2)co1)c1ccc2c(c1)OCO2"
+  ],
+  "states": [
+   "ClCc1coc(C=Cc2ccc3c(c2)OCO3)n1.[H][H].[Na+].[O-]c1ccc(CCCCn2ccnn2)cc1",
+   "C(=Cc1nc(COc2ccc(CCCCn3ccnn3)cc2)co1)c1ccc2c(c1)OCO2.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_10754",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+   "N[C@@H](C(=O)O)c1ccccc1"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)[NH2+]C(C(=O)O)c1ccccc1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=O)OC([O-])([NH2+]C(C(=O)O)c1ccccc1)OC(C)(C)C",
+   "CC(C)(C)OC(=O)[NH2+]C(C(=O)O)c1ccccc1.CC(C)(C)OC(=O)[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_10850",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1",
+   "O",
+   "[H+]"
+  ],
+  "products": [
+   "Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1"
+  ],
+  "states": [
+   "CC(=[OH+])Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1.O",
+   "CC(O)([OH2+])Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1",
+   "CC(O)(O)[NH2+]c1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1",
+   "CC(O)=[OH+].Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1",
+   "CC(=O)O.Nc1ccc(C=Cc2ccc(C=Cc3ccc(N(c4ccccc4)c4ccccc4)cc3)cc2)cc1.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_11111",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N[C@H]1CC[C@H](N)CC1",
+   "O=S(=O)(Cl)c1ccc(Br)cc1OC(F)(F)F"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)NC1CCC([NH2+]S(=O)(=O)c2ccc(Br)cc2OC(F)(F)F)CC1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=O)NC1CCC([NH2+]S(=O)([O-])(Cl)c2ccc(Br)cc2OC(F)(F)F)CC1",
+   "CC(C)(C)OC(=O)NC1CCC([NH2+]S(=O)(=O)c2ccc(Br)cc2OC(F)(F)F)CC1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_11855",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)[Si](C)(C)OCCBr",
+   "O=Cc1ccc(O)c(-c2ccccc2)n1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC(C)(C)[Si](C)(C)OCCOc1ccc(C=O)nc1-c1ccccc1"
+  ],
+  "states": [
+   "CC(C)(C)[Si](C)(C)OCCBr.O=Cc1ccc([O-])c(-c2ccccc2)n1.[H][H].[Na+]",
+   "CC(C)(C)[Si](C)(C)OCCOc1ccc(C=O)nc1-c1ccccc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_11880",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1ccc(NCCc2ccc(C(F)(F)F)nc2)cc1C",
+   "O=C(Cl)CBr"
+  ],
+  "products": [
+   "Cc1ccc([NH+](CCc2ccc(C(F)(F)F)nc2)C(=O)CBr)cc1C"
+  ],
+  "states": [
+   "Cc1ccc([NH+](CCc2ccc(C(F)(F)F)nc2)C([O-])(Cl)CBr)cc1C",
+   "Cc1ccc([NH+](CCc2ccc(C(F)(F)F)nc2)C(=O)CBr)cc1C.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_12018",
+  "bench": "uspto31k",
+  "reactants": [
+   "C[C@@H](COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1)NC(=O)OC(C)(C)C",
+   "[H+]"
+  ],
+  "products": [
+   "CC(N)COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1"
+  ],
+  "states": [
+   "CC(COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1)NC(=[OH+])OC(C)(C)C",
+   "CC(COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1)NC(=O)O.C[C+](C)C",
+   "CC(COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1)[NH2+]C(=O)[O-].C[C+](C)C",
+   "CC(N)COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1.C[C+](C)C.O=C=O",
+   "C=C(C)C.CC(N)COc1cc(Nc2ncc3cc(C#C[Si](C)(C)C)ccc3n2)cc(-c2cnn(C)c2)c1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_12092",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCCC(=O)Nc1cccc(N)c1",
+   "O=C(O)c1ccccc1Br"
+  ],
+  "products": [
+   "CCCC(=O)Nc1cccc(NC(=O)c2ccccc2Br)c1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCCC(=O)Nc1cccc(N)c1.O=C([O-])c1ccccc1Br",
+   "CCCC(=O)Nc1cccc(N)c1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1ccccc1Br",
+   "CCCC(=O)Nc1cccc([NH2+]C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)c2ccccc2Br)c1",
+   "CCCC(=O)Nc1cccc(NC([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)c2ccccc2Br)c1",
+   "CCCC(=O)Nc1cccc(NC(=O)c2ccccc2Br)c1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCCC(=O)Nc1cccc(NC(=O)c2ccccc2Br)c1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_12174",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "COc1ccc(C(=O)O)cc1S(=O)(=O)N1CCOCC1",
+   "C[C@@H](N)c1cccc(Cl)c1"
+  ],
+  "products": [
+   "COc1ccc(C(=O)NC(C)c2cccc(Cl)c2)cc1S(=O)(=O)N1CCOCC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(N)c1cccc(Cl)c1.COc1ccc(C(=O)[O-])cc1S(=O)(=O)N1CCOCC1",
+   "CC(N)c1cccc(Cl)c1.COc1ccc(C(=O)OC(=NC2CCCCC2)NC2CCCCC2)cc1S(=O)(=O)N1CCOCC1",
+   "COc1ccc(C([O-])([NH2+]C(C)c2cccc(Cl)c2)OC(=NC2CCCCC2)NC2CCCCC2)cc1S(=O)(=O)N1CCOCC1",
+   "COc1ccc(C([O-])(NC(C)c2cccc(Cl)c2)OC(NC2CCCCC2)=[NH+]C2CCCCC2)cc1S(=O)(=O)N1CCOCC1",
+   "COc1ccc(C(=O)NC(C)c2cccc(Cl)c2)cc1S(=O)(=O)N1CCOCC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COc1ccc(C(=O)NC(C)c2cccc(Cl)c2)cc1S(=O)(=O)N1CCOCC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_12310",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)[Si](C)(C)OC1CCN(c2cccc(-n3ccnn3)c2)CC1",
+   "[F-]"
+  ],
+  "products": [
+   "[O-]C1CCN(c2cccc(-n3ccnn3)c2)CC1"
+  ],
+  "states": [
+   "CC(C)(C)[Si-](C)(C)(F)OC1CCN(c2cccc(-n3ccnn3)c2)CC1",
+   "CC(C)(C)[Si](C)(C)F.[O-]C1CCN(c2cccc(-n3ccnn3)c2)CC1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_12718",
+  "bench": "uspto31k",
+  "reactants": [
+   "C[C@@H]1CN(Cc2ccc(F)cc2)[C@@H](C)CN1C(=O)COc1ccc(Cl)cc1O",
+   "N#CCBr",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC1CN(C(=O)COc2ccc(Cl)cc2OCC#N)C(C)CN1Cc1ccc(F)cc1"
+  ],
+  "states": [
+   "CC1CN(C(=O)COc2ccc(Cl)cc2[O-])C(C)CN1Cc1ccc(F)cc1.N#CCBr.[H][H].[Na+]",
+   "CC1CN(C(=O)COc2ccc(Cl)cc2OCC#N)C(C)CN1Cc1ccc(F)cc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_12821",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1cc[nH]n1",
+   "O=C(c1ccc(Cl)nc1Cl)N1Cc2cccn2Cc2ccccc21"
+  ],
+  "products": [
+   "CC1=N[NH+](c2ccc(C(=O)N3Cc4cccn4Cc4ccccc43)c(Cl)n2)C=C1"
+  ],
+  "states": [
+   "CC1=N[NH+](C(Cl)=CC=C=C([O-])N2Cc3cccn3Cc3ccccc32)C=C1.N#CCl",
+   "CC1=N[NH+](c2ccc(C(=O)N3Cc4cccn4Cc4ccccc43)c(Cl)n2)C=C1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_12972",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCCC(=O)Cl",
+   "NS(=O)(=O)c1ccccc1NC(=O)c1cccc(OCc2ccccc2)c1"
+  ],
+  "products": [
+   "CCCCCC(=O)[NH2+]S(=O)(=O)c1ccccc1NC(=O)c1cccc(OCc2ccccc2)c1"
+  ],
+  "states": [
+   "CCCCCC([O-])(Cl)[NH2+]S(=O)(=O)c1ccccc1NC(=O)c1cccc(OCc2ccccc2)c1",
+   "CCCCCC(=O)[NH2+]S(=O)(=O)c1ccccc1NC(=O)c1cccc(OCc2ccccc2)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13005",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC[C@]1(C(=O)OC)CCC[C@H]1N",
+   "Cc1cc(COc2ccc(S(=O)(=O)Cl)cc2)c2ccccc2n1"
+  ],
+  "products": [
+   "CCC1(C(=O)OC)CCCC1[NH2+]S(=O)(=O)c1ccc(OCc2cc(C)nc3ccccc23)cc1"
+  ],
+  "states": [
+   "CCC1(C(=O)OC)CCCC1[NH2+]S(=O)([O-])(Cl)c1ccc(OCc2cc(C)nc3ccccc23)cc1",
+   "CCC1(C(=O)OC)CCCC1[NH2+]S(=O)(=O)c1ccc(OCc2cc(C)nc3ccccc23)cc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13153",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCS(=O)(=O)Cl",
+   "N#Cc1ccc(N(CC2CCCCC2)[C@H]2CCNC2)cc1Cl"
+  ],
+  "products": [
+   "CCCCS(=O)(=O)[NH+]1CCC(N(CC2CCCCC2)c2ccc(C#N)c(Cl)c2)C1"
+  ],
+  "states": [
+   "CCCCS(=O)([O-])(Cl)[NH+]1CCC(N(CC2CCCCC2)c2ccc(C#N)c(Cl)c2)C1",
+   "CCCCS(=O)(=O)[NH+]1CCC(N(CC2CCCCC2)c2ccc(C#N)c(Cl)c2)C1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13252",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN1CC=C(c2c[nH]c3c(F)cc(F)cc23)CC1",
+   "O=S(=O)(Cl)c1ccccc1"
+  ],
+  "products": [
+   "CN1CC=C(C2=C[NH+](S(=O)(=O)c3ccccc3)c3c(F)cc(F)cc32)CC1"
+  ],
+  "states": [
+   "CN1CC=C(C2=C[NH+](S(=O)([O-])(Cl)c3ccccc3)c3c(F)cc(F)cc32)CC1",
+   "CN1CC=C(C2=C[NH+](S(=O)(=O)c3ccccc3)c3c(F)cc(F)cc32)CC1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13472",
+  "bench": "uspto31k",
+  "reactants": [
+   "C1CNCCN(C2CC2)C1",
+   "COc1cc(CCc2cc(NC(=O)c3cnc(Cl)cn3)[nH]n2)cc(OC)c1"
+  ],
+  "products": [
+   "COc1cc(CCc2cc(NC(=O)c3cnc([NH+]4CCCN(C5CC5)CC4)cn3)[nH]n2)cc(OC)c1"
+  ],
+  "states": [
+   "C#N.COc1cc(CCc2cc(NC([O-])=C=CN=C(Cl)[NH+]3CCCN(C4CC4)CC3)[nH]n2)cc(OC)c1",
+   "COc1cc(CCc2cc(NC(=O)c3cnc([NH+]4CCCN(C5CC5)CC4)cn3)[nH]n2)cc(OC)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13577",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)C1(CO)CN(C(=O)OC(C)(C)C)CCO1",
+   "Cc1ccc(S(=O)(=O)Cl)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "COC(=O)C1(COS(=O)(=O)c2ccc(C)cc2)CN(C(=O)OC(C)(C)C)CCO1"
+  ],
+  "states": [
+   "COC(=O)C1(C[O-])CN(C(=O)OC(C)(C)C)CCO1.Cc1ccc(S(=O)(=O)Cl)cc1.[H][H].[Na+]",
+   "COC(=O)C1(COS(=O)([O-])(Cl)c2ccc(C)cc2)CN(C(=O)OC(C)(C)C)CCO1.[H][H].[Na+]",
+   "COC(=O)C1(COS(=O)(=O)c2ccc(C)cc2)CN(C(=O)OC(C)(C)C)CCO1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_13628",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(C)(C)OC(=O)N1CCNCC1",
+   "O=C(O)c1cccc(Br)n1"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)N1CCN(C(=O)c2cccc(Br)n2)CC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(C)(C)OC(=O)N1CCNCC1.O=C([O-])c1cccc(Br)n1",
+   "CC(C)(C)OC(=O)N1CCNCC1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cccc(Br)n1",
+   "CC(C)(C)OC(=O)N1CC[NH+](C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)c2cccc(Br)n2)CC1",
+   "CC(C)(C)OC(=O)N1CCN(C([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)c2cccc(Br)n2)CC1",
+   "CC(C)(C)OC(=O)N1CCN(C(=O)c2cccc(Br)n2)CC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(C)(C)OC(=O)N1CCN(C(=O)c2cccc(Br)n2)CC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_13704",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrCCBr",
+   "O=Cc1ccc(O)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "O=Cc1ccc(OCCBr)cc1"
+  ],
+  "states": [
+   "BrCCBr.O=Cc1ccc([O-])cc1.[H][H].[Na+]",
+   "O=Cc1ccc(OCCBr)cc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_13731",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "NCC=CCOc1cc(CN2CCCCC2)ccn1",
+   "O=C(O)c1cc[nH]c1"
+  ],
+  "products": [
+   "O=C(NCC=CCOc1cc(CN2CCCCC2)ccn1)c1cc[nH]c1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.NCC=CCOc1cc(CN2CCCCC2)ccn1.O=C([O-])c1cc[nH]c1",
+   "NCC=CCOc1cc(CN2CCCCC2)ccn1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cc[nH]c1",
+   "[O-]C([NH2+]CC=CCOc1cc(CN2CCCCC2)ccn1)(OC(=NC1CCCCC1)NC1CCCCC1)c1cc[nH]c1",
+   "[O-]C(NCC=CCOc1cc(CN2CCCCC2)ccn1)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1cc[nH]c1",
+   "O=C(NCC=CCOc1cc(CN2CCCCC2)ccn1)c1cc[nH]c1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CCCCC1)NC1CCCCC1.O=C(NCC=CCOc1cc(CN2CCCCC2)ccn1)c1cc[nH]c1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_13982",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN(C)CCN=C=S",
+   "NCCNCc1nccs1"
+  ],
+  "products": [
+   "CN(C)CCNC(=S)NCCNCc1nccs1"
+  ],
+  "states": [
+   "CN(C)CCN=C([S-])[NH2+]CCNCc1nccs1",
+   "CN(C)CCN=C(S)NCCNCc1nccs1",
+   "CN(C)CC[N-]C(=[SH+])NCCNCc1nccs1",
+   "CN(C)CCNC(=S)NCCNCc1nccs1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_14044",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)[S@](N)=O",
+   "CCc1c(C(C)=O)oc2ccccc12",
+   "[H+]"
+  ],
+  "products": [
+   "CCc1c(C(C)=NS(=O)C(C)(C)C)oc2ccccc12"
+  ],
+  "states": [
+   "CCc1c(C(C)(O)[NH2+]S(=O)C(C)(C)C)oc2ccccc12",
+   "CCc1c(C(C)([OH2+])NS(=O)C(C)(C)C)oc2ccccc12",
+   "CCc1c(C(C)=[NH+]S(=O)C(C)(C)C)oc2ccccc12.O",
+   "CCc1c(C(C)=NS(=O)C(C)(C)C)oc2ccccc12.O.[H+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_14207",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrB(Br)Br",
+   "CCCc1c2c(c(OC)c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2",
+   "O"
+  ],
+  "products": [
+   "CCCc1c2c(c([O-])c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2"
+  ],
+  "states": [
+   "CCCc1c2c(c([O+](C)[B-](Br)(Br)Br)c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2.O",
+   "CCCc1c2c(c([O+](C)B(Br)Br)c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2.O.[Br-]",
+   "CBr.CCCc1c2c(c(OB(Br)Br)c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2.O",
+   "CBr.CCCc1c2c(c(O[B-]([OH2+])(Br)Br)c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2",
+   "CBr.CCCc1c2c(c([O-])c3c(=O)cc(C(=O)OC)oc13)C(=O)CCC2.[OH2+]B(Br)Br"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_14763",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)Cl",
+   "CCc1nn2ccc3c(c2c1C(C)CN)CCO3"
+  ],
+  "products": [
+   "CCc1nn2ccc3c(c2c1C(C)C[NH2+]C(C)=O)CCO3"
+  ],
+  "states": [
+   "CCc1nn2ccc3c(c2c1C(C)C[NH2+]C(C)([O-])Cl)CCO3",
+   "CCc1nn2ccc3c(c2c1C(C)C[NH2+]C(C)=O)CCO3.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_14837",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "N[C@@H]1CCCC[C@H]1O",
+   "O=C(O)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1"
+  ],
+  "products": [
+   "O=C(NC1CCCCC1O)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.NC1CCCCC1O.O=C([O-])c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1",
+   "NC1CCCCC1O.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1",
+   "[O-]C([NH2+]C1CCCCC1O)(OC(=NC1CCCCC1)NC1CCCCC1)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1",
+   "[O-]C(NC1CCCCC1O)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1",
+   "O=C(NC1CCCCC1O)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CCCCC1)NC1CCCCC1.O=C(NC1CCCCC1O)c1cc(-c2ccc(Cl)cc2)c(OCC(F)(F)F)nn1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_14861",
+  "bench": "uspto31k",
+  "reactants": [
+   "Nc1ccccc1",
+   "O=C(O)c1ccc(C(F)(F)F)nc1Cl"
+  ],
+  "products": [
+   "O=C(O)c1ccc(C(F)(F)F)nc1[NH2+]c1ccccc1"
+  ],
+  "states": [
+   "[O-]C(O)=C1C=CC(C(F)(F)F)=NC1(Cl)[NH2+]c1ccccc1",
+   "O=C(O)c1ccc(C(F)(F)F)nc1[NH2+]c1ccccc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_15033",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCC(c2nccc(-c3cc(C(F)(F)F)cc(C(F)(F)F)c3)n2)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "FC(F)(F)c1cc(-c2ccnc(C3CCNCC3)n2)cc(C(F)(F)F)c1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])N1CCC(c2nccc(-c3cc(C(F)(F)F)cc(C(F)(F)F)c3)n2)CC1",
+   "C[C+](C)C.O=C(O)N1CCC(c2nccc(-c3cc(C(F)(F)F)cc(C(F)(F)F)c3)n2)CC1",
+   "C[C+](C)C.O=C([O-])[NH+]1CCC(c2nccc(-c3cc(C(F)(F)F)cc(C(F)(F)F)c3)n2)CC1",
+   "C[C+](C)C.FC(F)(F)c1cc(-c2ccnc(C3CCNCC3)n2)cc(C(F)(F)F)c1.O=C=O",
+   "C=C(C)C.FC(F)(F)c1cc(-c2ccnc(C3CCNCC3)n2)cc(C(F)(F)F)c1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_15335",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCI",
+   "Nc1cc(F)ccc1S",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCSc1ccc(F)cc1N"
+  ],
+  "states": [
+   "CCI.Nc1cc(F)ccc1[S-].[H][H].[Na+]",
+   "CCSc1ccc(F)cc1N.[H][H].[I-].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_15580",
+  "bench": "uspto31k",
+  "reactants": [
+   "NC(=O)CCl",
+   "O=C(O)c1c(Cl)ccc(Cl)c1Cl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "NC(=O)COC(=O)c1c(Cl)ccc(Cl)c1Cl"
+  ],
+  "states": [
+   "NC(=O)CCl.O=C([O-])c1c(Cl)ccc(Cl)c1Cl.[H][H].[Na+]",
+   "NC(=O)COC(=O)c1c(Cl)ccc(Cl)c1Cl.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_15643",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOc1ccccc1NC(=O)OC(C)(C)C",
+   "[H+]"
+  ],
+  "products": [
+   "CCOc1ccccc1N"
+  ],
+  "states": [
+   "CCOc1ccccc1NC(=[OH+])OC(C)(C)C",
+   "CCOc1ccccc1NC(=O)O.C[C+](C)C",
+   "CCOc1ccccc1[NH2+]C(=O)[O-].C[C+](C)C",
+   "CCOc1ccccc1N.C[C+](C)C.O=C=O",
+   "C=C(C)C.CCOc1ccccc1N.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_15659",
+  "bench": "uspto31k",
+  "reactants": [
+   "O=C(NC1CC2CCCC(C1)N2)C1c2ccccc2Oc2ccccc21",
+   "O=CC1CCCCCCC1",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "O=C(NC1CC2CCCC(C1)N2CC1CCCCCCC1)C1c2ccccc2Oc2ccccc21"
+  ],
+  "states": [
+   "O=C(NC1CC2CCCC(C1)[NH+]2C(O)C1CCCCCCC1)C1c2ccccc2Oc2ccccc21.[BH3-]C#N.[Na+]",
+   "O=C(NC1CC2CCCC(C1)N2C([OH2+])C1CCCCCCC1)C1c2ccccc2Oc2ccccc21.[BH3-]C#N.[Na+]",
+   "O.O=C(NC1CC2CCCC(C1)[N+]2=CC1CCCCCCC1)C1c2ccccc2Oc2ccccc21.[BH3-]C#N.[Na+]",
+   "BC#N.O.O=C(NC1CC2CCCC(C1)N2CC1CCCCCCC1)C1c2ccccc2Oc2ccccc21.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_15807",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)c1csc(NC(=O)OC(C)(C)C)n1",
+   "[AlH4-]",
+   "[AlH4-]",
+   "[H+]"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)Nc1nc(CO)cs1"
+  ],
+  "states": [
+   "CCOC([O-])c1csc(NC(=O)OC(C)(C)C)n1.[AlH3].[AlH4-].[H+]",
+   "CC(C)(C)OC(=O)Nc1nc(C=O)cs1.CC[O-].[AlH3].[AlH4-].[H+]",
+   "CC(C)(C)OC(=O)Nc1nc(C[O-])cs1.CC[O-].[AlH3].[AlH3].[H+]",
+   "CC(C)(C)OC(=O)Nc1nc(CO)cs1.CC[O-].[AlH3].[AlH3]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_16207",
+  "bench": "uspto31k",
+  "reactants": [
+   "NO",
+   "O=C1c2ccccc2-c2c(OC[C@@H](O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21",
+   "[H+]"
+  ],
+  "products": [
+   "ON=C1c2ccccc2-c2c(OCC(O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21"
+  ],
+  "states": [
+   "O[NH2+]C1(O)c2ccccc2-c2c(OCC(O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21",
+   "ONC1([OH2+])c2ccccc2-c2c(OCC(O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21",
+   "O.O[NH+]=C1c2ccccc2-c2c(OCC(O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21",
+   "O.ON=C1c2ccccc2-c2c(OCC(O)CNCC3CCN(c4ccnc5cc(C(F)(F)F)ccc45)CC3)cccc21.[H+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_16818",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCCCCCCCCCN",
+   "N#CCC(=O)O"
+  ],
+  "products": [
+   "CCCCCCCCCCNC(=O)CC#N"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCCCCCCCCCN.N#CCC(=O)[O-]",
+   "CCCCCCCCCCN.N#CCC(=O)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CCCCCCCCCC[NH2+]C([O-])(CC#N)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CCCCCCCCCCNC([O-])(CC#N)OC(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCCCCCCCCCNC(=O)CC#N.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCCCCCCCCCNC(=O)CC#N.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_16830",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCCCCCCCCCC[C@@H](O)CC(N)=O",
+   "CS(=O)(=O)Cl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCCCCCCCCCCCCC(CC(N)=O)OS(C)(=O)=O"
+  ],
+  "states": [
+   "CCCCCCCCCCCCCC([O-])CC(N)=O.CS(=O)(=O)Cl.[H][H].[Na+]",
+   "CCCCCCCCCCCCCC(CC(N)=O)OS(C)(=O)([O-])Cl.[H][H].[Na+]",
+   "CCCCCCCCCCCCCC(CC(N)=O)OS(C)(=O)=O.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_16884",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)c1nc(C)n2c1CN=C(c1ccccc1F)c1cc(Cl)ccc1-2",
+   "[AlH4-]",
+   "[AlH4-]",
+   "[H+]"
+  ],
+  "products": [
+   "Cc1nc(CO)c2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2"
+  ],
+  "states": [
+   "COC([O-])c1nc(C)n2c1CN=C(c1ccccc1F)c1cc(Cl)ccc1-2.[AlH3].[AlH4-].[H+]",
+   "C[O-].Cc1nc(C=O)c2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2.[AlH3].[AlH4-].[H+]",
+   "C[O-].Cc1nc(C[O-])c2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2.[AlH3].[AlH3].[H+]",
+   "C[O-].Cc1nc(CO)c2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2.[AlH3].[AlH3]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_17081",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1cc(C=O)cc(OC)c1OC",
+   "N#CCC(N)=O",
+   "[OH-]"
+  ],
+  "products": [
+   "COc1cc(C=C(C#N)C(N)=O)cc(OC)c1OC"
+  ],
+  "states": [
+   "COc1cc(C=O)cc(OC)c1OC.N#CC=C(N)[O-].O",
+   "COc1cc(C([O-])C(C#N)C(N)=O)cc(OC)c1OC.O",
+   "COc1cc(C(O)C(C#N)C(N)=O)cc(OC)c1OC.[OH-]",
+   "COc1cc(C(O)C(C#N)=C(N)[O-])cc(OC)c1OC.O",
+   "COc1cc(C=C(C#N)C(N)=O)cc(OC)c1OC.O.[OH-]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_17193",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)c1cc2cc(O)ccc2o1",
+   "CCOc1ccc(CCl)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOc1ccc(COc2ccc3oc(C(C)=O)cc3c2)cc1"
+  ],
+  "states": [
+   "CC(=O)c1cc2cc([O-])ccc2o1.CCOc1ccc(CCl)cc1.[H][H].[Na+]",
+   "CCOc1ccc(COc2ccc3oc(C(C)=O)cc3c2)cc1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_17288",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)C1CCC(Oc2ccc3sc(C=O)nc3c2)CC1",
+   "O=C(O)[C@@H]1CCNC1",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC(C)(C)C1CCC(Oc2ccc3sc(CN4CCC(C(=O)O)C4)nc3c2)CC1"
+  ],
+  "states": [
+   "CC(C)(C)C1CCC(Oc2ccc3sc(C(O)[NH+]4CCC(C(=O)O)C4)nc3c2)CC1.[BH3-]C#N.[Na+]",
+   "CC(C)(C)C1CCC(Oc2ccc3sc(C([OH2+])N4CCC(C(=O)O)C4)nc3c2)CC1.[BH3-]C#N.[Na+]",
+   "CC(C)(C)C1CCC(Oc2ccc3sc(C=[N+]4CCC(C(=O)O)C4)nc3c2)CC1.O.[BH3-]C#N.[Na+]",
+   "BC#N.CC(C)(C)C1CCC(Oc2ccc3sc(CN4CCC(C(=O)O)C4)nc3c2)CC1.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_17542",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN(CC)CC",
+   "CS(C)=O",
+   "O=C(Cl)C(=O)Cl",
+   "OCc1cc2ccc3c4ccccc4ccc3c2s1"
+  ],
+  "products": [
+   "O=Cc1cc2ccc3c4ccccc4ccc3c2s1"
+  ],
+  "states": [
+   "CCN(CC)CC.C[S+](C)OC([O-])(Cl)C(=O)Cl.OCc1cc2ccc3c4ccccc4ccc3c2s1",
+   "CCN(CC)CC.C[S+](C)OC(=O)C(=O)Cl.OCc1cc2ccc3c4ccccc4ccc3c2s1.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)OC(=O)C(=O)Cl.OCc1cc2ccc3c4ccccc4ccc3c2s1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.O=[C-]Cl.OCc1cc2ccc3c4ccccc4ccc3c2s1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.OCc1cc2ccc3c4ccccc4ccc3c2s1.[C]=O.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)[OH+]Cc1cc2ccc3c4ccccc4ccc3c2s1.O=C=O.[C]=O.[Cl-]",
+   "CCN(CC)CC.C[S+](C)[OH+]Cc1cc2ccc3c4ccccc4ccc3c2s1.O=C=O.[C]=O.[Cl-].[Cl-]",
+   "CCN(CC)CC.C[S+](C)OCc1cc2ccc3c4ccccc4ccc3c2s1.Cl.O=C=O.[C]=O.[Cl-]",
+   "CC[NH+](CC)CC.Cl.O=C=O.[CH2-][S+](C)OCc1cc2ccc3c4ccccc4ccc3c2s1.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cl.Cl.O=C=O.[CH2-][S+](C)OCc1cc2ccc3c4ccccc4ccc3c2s1.[C]=O",
+   "CCN(CC)CC.CSC.Cl.Cl.O=C=O.O=Cc1cc2ccc3c4ccccc4ccc3c2s1.[C]=O"
+  ],
+  "n_steps": 11
+ },
+ {
+  "id": "uspto31k_17619",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cl[Al](Cl)Cl",
+   "Nc1ccc(Br)cc1",
+   "O=C(Cl)c1ccc(F)cc1"
+  ],
+  "products": [
+   "Nc1ccc(Br)cc1C(=O)c1ccc(F)cc1"
+  ],
+  "states": [
+   "Nc1ccc(Br)cc1.O=C([Cl+][Al-](Cl)(Cl)Cl)c1ccc(F)cc1",
+   "Cl[Al-](Cl)(Cl)Cl.Nc1ccc(Br)cc1.O=[C+]c1ccc(F)cc1",
+   "Cl[Al-](Cl)(Cl)Cl.[CH+]=C(Br)C=CC(N)=CC(=O)c1ccc(F)cc1",
+   "Cl.Cl[Al](Cl)Cl.Nc1ccc(Br)cc1C(=O)c1ccc(F)cc1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_17920",
+  "bench": "uspto31k",
+  "reactants": [
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC",
+   "CN(C)C=O",
+   "O",
+   "O=P(Cl)(Cl)Cl"
+  ],
+  "products": [
+   "C=CCn1c(C=O)nc2c1c(=O)n(C)c(=O)n2CCCCC"
+  ],
+  "states": [
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=CO[P-](=O)(Cl)(Cl)Cl.O",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=COP([O-])(Cl)(Cl)Cl.O",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=CO[P-](=O)(Cl)(Cl)Cl.O",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=COP(=O)(Cl)Cl.O.[Cl-]",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.CN(C)C(Cl)OP(=O)(Cl)Cl.O",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=CCl.O.O=[P-](=O)(Cl)Cl",
+   "C=CCn1cnc2c1c(=O)n(C)c(=O)n2CCCCC.C[N+](C)=CCl.O.O=P([O-])(Cl)Cl",
+   "C=CC[N+]c1c(N=CC(Cl)N(C)C)n(CCCCC)c(=O)n(C)c1=O.O.O=P([O-])(Cl)Cl",
+   "C=CCn1c(C(Cl)N(C)C)nc2c1c(=O)n(C)c(=O)n2CCCCC.O.O=P(O)(Cl)Cl",
+   "C=CCn1c(C=[N+](C)C)nc2c1c(=O)n(C)c(=O)n2CCCCC.O.O=P(O)(Cl)Cl.[Cl-]",
+   "C=CCn1c(C([OH2+])N(C)C)nc2c1c(=O)n(C)c(=O)n2CCCCC.O=P(O)(Cl)Cl.[Cl-]",
+   "C=CCn1c(C=[OH+])nc2c1c(=O)n(C)c(=O)n2CCCCC.C[N-]C.Cl.O=P(O)(Cl)Cl",
+   "C=CCn1c(C=O)nc2c1c(=O)n(C)c(=O)n2CCCCC.CNC.Cl.O=P(O)(Cl)Cl"
+  ],
+  "n_steps": 13
+ },
+ {
+  "id": "uspto31k_17929",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)O)cc3n2)cn1",
+   "OCCN1CCNCC1"
+  ],
+  "products": [
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)N4CCN(CCO)CC4)cc3n2)cn1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)[O-])cc3n2)cn1.OCCN1CCNCC1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)OC(=NC4CCCCC4)NC4CCCCC4)cc3n2)cn1.OCCN1CCNCC1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C([O-])(OC(=NC4CCCCC4)NC4CCCCC4)[NH+]4CCN(CCO)CC4)cc3n2)cn1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C([O-])(OC(NC4CCCCC4)=[NH+]C4CCCCC4)N4CCN(CCO)CC4)cc3n2)cn1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)N4CCN(CCO)CC4)cc3n2)cn1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "Nc1ncc(-c2nc(N3CCOCC3)c3sc(C(=O)N4CCN(CCO)CC4)cc3n2)cn1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_17944",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCOc1ccc(F)cc1N",
+   "O=C(OC(=O)C(F)(F)F)C(F)(F)F"
+  ],
+  "products": [
+   "CCCOc1ccc(F)cc1[NH2+]C(=O)C(F)(F)F"
+  ],
+  "states": [
+   "CCCOc1ccc(F)cc1[NH2+]C([O-])(OC(=O)C(F)(F)F)C(F)(F)F",
+   "CCCOc1ccc(F)cc1[NH2+]C(=O)C(F)(F)F.O=C([O-])C(F)(F)F"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_18248",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1nc(C)c(C(=O)CBr)s1",
+   "NC(=O)c1cccc(NC(N)=S)c1"
+  ],
+  "products": [
+   "Cc1nc(C)c(-c2csc(Nc3cccc(C(N)=O)c3)n2)s1"
+  ],
+  "states": [
+   "Cc1nc(C)c(C(=O)CSC(=[NH2+])Nc2cccc(C(N)=O)c2)s1.[Br-]",
+   "Br.Cc1nc(C)c(C(=O)CSC(=N)Nc2cccc(C(N)=O)c2)s1",
+   "Cc1nc(C)c(C(=[OH+])CSC(=N)Nc2cccc(C(N)=O)c2)s1.[Br-]",
+   "Cc1nc(C)c(C2(O)CSC(Nc3cccc(C(N)=O)c3)=[NH+]2)s1.[Br-]",
+   "Br.Cc1nc(C)c(C2(O)CSC(Nc3cccc(C(N)=O)c3)=N2)s1",
+   "Cc1nc(C)c(C2([OH2+])CSC(Nc3cccc(C(N)=O)c3)=N2)s1.[Br-]",
+   "Br.Cc1nc(C)c(-c2csc(Nc3cccc(C(N)=O)c3)n2)s1.O"
+  ],
+  "n_steps": 7
+ },
+ {
+  "id": "uspto31k_18414",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1cc2ncc(C#N)c(Cl)c2cc1OC",
+   "Nc1cccc2[nH]ccc12"
+  ],
+  "products": [
+   "COc1cc2ncc(C#N)c([NH2+]c3cccc4[nH]ccc34)c2cc1OC"
+  ],
+  "states": [
+   "COc1cc2c(cc1OC)C(Cl)([NH2+]c1cccc3[nH]ccc13)C(=C=[N-])C=N2",
+   "COc1cc2ncc(C#N)c([NH2+]c3cccc4[nH]ccc34)c2cc1OC.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_18431",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)=O)c2-c2cccc(F)c2)cn1",
+   "N",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)N)c2-c2cccc(F)c2)cn1"
+  ],
+  "states": [
+   "CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)([NH3+])O)c2-c2cccc(F)c2)cn1.[BH3-]C#N.[Na+]",
+   "CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)(N)[OH2+])c2-c2cccc(F)c2)cn1.[BH3-]C#N.[Na+]",
+   "CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)=[NH2+])c2-c2cccc(F)c2)cn1.O.[BH3-]C#N.[Na+]",
+   "BC#N.CCOC(C)n1cc(-c2c(C)c(Cl)cc(C(C)N)c2-c2cccc(F)c2)cn1.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_18530",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OC[C@@H](CN1CCCC1)OC(C)=O",
+   "[OH-]",
+   "[OH-]"
+  ],
+  "products": [
+   "COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCC([O-])CN1CCCC1"
+  ],
+  "states": [
+   "COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCC(CN1CCCC1)OC(C)([O-])O.[OH-]",
+   "CC(=O)O.COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCC([O-])CN1CCCC1.[OH-]",
+   "CC(=O)[O-].COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCC([O-])CN1CCCC1.O"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_18668",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)CNC(C)(C)C",
+   "NN"
+  ],
+  "products": [
+   "CC(C)(C)NCC(=O)[NH2+]N"
+  ],
+  "states": [
+   "CCOC([O-])(CNC(C)(C)C)[NH2+]N",
+   "CC(C)(C)NCC(=O)[NH2+]N.CC[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_18964",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCC(CC)C(=O)Cl",
+   "NCCCSc1ccncc1"
+  ],
+  "products": [
+   "CCCCC(CC)C(=O)[NH2+]CCCSc1ccncc1"
+  ],
+  "states": [
+   "CCCCC(CC)C([O-])(Cl)[NH2+]CCCSc1ccncc1",
+   "CCCCC(CC)C(=O)[NH2+]CCCSc1ccncc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_19336",
+  "bench": "uspto31k",
+  "reactants": [
+   "CO",
+   "Cc1ccc(S(=O)(=O)Cl)cc1",
+   "c1cnc2[nH]c(CC3CCNC3)cc2c1"
+  ],
+  "products": [
+   "CN1CCC(Cc2cc3cccnc3[nH]2)C1"
+  ],
+  "states": [
+   "C[OH+]S(=O)([O-])(Cl)c1ccc(C)cc1.c1cnc2[nH]c(CC3CCNC3)cc2c1",
+   "C[OH+]S(=O)(=O)c1ccc(C)cc1.[Cl-].c1cnc2[nH]c(CC3CCNC3)cc2c1",
+   "COS(=O)(=O)c1ccc(C)cc1.Cl.c1cnc2[nH]c(CC3CCNC3)cc2c1",
+   "C[NH+]1CCC(Cc2cc3cccnc3[nH]2)C1.Cc1ccc(S(=O)(=O)[O-])cc1.Cl",
+   "CN1CCC(Cc2cc3cccnc3[nH]2)C1.Cc1ccc(S(=O)(=O)O)cc1.Cl"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_19414",
+  "bench": "uspto31k",
+  "reactants": [
+   "N#Cc1cccnc1F",
+   "Oc1cncc(Cl)c1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "N#Cc1cccnc1Oc1cncc(Cl)c1"
+  ],
+  "states": [
+   "N#Cc1cccnc1F.[H][H].[Na+].[O-]c1cncc(Cl)c1",
+   "[H][H].[N-]=C=C=CC=CN=C(F)Oc1cncc(Cl)c1.[Na+]",
+   "N#Cc1cccnc1Oc1cncc(Cl)c1.[F-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_19646",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1",
+   "O=C(O)c1cn(C2CCCC2)nn1"
+  ],
+  "products": [
+   "O=C(NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1)c1cn(C2CCCC2)nn1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1.O=C([O-])c1cn(C2CCCC2)nn1",
+   "NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cn(C2CCCC2)nn1",
+   "O=C(C[NH2+]C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)c1cn(C2CCCC2)nn1)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1",
+   "O=C(CNC([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1cn(C2CCCC2)nn1)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1",
+   "O=C(NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1)c1cn(C2CCCC2)nn1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CCCCC1)NC1CCCCC1.O=C(NCC(=O)N1CCN(C(=O)c2cc(F)c(F)c(F)c2)CC1)c1cn(C2CCCC2)nn1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_19794",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)n1nc(-c2ccncc2)c2cc(O[Si](C)(C)C(C)(C)C)cnc21",
+   "[F-]"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)n1nc(-c2ccncc2)c2cc([O-])cnc21"
+  ],
+  "states": [
+   "CC(C)(C)OC(=O)n1nc(-c2ccncc2)c2cc(O[Si-](C)(C)(F)C(C)(C)C)cnc21",
+   "CC(C)(C)OC(=O)n1nc(-c2ccncc2)c2cc([O-])cnc21.CC(C)(C)[Si](C)(C)F"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_19857",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1ccc(S(=O)(=O)Cl)cc1",
+   "Clc1cnc2[nH]ccc2c1Cl"
+  ],
+  "products": [
+   "Cc1ccc(S(=O)(=O)[NH+]2C=Cc3c2ncc(Cl)c3Cl)cc1"
+  ],
+  "states": [
+   "Cc1ccc(S(=O)([O-])(Cl)[NH+]2C=Cc3c2ncc(Cl)c3Cl)cc1",
+   "Cc1ccc(S(=O)(=O)[NH+]2C=Cc3c2ncc(Cl)c3Cl)cc1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_19998",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrCCOCc1ccccc1",
+   "CC1(C)OCC(CO)O1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC1(C)OCC(COCCOCc2ccccc2)O1"
+  ],
+  "states": [
+   "BrCCOCc1ccccc1.CC1(C)OCC(C[O-])O1.[H][H].[Na+]",
+   "CC1(C)OCC(COCCOCc2ccccc2)O1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_20126",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)[C@@H]3C[C@@H](F)CN3C(=O)OC(C)(C)C)c2F)c1",
+   "[H+]"
+  ],
+  "products": [
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)CN3)c2F)c1"
+  ],
+  "states": [
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)CN3C(=[OH+])OC(C)(C)C)c2F)c1",
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)CN3C(=O)O)c2F)c1.C[C+](C)C",
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)C[NH+]3C(=O)[O-])c2F)c1.C[C+](C)C",
+   "CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)CN3)c2F)c1.C[C+](C)C.O=C=O",
+   "C=C(C)C.CC(=O)c1ccc(Cl)c(-c2cccc(NC(=O)C3CC(F)CN3)c2F)c1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_20398",
+  "bench": "uspto31k",
+  "reactants": [
+   "Br",
+   "O=C(N[C@@H]1C(=O)N[C@@H]1Oc1ccccc1)OCc1ccccc1"
+  ],
+  "products": [
+   "NC1C(=O)NC1Oc1ccccc1"
+  ],
+  "states": [
+   "O=C1NC(Oc2ccccc2)C1NC(=[OH+])OCc1ccccc1.[Br-]",
+   "BrCc1ccccc1.O=C(O)NC1C(=O)NC1Oc1ccccc1",
+   "BrCc1ccccc1.O=C([O-])[NH2+]C1C(=O)NC1Oc1ccccc1",
+   "BrCc1ccccc1.NC1C(=O)NC1Oc1ccccc1.O=C=O"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_20515",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cn1c(-c2cncc(CN)c2)cc2ccccc21",
+   "O=S(=O)(Cl)C(F)(F)F"
+  ],
+  "products": [
+   "Cn1c(-c2cncc(C[NH2+]S(=O)(=O)C(F)(F)F)c2)cc2ccccc21"
+  ],
+  "states": [
+   "Cn1c(-c2cncc(C[NH2+]S(=O)([O-])(Cl)C(F)(F)F)c2)cc2ccccc21",
+   "Cn1c(-c2cncc(C[NH2+]S(=O)(=O)C(F)(F)F)c2)cc2ccccc21.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_20587",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)O",
+   "C[C@@H](c1ccc(-c2ccc(N)c(N)c2)cc1)N1CC[C@](CC(C)(C)O)(c2ccccc2)OC1=O",
+   "O=C(n1[c]ncc1)n1[c]ncc1"
+  ],
+  "products": [
+   "Cc1nc2cc(-c3ccc(C(C)N4CCC(CC(C)(C)O)(c5ccccc5)OC4=O)cc3)ccc2[nH]1"
+  ],
+  "states": [
+   "CC(=O)[O-].CC(c1ccc(-c2ccc(N)c(N)c2)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O.O=C(n1[c]ncc1)n1[c][nH+]cc1",
+   "CC(=O)OC([O-])(n1[c]ncc1)n1[c][nH+]cc1.CC(c1ccc(-c2ccc(N)c(N)c2)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O",
+   "CC(=O)OC(=O)n1[c]ncc1.CC(c1ccc(-c2ccc(N)c(N)c2)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O.[c]1ncc[nH]1",
+   "CC(c1ccc(-c2ccc([NH2+]C(C)([O-])OC(=O)n3[c]ncc3)c(N)c2)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O.[c]1ncc[nH]1",
+   "CC(=O)[NH2+]c1ccc(-c2ccc(C(C)N3CCC(CC(C)(C)O)(c4ccccc4)OC3=O)cc2)cc1N.O=C=O.[c]1ncc[n-]1.[c]1ncc[nH]1",
+   "CC(=O)Nc1ccc(-c2ccc(C(C)N3CCC(CC(C)(C)O)(c4ccccc4)OC3=O)cc2)cc1N.O=C=O.[c]1ncc[nH]1.[c]1ncc[nH]1",
+   "CC(c1ccc(-c2ccc3c(c2)[NH2+]C(C)([O-])N3)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O.O=C=O.[c]1ncc[nH]1.[c]1ncc[nH]1",
+   "CC(c1ccc(-c2ccc3c(c2)NC(C)(O)N3)cc1)N1CCC(CC(C)(C)O)(c2ccccc2)OC1=O.O=C=O.[c]1ncc[nH]1.[c]1ncc[nH]1",
+   "Cc1nc2cc(-c3ccc(C(C)N4CCC(CC(C)(C)O)(c5ccccc5)OC4=O)cc3)ccc2[nH]1.O.O=C=O.[c]1ncc[nH]1.[c]1ncc[nH]1"
+  ],
+  "n_steps": 9
+ },
+ {
+  "id": "uspto31k_20702",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+   "CCOC(=O)c1[nH]c2cc(Cl)cc(Cl)c2c1NCC(=O)c1ccc(C(F)(F)F)cc1"
+  ],
+  "products": [
+   "CCOC(=O)C1=C(NCC(=O)c2ccc(C(F)(F)F)cc2)c2c(Cl)cc(Cl)cc2[NH+]1C(=O)OC(C)(C)C"
+  ],
+  "states": [
+   "CCOC(=O)C1=C(NCC(=O)c2ccc(C(F)(F)F)cc2)c2c(Cl)cc(Cl)cc2[NH+]1C([O-])(OC(=O)OC(C)(C)C)OC(C)(C)C",
+   "CC(C)(C)OC(=O)[O-].CCOC(=O)C1=C(NCC(=O)c2ccc(C(F)(F)F)cc2)c2c(Cl)cc(Cl)cc2[NH+]1C(=O)OC(C)(C)C"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_20926",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(C)C[C@H](NC(=O)N1CCCCCC1)C(=O)O",
+   "c1ccc(C(c2ccccc2)N2CCNCC2)cc1"
+  ],
+  "products": [
+   "CC(C)CC(NC(=O)N1CCCCCC1)C(=O)N1CCN(C(c2ccccc2)c2ccccc2)CC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(C)CC(NC(=O)N1CCCCCC1)C(=O)[O-].c1ccc(C(c2ccccc2)N2CCNCC2)cc1",
+   "CC(C)CC(NC(=O)N1CCCCCC1)C(=O)OC(=NC1CCCCC1)NC1CCCCC1.c1ccc(C(c2ccccc2)N2CCNCC2)cc1",
+   "CC(C)CC(NC(=O)N1CCCCCC1)C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)[NH+]1CCN(C(c2ccccc2)c2ccccc2)CC1",
+   "CC(C)CC(NC(=O)N1CCCCCC1)C([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)N1CCN(C(c2ccccc2)c2ccccc2)CC1",
+   "CC(C)CC(NC(=O)N1CCCCCC1)C(=O)N1CCN(C(c2ccccc2)c2ccccc2)CC1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(C)CC(NC(=O)N1CCCCCC1)C(=O)N1CCN(C(c2ccccc2)c2ccccc2)CC1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_21336",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC1(C)C(=O)c2cncn2[C@H]1c1ccc(C#N)cc1F",
+   "Fc1ccc([Mg+])cc1",
+   "O"
+  ],
+  "products": [
+   "CC1(C)C(c2ccc(C#N)cc2F)n2cncc2C1(O)c1ccc(F)cc1"
+  ],
+  "states": [
+   "CC1(C)C(c2ccc(C#N)cc2F)n2cncc2C1(O[Mg+])c1ccc(F)cc1.O",
+   "CC1(C)C(c2ccc(C#N)cc2F)n2cncc2C1(O[Mg][OH2+])c1ccc(F)cc1",
+   "CC1(C)C(c2ccc(C#N)cc2F)n2cncc2C1([O-])c1ccc(F)cc1.[OH2+][Mg+]",
+   "CC1(C)C(c2ccc(C#N)cc2F)n2cncc2C1(O)c1ccc(F)cc1.O[Mg+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_21493",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC[Si](CC)(CC)OC(C)(C)C=CCBr",
+   "C[C@H](O)C1=CC[C@H]2C3=CC=C4C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H](O[Si](C)(C)C(C)(C)C)[C@]4(C)[C@H]3CC[C@]12C",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC[Si](CC)(CC)OC(C)(C)C=CCOC(C)C1=CCC2C3=CC=C4CC(O[Si](C)(C)C(C)(C)C)CC(O[Si](C)(C)C(C)(C)C)C4(C)C3CCC12C"
+  ],
+  "states": [
+   "CC([O-])C1=CCC2C3=CC=C4CC(O[Si](C)(C)C(C)(C)C)CC(O[Si](C)(C)C(C)(C)C)C4(C)C3CCC12C.CC[Si](CC)(CC)OC(C)(C)C=CCBr.[H][H].[Na+]",
+   "CC[Si](CC)(CC)OC(C)(C)C=CCOC(C)C1=CCC2C3=CC=C4CC(O[Si](C)(C)C(C)(C)C)CC(O[Si](C)(C)C(C)(C)C)C4(C)C3CCC12C.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_21538",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)NS(=O)(=O)N(C)S(C)(=O)=O",
+   "COc1cc(C)nc(N)n1"
+  ],
+  "products": [
+   "COc1cc(C)nc([NH2+]C(=O)NS(=O)(=O)N(C)S(C)(=O)=O)n1"
+  ],
+  "states": [
+   "CCOC([O-])(NS(=O)(=O)N(C)S(C)(=O)=O)[NH2+]c1nc(C)cc(OC)n1",
+   "CC[O-].COc1cc(C)nc([NH2+]C(=O)NS(=O)(=O)N(C)S(C)(=O)=O)n1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_21569",
+  "bench": "uspto31k",
+  "reactants": [
+   "C=O",
+   "COc1cc(NC2CCN(Cc3ccccc3)CC2)ccc1C(N)=O",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "COc1cc(N(C)C2CCN(Cc3ccccc3)CC2)ccc1C(N)=O"
+  ],
+  "states": [
+   "COc1cc([NH+](CO)C2CCN(Cc3ccccc3)CC2)ccc1C(N)=O.[BH3-]C#N.[Na+]",
+   "COc1cc(N(C[OH2+])C2CCN(Cc3ccccc3)CC2)ccc1C(N)=O.[BH3-]C#N.[Na+]",
+   "C=[N+](c1ccc(C(N)=O)c(OC)c1)C1CCN(Cc2ccccc2)CC1.O.[BH3-]C#N.[Na+]",
+   "BC#N.COc1cc(N(C)C2CCN(Cc3ccccc3)CC2)ccc1C(N)=O.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_21999",
+  "bench": "uspto31k",
+  "reactants": [
+   "C=CCO[C@@](C)(C=C)CO",
+   "O=C(Cl)c1ccccc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "C=CCOC(C)(C=C)COC(=O)c1ccccc1"
+  ],
+  "states": [
+   "C=CCOC(C)(C=C)C[O-].O=C(Cl)c1ccccc1.[H][H].[Na+]",
+   "C=CCOC(C)(C=C)COC([O-])(Cl)c1ccccc1.[H][H].[Na+]",
+   "C=CCOC(C)(C=C)COC(=O)c1ccccc1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_22000",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN=C=O",
+   "Cc1cccc(N)c1CO"
+  ],
+  "products": [
+   "CNC(=O)Nc1cccc(C)c1CO"
+  ],
+  "states": [
+   "CN=C([O-])[NH2+]c1cccc(C)c1CO",
+   "CN=C(O)Nc1cccc(C)c1CO",
+   "C[N-]C(=[OH+])Nc1cccc(C)c1CO",
+   "CNC(=O)Nc1cccc(C)c1CO"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_22015",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1",
+   "O=C(O)CCCN1CCSCC1"
+  ],
+  "products": [
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1.O=C([O-])CCCN1CCSCC1",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1.O=C(CCCN1CCSCC1)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc2c(c([OH+]C([O-])(CCCN3CCSCC3)OC(=NC3CCCCC3)NC3CCCCC3)c1)C1=C(SCC1)C(C)(C)O2",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC([O-])(CCCN2CCSCC2)OC(NC2CCCCC2)=[NH+]C2CCCCC2)c2c(c1)OC(C)(C)C1=C2CCS1",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_22148",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)Cl",
+   "Nc1noc2cc(OCc3ccccc3)ccc12"
+  ],
+  "products": [
+   "CCOC(=O)[NH2+]c1noc2cc(OCc3ccccc3)ccc12"
+  ],
+  "states": [
+   "CCOC([O-])(Cl)[NH2+]c1noc2cc(OCc3ccccc3)ccc12",
+   "CCOC(=O)[NH2+]c1noc2cc(OCc3ccccc3)ccc12.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_22229",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)C1CC12CCNCC2",
+   "O=C1CCOCC1",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(=O)C1CC12CCN(C1CCOCC1)CC2"
+  ],
+  "states": [
+   "CCOC(=O)C1CC12CC[NH+](C1(O)CCOCC1)CC2.[BH3-]C#N.[Na+]",
+   "CCOC(=O)C1CC12CCN(C1([OH2+])CCOCC1)CC2.[BH3-]C#N.[Na+]",
+   "CCOC(=O)C1CC12CC[N+](=C1CCOCC1)CC2.O.[BH3-]C#N.[Na+]",
+   "BC#N.CCOC(=O)C1CC12CCN(C1CCOCC1)CC2.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_22264",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1cnc2c(c1)CCCC2NC(=S)NC(=O)c1ccccc1",
+   "O",
+   "[H+]"
+  ],
+  "products": [
+   "Cc1cnc2c(c1)CCCC2NC(N)=S"
+  ],
+  "states": [
+   "Cc1cnc2c(c1)CCCC2NC(=S)NC(=[OH+])c1ccccc1.O",
+   "Cc1cnc2c(c1)CCCC2NC(=S)NC(O)([OH2+])c1ccccc1",
+   "Cc1cnc2c(c1)CCCC2NC(=S)[NH2+]C(O)(O)c1ccccc1",
+   "Cc1cnc2c(c1)CCCC2NC(N)=S.OC(=[OH+])c1ccccc1",
+   "Cc1cnc2c(c1)CCCC2NC(N)=S.O=C(O)c1ccccc1.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_22320",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)C1Cc2cc(OC)ccc2N1",
+   "[AlH4-]",
+   "[AlH4-]",
+   "[H+]"
+  ],
+  "products": [
+   "COc1ccc2c(c1)CC(CO)N2"
+  ],
+  "states": [
+   "COc1ccc2c(c1)CC(C([O-])OC)N2.[AlH3].[AlH4-].[H+]",
+   "COc1ccc2c(c1)CC(C=O)N2.C[O-].[AlH3].[AlH4-].[H+]",
+   "COc1ccc2c(c1)CC(C[O-])N2.C[O-].[AlH3].[AlH3].[H+]",
+   "COc1ccc2c(c1)CC(CO)N2.C[O-].[AlH3].[AlH3]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_22366",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCC(c2csc(Nc3ncc(Br)cc3Oc3ccccc3)n2)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "Brc1cnc(Nc2nc(C3CCNCC3)cs2)c(Oc2ccccc2)c1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])N1CCC(c2csc(Nc3ncc(Br)cc3Oc3ccccc3)n2)CC1",
+   "C[C+](C)C.O=C(O)N1CCC(c2csc(Nc3ncc(Br)cc3Oc3ccccc3)n2)CC1",
+   "C[C+](C)C.O=C([O-])[NH+]1CCC(c2csc(Nc3ncc(Br)cc3Oc3ccccc3)n2)CC1",
+   "Brc1cnc(Nc2nc(C3CCNCC3)cs2)c(Oc2ccccc2)c1.C[C+](C)C.O=C=O",
+   "Brc1cnc(Nc2nc(C3CCNCC3)cs2)c(Oc2ccccc2)c1.C=C(C)C.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_22578",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)[C@@H]1CCN(C(=O)OC(C)(C)C)C1",
+   "[H+]"
+  ],
+  "products": [
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)C1CCNC1"
+  ],
+  "states": [
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)C1CCN(C(=[OH+])OC(C)(C)C)C1",
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)C1CCN(C(=O)O)C1.C[C+](C)C",
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)C1CC[NH+](C(=O)[O-])C1.C[C+](C)C",
+   "CN(C(=O)c1ccc(-n2cccn2)cc1)C1CCNC1.C[C+](C)C.O=C=O",
+   "C=C(C)C.CN(C(=O)c1ccc(-n2cccn2)cc1)C1CCNC1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_22673",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC1(C)OB(c2ccc(N=C=O)cc2)OC1(C)C",
+   "CCOc1ccc(C(F)(F)F)cc1N"
+  ],
+  "products": [
+   "CCOc1ccc(C(F)(F)F)cc1NC(=O)Nc1ccc(B2OC(C)(C)C(C)(C)O2)cc1"
+  ],
+  "states": [
+   "CCOc1ccc(C(F)(F)F)cc1[NH2+]C([O-])=Nc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+   "CCOc1ccc(C(F)(F)F)cc1NC(O)=Nc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+   "CCOc1ccc(C(F)(F)F)cc1NC(=[OH+])[N-]c1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+   "CCOc1ccc(C(F)(F)F)cc1NC(=O)Nc1ccc(B2OC(C)(C)C(C)(C)O2)cc1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_23104",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "C=C(C)C(=O)NC1=CC(C(=O)O)C(O)(C(C)=O)C=C1",
+   "Oc1ccccc1"
+  ],
+  "products": [
+   "C=C(C)C(=O)NC1=CC(C(=O)Oc2ccccc2)C(O)(C(C)=O)C=C1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.C=C(C)C(=O)NC1=CC(C(=O)[O-])C(O)(C(C)=O)C=C1.Oc1ccccc1",
+   "C=C(C)C(=O)NC1=CC(C(=O)OC(=NC2CCCCC2)NC2CCCCC2)C(O)(C(C)=O)C=C1.Oc1ccccc1",
+   "C=C(C)C(=O)NC1=CC(C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)[OH+]c2ccccc2)C(O)(C(C)=O)C=C1",
+   "C=C(C)C(=O)NC1=CC(C([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)Oc2ccccc2)C(O)(C(C)=O)C=C1",
+   "C=C(C)C(=O)NC1=CC(C(=O)Oc2ccccc2)C(O)(C(C)=O)C=C1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "C=C(C)C(=O)NC1=CC(C(=O)Oc2ccccc2)C(O)(C(C)=O)C=C1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_23201",
+  "bench": "uspto31k",
+  "reactants": [
+   "CO",
+   "COc1ccc(C(=O)Oc2ccc(C(=O)CNC(C)(C)C)cc2OC(=O)c2ccc(OC)cc2)cc1",
+   "[BH4-]"
+  ],
+  "products": [
+   "COc1ccc(C(=O)Oc2ccc(C(O)CNC(C)(C)C)cc2OC(=O)c2ccc(OC)cc2)cc1"
+  ],
+  "states": [
+   "B.CO.COc1ccc(C(=O)Oc2ccc(C([O-])CNC(C)(C)C)cc2OC(=O)c2ccc(OC)cc2)cc1",
+   "B.COc1ccc(C(=O)Oc2ccc(C(O)CNC(C)(C)C)cc2OC(=O)c2ccc(OC)cc2)cc1.C[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_23375",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)OC(C)=O",
+   "Cn1nc(CCN2CCN(c3cccc(N)c3)CC2)n(CC2CCCCC2)c1=O"
+  ],
+  "products": [
+   "CC(=O)[NH2+]c1cccc(N2CCN(CCc3nn(C)c(=O)n3CC3CCCCC3)CC2)c1"
+  ],
+  "states": [
+   "CC(=O)OC(C)([O-])[NH2+]c1cccc(N2CCN(CCc3nn(C)c(=O)n3CC3CCCCC3)CC2)c1",
+   "CC(=O)[NH2+]c1cccc(N2CCN(CCc3nn(C)c(=O)n3CC3CCCCC3)CC2)c1.CC(=O)[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_23445",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)c1ccccc1",
+   "CCOC(=O)CC#N",
+   "[OH-]"
+  ],
+  "products": [
+   "CCOC(=O)C(C#N)=C(C)c1ccccc1"
+  ],
+  "states": [
+   "CC(=O)c1ccccc1.CCOC([O-])=CC#N.O",
+   "CCOC(=O)C(C#N)C(C)([O-])c1ccccc1.O",
+   "CCOC(=O)C(C#N)C(C)(O)c1ccccc1.[OH-]",
+   "CCOC([O-])=C(C#N)C(C)(O)c1ccccc1.O",
+   "CCOC(=O)C(C#N)=C(C)c1ccccc1.O.[OH-]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_23450",
+  "bench": "uspto31k",
+  "reactants": [
+   "CN1CCC(=O)CC1",
+   "Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CCNCC4)cc3)c2n1",
+   "[BH3-]C#N",
+   "[H+]",
+   "[Na+]"
+  ],
+  "products": [
+   "Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CCN(C5CCN(C)CC5)CC4)cc3)c2n1"
+  ],
+  "states": [
+   "Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CC[NH+](C5(O)CCN(C)CC5)CC4)cc3)c2n1.[BH3-]C#N.[Na+]",
+   "Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CCN(C5([OH2+])CCN(C)CC5)CC4)cc3)c2n1.[BH3-]C#N.[Na+]",
+   "Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CC[N+](=C5CCN(C)CC5)CC4)cc3)c2n1.O.[BH3-]C#N.[Na+]",
+   "BC#N.Cc1cc(C)c2nc(C)n(Cc3ccc(NCC4CCN(C5CCN(C)CC5)CC4)cc3)c2n1.O.[Na+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_23484",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCCc1cnc(N)o1",
+   "O=C(O)C(c1ccccc1)c1ccccc1"
+  ],
+  "products": [
+   "CCCc1cnc(NC(=O)C(c2ccccc2)c2ccccc2)o1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCCc1cnc(N)o1.O=C([O-])C(c1ccccc1)c1ccccc1",
+   "CCCc1cnc(N)o1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)C(c1ccccc1)c1ccccc1",
+   "CCCc1cnc([NH2+]C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)C(c2ccccc2)c2ccccc2)o1",
+   "CCCc1cnc(NC([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)C(c2ccccc2)c2ccccc2)o1",
+   "CCCc1cnc(NC(=O)C(c2ccccc2)c2ccccc2)o1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCCc1cnc(NC(=O)C(c2ccccc2)c2ccccc2)o1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_23589",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)Cl",
+   "Cl[Al](Cl)Cl",
+   "c1ccc2c(c1)CCCO2"
+  ],
+  "products": [
+   "CC(=O)c1ccc2c(c1)CCCO2"
+  ],
+  "states": [
+   "CC(=O)[Cl+][Al-](Cl)(Cl)Cl.c1ccc2c(c1)CCCO2",
+   "C[C+]=O.Cl[Al-](Cl)(Cl)Cl.c1ccc2c(c1)CCCO2",
+   "Cl[Al-](Cl)(Cl)Cl.[CH+]=C1CCCOC1=CC=CC(C)=O",
+   "CC(=O)c1ccc2c(c1)CCCO2.Cl.Cl[Al](Cl)Cl"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_23757",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CC(=O)O",
+   "Cc1cc(C)n(-c2nc(N)cc(Cl)n2)n1"
+  ],
+  "products": [
+   "CC(=O)Nc1cc(Cl)nc(-n2nc(C)cc2C)n1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CC(=O)[O-].Cc1cc(C)n(-c2nc(N)cc(Cl)n2)n1",
+   "CC(=O)OC(=NC1CCCCC1)NC1CCCCC1.Cc1cc(C)n(-c2nc(N)cc(Cl)n2)n1",
+   "Cc1cc(C)n(-c2nc(Cl)cc([NH2+]C(C)([O-])OC(=NC3CCCCC3)NC3CCCCC3)n2)n1",
+   "Cc1cc(C)n(-c2nc(Cl)cc(NC(C)([O-])OC(NC3CCCCC3)=[NH+]C3CCCCC3)n2)n1",
+   "CC(=O)Nc1cc(Cl)nc(-n2nc(C)cc2C)n1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CC(=O)Nc1cc(Cl)nc(-n2nc(C)cc2C)n1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_23763",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC[Mg+]",
+   "O",
+   "O=C1CCc2cc(F)ccc21"
+  ],
+  "products": [
+   "CCC1(O)CCc2cc(F)ccc21"
+  ],
+  "states": [
+   "CCC1(O[Mg+])CCc2cc(F)ccc21.O",
+   "CCC1(O[Mg][OH2+])CCc2cc(F)ccc21",
+   "CCC1([O-])CCc2cc(F)ccc21.[OH2+][Mg+]",
+   "CCC1(O)CCc2cc(F)ccc21.O[Mg+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_24044",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCc2cc(O)c(I)cc2CC1",
+   "CNC(=O)c1ccc(Cl)nc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CNC(=O)c1ccc(Oc2cc3c(cc2I)CCN(C(=O)OC(C)(C)C)CC3)nc1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=O)N1CCc2cc([O-])c(I)cc2CC1.CNC(=O)c1ccc(Cl)nc1.[H][H].[Na+]",
+   "C#N.CNC([O-])=C=CC=C(Cl)Oc1cc2c(cc1I)CCN(C(=O)OC(C)(C)C)CC2.[H][H].[Na+]",
+   "CNC(=O)c1ccc(Oc2cc3c(cc2I)CCN(C(=O)OC(C)(C)C)CC3)nc1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_24050",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)C1(C(=O)OCC)CCCN1",
+   "O=C(Br)CBr"
+  ],
+  "products": [
+   "CCOC(=O)C1(C(=O)OCC)CCC[NH+]1C(=O)CBr"
+  ],
+  "states": [
+   "CCOC(=O)C1(C(=O)OCC)CCC[NH+]1C([O-])(Br)CBr",
+   "CCOC(=O)C1(C(=O)OCC)CCC[NH+]1C(=O)CBr.[Br-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_24074",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCCC[C@@H](C)O",
+   "CCOC(=O)N=NC(=O)OCC",
+   "Cc1ccc(O)cc1[N+](=O)O",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "states": [
+   "CCCCCCC(C)O.CCOC(=O)[N-]N(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.Cc1ccc(O)cc1[N+](=O)O",
+   "CCCCCCC(C)O.CCOC(=O)N(N=C([O-])OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.Cc1ccc(O)cc1[N+](=O)O",
+   "CCCCCCC(C)O.CCOC(=O)NN(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.Cc1ccc([O-])cc1[N+](=O)O",
+   "CCCCCCC(C)[OH+]P(c1ccccc1)(c1ccccc1)(c1ccccc1)N(NC(=O)OCC)C(=O)OCC.Cc1ccc([O-])cc1[N+](=O)O",
+   "CCCCCCC(C)[OH+][P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)[N-]NC(=O)OCC.Cc1ccc([O-])cc1[N+](=O)O",
+   "CCCCCCC(C)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)NNC(=O)OCC.Cc1ccc([O-])cc1[N+](=O)O",
+   "CCCCCCC(C)Oc1ccc(C)c([N+](=O)O)c1.CCOC(=O)NNC(=O)OCC.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "n_steps": 7
+ },
+ {
+  "id": "uspto31k_24158",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)CCCC(O)CCC#N",
+   "CCOC(=O)N=NC(=O)OCC",
+   "Oc1cccnc1",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "CCOC(=O)CCCC(CCC#N)Oc1cccnc1"
+  ],
+  "states": [
+   "CCOC(=O)CCCC(O)CCC#N.CCOC(=O)[N-]N(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.Oc1cccnc1",
+   "CCOC(=O)CCCC(O)CCC#N.CCOC(=O)N(N=C([O-])OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.Oc1cccnc1",
+   "CCOC(=O)CCCC(O)CCC#N.CCOC(=O)NN(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[O-]c1cccnc1",
+   "CCOC(=O)CCCC(CCC#N)[OH+]P(c1ccccc1)(c1ccccc1)(c1ccccc1)N(NC(=O)OCC)C(=O)OCC.[O-]c1cccnc1",
+   "CCOC(=O)CCCC(CCC#N)[OH+][P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)[N-]NC(=O)OCC.[O-]c1cccnc1",
+   "CCOC(=O)CCCC(CCC#N)O[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOC(=O)NNC(=O)OCC.[O-]c1cccnc1",
+   "CCOC(=O)CCCC(CCC#N)Oc1cccnc1.CCOC(=O)NNC(=O)OCC.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "n_steps": 7
+ },
+ {
+  "id": "uspto31k_24286",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)O",
+   "CCOC(=O)c1c(C)nc2c(ncn2CC)c1Cl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(=O)c1c(C)nc2c(ncn2CC)c1OC(C)C"
+  ],
+  "states": [
+   "CC(C)[O-].CCOC(=O)c1c(C)nc2c(ncn2CC)c1Cl.[H][H].[Na+]",
+   "CCOC([O-])=C1C(C)=Nc2c(ncn2CC)C1(Cl)OC(C)C.[H][H].[Na+]",
+   "CCOC(=O)c1c(C)nc2c(ncn2CC)c1OC(C)C.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_24322",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)CC(NCCN(Cc1ccc2c(c1)OCO2)C(=O)OC(C)(C)C)c1cc(C)nc(-n2ccnc2)n1",
+   "CN"
+  ],
+  "products": [
+   "C[NH2+]C(=O)CC(NCCN(Cc1ccc2c(c1)OCO2)C(=O)OC(C)(C)C)c1cc(C)nc(-n2ccnc2)n1"
+  ],
+  "states": [
+   "CCOC([O-])(CC(NCCN(Cc1ccc2c(c1)OCO2)C(=O)OC(C)(C)C)c1cc(C)nc(-n2ccnc2)n1)[NH2+]C",
+   "CC[O-].C[NH2+]C(=O)CC(NCCN(Cc1ccc2c(c1)OCO2)C(=O)OC(C)(C)C)c1cc(C)nc(-n2ccnc2)n1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_24396",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)C1(CN)CCC1",
+   "COC(=O)c1nc(C#N)c2cc(Oc3ccccc3)ccc2c1O"
+  ],
+  "products": [
+   "COC(=O)C1(C[NH2+]C(=O)c2nc(C#N)c3cc(Oc4ccccc4)ccc3c2O)CCC1"
+  ],
+  "states": [
+   "COC(=O)C1(C[NH2+]C([O-])(OC)c2nc(C#N)c3cc(Oc4ccccc4)ccc3c2O)CCC1",
+   "COC(=O)C1(C[NH2+]C(=O)c2nc(C#N)c3cc(Oc4ccccc4)ccc3c2O)CCC1.C[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_24511",
+  "bench": "uspto31k",
+  "reactants": [
+   "O",
+   "O=C(c1ccccc1)N1C[C@H]2OCCN(Cc3ccccc3)[C@H]2C1",
+   "[H+]"
+  ],
+  "products": [
+   "c1ccc(CN2CCOC3CNCC32)cc1"
+  ],
+  "states": [
+   "O.[OH+]=C(c1ccccc1)N1CC2OCCN(Cc3ccccc3)C2C1",
+   "OC([OH2+])(c1ccccc1)N1CC2OCCN(Cc3ccccc3)C2C1",
+   "OC(O)(c1ccccc1)[NH+]1CC2OCCN(Cc3ccccc3)C2C1",
+   "OC(=[OH+])c1ccccc1.c1ccc(CN2CCOC3CNCC32)cc1",
+   "O=C(O)c1ccccc1.[H+].c1ccc(CN2CCOC3CNCC32)cc1"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_24548",
+  "bench": "uspto31k",
+  "reactants": [
+   "Nc1ccc(Cl)cn1",
+   "O=C(Cl)c1ccc(Cl)c([N+](=O)O)c1"
+  ],
+  "products": [
+   "O=C([NH2+]c1ccc(Cl)cn1)c1ccc(Cl)c([N+](=O)O)c1"
+  ],
+  "states": [
+   "O=[N+](O)c1cc(C([O-])(Cl)[NH2+]c2ccc(Cl)cn2)ccc1Cl",
+   "O=C([NH2+]c1ccc(Cl)cn1)c1ccc(Cl)c([N+](=O)O)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_24990",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)c1cc(Cn2ncc([N+](=O)O)n2)on1",
+   "OCCO",
+   "[H+]"
+  ],
+  "products": [
+   "CC1(c2cc(Cn3ncc([N+](=O)O)n3)on2)OCCO1"
+  ],
+  "states": [
+   "CC(=[OH+])c1cc(Cn2ncc([N+](=O)O)n2)on1.OCCO",
+   "CC(O)([OH+]CCO)c1cc(Cn2ncc([N+](=O)O)n2)on1",
+   "CC([OH2+])(OCCO)c1cc(Cn2ncc([N+](=O)O)n2)on1",
+   "CC(=[O+]CCO)c1cc(Cn2ncc([N+](=O)O)n2)on1.O",
+   "CC1(c2cc(Cn3ncc([N+](=O)O)n3)on2)OCC[OH+]1.O",
+   "CC1(c2cc(Cn3ncc([N+](=O)O)n3)on2)OCCO1.O.[H+]"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_25123",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCI",
+   "CCOC(=O)CN1CCC2(C=Cc3ccccc3O2)CC1c1cc(F)c(O)c(F)c1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(=O)CN1CCC2(C=Cc3ccccc3O2)CC1c1cc(F)c(OCC)c(F)c1"
+  ],
+  "states": [
+   "CCI.CCOC(=O)CN1CCC2(C=Cc3ccccc3O2)CC1c1cc(F)c([O-])c(F)c1.[H][H].[Na+]",
+   "CCOC(=O)CN1CCC2(C=Cc3ccccc3O2)CC1c1cc(F)c(OCC)c(F)c1.[H][H].[I-].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_25274",
+  "bench": "uspto31k",
+  "reactants": [
+   "C[Mg+]",
+   "N#CC1CC1C(=O)c1ccc(Cl)cc1",
+   "O"
+  ],
+  "products": [
+   "CC(O)(c1ccc(Cl)cc1)C1CC1C#N"
+  ],
+  "states": [
+   "CC(O[Mg+])(c1ccc(Cl)cc1)C1CC1C#N.O",
+   "CC(O[Mg][OH2+])(c1ccc(Cl)cc1)C1CC1C#N",
+   "CC([O-])(c1ccc(Cl)cc1)C1CC1C#N.[OH2+][Mg+]",
+   "CC(O)(c1ccc(Cl)cc1)C1CC1C#N.O[Mg+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_25510",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "NCc1ccccc1",
+   "O=C(O)c1cccnc1Cl"
+  ],
+  "products": [
+   "O=C(NCc1ccccc1)c1cccnc1Cl"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.NCc1ccccc1.O=C([O-])c1cccnc1Cl",
+   "NCc1ccccc1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1cccnc1Cl",
+   "[O-]C([NH2+]Cc1ccccc1)(OC(=NC1CCCCC1)NC1CCCCC1)c1cccnc1Cl",
+   "[O-]C(NCc1ccccc1)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1cccnc1Cl",
+   "O=C(NCc1ccccc1)c1cccnc1Cl.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CCCCC1)NC1CCCCC1.O=C(NCc1ccccc1)c1cccnc1Cl"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_25658",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CNOC",
+   "COc1ccc(CCC(=O)O)cc1OC"
+  ],
+  "products": [
+   "COc1ccc(CCC(=O)N(C)OC)cc1OC"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CNOC.COc1ccc(CCC(=O)[O-])cc1OC",
+   "CNOC.COc1ccc(CCC(=O)OC(=NC2CCCCC2)NC2CCCCC2)cc1OC",
+   "COc1ccc(CCC([O-])(OC(=NC2CCCCC2)NC2CCCCC2)[NH+](C)OC)cc1OC",
+   "COc1ccc(CCC([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)N(C)OC)cc1OC",
+   "COc1ccc(CCC(=O)N(C)OC)cc1OC.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COc1ccc(CCC(=O)N(C)OC)cc1OC.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_25836",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(C)O[C@@H]1OC=C(C(=O)OC)[C@H]2CC=C(CO)[C@@H]12",
+   "CI",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCOC(C)OC1OC=C(C(=O)OC)C2CC=C(COC)C12"
+  ],
+  "states": [
+   "CCOC(C)OC1OC=C(C(=O)OC)C2CC=C(C[O-])C12.CI.[H][H].[Na+]",
+   "CCOC(C)OC1OC=C(C(=O)OC)C2CC=C(COC)C12.[H][H].[I-].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_26156",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)c1ncc2cccnc2c1O",
+   "NCc1ccc(F)cc1"
+  ],
+  "products": [
+   "O=C([NH2+]Cc1ccc(F)cc1)c1ncc2cccnc2c1O"
+  ],
+  "states": [
+   "COC([O-])([NH2+]Cc1ccc(F)cc1)c1ncc2cccnc2c1O",
+   "C[O-].O=C([NH2+]Cc1ccc(F)cc1)c1ncc2cccnc2c1O"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_26306",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)N=NC(=O)OCC",
+   "CCOc1ccc(Cn2c(C)nc3c(C)cc(CO)cc32)c(Cl)c1",
+   "COC(=O)c1cccc(O)c1",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "CCOc1ccc(Cn2c(C)nc3c(C)cc(COc4cccc(C(=O)OC)c4)cc32)c(Cl)c1"
+  ],
+  "states": [
+   "CCOC(=O)[N-]N(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOc1ccc(Cn2c(C)nc3c(C)cc(CO)cc32)c(Cl)c1.COC(=O)c1cccc(O)c1",
+   "CCOC(=O)N(N=C([O-])OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOc1ccc(Cn2c(C)nc3c(C)cc(CO)cc32)c(Cl)c1.COC(=O)c1cccc(O)c1",
+   "CCOC(=O)NN(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CCOc1ccc(Cn2c(C)nc3c(C)cc(CO)cc32)c(Cl)c1.COC(=O)c1cccc([O-])c1",
+   "CCOC(=O)NN(C(=O)OCC)P([OH+]Cc1cc(C)c2nc(C)n(Cc3ccc(OCC)cc3Cl)c2c1)(c1ccccc1)(c1ccccc1)c1ccccc1.COC(=O)c1cccc([O-])c1",
+   "CCOC(=O)[N-]NC(=O)OCC.CCOc1ccc(Cn2c(C)nc3c(C)cc(C[OH+][P+](c4ccccc4)(c4ccccc4)c4ccccc4)cc32)c(Cl)c1.COC(=O)c1cccc([O-])c1",
+   "CCOC(=O)NNC(=O)OCC.CCOc1ccc(Cn2c(C)nc3c(C)cc(CO[P+](c4ccccc4)(c4ccccc4)c4ccccc4)cc32)c(Cl)c1.COC(=O)c1cccc([O-])c1",
+   "CCOC(=O)NNC(=O)OCC.CCOc1ccc(Cn2c(C)nc3c(C)cc(COc4cccc(C(=O)OC)c4)cc32)c(Cl)c1.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "n_steps": 7
+ },
+ {
+  "id": "uspto31k_26401",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)N=C=O",
+   "COc1cc(Cl)nc(N)n1"
+  ],
+  "products": [
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)NC(=O)Nc1nc(Cl)cc(OC)n1"
+  ],
+  "states": [
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)N=C([O-])[NH2+]c1nc(Cl)cc(OC)n1",
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)N=C(O)Nc1nc(Cl)cc(OC)n1",
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)[N-]C(=[OH+])Nc1nc(Cl)cc(OC)n1",
+   "COC(=O)c1ccc(N(C)C(=O)OC)cc1S(=O)(=O)NC(=O)Nc1nc(Cl)cc(OC)n1"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_26535",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)c1cccc2[nH]cc(C=O)c12",
+   "NO",
+   "[H+]"
+  ],
+  "products": [
+   "COC(=NO)c1cccc2[nH]cc(C=O)c12"
+  ],
+  "states": [
+   "COC(O)([NH2+]O)c1cccc2[nH]cc(C=O)c12",
+   "COC([OH2+])(NO)c1cccc2[nH]cc(C=O)c12",
+   "COC(=[NH+]O)c1cccc2[nH]cc(C=O)c12.O",
+   "COC(=NO)c1cccc2[nH]cc(C=O)c12.O.[H+]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_26741",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCC[C@@H](c2ncc3cnc4[nH]ccc4n23)C1",
+   "[H+]"
+  ],
+  "products": [
+   "c1cc2c(ncc3cnc(C4CCCNC4)n32)[nH]1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])N1CCCC(c2ncc3cnc4[nH]ccc4n23)C1",
+   "C[C+](C)C.O=C(O)N1CCCC(c2ncc3cnc4[nH]ccc4n23)C1",
+   "C[C+](C)C.O=C([O-])[NH+]1CCCC(c2ncc3cnc4[nH]ccc4n23)C1",
+   "C[C+](C)C.O=C=O.c1cc2c(ncc3cnc(C4CCCNC4)n32)[nH]1",
+   "C=C(C)C.O=C=O.[H+].c1cc2c(ncc3cnc(C4CCCNC4)n32)[nH]1"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_26776",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "NC1CC1",
+   "O=C(O)c1csc(Br)n1"
+  ],
+  "products": [
+   "O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.NC1CC1.O=C([O-])c1csc(Br)n1",
+   "NC1CC1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)c1csc(Br)n1",
+   "[O-]C([NH2+]C1CC1)(OC(=NC1CCCCC1)NC1CCCCC1)c1csc(Br)n1",
+   "[O-]C(NC1CC1)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1csc(Br)n1",
+   "O=C(NC1CC1)c1csc(Br)n1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CC1)c1csc(Br)n1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_26819",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN(CC)CC",
+   "CS(C)=O",
+   "Cc1nnsc1-c1nc(CO)cs1",
+   "O=C(Cl)C(=O)Cl"
+  ],
+  "products": [
+   "Cc1nnsc1-c1nc(C=O)cs1"
+  ],
+  "states": [
+   "CCN(CC)CC.C[S+](C)OC([O-])(Cl)C(=O)Cl.Cc1nnsc1-c1nc(CO)cs1",
+   "CCN(CC)CC.C[S+](C)OC(=O)C(=O)Cl.Cc1nnsc1-c1nc(CO)cs1.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)OC(=O)C(=O)Cl.Cc1nnsc1-c1nc(CO)cs1",
+   "CCN(CC)CC.C[S+](C)Cl.Cc1nnsc1-c1nc(CO)cs1.O=C=O.O=[C-]Cl",
+   "CCN(CC)CC.C[S+](C)Cl.Cc1nnsc1-c1nc(CO)cs1.O=C=O.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cc1nnsc1-c1nc(C[OH+]S(C)(C)Cl)cs1.O=C=O.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cc1nnsc1-c1nc(C[OH+][S+](C)C)cs1.O=C=O.[C]=O.[Cl-].[Cl-]",
+   "CCN(CC)CC.Cc1nnsc1-c1nc(CO[S+](C)C)cs1.Cl.O=C=O.[C]=O.[Cl-]",
+   "CC[NH+](CC)CC.Cl.O=C=O.[CH2-][S+](C)OCc1csc(-c2snnc2C)n1.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cl.Cl.O=C=O.[CH2-][S+](C)OCc1csc(-c2snnc2C)n1.[C]=O",
+   "CCN(CC)CC.CSC.Cc1nnsc1-c1nc(C=O)cs1.Cl.Cl.O=C=O.[C]=O"
+  ],
+  "n_steps": 11
+ },
+ {
+  "id": "uspto31k_26894",
+  "bench": "uspto31k",
+  "reactants": [
+   "C1COCCN1",
+   "O=[N+](O)c1ccc(F)c(F)c1"
+  ],
+  "products": [
+   "O=[N+](O)c1ccc([NH+]2CCOCC2)c(F)c1"
+  ],
+  "states": [
+   "C#CF.[O-][N+](O)=C=CC=C(F)[NH+]1CCOCC1",
+   "O=[N+](O)c1ccc([NH+]2CCOCC2)c(F)c1.[F-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_26983",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cn1ncc(C(=O)c2ccc(Cl)cc2Cl)c1O",
+   "O=[N+](O)c1ccc(CCl)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "Cn1ncc(C(=O)c2ccc(Cl)cc2Cl)c1OCc1ccc([N+](=O)O)cc1"
+  ],
+  "states": [
+   "Cn1ncc(C(=O)c2ccc(Cl)cc2Cl)c1[O-].O=[N+](O)c1ccc(CCl)cc1.[H][H].[Na+]",
+   "Cn1ncc(C(=O)c2ccc(Cl)cc2Cl)c1OCc1ccc([N+](=O)O)cc1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_27168",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrCc1ccccc1",
+   "CC(C)(C)OC(=O)NN[C@@H](CC(N)=O)C(=O)O",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)NNC(CC(N)=O)C(=O)OCc1ccccc1"
+  ],
+  "states": [
+   "BrCc1ccccc1.CC(C)(C)OC(=O)NNC(CC(N)=O)C(=O)[O-].[H][H].[Na+]",
+   "CC(C)(C)OC(=O)NNC(CC(N)=O)C(=O)OCc1ccccc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_27190",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC1(C)CCNc2ccccc21",
+   "O=S(=O)(Cl)c1cc(Br)c(Cl)cc1F"
+  ],
+  "products": [
+   "CC1(C)CC[NH+](S(=O)(=O)c2cc(Br)c(Cl)cc2F)c2ccccc21"
+  ],
+  "states": [
+   "CC1(C)CC[NH+](S(=O)([O-])(Cl)c2cc(Br)c(Cl)cc2F)c2ccccc21",
+   "CC1(C)CC[NH+](S(=O)(=O)c2cc(Br)c(Cl)cc2F)c2ccccc21.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_27202",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1ccccc1-c1ccc2c(c1)NC(=O)C2",
+   "O=Cc1[nH]c2c(c1CCC(=O)O)CCCC2",
+   "[OH-]"
+  ],
+  "products": [
+   "COc1ccccc1-c1ccc2c(c1)NC(=O)C2=Cc1[nH]c2c(c1CCC(=O)O)CCCC2"
+  ],
+  "states": [
+   "COc1ccccc1-c1ccc2cc([O-])[nH]c2c1.O.O=Cc1[nH]c2c(c1CCC(=O)O)CCCC2",
+   "COc1ccccc1-c1ccc2c(c1)NC(=O)C2C([O-])c1[nH]c2c(c1CCC(=O)O)CCCC2.O",
+   "COc1ccccc1-c1ccc2c(c1)NC(=O)C2C(O)c1[nH]c2c(c1CCC(=O)O)CCCC2.[OH-]",
+   "COc1ccccc1-c1ccc2c(C(O)c3[nH]c4c(c3CCC(=O)O)CCCC4)c([O-])[nH]c2c1.O",
+   "COc1ccccc1-c1ccc2c(c1)NC(=O)C2=Cc1[nH]c2c(c1CCC(=O)O)CCCC2.O.[OH-]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_27304",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)N1CCC(c2ccc(O)cc2)C(O)C1",
+   "CS(=O)(=O)OCCOCCc1ccccc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC(C)(C)OC(=O)N1CCC(c2ccc(OCCOCCc3ccccc3)cc2)C(O)C1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=O)N1CCC(c2ccc([O-])cc2)C(O)C1.CS(=O)(=O)OCCOCCc1ccccc1.[H][H].[Na+]",
+   "CC(C)(C)OC(=O)N1CCC(c2ccc(OCCOCCc3ccccc3)cc2)C(O)C1.CS(=O)(=O)[O-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_27314",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CN(C(=O)N(C)[C@@H]1CN(C(=O)C2CCNCC2)C[C@H]1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1",
+   "O=C(O)C1CCOCC1"
+  ],
+  "products": [
+   "CN(C(=O)N(C)C1CN(C(=O)C2CCN(C(=O)C3CCOCC3)CC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CN(C(=O)N(C)C1CN(C(=O)C2CCNCC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1.O=C([O-])C1CCOCC1",
+   "CN(C(=O)N(C)C1CN(C(=O)C2CCNCC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)C1CCOCC1",
+   "CN(C(=O)N(C)C1CN(C(=O)C2CC[NH+](C([O-])(OC(=NC3CCCCC3)NC3CCCCC3)C3CCOCC3)CC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1",
+   "CN(C(=O)N(C)C1CN(C(=O)C2CCN(C([O-])(OC(NC3CCCCC3)=[NH+]C3CCCCC3)C3CCOCC3)CC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1",
+   "CN(C(=O)N(C)C1CN(C(=O)C2CCN(C(=O)C3CCOCC3)CC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CN(C(=O)N(C)C1CN(C(=O)C2CCN(C(=O)C3CCOCC3)CC2)CC1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_27574",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCS(=O)(=O)N1CC(CN)(c2ccccn2)C1",
+   "O=C(Cl)c1ccc(Cl)cc1Cl"
+  ],
+  "products": [
+   "CCCS(=O)(=O)N1CC(C[NH2+]C(=O)c2ccc(Cl)cc2Cl)(c2ccccn2)C1"
+  ],
+  "states": [
+   "CCCS(=O)(=O)N1CC(C[NH2+]C([O-])(Cl)c2ccc(Cl)cc2Cl)(c2ccccn2)C1",
+   "CCCS(=O)(=O)N1CC(C[NH2+]C(=O)c2ccc(Cl)cc2Cl)(c2ccccn2)C1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_27675",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "COC(=O)C(C)C(=O)O",
+   "NCCc1ccccc1I"
+  ],
+  "products": [
+   "COC(=O)C(C)C(=O)NCCc1ccccc1I"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.COC(=O)C(C)C(=O)[O-].NCCc1ccccc1I",
+   "COC(=O)C(C)C(=O)OC(=NC1CCCCC1)NC1CCCCC1.NCCc1ccccc1I",
+   "COC(=O)C(C)C([O-])([NH2+]CCc1ccccc1I)OC(=NC1CCCCC1)NC1CCCCC1",
+   "COC(=O)C(C)C([O-])(NCCc1ccccc1I)OC(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COC(=O)C(C)C(=O)NCCc1ccccc1I.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "COC(=O)C(C)C(=O)NCCc1ccccc1I.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_27874",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)/C(=C/c1ccc(OC)cc1)CC",
+   "[AlH4-]",
+   "[AlH4-]",
+   "[H+]"
+  ],
+  "products": [
+   "CCC(=Cc1ccc(OC)cc1)CO"
+  ],
+  "states": [
+   "CCOC([O-])C(=Cc1ccc(OC)cc1)CC.[AlH3].[AlH4-].[H+]",
+   "CCC(C=O)=Cc1ccc(OC)cc1.CC[O-].[AlH3].[AlH4-].[H+]",
+   "CCC(=Cc1ccc(OC)cc1)C[O-].CC[O-].[AlH3].[AlH3].[H+]",
+   "CCC(=Cc1ccc(OC)cc1)CO.CC[O-].[AlH3].[AlH3]"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_27901",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "C=CCc1cc(OCC(=O)O)ccc1O",
+   "CCO"
+  ],
+  "products": [
+   "C=CCc1cc(OCC(=O)OCC)ccc1O"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.C=CCc1cc(OCC(=O)[O-])ccc1O.CCO",
+   "C=CCc1cc(OCC(=O)OC(=NC2CCCCC2)NC2CCCCC2)ccc1O.CCO",
+   "C=CCc1cc(OCC([O-])(OC(=NC2CCCCC2)NC2CCCCC2)[OH+]CC)ccc1O",
+   "C=CCc1cc(OCC([O-])(OCC)OC(NC2CCCCC2)=[NH+]C2CCCCC2)ccc1O",
+   "C=CCc1cc(OCC(=O)OCC)ccc1O.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "C=CCc1cc(OCC(=O)OCC)ccc1O.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_27989",
+  "bench": "uspto31k",
+  "reactants": [
+   "N#CC(N)=C(C#N)N=Cc1cnn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)n1",
+   "[BH4-]",
+   "[H+]"
+  ],
+  "products": [
+   "N#CC(N)=C(C#N)NCc1cnn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)n1"
+  ],
+  "states": [
+   "N#CC(N)=C(C#N)[NH+]=Cc1cnn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)n1.[BH4-]",
+   "B.N#CC(N)=C(C#N)NCc1cnn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)n1"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_28133",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCN(CC)CC",
+   "CS(C)=O",
+   "O=C(Cl)C(=O)Cl",
+   "OCc1cccc(CBr)c1"
+  ],
+  "products": [
+   "O=Cc1cccc(CBr)c1"
+  ],
+  "states": [
+   "CCN(CC)CC.C[S+](C)OC([O-])(Cl)C(=O)Cl.OCc1cccc(CBr)c1",
+   "CCN(CC)CC.C[S+](C)OC(=O)C(=O)Cl.OCc1cccc(CBr)c1.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)OC(=O)C(=O)Cl.OCc1cccc(CBr)c1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.O=[C-]Cl.OCc1cccc(CBr)c1",
+   "CCN(CC)CC.C[S+](C)Cl.O=C=O.OCc1cccc(CBr)c1.[C]=O.[Cl-]",
+   "CCN(CC)CC.CS(C)(Cl)[OH+]Cc1cccc(CBr)c1.O=C=O.[C]=O.[Cl-]",
+   "CCN(CC)CC.C[S+](C)[OH+]Cc1cccc(CBr)c1.O=C=O.[C]=O.[Cl-].[Cl-]",
+   "CCN(CC)CC.C[S+](C)OCc1cccc(CBr)c1.Cl.O=C=O.[C]=O.[Cl-]",
+   "CC[NH+](CC)CC.Cl.O=C=O.[CH2-][S+](C)OCc1cccc(CBr)c1.[C]=O.[Cl-]",
+   "CCN(CC)CC.Cl.Cl.O=C=O.[CH2-][S+](C)OCc1cccc(CBr)c1.[C]=O",
+   "CCN(CC)CC.CSC.Cl.Cl.O=C=O.O=Cc1cccc(CBr)c1.[C]=O"
+  ],
+  "n_steps": 11
+ },
+ {
+  "id": "uspto31k_28140",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(N)nc21",
+   "O=C(N=C=S)c1ccccc1"
+  ],
+  "products": [
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(NC(=S)NC(=O)c3ccccc3)nc21"
+  ],
+  "states": [
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c([NH2+]C([S-])=NC(=O)c3ccccc3)nc21",
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(NC(S)=NC(=O)c3ccccc3)nc21",
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(NC(=[SH+])[N-]C(=O)c3ccccc3)nc21",
+   "CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(NC(=S)NC(=O)c3ccccc3)nc21"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_28268",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+   "CCOC(=O)CNCCCn1c(-c2ccc(F)cc2)csc1=Nc1ccc(Cl)cc1OC"
+  ],
+  "products": [
+   "CCOC(=O)C[NH+](CCCn1c(-c2ccc(F)cc2)csc1=Nc1ccc(Cl)cc1OC)C(=O)OC(C)(C)C"
+  ],
+  "states": [
+   "CCOC(=O)C[NH+](CCCn1c(-c2ccc(F)cc2)csc1=Nc1ccc(Cl)cc1OC)C([O-])(OC(=O)OC(C)(C)C)OC(C)(C)C",
+   "CC(C)(C)OC(=O)[O-].CCOC(=O)C[NH+](CCCn1c(-c2ccc(F)cc2)csc1=Nc1ccc(Cl)cc1OC)C(=O)OC(C)(C)C"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_28307",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1[nH]ncc1-c1cc2nc([C@@H]3C4CCC(CC4)N3C(=O)OC(C)(C)C)[nH]c(=O)c2s1",
+   "[H+]"
+  ],
+  "products": [
+   "Cc1[nH]ncc1-c1cc2nc(C3NC4CCC3CC4)[nH]c(=O)c2s1"
+  ],
+  "states": [
+   "Cc1[nH]ncc1-c1cc2nc(C3C4CCC(CC4)N3C(=[OH+])OC(C)(C)C)[nH]c(=O)c2s1",
+   "C[C+](C)C.Cc1[nH]ncc1-c1cc2nc(C3C4CCC(CC4)N3C(=O)O)[nH]c(=O)c2s1",
+   "C[C+](C)C.Cc1[nH]ncc1-c1cc2nc(C3C4CCC(CC4)[NH+]3C(=O)[O-])[nH]c(=O)c2s1",
+   "C[C+](C)C.Cc1[nH]ncc1-c1cc2nc(C3NC4CCC3CC4)[nH]c(=O)c2s1.O=C=O",
+   "C=C(C)C.Cc1[nH]ncc1-c1cc2nc(C3NC4CCC3CC4)[nH]c(=O)c2s1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_28432",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "Nc1nccs1",
+   "O=C(O)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1"
+  ],
+  "products": [
+   "O=C(Nc1nccs1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.Nc1nccs1.O=C([O-])C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1",
+   "Nc1nccs1.O=C(OC(=NC1CCCCC1)NC1CCCCC1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1",
+   "[O-]C([NH2+]c1nccs1)(OC(=NC1CCCCC1)NC1CCCCC1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1",
+   "[O-]C(Nc1nccs1)(OC(NC1CCCCC1)=[NH+]C1CCCCC1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1",
+   "O=C(Nc1nccs1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "O=C(NC1CCCCC1)NC1CCCCC1.O=C(Nc1nccs1)C(CC1CCCC1)c1ccc(C#Cc2ccccn2)cc1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_28541",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCC(=O)c1ccc(N)nc1",
+   "Cc1c(F)cncc1C(=O)O"
+  ],
+  "products": [
+   "CCC(=O)c1ccc(NC(=O)c2cncc(F)c2C)nc1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCC(=O)c1ccc(N)nc1.Cc1c(F)cncc1C(=O)[O-]",
+   "CCC(=O)c1ccc(N)nc1.Cc1c(F)cncc1C(=O)OC(=NC1CCCCC1)NC1CCCCC1",
+   "CCC(=O)c1ccc([NH2+]C([O-])(OC(=NC2CCCCC2)NC2CCCCC2)c2cncc(F)c2C)nc1",
+   "CCC(=O)c1ccc(NC([O-])(OC(NC2CCCCC2)=[NH+]C2CCCCC2)c2cncc(F)c2C)nc1",
+   "CCC(=O)c1ccc(NC(=O)c2cncc(F)c2C)nc1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCC(=O)c1ccc(NC(=O)c2cncc(F)c2C)nc1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_28868",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)N1CCN(CCO)CC1",
+   "CS(=O)(=O)Cl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CC(=O)N1CCN(CCOS(C)(=O)=O)CC1"
+  ],
+  "states": [
+   "CC(=O)N1CCN(CC[O-])CC1.CS(=O)(=O)Cl.[H][H].[Na+]",
+   "CC(=O)N1CCN(CCOS(C)(=O)([O-])Cl)CC1.[H][H].[Na+]",
+   "CC(=O)N1CCN(CCOS(C)(=O)=O)CC1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_29298",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)(C)OC(=O)NC1(C(F)(F)F)CC1",
+   "[H+]"
+  ],
+  "products": [
+   "NC1(C(F)(F)F)CC1"
+  ],
+  "states": [
+   "CC(C)(C)OC(=[OH+])NC1(C(F)(F)F)CC1",
+   "C[C+](C)C.O=C(O)NC1(C(F)(F)F)CC1",
+   "C[C+](C)C.O=C([O-])[NH2+]C1(C(F)(F)F)CC1",
+   "C[C+](C)C.NC1(C(F)(F)F)CC1.O=C=O",
+   "C=C(C)C.NC1(C(F)(F)F)CC1.O=C=O.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_29313",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1c(C)ccc2[nH]c(C(N)=O)cc12",
+   "O=S(Cl)Cl"
+  ],
+  "products": [
+   "COc1c(C)ccc2[nH]c(C#N)cc12"
+  ],
+  "states": [
+   "COc1c(C)ccc2[nH]c(C(=[NH2+])O[S-](=O)(Cl)Cl)cc12",
+   "COc1c(C)ccc2[nH]c(C(=[NH2+])OS([O-])(Cl)Cl)cc12",
+   "COc1c(C)ccc2[nH]c(C(=[NH2+])O[S-](=O)(Cl)Cl)cc12",
+   "COc1c(C)ccc2[nH]c(C(=N)OS(=O)Cl)cc12.Cl",
+   "COc1c(C)ccc2[nH]c(C#N)cc12.Cl.Cl.O=S=O"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_29327",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "N#Cc1ccccc1C(=O)O",
+   "c1ccc2nc(N3CC4CNCC4C3)cnc2c1"
+  ],
+  "products": [
+   "N#Cc1ccccc1C(=O)N1CC2CN(c3cnc4ccccc4n3)CC2C1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.N#Cc1ccccc1C(=O)[O-].c1ccc2nc(N3CC4CNCC4C3)cnc2c1",
+   "N#Cc1ccccc1C(=O)OC(=NC1CCCCC1)NC1CCCCC1.c1ccc2nc(N3CC4CNCC4C3)cnc2c1",
+   "N#Cc1ccccc1C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)[NH+]1CC2CN(c3cnc4ccccc4n3)CC2C1",
+   "N#Cc1ccccc1C([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)N1CC2CN(c3cnc4ccccc4n3)CC2C1",
+   "N#Cc1ccccc1C(=O)N1CC2CN(c3cnc4ccccc4n3)CC2C1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "N#Cc1ccccc1C(=O)N1CC2CN(c3cnc4ccccc4n3)CC2C1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_29529",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1nc(-n2cnn(CCO)c2=O)sc1C(=O)NCc1cccnc1",
+   "Fc1ccc(CBr)cc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "Cc1nc(-n2cnn(CCOCc3ccc(F)cc3)c2=O)sc1C(=O)NCc1cccnc1"
+  ],
+  "states": [
+   "Cc1nc(-n2cnn(CC[O-])c2=O)sc1C(=O)NCc1cccnc1.Fc1ccc(CBr)cc1.[H][H].[Na+]",
+   "Cc1nc(-n2cnn(CCOCc3ccc(F)cc3)c2=O)sc1C(=O)NCc1cccnc1.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_29710",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC1(C)C(C(=O)Cl)C1(C)C",
+   "Cl[Al](Cl)Cl",
+   "O=[N+](O)c1cccc2[nH]ccc12"
+  ],
+  "products": [
+   "CC1(C)C(C(=O)c2c[nH]c3cccc([N+](=O)O)c23)C1(C)C"
+  ],
+  "states": [
+   "CC1(C)C(C(=O)[Cl+][Al-](Cl)(Cl)Cl)C1(C)C.O=[N+](O)c1cccc2[nH]ccc12",
+   "CC1(C)C([C+]=O)C1(C)C.Cl[Al-](Cl)(Cl)Cl.O=[N+](O)c1cccc2[nH]ccc12",
+   "CC1(C)C(C(=O)C=CNC2=[C+]C([N+](=O)O)=CC=C2)C1(C)C.Cl[Al-](Cl)(Cl)Cl",
+   "CC1(C)C(C(=O)c2c[nH]c3cccc([N+](=O)O)c23)C1(C)C.Cl.Cl[Al](Cl)Cl"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_29877",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)N=NC(=O)OCC",
+   "CN1CCN(CCO)CC1",
+   "Cc1c(B2OC(C)(C)C(C)(C)O2)ccc(O)c1Cl",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "Cc1c(B2OC(C)(C)C(C)(C)O2)ccc(OCCN2CCN(C)CC2)c1Cl"
+  ],
+  "states": [
+   "CCOC(=O)[N-]N(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CN1CCN(CCO)CC1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc(O)c1Cl",
+   "CCOC(=O)N(N=C([O-])OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CN1CCN(CCO)CC1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc(O)c1Cl",
+   "CCOC(=O)NN(C(=O)OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CN1CCN(CCO)CC1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc([O-])c1Cl",
+   "CCOC(=O)NN(C(=O)OCC)P([OH+]CCN1CCN(C)CC1)(c1ccccc1)(c1ccccc1)c1ccccc1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc([O-])c1Cl",
+   "CCOC(=O)[N-]NC(=O)OCC.CN1CCN(CC[OH+][P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc([O-])c1Cl",
+   "CCOC(=O)NNC(=O)OCC.CN1CCN(CCO[P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc([O-])c1Cl",
+   "CCOC(=O)NNC(=O)OCC.Cc1c(B2OC(C)(C)C(C)(C)O2)ccc(OCCN2CCN(C)CC2)c1Cl.O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "n_steps": 7
+ },
+ {
+  "id": "uspto31k_29948",
+  "bench": "uspto31k",
+  "reactants": [
+   "COc1ccc(Cn2ncc3c2N(CCCN2C(=O)c4ccccc4C2=O)CCCC3=O)cc1",
+   "NN"
+  ],
+  "products": [
+   "COc1ccc(Cn2ncc3c2N(CCCN)CCCC3=O)cc1"
+  ],
+  "states": [
+   "COc1ccc(Cn2ncc3c2N(CCCN2C(=O)c4ccccc4C2([O-])[NH2+]N)CCCC3=O)cc1",
+   "COc1ccc(Cn2ncc3c2N(CCC[N-]C(=O)c2ccccc2C(=O)[NH2+]N)CCCC3=O)cc1",
+   "COc1ccc(Cn2ncc3c2N(CCCNC(=O)c2ccccc2C(=O)NN)CCCC3=O)cc1",
+   "COc1ccc(Cn2ncc3c2N(CCCNC2([O-])[NH2+]NC(=O)c4ccccc42)CCCC3=O)cc1",
+   "COc1ccc(Cn2ncc3c2N(CCC[NH2+]C2([O-])NNC(=O)c4ccccc42)CCCC3=O)cc1",
+   "COc1ccc(Cn2ncc3c2N(CCCN)CCCC3=O)cc1.O=c1[nH][nH]c(=O)c2ccccc12"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_30044",
+  "bench": "uspto31k",
+  "reactants": [
+   "Nc1ncnc2c1c(-c1cccc(NC(=O)c3ccccc3)c1)c1n2CCCC1",
+   "O",
+   "[H+]"
+  ],
+  "products": [
+   "Nc1cccc(-c2c3n(c4ncnc(N)c24)CCCC3)c1"
+  ],
+  "states": [
+   "Nc1ncnc2c1c(-c1cccc(NC(=[OH+])c3ccccc3)c1)c1n2CCCC1.O",
+   "Nc1ncnc2c1c(-c1cccc(NC(O)([OH2+])c3ccccc3)c1)c1n2CCCC1",
+   "Nc1ncnc2c1c(-c1cccc([NH2+]C(O)(O)c3ccccc3)c1)c1n2CCCC1",
+   "Nc1cccc(-c2c3n(c4ncnc(N)c24)CCCC3)c1.OC(=[OH+])c1ccccc1",
+   "Nc1cccc(-c2c3n(c4ncnc(N)c24)CCCC3)c1.O=C(O)c1ccccc1.[H+]"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_30062",
+  "bench": "uspto31k",
+  "reactants": [
+   "Cc1c(N=C=S)ccc2c1OCC2",
+   "NCCN"
+  ],
+  "products": [
+   "Cc1c(NC(=S)NCCN)ccc2c1OCC2"
+  ],
+  "states": [
+   "Cc1c(N=C([S-])[NH2+]CCN)ccc2c1OCC2",
+   "Cc1c(N=C(S)NCCN)ccc2c1OCC2",
+   "Cc1c([N-]C(=[SH+])NCCN)ccc2c1OCC2",
+   "Cc1c(NC(=S)NCCN)ccc2c1OCC2"
+  ],
+  "n_steps": 4
+ },
+ {
+  "id": "uspto31k_30181",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCN",
+   "Cc1c(C(=O)O)oc2cccc(OCC(O)CNC(C)C)c12"
+  ],
+  "products": [
+   "CCNC(=O)c1oc2cccc(OCC(O)CNC(C)C)c2c1C"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.CCN.Cc1c(C(=O)[O-])oc2cccc(OCC(O)CNC(C)C)c12",
+   "CCN.Cc1c(C(=O)OC(=NC2CCCCC2)NC2CCCCC2)oc2cccc(OCC(O)CNC(C)C)c12",
+   "CC[NH2+]C([O-])(OC(=NC1CCCCC1)NC1CCCCC1)c1oc2cccc(OCC(O)CNC(C)C)c2c1C",
+   "CCNC([O-])(OC(NC1CCCCC1)=[NH+]C1CCCCC1)c1oc2cccc(OCC(O)CNC(C)C)c2c1C",
+   "CCNC(=O)c1oc2cccc(OCC(O)CNC(C)C)c2c1C.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "CCNC(=O)c1oc2cccc(OCC(O)CNC(C)C)c2c1C.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_30224",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(=O)Cl",
+   "N#Cc1c(Oc2ccc(F)c(NC(=O)C(F)(F)F)c2)ccc2nc(N)sc12"
+  ],
+  "products": [
+   "CC(=O)[NH2+]c1nc2ccc(Oc3ccc(F)c(NC(=O)C(F)(F)F)c3)c(C#N)c2s1"
+  ],
+  "states": [
+   "CC([O-])(Cl)[NH2+]c1nc2ccc(Oc3ccc(F)c(NC(=O)C(F)(F)F)c3)c(C#N)c2s1",
+   "CC(=O)[NH2+]c1nc2ccc(Oc3ccc(F)c(NC(=O)C(F)(F)F)c3)c(C#N)c2s1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_30392",
+  "bench": "uspto31k",
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "Cc1nc(-c2ccc(C(=O)O)cc2)no1",
+   "N[C@H]1CC[C@H](CCN2CCC(c3cccc4c3CCO4)CC2)CC1"
+  ],
+  "products": [
+   "Cc1nc(-c2ccc(C(=O)NC3CCC(CCN4CCC(c5cccc6c5CCO6)CC4)CC3)cc2)no1"
+  ],
+  "states": [
+   "C(=NC1CCCCC1)=[NH+]C1CCCCC1.Cc1nc(-c2ccc(C(=O)[O-])cc2)no1.NC1CCC(CCN2CCC(c3cccc4c3CCO4)CC2)CC1",
+   "Cc1nc(-c2ccc(C(=O)OC(=NC3CCCCC3)NC3CCCCC3)cc2)no1.NC1CCC(CCN2CCC(c3cccc4c3CCO4)CC2)CC1",
+   "Cc1nc(-c2ccc(C([O-])([NH2+]C3CCC(CCN4CCC(c5cccc6c5CCO6)CC4)CC3)OC(=NC3CCCCC3)NC3CCCCC3)cc2)no1",
+   "Cc1nc(-c2ccc(C([O-])(NC3CCC(CCN4CCC(c5cccc6c5CCO6)CC4)CC3)OC(NC3CCCCC3)=[NH+]C3CCCCC3)cc2)no1",
+   "Cc1nc(-c2ccc(C(=O)NC3CCC(CCN4CCC(c5cccc6c5CCO6)CC4)CC3)cc2)no1.[O-]C(NC1CCCCC1)=[NH+]C1CCCCC1",
+   "Cc1nc(-c2ccc(C(=O)NC3CCC(CCN4CCC(c5cccc6c5CCO6)CC4)CC3)cc2)no1.O=C(NC1CCCCC1)NC1CCCCC1"
+  ],
+  "n_steps": 6
+ },
+ {
+  "id": "uspto31k_30679",
+  "bench": "uspto31k",
+  "reactants": [
+   "BrC(Br)(Br)Br",
+   "OCc1cc(CO)cc(CO)c1",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "states": [
+   "Br[C-](Br)Br.Br[P+](c1ccccc1)(c1ccccc1)c1ccccc1.OCc1cc(CO)cc(CO)c1",
+   "BrC(Br)Br.Br[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[O-]Cc1cc(CO)cc(CO)c1",
+   "BrC(Br)Br.OCc1cc(CO)cc(COP(Br)(c2ccccc2)(c2ccccc2)c2ccccc2)c1",
+   "BrC(Br)Br.OCc1cc(CO)cc(CO[P+](c2ccccc2)(c2ccccc2)c2ccccc2)c1.[Br-]",
+   "BrC(Br)Br.O=P(c1ccccc1)(c1ccccc1)c1ccccc1.OCc1cc(CO)cc(CBr)c1"
+  ],
+  "n_steps": 5
+ },
+ {
+  "id": "uspto31k_30706",
+  "bench": "uspto31k",
+  "reactants": [
+   "C=C(C)C[C@H](N)C(=O)O",
+   "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+  ],
+  "products": [
+   "C=C(C)CC([NH2+]C(=O)OC(C)(C)C)C(=O)O"
+  ],
+  "states": [
+   "C=C(C)CC([NH2+]C([O-])(OC(=O)OC(C)(C)C)OC(C)(C)C)C(=O)O",
+   "C=C(C)CC([NH2+]C(=O)OC(C)(C)C)C(=O)O.CC(C)(C)OC(=O)[O-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_30724",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCOC(=O)c1cccc(N)c1",
+   "NS(=O)(=O)c1cnc2cc(Br)ccc2c1Cl"
+  ],
+  "products": [
+   "CCOC(=O)c1cccc([NH2+]c2c(S(N)(=O)=O)cnc3cc(Br)ccc23)c1"
+  ],
+  "states": [
+   "CCOC(=O)c1cccc([NH2+]C2(Cl)C(=S(N)(=O)[O-])C=Nc3cc(Br)ccc32)c1",
+   "CCOC(=O)c1cccc([NH2+]c2c(S(N)(=O)=O)cnc3cc(Br)ccc23)c1.[Cl-]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_30886",
+  "bench": "uspto31k",
+  "reactants": [
+   "COC(=O)N[C@H](C(=O)N1CC2(C[C@H]1C(=O)O)CC(F)(F)C2)C(C)C",
+   "COC(=O)N[C@H](C(=O)N1CCC[C@H]1C(=O)OCC(=O)c1ccc(-c2ccc(C(=O)CBr)cc2)cc1)C(C)C",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "COC(=O)NC(C(=O)N1CCCC1C(=O)OCC(=O)c1ccc(-c2ccc(C(=O)COC(=O)C3CC4(CN3C(=O)C(NC(=O)OC)C(C)C)CC(F)(F)C4)cc2)cc1)C(C)C"
+  ],
+  "states": [
+   "COC(=O)NC(C(=O)N1CC2(CC1C(=O)[O-])CC(F)(F)C2)C(C)C.COC(=O)NC(C(=O)N1CCCC1C(=O)OCC(=O)c1ccc(-c2ccc(C(=O)CBr)cc2)cc1)C(C)C.[H][H].[Na+]",
+   "COC(=O)NC(C(=O)N1CCCC1C(=O)OCC(=O)c1ccc(-c2ccc(C(=O)COC(=O)C3CC4(CN3C(=O)C(NC(=O)OC)C(C)C)CC(F)(F)C4)cc2)cc1)C(C)C.[Br-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_30990",
+  "bench": "uspto31k",
+  "reactants": [
+   "NS(=O)(=O)Cl",
+   "O=C(N[C@@H]1C[C@H](CO)[C@@H](OC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1)c1ccncc1",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "NS(=O)(=O)OCC1CC(NC(=O)c2ccncc2)C(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1"
+  ],
+  "states": [
+   "NS(=O)(=O)Cl.O=C(NC1CC(C[O-])C(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1)c1ccncc1.[H][H].[Na+]",
+   "NS(=O)([O-])(Cl)OCC1CC(NC(=O)c2ccncc2)C(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1.[H][H].[Na+]",
+   "NS(=O)(=O)OCC1CC(NC(=O)c2ccncc2)C(OC(=O)c2ccccc2)C1OC(=O)c1ccccc1.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ },
+ {
+  "id": "uspto31k_31076",
+  "bench": "uspto31k",
+  "reactants": [
+   "CC(C)COc1ccccc1O",
+   "CCN(CC)CCCl",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCN(CC)CCOc1ccccc1OCC(C)C"
+  ],
+  "states": [
+   "CC(C)COc1ccccc1[O-].CCN(CC)CCCl.[H][H].[Na+]",
+   "CCN(CC)CCOc1ccccc1OCC(C)C.[Cl-].[H][H].[Na+]"
+  ],
+  "n_steps": 2
+ },
+ {
+  "id": "uspto31k_31089",
+  "bench": "uspto31k",
+  "reactants": [
+   "CCCCCCN=C=O",
+   "COC(=O)C(C)c1ccc(-c2cccc(O)c2)c(F)c1",
+   "O",
+   "[H-]",
+   "[Na+]"
+  ],
+  "products": [
+   "CCCCCC[N-]C(=O)Oc1cccc(-c2ccc(C(C)C(=O)OC)cc2F)c1"
+  ],
+  "states": [
+   "CCCCCCN=C=O.COC(=O)C(C)c1ccc(-c2cccc([O-])c2)c(F)c1.O.[H][H].[Na+]",
+   "CCCCCCN=C([O-])Oc1cccc(-c2ccc(C(C)C(=O)OC)cc2F)c1.O.[H][H].[Na+]",
+   "CCCCCC[N-]C(=O)Oc1cccc(-c2ccc(C(C)C(=O)OC)cc2F)c1.O.[H][H].[Na+]"
+  ],
+  "n_steps": 3
+ }
+]

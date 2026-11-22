@@ -1,0 +1,131 @@
+{
+ "Direct_clue": {
+  "n": 41,
+  "blind_species_written": [
+   0.268,
+   0.146,
+   0.415
+  ],
+  "formula_written": [
+   0.902,
+   0.805,
+   0.976
+  ],
+  "all_present": [
+   0.098,
+   0.024,
+   0.195
+  ],
+  "heavy_hidden_recall": [
+   0.587,
+   0.443,
+   0.741
+  ]
+ },
+ "Guided_v5": {
+  "n": 41,
+  "blind_species_written": [
+   0.244,
+   0.122,
+   0.39
+  ],
+  "formula_written": [
+   0.829,
+   0.707,
+   0.927
+  ],
+  "all_present": [
+   0.098,
+   0.024,
+   0.195
+  ],
+  "heavy_hidden_recall": [
+   0.667,
+   0.527,
+   0.8
+  ]
+ },
+ "Guided_v6": {
+  "n": 41,
+  "blind_species_written": [
+   0.415,
+   0.268,
+   0.561
+  ],
+  "formula_written": [
+   0.976,
+   0.927,
+   1.0
+  ],
+  "all_present": [
+   0.122,
+   0.024,
+   0.244
+  ],
+  "heavy_hidden_recall": [
+   0.698,
+   0.574,
+   0.817
+  ]
+ },
+ "Iso_top1": {
+  "n": 41,
+  "blind_species_written": [
+   0.317,
+   0.171,
+   0.463
+  ],
+  "formula_written": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "all_present": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "Iso_any": {
+  "n": 41,
+  "blind_species_written": [
+   0.61,
+   0.463,
+   0.756
+  ],
+  "formula_written": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "all_present": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "Guided_v6_minus_Direct_clue": {
+  "blind_species_written": [
+   0.146,
+   0.049,
+   0.268
+  ],
+  "all_present": [
+   0.024,
+   0.0,
+   0.073
+  ]
+ },
+ "Guided_v6_minus_Guided_v5": {
+  "blind_species_written": [
+   0.171,
+   0.049,
+   0.317
+  ],
+  "all_present": [
+   0.024,
+   -0.049,
+   0.122
+  ]
+ }
+}

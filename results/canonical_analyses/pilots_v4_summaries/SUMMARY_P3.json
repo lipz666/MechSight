@@ -1,0 +1,257 @@
+{
+ "T3_dev": {
+  "A0": {
+   "n": 47,
+   "all_present": [
+    0.277,
+    0.149,
+    0.404
+   ],
+   "heavy_hidden_recall": [
+    0.596,
+    0.441,
+    0.755
+   ]
+  },
+  "oracle": {
+   "n": 47,
+   "all_present": [
+    0.468,
+    0.319,
+    0.617
+   ],
+   "heavy_hidden_recall": [
+    0.614,
+    0.455,
+    0.776
+   ]
+  },
+  "consensus": {
+   "n": 47,
+   "all_present": [
+    0.255,
+    0.149,
+    0.383
+   ],
+   "heavy_hidden_recall": [
+    0.579,
+    0.435,
+    0.712
+   ]
+  },
+  "valid_cons": {
+   "n": 47,
+   "all_present": [
+    0.255,
+    0.149,
+    0.383
+   ],
+   "heavy_hidden_recall": [
+    0.579,
+    0.435,
+    0.712
+   ]
+  },
+  "judge": {
+   "n": 47,
+   "all_present": [
+    0.362,
+    0.234,
+    0.511
+   ],
+   "heavy_hidden_recall": [
+    0.667,
+    0.5,
+    0.807
+   ]
+  },
+  "consensus_minus_A0": [
+   -0.021,
+   -0.106,
+   0.043
+  ],
+  "consensus_share_of_oracle_gain": -0.12,
+  "valid_cons_minus_A0": [
+   -0.021,
+   -0.106,
+   0.043
+  ],
+  "valid_cons_share_of_oracle_gain": -0.12,
+  "judge_minus_A0": [
+   0.085,
+   0.0,
+   0.191
+  ],
+  "judge_share_of_oracle_gain": 0.45
+ },
+ "J3": {
+  "A0": {
+   "n": 146,
+   "all_present": [
+    0.514,
+    0.432,
+    0.596
+   ],
+   "heavy_hidden_recall": [
+    0.607,
+    0.489,
+    0.725
+   ]
+  },
+  "oracle": {
+   "n": 146,
+   "all_present": [
+    0.692,
+    0.616,
+    0.767
+   ],
+   "heavy_hidden_recall": [
+    0.73,
+    0.605,
+    0.856
+   ]
+  },
+  "consensus": {
+   "n": 146,
+   "all_present": [
+    0.527,
+    0.445,
+    0.61
+   ],
+   "heavy_hidden_recall": [
+    0.719,
+    0.606,
+    0.825
+   ]
+  },
+  "valid_cons": {
+   "n": 146,
+   "all_present": [
+    0.527,
+    0.445,
+    0.61
+   ],
+   "heavy_hidden_recall": [
+    0.719,
+    0.606,
+    0.825
+   ]
+  },
+  "judge": {
+   "n": 146,
+   "all_present": [
+    0.548,
+    0.466,
+    0.63
+   ],
+   "heavy_hidden_recall": [
+    0.73,
+    0.626,
+    0.828
+   ]
+  },
+  "consensus_minus_A0": [
+   0.014,
+   -0.021,
+   0.055
+  ],
+  "consensus_share_of_oracle_gain": 0.07,
+  "valid_cons_minus_A0": [
+   0.014,
+   -0.021,
+   0.055
+  ],
+  "valid_cons_share_of_oracle_gain": 0.07,
+  "judge_minus_A0": [
+   0.034,
+   -0.007,
+   0.075
+  ],
+  "judge_share_of_oracle_gain": 0.19
+ },
+ "silver_dev": {
+  "A0": {
+   "n": 60,
+   "S_partial": [
+    0.519,
+    0.432,
+    0.604
+   ],
+   "all_present": [
+    0.367,
+    0.25,
+    0.5
+   ]
+  },
+  "oracle": {
+   "n": 60,
+   "S_partial": [
+    0.969,
+    0.942,
+    0.993
+   ],
+   "all_present": [
+    0.95,
+    0.9,
+    1.0
+   ]
+  },
+  "consensus": {
+   "n": 60,
+   "S_partial": [
+    0.535,
+    0.451,
+    0.623
+   ],
+   "all_present": [
+    0.4,
+    0.283,
+    0.533
+   ]
+  },
+  "valid_cons": {
+   "n": 60,
+   "S_partial": [
+    0.535,
+    0.451,
+    0.623
+   ],
+   "all_present": [
+    0.4,
+    0.283,
+    0.533
+   ]
+  },
+  "judge": {
+   "n": 60,
+   "S_partial": [
+    0.564,
+    0.478,
+    0.649
+   ],
+   "all_present": [
+    0.533,
+    0.4,
+    0.65
+   ]
+  },
+  "consensus_minus_A0": [
+   0.016,
+   -0.009,
+   0.045
+  ],
+  "consensus_share_of_oracle_gain": 0.04,
+  "valid_cons_minus_A0": [
+   0.016,
+   -0.009,
+   0.045
+  ],
+  "valid_cons_share_of_oracle_gain": 0.04,
+  "judge_minus_A0": [
+   0.045,
+   -0.008,
+   0.102
+  ],
+  "judge_share_of_oracle_gain": 0.1
+ }
+}

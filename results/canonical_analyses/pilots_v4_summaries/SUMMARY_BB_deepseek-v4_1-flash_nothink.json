@@ -1,0 +1,120 @@
+{
+ "T3_confirm": {
+  "model": "deepseek-v4.1-flash",
+  "reasoning_effort": null,
+  "n": 48,
+  "Direct": {
+   "n": 48,
+   "all_present": [
+    0.042,
+    0.0,
+    0.104
+   ],
+   "in_order_frac": [
+    0.093,
+    0.04,
+    0.156
+   ],
+   "heavy_hidden_recall": [
+    0.057,
+    0.0,
+    0.132
+   ]
+  },
+  "SelfConsistency": {
+   "n": 48,
+   "all_present": [
+    0.042,
+    0.0,
+    0.104
+   ],
+   "in_order_frac": [
+    0.138,
+    0.074,
+    0.21
+   ],
+   "heavy_hidden_recall": [
+    0.132,
+    0.048,
+    0.245
+   ]
+  },
+  "MechSight_Auto": {
+   "n": 48,
+   "all_present": [
+    0.042,
+    0.0,
+    0.104
+   ],
+   "in_order_frac": [
+    0.16,
+    0.09,
+    0.239
+   ],
+   "heavy_hidden_recall": [
+    0.17,
+    0.066,
+    0.288
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "MechSight_Auto_minus_Direct": [
+   0.0,
+   -0.062,
+   0.062
+  ],
+  "MechSight_Auto_minus_SelfConsistency": [
+   0.0,
+   -0.062,
+   0.062
+  ],
+  "strata_all_present": {
+   "0": {
+    "Direct": [
+     10,
+     0.2
+    ],
+    "SelfConsistency": [
+     10,
+     0.2
+    ],
+    "MechSight_Auto": [
+     10,
+     0.2
+    ]
+   },
+   "1-2": {
+    "Direct": [
+     28,
+     0.0
+    ],
+    "SelfConsistency": [
+     28,
+     0.0
+    ],
+    "MechSight_Auto": [
+     28,
+     0.0
+    ]
+   },
+   ">=3": {
+    "Direct": [
+     10,
+     0.0
+    ],
+    "SelfConsistency": [
+     10,
+     0.0
+    ],
+    "MechSight_Auto": [
+     10,
+     0.0
+    ]
+   }
+  }
+ }
+}

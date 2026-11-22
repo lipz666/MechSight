@@ -1,0 +1,120 @@
+{
+ "T3_confirm": {
+  "model": "claude-sonnet-5-5-high",
+  "reasoning_effort": null,
+  "n": 48,
+  "Direct": {
+   "n": 48,
+   "all_present": [
+    0.229,
+    0.125,
+    0.354
+   ],
+   "in_order_frac": [
+    0.524,
+    0.417,
+    0.634
+   ],
+   "heavy_hidden_recall": [
+    0.566,
+    0.4,
+    0.731
+   ]
+  },
+  "SelfConsistency": {
+   "n": 48,
+   "all_present": [
+    0.396,
+    0.25,
+    0.542
+   ],
+   "in_order_frac": [
+    0.692,
+    0.59,
+    0.788
+   ],
+   "heavy_hidden_recall": [
+    0.698,
+    0.533,
+    0.87
+   ]
+  },
+  "MechSight_Auto": {
+   "n": 48,
+   "all_present": [
+    0.438,
+    0.292,
+    0.583
+   ],
+   "in_order_frac": [
+    0.708,
+    0.605,
+    0.804
+   ],
+   "heavy_hidden_recall": [
+    0.66,
+    0.509,
+    0.824
+   ]
+  },
+  "SelfConsistency_minus_Direct": [
+   0.167,
+   0.062,
+   0.271
+  ],
+  "MechSight_Auto_minus_Direct": [
+   0.208,
+   0.104,
+   0.333
+  ],
+  "MechSight_Auto_minus_SelfConsistency": [
+   0.042,
+   -0.042,
+   0.125
+  ],
+  "strata_all_present": {
+   "0": {
+    "Direct": [
+     10,
+     0.5
+    ],
+    "SelfConsistency": [
+     10,
+     0.7
+    ],
+    "MechSight_Auto": [
+     10,
+     0.8
+    ]
+   },
+   "1-2": {
+    "Direct": [
+     28,
+     0.179
+    ],
+    "SelfConsistency": [
+     28,
+     0.321
+    ],
+    "MechSight_Auto": [
+     28,
+     0.321
+    ]
+   },
+   ">=3": {
+    "Direct": [
+     10,
+     0.1
+    ],
+    "SelfConsistency": [
+     10,
+     0.3
+    ],
+    "MechSight_Auto": [
+     10,
+     0.4
+    ]
+   }
+  }
+ }
+}

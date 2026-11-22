@@ -1,0 +1,352 @@
+{
+ "uspto31k": {
+  "n_cases": 200,
+  "ChRIMP": {
+   "coverage": 200,
+   "ChRIMP": {
+    "n": 200,
+    "all_present": [
+     0.175,
+     0.125,
+     0.23
+    ],
+    "reached": [
+     0.53,
+     0.46,
+     0.6
+    ]
+   },
+   "LLM_direct": {
+    "n": 200,
+    "all_present": [
+     0.355,
+     0.29,
+     0.42
+    ],
+    "reached": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "LLM_direct_minus_ChRIMP": [
+    0.18,
+    0.11,
+    0.25
+   ]
+  },
+  "FlowER": {
+   "coverage": 196,
+   "ChRIMP": {
+    "n": 196,
+    "all_present": [
+     0.179,
+     0.128,
+     0.235
+    ],
+    "reached": [
+     0.531,
+     0.459,
+     0.602
+    ]
+   },
+   "FlowER": {
+    "n": 196,
+    "all_present": [
+     0.281,
+     0.219,
+     0.347
+    ],
+    "reached": [
+     0.673,
+     0.607,
+     0.735
+    ]
+   },
+   "LLM_direct": {
+    "n": 196,
+    "all_present": [
+     0.362,
+     0.296,
+     0.429
+    ],
+    "reached": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "LLM_direct_minus_FlowER": [
+    0.082,
+    0.01,
+    0.148
+   ]
+  }
+ },
+ "T3_confirm": {
+  "n_cases": 48,
+  "ChRIMP": {
+   "coverage": 48,
+   "ChRIMP": {
+    "n": 48,
+    "all_present": [
+     0.042,
+     0.0,
+     0.104
+    ],
+    "reached": [
+     0.104,
+     0.021,
+     0.188
+    ]
+   },
+   "FlowER": {
+    "n": 48,
+    "all_present": [
+     0.021,
+     0.0,
+     0.062
+    ],
+    "reached": [
+     0.083,
+     0.021,
+     0.167
+    ]
+   },
+   "LLM_direct": {
+    "n": 48,
+    "all_present": [
+     0.271,
+     0.146,
+     0.396
+    ],
+    "reached": [
+     0.833,
+     0.708,
+     0.938
+    ]
+   },
+   "MechAgent": {
+    "n": 48,
+    "all_present": [
+     0.458,
+     0.312,
+     0.604
+    ],
+    "reached": [
+     0.875,
+     0.771,
+     0.958
+    ]
+   },
+   "LLM_direct_minus_ChRIMP": [
+    0.229,
+    0.104,
+    0.354
+   ],
+   "MechAgent_minus_ChRIMP": [
+    0.417,
+    0.271,
+    0.562
+   ]
+  },
+  "FlowER": {
+   "coverage": 48,
+   "ChRIMP": {
+    "n": 48,
+    "all_present": [
+     0.042,
+     0.0,
+     0.104
+    ],
+    "reached": [
+     0.104,
+     0.021,
+     0.188
+    ]
+   },
+   "FlowER": {
+    "n": 48,
+    "all_present": [
+     0.021,
+     0.0,
+     0.062
+    ],
+    "reached": [
+     0.083,
+     0.021,
+     0.167
+    ]
+   },
+   "LLM_direct": {
+    "n": 48,
+    "all_present": [
+     0.271,
+     0.146,
+     0.396
+    ],
+    "reached": [
+     0.833,
+     0.708,
+     0.938
+    ]
+   },
+   "MechAgent": {
+    "n": 48,
+    "all_present": [
+     0.458,
+     0.312,
+     0.604
+    ],
+    "reached": [
+     0.875,
+     0.771,
+     0.958
+    ]
+   },
+   "LLM_direct_minus_FlowER": [
+    0.25,
+    0.125,
+    0.375
+   ],
+   "MechAgent_minus_FlowER": [
+    0.438,
+    0.292,
+    0.562
+   ]
+  }
+ },
+ "gold": {
+  "n_cases": 196,
+  "ChRIMP": {
+   "coverage": 196,
+   "ChRIMP": {
+    "n": 196,
+    "all_present": [
+     0.041,
+     0.015,
+     0.071
+    ],
+    "reached": [
+     0.179,
+     0.128,
+     0.235
+    ]
+   },
+   "FlowER": {
+    "n": 196,
+    "all_present": [
+     0.02,
+     0.005,
+     0.046
+    ],
+    "reached": [
+     0.117,
+     0.071,
+     0.163
+    ]
+   },
+   "LLM_direct": {
+    "n": 196,
+    "all_present": [
+     0.372,
+     0.301,
+     0.439
+    ],
+    "reached": [
+     0.99,
+     0.974,
+     1.0
+    ]
+   },
+   "MechAgent": {
+    "n": 196,
+    "all_present": [
+     0.423,
+     0.352,
+     0.495
+    ],
+    "reached": [
+     0.99,
+     0.974,
+     1.0
+    ]
+   },
+   "LLM_direct_minus_ChRIMP": [
+    0.332,
+    0.26,
+    0.398
+   ],
+   "MechAgent_minus_ChRIMP": [
+    0.383,
+    0.316,
+    0.454
+   ]
+  },
+  "FlowER": {
+   "coverage": 196,
+   "ChRIMP": {
+    "n": 196,
+    "all_present": [
+     0.041,
+     0.015,
+     0.071
+    ],
+    "reached": [
+     0.179,
+     0.128,
+     0.235
+    ]
+   },
+   "FlowER": {
+    "n": 196,
+    "all_present": [
+     0.02,
+     0.005,
+     0.046
+    ],
+    "reached": [
+     0.117,
+     0.071,
+     0.163
+    ]
+   },
+   "LLM_direct": {
+    "n": 196,
+    "all_present": [
+     0.372,
+     0.301,
+     0.439
+    ],
+    "reached": [
+     0.99,
+     0.974,
+     1.0
+    ]
+   },
+   "MechAgent": {
+    "n": 196,
+    "all_present": [
+     0.423,
+     0.352,
+     0.495
+    ],
+    "reached": [
+     0.99,
+     0.974,
+     1.0
+    ]
+   },
+   "LLM_direct_minus_FlowER": [
+    0.352,
+    0.286,
+    0.418
+   ],
+   "MechAgent_minus_FlowER": [
+    0.403,
+    0.337,
+    0.469
+   ]
+  }
+ }
+}

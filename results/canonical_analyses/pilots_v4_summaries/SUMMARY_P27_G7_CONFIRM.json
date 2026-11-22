@@ -1,0 +1,264 @@
+{
+ "n": 74,
+ "pooled": {
+  "Direct": {
+   "n": 74,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Auto_V5": {
+   "n": 74,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Direct_clue": {
+   "n": 74,
+   "blind_species_written": [
+    0.514,
+    0.405,
+    0.622
+   ],
+   "all_present": [
+    0.054,
+    0.014,
+    0.108
+   ]
+  },
+  "Guided_v5": {
+   "n": 74,
+   "blind_species_written": [
+    0.284,
+    0.189,
+    0.392
+   ],
+   "all_present": [
+    0.068,
+    0.014,
+    0.135
+   ]
+  },
+  "Guided_v7": {
+   "n": 74,
+   "blind_species_written": [
+    0.581,
+    0.473,
+    0.689
+   ],
+   "all_present": [
+    0.081,
+    0.027,
+    0.149
+   ]
+  },
+  "Guided_v7_minus_Direct_clue": {
+   "blind_species_written": [
+    0.068,
+    -0.014,
+    0.162
+   ],
+   "all_present": [
+    0.027,
+    0.0,
+    0.068
+   ]
+  },
+  "Guided_v7_minus_Guided_v5": {
+   "blind_species_written": [
+    0.297,
+    0.203,
+    0.405
+   ],
+   "all_present": [
+    0.014,
+    -0.054,
+    0.081
+   ]
+  },
+  "Guided_v7_minus_Auto_V5": {
+   "blind_species_written": [
+    0.581,
+    0.473,
+    0.689
+   ],
+   "all_present": [
+    0.081,
+    0.027,
+    0.149
+   ]
+  }
+ },
+ "T3_confirm": {
+  "Direct": {
+   "n": 14,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Auto_V5": {
+   "n": 14,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Direct_clue": {
+   "n": 14,
+   "blind_species_written": [
+    0.643,
+    0.429,
+    0.857
+   ],
+   "all_present": [
+    0.071,
+    0.0,
+    0.214
+   ]
+  },
+  "Guided_v5": {
+   "n": 14,
+   "blind_species_written": [
+    0.357,
+    0.143,
+    0.643
+   ],
+   "all_present": [
+    0.143,
+    0.0,
+    0.357
+   ]
+  },
+  "Guided_v7": {
+   "n": 14,
+   "blind_species_written": [
+    0.643,
+    0.357,
+    0.857
+   ],
+   "all_present": [
+    0.071,
+    0.0,
+    0.214
+   ]
+  },
+  "Guided_v7_minus_Direct_clue": {
+   "blind_species_written": [
+    0.0,
+    -0.286,
+    0.286
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "gold": {
+  "Direct": {
+   "n": 60,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Auto_V5": {
+   "n": 60,
+   "blind_species_written": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "all_present": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "Direct_clue": {
+   "n": 60,
+   "blind_species_written": [
+    0.483,
+    0.35,
+    0.617
+   ],
+   "all_present": [
+    0.05,
+    0.0,
+    0.117
+   ]
+  },
+  "Guided_v5": {
+   "n": 60,
+   "blind_species_written": [
+    0.267,
+    0.15,
+    0.383
+   ],
+   "all_present": [
+    0.05,
+    0.0,
+    0.1
+   ]
+  },
+  "Guided_v7": {
+   "n": 60,
+   "blind_species_written": [
+    0.567,
+    0.433,
+    0.683
+   ],
+   "all_present": [
+    0.083,
+    0.017,
+    0.167
+   ]
+  },
+  "Guided_v7_minus_Direct_clue": {
+   "blind_species_written": [
+    0.083,
+    0.0,
+    0.167
+   ],
+   "all_present": [
+    0.033,
+    0.0,
+    0.083
+   ]
+  }
+ }
+}

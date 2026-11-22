@@ -1,0 +1,580 @@
+{
+ "audit": {
+  "exact": 80,
+  "equivalent": 8,
+  "not_in_reference": 126
+ },
+ "per_set": {
+  "T3_confirm": {
+   "exact": 34,
+   "not_in_reference": 49,
+   "equivalent": 5
+  },
+  "gold": {
+   "not_in_reference": 77,
+   "exact": 46,
+   "equivalent": 3
+  }
+ },
+ "cands": [
+  {
+   "ds": "T3_confirm",
+   "id": "A041",
+   "name": "",
+   "n_ref": 2,
+   "max_reactant_heavy": 5,
+   "auto_gaps_left": 0,
+   "reactants": [
+    "BrP(Br)Br",
+    "CC(C)CO"
+   ],
+   "products": [
+    "OP(Br)Br",
+    "CC(C)CBr"
+   ],
+   "conditions": "reagent: PBr3; temperature: 0 \u00b0C to rt",
+   "direct": [
+    [
+     "CC(C)C[OH+]P(Br)Br",
+     2
+    ],
+    [
+     "CC(C)CBr",
+     3
+    ]
+   ],
+   "auto": [
+    [
+     "CC(C)C[OH+]P(Br)Br.[Br-]",
+     2
+    ],
+    [
+     "CC(C)CBr.OP(Br)Br",
+     2
+    ]
+   ],
+   "reference": [
+    "CC(C)C[OH+]P(Br)Br",
+    "[Br-]"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "gold",
+   "id": "NR-073",
+   "name": "Fritsch-Buttenberg-Wiechell Rearrangement",
+   "n_ref": 2,
+   "max_reactant_heavy": 15,
+   "auto_gaps_left": 0,
+   "reactants": [
+    "c1ccccc1C(=C(Br))c2ccccc2"
+   ],
+   "products": [
+    "c1ccccc1C#Cc2ccccc2"
+   ],
+   "conditions": "Base (e.g., LDA)",
+   "direct": [
+    [
+     "[C-](Br)=C(c1ccccc1)c2ccccc2",
+     0
+    ],
+    [
+     "c1ccccc1C#Cc2ccccc2",
+     3
+    ]
+   ],
+   "auto": [
+    [
+     "c1ccccc1C(=[C-]Br)c2ccccc2",
+     0
+    ],
+    [
+     "c1ccccc1C(=[C])c2ccccc2",
+     1
+    ],
+    [
+     "c1ccccc1C#Cc2ccccc2",
+     2
+    ]
+   ],
+   "reference": [
+    "c1ccccc1C(=[C])c2ccccc2",
+    "c1ccccc1C#Cc2ccccc2"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "T3_confirm",
+   "id": "A078",
+   "name": "",
+   "n_ref": 3,
+   "max_reactant_heavy": 14,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "C=CCN(CC=C)C(=O)OC(C)(C)C",
+    "[Ru]=[CH]c1ccccc1"
+   ],
+   "products": [
+    "[CH2]=[Ru]",
+    "CC(C)(C)OC(=O)N1CC=CC1",
+    "C=Cc1ccccc1"
+   ],
+   "conditions": "reagent: *.Cl[Ru](Cl)(=Cc1ccccc1)P(C1CCCCC1)(C1CCCCC1)C1CCCCC1; solvent: CH2Cl2; temperature: reflux",
+   "direct": [
+    [
+     "CC(C)(C)OC(=O)N(CC=C)CC1CC(c2ccccc2)[Ru]1",
+     2
+    ],
+    [
+     "CC(C)(C)OC(=O)N(CC=C)CC=[Ru]",
+     2
+    ],
+    [
+     "CC(C)(C)OC(=O)N1CC2C(CC1)C[Ru]2",
+     6
+    ],
+    [
+     "CC(C)(C)OC(=O)N1CC=CC1",
+     4
+    ]
+   ],
+   "auto": [
+    [
+     "CC(C)(C)OC(=O)N(CC=C)CC1CC(c2ccccc2)[Ru]1",
+     2
+    ],
+    [
+     "C=Cc1ccccc1.CC(C)(C)OC(=O)N(CC=C)CC=[Ru]",
+     2
+    ],
+    [
+     "CC(C)(C)OC(=O)N1CC2[Ru]CC2C1",
+     7
+    ],
+    [
+     "CC(C)(C)OC(=O)N1CC=CC1.[CH2]=[Ru]",
+     2
+    ]
+   ],
+   "reference": [
+    "C=CCN(C[CH]1C[CH](c2ccccc2)[Ru]1)C(=O)OC(C)(C)C",
+    "C=CCN(C[CH]=[Ru])C(=O)OC(C)(C)C",
+    "CC(C)(C)OC(=O)N1CC2[CH2][Ru][CH]2C1"
+   ],
+   "hidden": [
+    "C=CCN(C[CH]1C[CH](c2ccccc2)[Ru]1)C(=O)OC(C)(C)C",
+    "C=CCN(C[CH]=[Ru])C(=O)OC(C)(C)C",
+    "CC(C)(C)OC(=O)N1CC2[CH2][Ru][CH]2C1"
+   ]
+  },
+  {
+   "ds": "gold",
+   "id": "NR-141",
+   "name": "Meerwein-Ponndorf-Verley Reduction",
+   "n_ref": 3,
+   "max_reactant_heavy": 14,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "c1ccccc1C(=O)c1ccccc1"
+   ],
+   "products": [
+    "c1ccccc1C(O)c1ccccc1"
+   ],
+   "conditions": "Al(Oi-Pr)3, i-PrOH",
+   "direct": [
+    [
+     "CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1",
+     15
+    ],
+    [
+     "c1ccccc1C(O)c1ccccc1",
+     1
+    ]
+   ],
+   "auto": [
+    [
+     "CC(C)O[Al-](OC(C)C)(OC(C)C)[O+]=C(c1ccccc1)c1ccccc1",
+     23
+    ],
+    [
+     "CC(C)O[Al-](OC(C)C)(OC(c1ccccc1)c1ccccc1)[O+]=C(C)C",
+     0
+    ],
+    [
+     "CC(C)O[Al](OC(C)C)OC(c1ccccc1)c1ccccc1",
+     1
+    ],
+    [
+     "c1ccccc1C(O)c1ccccc1",
+     1
+    ]
+   ],
+   "reference": [
+    "c1ccccc1C(=[O+][Al-](OC(C)C)(OC(C)C)OC(C)C)c1ccccc1",
+    "c1ccccc1C(O[Al](OC(C)C)OC(C)C)c1ccccc1",
+    "c1ccccc1C(O)c1ccccc1"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "gold",
+   "id": "NR-058",
+   "name": "De Mayo Reaction",
+   "n_ref": 4,
+   "max_reactant_heavy": 7,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "O=C1CC(=O)CC1",
+    "CC=CC"
+   ],
+   "products": [
+    "C1(C)C(C)CC(=O)CCC1=O"
+   ],
+   "conditions": "hv, Base",
+   "direct": [
+    [
+     "CC1C(C)C2(O)CCC(=O)C12",
+     2
+    ],
+    [
+     "CC1C(C)C2([O-])CCC(=O)C12",
+     0
+    ],
+    [
+     "C1(C)C(C)[CH-]C(=O)CCC1=O",
+     3
+    ],
+    [
+     "C1(C)C(C)CC(=O)CCC1=O",
+     0
+    ]
+   ],
+   "auto": [
+    [
+     "OC1=CC(=O)CC1",
+     0
+    ],
+    [
+     "CC1C(C)C2(O)CCC(=O)C12",
+     2
+    ],
+    [
+     "CC1C(C)C2([O-])CCC(=O)C12",
+     0
+    ],
+    [
+     "CC1C(C)C=C([O-])CCC1=O",
+     3
+    ],
+    [
+     "C1(C)C(C)CC(=O)CCC1=O",
+     0
+    ]
+   ],
+   "reference": [
+    "OC1=CC(=O)CC1",
+    "C1(C2C(CC1)(C(C2C)C)O)=O",
+    "C1(C)C(C)C=C([O-])CCC1=O",
+    "C1(C)C(C)CC(=O)CCC1=O"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "gold",
+   "id": "NR-304",
+   "name": "Takai-Utimoto Olefination",
+   "n_ref": 4,
+   "max_reactant_heavy": 8,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "O=Cc1ccccc1",
+    "C(I)I",
+    "Cl[Cr]Cl"
+   ],
+   "products": [
+    "c1ccccc1C=CI"
+   ],
+   "conditions": "CrCl2",
+   "direct": [
+    [
+     "Cl[Cr](Cl)(I)CI",
+     3
+    ],
+    [
+     "c1ccccc1C(O[Cr](Cl)(Cl)I)CI",
+     3
+    ],
+    [
+     "c1ccccc1C=CI",
+     1
+    ]
+   ],
+   "auto": [
+    [
+     "[Cl][Cr]([Cl])[CH](I)I",
+     1
+    ],
+    [
+     "Cl[Cr](Cl)C(I)[Cr](Cl)Cl",
+     2
+    ],
+    [
+     "c1ccccc1C(O[Cr](Cl)Cl)C(I)[Cr](Cl)Cl",
+     3
+    ],
+    [
+     "c1ccccc1C=CI",
+     2
+    ]
+   ],
+   "reference": [
+    "C(I)(I)[Cr](Cl)Cl",
+    "C(I)([Cr](Cl)Cl)[Cr](Cl)Cl",
+    "c1ccccc1C(O[Cr](Cl)Cl)C(I)([Cr](Cl)Cl)",
+    "c1ccccc1C=CI"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "gold",
+   "id": "NG-008",
+   "name": "Baeyer-Villiger oxidation",
+   "n_ref": 4,
+   "max_reactant_heavy": 9,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "CC(=O)c1ccccc1",
+    "CC(=O)OO"
+   ],
+   "products": [
+    "CC(=O)Oc1ccccc1"
+   ],
+   "conditions": "RCO3H",
+   "direct": [
+    [
+     "CC(O)(OOC(=O)C)c1ccccc1",
+     1
+    ],
+    [
+     "CC(=O)Oc1ccccc1",
+     3
+    ]
+   ],
+   "auto": [
+    [
+     "CC(=[OH+])c1ccccc1",
+     0
+    ],
+    [
+     "CC(O)([OH+]OC(=O)C)c1ccccc1",
+     1
+    ],
+    [
+     "CC(O)(OOC(=O)C)c1ccccc1",
+     0
+    ],
+    [
+     "CC(=[OH+])Oc1ccccc1",
+     3
+    ],
+    [
+     "CC(=O)Oc1ccccc1",
+     0
+    ]
+   ],
+   "reference": [
+    "CC(=[OH+])c1ccccc1",
+    "CC([OH])(OOC(=O)C)c1ccccc1",
+    "CC(=[OH+])Oc1ccccc1",
+    "CC(=O)Oc1ccccc1"
+   ],
+   "hidden": []
+  },
+  {
+   "ds": "T3_confirm",
+   "id": "C080",
+   "name": "",
+   "n_ref": 5,
+   "max_reactant_heavy": 9,
+   "auto_gaps_left": 1,
+   "reactants": [
+    "CCN(CC)CC",
+    "O=C(Cl)C1CCCCC1",
+    "O=C=C1CCCCC1"
+   ],
+   "products": [
+    "CC[NH+](CC)CC",
+    "C1CCC(=C2CCCCC2)CC1",
+    "[C-]#[O+]",
+    "[C-]#[O+]",
+    "[Cl-]"
+   ],
+   "conditions": "reagent: Et3N; solvent: benzene; temperature: reflux; reagent: hv; solvent: CH2Cl2",
+   "direct": [
+    [
+     "O=C(Cl)[C-]1CCCCC1",
+     0
+    ],
+    [
+     "O=C=C1CCCCC1",
+     1
+    ],
+    [
+     "O=C1C2(CCCCC2)C(=O)C12CCCCC2",
+     12
+    ],
+    [
+     "O=C1C2(CCCCC2)C12CCCCC2",
+     3
+    ],
+    [
+     "C1CCC(=C2CCCCC2)CC1",
+     6
+    ]
+   ],
+   "auto": [
+    [
+     "[C-]1(C(=O)Cl)CCCCC1",
+     0
+    ],
+    [
+     "O=C=C1CCCCC1",
+     1
+    ],
+    [
+     "O=[C+]C1(CCCCC1)C(=O)[C-]2CCCCC2",
+     11
+    ],
+    [
+     "O=C1C2(CCCCC2)C(=O)C3(CCCCC3)1",
+     1
+    ],
+    [
+     "O=[C]C1(CCCCC1)C(=O)[C]2CCCCC2",
+     1
+    ],
+    [
+     "[C]1(CCCCC1)C(=O)[C]2CCCCC2",
+     1
+    ],
+    [
+     "O=C1C2(CCCCC2)C3(CCCCC3)1",
+     1
+    ],
+    [
+     "O=[C]C1(CCCCC1)[C]2CCCCC2",
+     1
+    ],
+    [
+     "C1CC[C]([C]2CCCCC2)CC1",
+     1
+    ],
+    [
+     "C1CCC(=C2CCCCC2)CC1",
+     0
+    ]
+   ],
+   "reference": [
+    "O=C1C2(CCCCC2)C(=O)C12CCCCC2",
+    "O=[C]C1(C(=O)[C]2CCCCC2)CCCCC1",
+    "O=C([C]1CCCCC1)[C]1CCCCC1",
+    "O=C1C2(CCCCC2)C12CCCCC2",
+    "O=[C]C1([C]2CCCCC2)CCCCC1"
+   ],
+   "hidden": [
+    "O=C([C]1CCCCC1)[C]1CCCCC1",
+    "O=C1C2(CCCCC2)C(=O)C12CCCCC2",
+    "O=C1C2(CCCCC2)C12CCCCC2",
+    "O=[C]C1(C(=O)[C]2CCCCC2)CCCCC1"
+   ]
+  },
+  {
+   "ds": "gold",
+   "id": "NG-011",
+   "name": "Bargellini reaction",
+   "n_ref": 8,
+   "max_reactant_heavy": 8,
+   "auto_gaps_left": 2,
+   "reactants": [
+    "Cc1ccc(O)cc1",
+    "CC(=O)C",
+    "ClC(Cl)Cl"
+   ],
+   "products": [
+    "Cc1ccc(OC(C)(C)C(=O)O)cc1"
+   ],
+   "conditions": "NaOH, CHCl3",
+   "direct": [
+    [
+     "[C-](Cl)(Cl)Cl",
+     0
+    ],
+    [
+     "CC(C)([O-])C(Cl)(Cl)Cl",
+     7
+    ],
+    [
+     "CC1(C)OC1(Cl)Cl",
+     10
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C(=O)Cl)cc1",
+     3
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C([O-])(O)Cl)cc1",
+     2
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C(=O)O)cc1",
+     1
+    ]
+   ],
+   "auto": [
+    [
+     "[C-](Cl)(Cl)Cl",
+     0
+    ],
+    [
+     "CC(C)([O-])C(Cl)(Cl)Cl",
+     7
+    ],
+    [
+     "CC1(C)OC1(Cl)Cl",
+     10
+    ],
+    [
+     "Cc1ccc([O-])cc1",
+     null
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C([O-])(Cl)Cl)cc1",
+     null
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C(=O)Cl)cc1",
+     1
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C([O-])(O)Cl)cc1",
+     2
+    ],
+    [
+     "Cc1ccc(OC(C)(C)C(=O)O)cc1",
+     1
+    ]
+   ],
+   "reference": [
+    "Cc1ccc([O-])cc1",
+    "[C-](Cl)(Cl)Cl",
+    "CC([O-])(C)C(Cl)(Cl)Cl",
+    "CC1(C)OC1(Cl)Cl",
+    "Cc1ccc(OC(C)(C)C([O-])(Cl)Cl)cc1",
+    "Cc1ccc(OC(C)(C)C(=O)Cl)cc1",
+    "Cc1ccc(OC(C)(C)C([O-])(O)Cl)cc1",
+    "Cc1ccc(OC(C)(C)C(=O)O)cc1"
+   ],
+   "hidden": []
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "T3_confirm": {
+  "n": 48,
+  "n_flagged": 17,
+  "all": {
+   "Direct": {
+    "n": 48,
+    "all_present": [
+     0.271,
+     0.146,
+     0.396
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 48,
+    "all_present": [
+     0.271,
+     0.146,
+     0.396
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 48,
+    "all_present": [
+     0.417,
+     0.271,
+     0.562
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 48,
+    "all_present": [
+     0.458,
+     0.312,
+     0.604
+    ]
+   }
+  },
+  "all_diffs": {
+   "Direct_gap_only-Direct": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.188,
+    0.083,
+    0.312
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.146,
+    0.062,
+    0.25
+   ],
+   "MechSight_Auto-Direct": [
+    0.188,
+    0.083,
+    0.312
+   ]
+  },
+  "flagged": {
+   "Direct": {
+    "n": 17,
+    "all_present": [
+     0.235,
+     0.059,
+     0.471
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 17,
+    "all_present": [
+     0.235,
+     0.059,
+     0.471
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 17,
+    "all_present": [
+     0.353,
+     0.118,
+     0.588
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 17,
+    "all_present": [
+     0.412,
+     0.176,
+     0.647
+    ]
+   }
+  },
+  "flagged_diffs": {
+   "Direct_gap_only-Direct": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.176,
+    0.0,
+    0.353
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.118,
+    0.0,
+    0.294
+   ],
+   "MechSight_Auto-Direct": [
+    0.176,
+    0.0,
+    0.353
+   ]
+  }
+ },
+ "gold": {
+  "n": 196,
+  "n_flagged": 72,
+  "all": {
+   "Direct": {
+    "n": 196,
+    "all_present": [
+     0.372,
+     0.301,
+     0.439
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 196,
+    "all_present": [
+     0.378,
+     0.311,
+     0.444
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 196,
+    "all_present": [
+     0.408,
+     0.337,
+     0.474
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 196,
+    "all_present": [
+     0.423,
+     0.352,
+     0.495
+    ]
+   }
+  },
+  "all_diffs": {
+   "Direct_gap_only-Direct": [
+    0.005,
+    0.0,
+    0.015
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.046,
+    0.015,
+    0.082
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.036,
+    0.01,
+    0.066
+   ],
+   "MechSight_Auto-Direct": [
+    0.051,
+    0.02,
+    0.087
+   ]
+  },
+  "flagged": {
+   "Direct": {
+    "n": 72,
+    "all_present": [
+     0.278,
+     0.181,
+     0.389
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 72,
+    "all_present": [
+     0.292,
+     0.181,
+     0.403
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 72,
+    "all_present": [
+     0.333,
+     0.222,
+     0.444
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 72,
+    "all_present": [
+     0.347,
+     0.236,
+     0.458
+    ]
+   }
+  },
+  "flagged_diffs": {
+   "Direct_gap_only-Direct": [
+    0.014,
+    0.0,
+    0.042
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.056,
+    0.0,
+    0.125
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.056,
+    0.014,
+    0.111
+   ],
+   "MechSight_Auto-Direct": [
+    0.069,
+    0.0,
+    0.139
+   ]
+  }
+ },
+ "pooled": {
+  "n": 244,
+  "n_flagged": 89,
+  "all": {
+   "Direct": {
+    "n": 244,
+    "all_present": [
+     0.352,
+     0.295,
+     0.418
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 244,
+    "all_present": [
+     0.357,
+     0.299,
+     0.422
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 244,
+    "all_present": [
+     0.41,
+     0.348,
+     0.48
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 244,
+    "all_present": [
+     0.43,
+     0.369,
+     0.496
+    ]
+   }
+  },
+  "all_diffs": {
+   "Direct_gap_only-Direct": [
+    0.004,
+    0.0,
+    0.012
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.074,
+    0.037,
+    0.111
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.057,
+    0.029,
+    0.09
+   ],
+   "MechSight_Auto-Direct": [
+    0.078,
+    0.041,
+    0.115
+   ]
+  },
+  "flagged": {
+   "Direct": {
+    "n": 89,
+    "all_present": [
+     0.27,
+     0.18,
+     0.36
+    ]
+   },
+   "Direct_gap_only": {
+    "n": 89,
+    "all_present": [
+     0.281,
+     0.191,
+     0.371
+    ]
+   },
+   "Pool_revision_no_gap": {
+    "n": 89,
+    "all_present": [
+     0.337,
+     0.236,
+     0.438
+    ]
+   },
+   "MechSight_Auto": {
+    "n": 89,
+    "all_present": [
+     0.36,
+     0.258,
+     0.461
+    ]
+   }
+  },
+  "flagged_diffs": {
+   "Direct_gap_only-Direct": [
+    0.011,
+    0.0,
+    0.034
+   ],
+   "MechSight_Auto-Direct_gap_only": [
+    0.079,
+    0.022,
+    0.146
+   ],
+   "Pool_revision_no_gap-Direct": [
+    0.067,
+    0.022,
+    0.124
+   ],
+   "MechSight_Auto-Direct": [
+    0.09,
+    0.022,
+    0.157
+   ]
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "set": "dev",
+ "papers": 165,
+ "n_direct": 330,
+ "n_inert": 82,
+ "n_out": 508,
+ "direct": {
+  "Direct": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MechSight-Auto": [
+   0.93,
+   0.892,
+   0.963
+  ],
+  "Direct + Clues": [
+   0.927,
+   0.892,
+   0.959
+  ],
+  "MechSight-Guided": [
+   0.948,
+   0.917,
+   0.976
+  ]
+ },
+ "direct_diffs": {
+  "MechSight-Auto - Direct": [
+   -0.07,
+   -0.108,
+   -0.037
+  ],
+  "MechSight-Guided - MechSight-Auto": [
+   0.018,
+   -0.02,
+   0.058
+  ],
+  "MechSight-Guided - Direct + Clues": [
+   0.021,
+   -0.018,
+   0.06
+  ],
+  "Direct + Clues - Direct": [
+   -0.073,
+   -0.108,
+   -0.041
+  ]
+ },
+ "inert": {
+  "Direct": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "MechSight-Auto": [
+   0.573,
+   0.436,
+   0.725
+  ],
+  "Direct + Clues": [
+   0.598,
+   0.44,
+   0.744
+  ],
+  "MechSight-Guided": [
+   0.829,
+   0.705,
+   0.924
+  ]
+ },
+ "inert_diffs": {
+  "MechSight-Auto - Direct": [
+   0.573,
+   0.436,
+   0.725
+  ],
+  "MechSight-Guided - MechSight-Auto": [
+   0.256,
+   0.089,
+   0.412
+  ],
+  "MechSight-Guided - Direct + Clues": [
+   0.232,
+   0.069,
+   0.396
+  ],
+  "Direct + Clues - Direct": [
+   0.598,
+   0.44,
+   0.744
+  ]
+ },
+ "out": {
+  "Direct": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "MechSight-Auto": [
+   0.028,
+   0.011,
+   0.048
+  ],
+  "Direct + Clues": [
+   0.122,
+   0.081,
+   0.168
+  ],
+  "MechSight-Guided": [
+   0.215,
+   0.162,
+   0.273
+  ]
+ },
+ "out_diffs": {
+  "MechSight-Auto - Direct": [
+   0.028,
+   0.011,
+   0.048
+  ],
+  "MechSight-Guided - MechSight-Auto": [
+   0.187,
+   0.137,
+   0.241
+  ],
+  "MechSight-Guided - Direct + Clues": [
+   0.093,
+   0.051,
+   0.141
+  ],
+  "Direct + Clues - Direct": [
+   0.122,
+   0.081,
+   0.168
+  ]
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "fuku": {
+  "LLM@1 equiv": {
+   "n": 559,
+   "acc": 65.8
+  },
+  "LLM@1 strict": {
+   "n": 559,
+   "acc": 64.6
+  },
+  "chrimp@1 equiv": {
+   "n": 559,
+   "acc": 12.5
+  },
+  "chrimp@1 strict": {
+   "n": 559,
+   "acc": 12.0
+  },
+  "chrimp@5 equiv": {
+   "n": 559,
+   "acc": 21.5
+  },
+  "chrimp@5 strict": {
+   "n": 559,
+   "acc": 21.1
+  },
+  "flower@1 equiv": {
+   "n": 559,
+   "acc": 8.8
+  },
+  "flower@1 strict": {
+   "n": 559,
+   "acc": 8.8
+  },
+  "flower@5 equiv": {
+   "n": 559,
+   "acc": 19.9
+  },
+  "flower@5 strict": {
+   "n": 559,
+   "acc": 19.3
+  }
+ },
+ "uspto": {
+  "LLM@1 equiv": {
+   "n": 627,
+   "acc": 72.9
+  },
+  "LLM@1 strict": {
+   "n": 627,
+   "acc": 72.4
+  },
+  "chrimp@1 equiv": {
+   "n": 627,
+   "acc": 55.3
+  },
+  "chrimp@1 strict": {
+   "n": 627,
+   "acc": 54.5
+  },
+  "chrimp@5 equiv": {
+   "n": 627,
+   "acc": 62.0
+  },
+  "chrimp@5 strict": {
+   "n": 627,
+   "acc": 61.2
+  },
+  "flower@1 equiv": {
+   "n": 627,
+   "acc": 58.7
+  },
+  "flower@1 strict": {
+   "n": 627,
+   "acc": 57.9
+  },
+  "flower@5 equiv": {
+   "n": 627,
+   "acc": 70.8
+  },
+  "flower@5 strict": {
+   "n": 627,
+   "acc": 69.9
+  }
+ },
+ "flowertest": {
+  "LLM@1 equiv": {
+   "n": 576,
+   "acc": 59.9
+  },
+  "LLM@1 strict": {
+   "n": 576,
+   "acc": 56.9
+  },
+  "flower@1 equiv": {
+   "n": 576,
+   "acc": 90.5
+  },
+  "flower@1 strict": {
+   "n": 576,
+   "acc": 89.2
+  },
+  "flower@5 equiv": {
+   "n": 576,
+   "acc": 99.0
+  },
+  "flower@5 strict": {
+   "n": 576,
+   "acc": 98.4
+  }
+ }
+}

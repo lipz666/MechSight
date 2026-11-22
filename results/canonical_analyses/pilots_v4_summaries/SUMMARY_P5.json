@@ -1,0 +1,57 @@
+{
+ "a_oMe_product_prediction": {
+  "pairs": 133,
+  "original": [
+   0.684,
+   0.609,
+   0.759
+  ],
+  "homologue": [
+   0.632,
+   0.549,
+   0.707
+  ],
+  "original_minus_homologue": [
+   0.053,
+   0.0,
+   0.105
+  ],
+  "only_original / only_homologue": [
+   10,
+   3
+  ]
+ },
+ "b_J3_mechanism": {
+  "original": {
+   "n": 74,
+   "all_present": [
+    0.608,
+    0.5,
+    0.716
+   ],
+   "heavy_hidden_recall": [
+    0.718,
+    0.541,
+    0.895
+   ]
+  },
+  "homologue": {
+   "n": 74,
+   "all_present": [
+    0.514,
+    0.405,
+    0.635
+   ],
+   "heavy_hidden_recall": [
+    0.732,
+    0.571,
+    0.889
+   ]
+  },
+  "original_minus_homologue_all_present": [
+   0.095,
+   0.0,
+   0.189
+  ]
+ }
+}

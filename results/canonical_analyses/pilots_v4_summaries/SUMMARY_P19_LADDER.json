@@ -1,0 +1,169 @@
+{
+ "T3_confirm": {
+  "L0_Direct": {
+   "n": 48,
+   "all_present": [
+    0.271,
+    0.146,
+    0.396
+   ],
+   "heavy_hidden_recall": [
+    0.491,
+    0.345,
+    0.667
+   ]
+  },
+  "L1_sampling_revision": {
+   "n": 48,
+   "all_present": [
+    0.396,
+    0.25,
+    0.542
+   ],
+   "heavy_hidden_recall": [
+    0.585,
+    0.42,
+    0.771
+   ]
+  },
+  "L2_plus_enumeration": {
+   "n": 48,
+   "all_present": [
+    0.417,
+    0.271,
+    0.562
+   ],
+   "heavy_hidden_recall": [
+    0.566,
+    0.404,
+    0.745
+   ]
+  },
+  "L3_MechSight": {
+   "n": 48,
+   "all_present": [
+    0.458,
+    0.312,
+    0.604
+   ],
+   "heavy_hidden_recall": [
+    0.585,
+    0.419,
+    0.767
+   ]
+  },
+  "L1_sampling_revision_minus_L0_Direct": [
+   0.125,
+   0.042,
+   0.229
+  ],
+  "L2_plus_enumeration_minus_L1_sampling_revision": [
+   0.021,
+   0.0,
+   0.062
+  ],
+  "L3_MechSight_minus_L2_plus_enumeration": [
+   0.042,
+   -0.042,
+   0.125
+  ]
+ },
+ "gold": {
+  "L0_Direct": {
+   "n": 196,
+   "all_present": [
+    0.372,
+    0.301,
+    0.439
+   ]
+  },
+  "L1_sampling_revision": {
+   "n": 196,
+   "all_present": [
+    0.398,
+    0.332,
+    0.469
+   ]
+  },
+  "L2_plus_enumeration": {
+   "n": 196,
+   "all_present": [
+    0.408,
+    0.337,
+    0.474
+   ]
+  },
+  "L3_MechSight": {
+   "n": 196,
+   "all_present": [
+    0.423,
+    0.352,
+    0.495
+   ]
+  },
+  "L1_sampling_revision_minus_L0_Direct": [
+   0.026,
+   0.0,
+   0.056
+  ],
+  "L2_plus_enumeration_minus_L1_sampling_revision": [
+   0.01,
+   -0.01,
+   0.031
+  ],
+  "L3_MechSight_minus_L2_plus_enumeration": [
+   0.015,
+   -0.005,
+   0.036
+  ]
+ },
+ "pooled": {
+  "L0_Direct": {
+   "n": 244,
+   "all_present": [
+    0.352,
+    0.295,
+    0.418
+   ]
+  },
+  "L1_sampling_revision": {
+   "n": 244,
+   "all_present": [
+    0.398,
+    0.336,
+    0.467
+   ]
+  },
+  "L2_plus_enumeration": {
+   "n": 244,
+   "all_present": [
+    0.41,
+    0.348,
+    0.48
+   ]
+  },
+  "L3_MechSight": {
+   "n": 244,
+   "all_present": [
+    0.43,
+    0.369,
+    0.496
+   ]
+  },
+  "L1_sampling_revision_minus_L0_Direct": [
+   0.045,
+   0.016,
+   0.078
+  ],
+  "L2_plus_enumeration_minus_L1_sampling_revision": [
+   0.012,
+   -0.004,
+   0.033
+  ],
+  "L3_MechSight_minus_L2_plus_enumeration": [
+   0.02,
+   0.0,
+   0.045
+  ]
+ }
+}

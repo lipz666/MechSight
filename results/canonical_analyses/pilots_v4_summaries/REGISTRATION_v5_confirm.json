@@ -1,0 +1,23 @@
+{
+ "written": "2026-11-04, before any Mech-Agent call on the confirmation sets",
+ "method_frozen": {
+  "name": "Mech-Agent v5",
+  "code": "MechAgent/experiments/pilots_v4/p11_mechagent.py (phases r1, r2), stepmap.py",
+  "settings": "GAP = 3 heavy-atom bond changes per step (RXNMapper, minimal partner cover); pool = base_default + samp1..4 (T=0.7) + enum3 (T=0.7), identical candidates merged, P3 order (max 8); completion + revision at T=0.2; second round only if the revised path still has a gap and checked states exist; model gemini-3.8-flash on both gateways",
+  "freeze_rule_applied": "dev (T3_dev + J3, 194): V5 56.7 vs M_ms_none 53.1 (+3.6 [-0.5, 8.2]) -> V5 frozen (rule: V5 not below M_ms_none)",
+  "dev_reference": "V5 - Direct = +11.3 [5.7, 17.0]; Oracle-hidden ~66 vs Direct 45.4"
+ },
+ "confirmation_sets": {
+  "T3_confirm": "48 FukuyamaBench cases, outputs/benchmarks_20261103/splits.json, never used for development",
+  "gold": "oMe-Gold, all 196 reactions, official oMeBench prompts"
+ },
+ "primary_endpoint": "all GT intermediates present (all_present), Mech-Agent v5 minus Direct (base_default), pooled over T3_confirm + oMe-Gold, reaction-clustered bootstrap 95% CI",
+ "secondary_endpoints": [
+  "oMe-Gold official S_partial, v5 minus Direct",
+  "T3_confirm all_present, v5 minus Direct",
+  "v5 minus each control on the primary endpoint: CoT (official), Self-refine (SR2), Self-consistency over the same pool (MBR consensus, P3), M_ms_none",
+  "T3_confirm stratified by hidden events (0 / 1-2 / >=3): predicted gain ~0 at 0 and largest at 1-2",
+  "T3_confirm Oracle-hidden and Oracle-visible minus Direct (Fig. 1d replication); share of the Oracle gap recovered by v5"
+ ],
+ "reporting": "All endpoints above are reported as computed, whatever their sign."
+}

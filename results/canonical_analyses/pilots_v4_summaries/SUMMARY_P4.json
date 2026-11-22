@@ -1,0 +1,30 @@
+{
+ "omitted_heavy_events_M1": 26,
+ "cases": 22,
+ "per_draw_resample": [
+  0.123,
+  0.028,
+  0.24
+ ],
+ "per_draw_narrative": [
+  0.169,
+  0.082,
+  0.267
+ ],
+ "union5_resample": [
+  0.192,
+  0.043,
+  0.357
+ ],
+ "union5_narrative": [
+  0.385,
+  0.174,
+  0.583
+ ],
+ "union5_narrative_minus_resample": [
+  0.192,
+  0.0,
+  0.4
+ ],
+ "criterion": "inertness if union5 narrative - resample >= 0.15"
+}

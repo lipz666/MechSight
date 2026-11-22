@@ -1,0 +1,630 @@
+{
+ "all_436": {
+  "papers": 436,
+  "by_set": {
+   "dev": 165,
+   "test": 271
+  },
+  "intermediates": 2426,
+  "Direct": {
+   "recall": [
+    42.6,
+    39.3,
+    45.9
+   ],
+   "complete": [
+    15.1,
+    11.9,
+    18.6
+   ]
+  },
+  "Auto": {
+   "recall": [
+    45.8,
+    42.5,
+    49.1
+   ],
+   "complete": [
+    17.4,
+    14.0,
+    20.9
+   ]
+  },
+  "Direct+Clues": {
+   "recall": [
+    48.3,
+    44.9,
+    51.7
+   ],
+   "complete": [
+    19.5,
+    15.8,
+    23.2
+   ]
+  },
+  "MV7": {
+   "recall": [
+    48.5,
+    45.1,
+    51.9
+   ],
+   "complete": [
+    20.9,
+    17.2,
+    24.8
+   ]
+  },
+  "Guided": {
+   "recall": [
+    57.5,
+    54.2,
+    60.9
+   ],
+   "complete": [
+    28.2,
+    24.1,
+    32.6
+   ]
+  },
+  "Guided-Direct+Clues": {
+   "recall": [
+    9.2,
+    7.2,
+    11.3
+   ],
+   "complete": [
+    8.7,
+    5.7,
+    11.7
+   ]
+  },
+  "Guided-MV7": {
+   "recall": [
+    9.0,
+    7.1,
+    11.0
+   ],
+   "complete": [
+    7.3,
+    4.8,
+    9.9
+   ]
+  },
+  "Auto-Direct": {
+   "recall": [
+    3.2,
+    1.2,
+    5.1
+   ],
+   "complete": [
+    2.3,
+    0.0,
+    4.6
+   ]
+  },
+  "Direct+Clues-Direct": {
+   "recall": [
+    5.7,
+    3.5,
+    7.9
+   ],
+   "complete": [
+    4.4,
+    1.6,
+    7.1
+   ]
+  },
+  "Guided-Direct": {
+   "recall": [
+    14.9,
+    12.7,
+    17.2
+   ],
+   "complete": [
+    13.1,
+    9.6,
+    16.5
+   ]
+  },
+  "strata": {
+   "blind": {
+    "share": 55.5,
+    "n": 1347,
+    "Direct": 0.0,
+    "Auto": 2.4,
+    "Direct+Clues": 10.4,
+    "MV7": 11.5,
+    "Guided": 17.0
+   },
+   "direct": {
+    "share": 36.9,
+    "n": 894,
+    "Direct": 100.0,
+    "Auto": 92.6,
+    "Direct+Clues": 88.4,
+    "MV7": 83.7,
+    "Guided": 94.5
+   },
+   "inert": {
+    "share": 7.6,
+    "n": 185,
+    "Direct": 0.0,
+    "Auto": 53.0,
+    "Direct+Clues": 41.6,
+    "MV7": 45.9,
+    "Guided": 73.5
+   }
+  }
+ },
+ "apr_oct": {
+  "papers": 285,
+  "by_set": {
+   "dev": 118,
+   "test": 167
+  },
+  "intermediates": 1571,
+  "Direct": {
+   "recall": [
+    43.3,
+    39.1,
+    47.5
+   ],
+   "complete": [
+    16.1,
+    11.9,
+    20.4
+   ]
+  },
+  "Auto": {
+   "recall": [
+    47.4,
+    43.2,
+    51.6
+   ],
+   "complete": [
+    18.9,
+    14.7,
+    23.5
+   ]
+  },
+  "Direct+Clues": {
+   "recall": [
+    50.2,
+    46.0,
+    54.3
+   ],
+   "complete": [
+    20.4,
+    15.8,
+    25.3
+   ]
+  },
+  "MV7": {
+   "recall": [
+    50.1,
+    45.9,
+    54.4
+   ],
+   "complete": [
+    22.5,
+    17.9,
+    27.4
+   ]
+  },
+  "Guided": {
+   "recall": [
+    59.6,
+    55.4,
+    63.7
+   ],
+   "complete": [
+    29.8,
+    24.6,
+    35.4
+   ]
+  },
+  "Guided-Direct+Clues": {
+   "recall": [
+    9.5,
+    6.9,
+    12.1
+   ],
+   "complete": [
+    9.5,
+    5.6,
+    13.7
+   ]
+  },
+  "Guided-MV7": {
+   "recall": [
+    9.5,
+    7.0,
+    12.2
+   ],
+   "complete": [
+    7.4,
+    4.2,
+    10.5
+   ]
+  },
+  "Auto-Direct": {
+   "recall": [
+    4.1,
+    1.5,
+    6.9
+   ],
+   "complete": [
+    2.8,
+    -0.4,
+    6.0
+   ]
+  },
+  "Direct+Clues-Direct": {
+   "recall": [
+    6.9,
+    3.9,
+    10.0
+   ],
+   "complete": [
+    4.2,
+    0.7,
+    8.1
+   ]
+  },
+  "Guided-Direct": {
+   "recall": [
+    16.4,
+    13.3,
+    19.5
+   ],
+   "complete": [
+    13.7,
+    9.1,
+    18.2
+   ]
+  },
+  "strata": {
+   "blind": {
+    "share": 55.6,
+    "n": 874,
+    "Direct": 0.0,
+    "Auto": 2.5,
+    "Direct+Clues": 11.2,
+    "MV7": 12.9,
+    "Guided": 18.4
+   },
+   "direct": {
+    "share": 37.7,
+    "n": 593,
+    "Direct": 100.0,
+    "Auto": 93.3,
+    "Direct+Clues": 88.2,
+    "MV7": 84.8,
+    "Guided": 94.9
+   },
+   "inert": {
+    "share": 6.6,
+    "n": 104,
+    "Direct": 0.0,
+    "Auto": 58.7,
+    "Direct+Clues": 48.1,
+    "MV7": 45.2,
+    "Guided": 77.9
+   }
+  }
+ },
+ "may_oct": {
+  "papers": 219,
+  "by_set": {
+   "dev": 102,
+   "test": 117
+  },
+  "intermediates": 1201,
+  "Direct": {
+   "recall": [
+    41.7,
+    37.1,
+    46.3
+   ],
+   "complete": [
+    15.5,
+    11.0,
+    20.5
+   ]
+  },
+  "Auto": {
+   "recall": [
+    47.3,
+    42.5,
+    52.0
+   ],
+   "complete": [
+    19.2,
+    14.2,
+    24.7
+   ]
+  },
+  "Direct+Clues": {
+   "recall": [
+    50.0,
+    45.0,
+    54.7
+   ],
+   "complete": [
+    21.5,
+    16.0,
+    26.9
+   ]
+  },
+  "MV7": {
+   "recall": [
+    48.8,
+    43.8,
+    53.7
+   ],
+   "complete": [
+    21.9,
+    16.4,
+    26.9
+   ]
+  },
+  "Guided": {
+   "recall": [
+    59.3,
+    54.3,
+    64.1
+   ],
+   "complete": [
+    30.1,
+    24.2,
+    36.5
+   ]
+  },
+  "Guided-Direct+Clues": {
+   "recall": [
+    9.3,
+    6.2,
+    12.3
+   ],
+   "complete": [
+    8.7,
+    4.1,
+    13.7
+   ]
+  },
+  "Guided-MV7": {
+   "recall": [
+    10.5,
+    7.4,
+    13.8
+   ],
+   "complete": [
+    8.2,
+    4.6,
+    12.3
+   ]
+  },
+  "Auto-Direct": {
+   "recall": [
+    5.6,
+    2.7,
+    8.6
+   ],
+   "complete": [
+    3.7,
+    0.0,
+    7.3
+   ]
+  },
+  "Direct+Clues-Direct": {
+   "recall": [
+    8.3,
+    4.9,
+    11.9
+   ],
+   "complete": [
+    5.9,
+    1.8,
+    10.5
+   ]
+  },
+  "Guided-Direct": {
+   "recall": [
+    17.6,
+    14.0,
+    21.3
+   ],
+   "complete": [
+    14.6,
+    9.1,
+    20.1
+   ]
+  },
+  "strata": {
+   "inert": {
+    "share": 6.9,
+    "n": 83,
+    "Direct": 0.0,
+    "Auto": 57.8,
+    "Direct+Clues": 49.4,
+    "MV7": 39.8,
+    "Guided": 73.5
+   },
+   "blind": {
+    "share": 56.5,
+    "n": 678,
+    "Direct": 0.0,
+    "Auto": 2.5,
+    "Direct+Clues": 10.8,
+    "MV7": 13.0,
+    "Guided": 18.6
+   },
+   "direct": {
+    "share": 36.6,
+    "n": 440,
+    "Direct": 100.0,
+    "Auto": 95.7,
+    "Direct+Clues": 90.0,
+    "MV7": 85.0,
+    "Guided": 96.6
+   }
+  }
+ },
+ "jan_mar": {
+  "papers": 151,
+  "by_set": {
+   "dev": 47,
+   "test": 104
+  },
+  "intermediates": 855,
+  "Direct": {
+   "recall": [
+    41.3,
+    35.7,
+    47.0
+   ],
+   "complete": [
+    13.2,
+    7.9,
+    19.2
+   ]
+  },
+  "Auto": {
+   "recall": [
+    42.6,
+    37.0,
+    48.1
+   ],
+   "complete": [
+    14.6,
+    9.3,
+    20.5
+   ]
+  },
+  "Direct+Clues": {
+   "recall": [
+    44.8,
+    38.9,
+    50.7
+   ],
+   "complete": [
+    17.9,
+    11.9,
+    24.5
+   ]
+  },
+  "MV7": {
+   "recall": [
+    45.4,
+    39.7,
+    51.0
+   ],
+   "complete": [
+    17.9,
+    11.9,
+    24.5
+   ]
+  },
+  "Guided": {
+   "recall": [
+    53.5,
+    47.6,
+    59.4
+   ],
+   "complete": [
+    25.2,
+    18.5,
+    32.5
+   ]
+  },
+  "Guided-Direct+Clues": {
+   "recall": [
+    8.7,
+    5.7,
+    12.1
+   ],
+   "complete": [
+    7.3,
+    3.3,
+    11.3
+   ]
+  },
+  "Guided-MV7": {
+   "recall": [
+    8.2,
+    5.8,
+    10.9
+   ],
+   "complete": [
+    7.3,
+    3.3,
+    11.3
+   ]
+  },
+  "Auto-Direct": {
+   "recall": [
+    1.3,
+    -1.4,
+    4.0
+   ],
+   "complete": [
+    1.3,
+    -2.0,
+    4.6
+   ]
+  },
+  "Direct+Clues-Direct": {
+   "recall": [
+    3.6,
+    0.9,
+    6.3
+   ],
+   "complete": [
+    4.6,
+    2.0,
+    7.9
+   ]
+  },
+  "Guided-Direct": {
+   "recall": [
+    12.3,
+    8.9,
+    15.8
+   ],
+   "complete": [
+    11.9,
+    7.3,
+    17.2
+   ]
+  },
+  "strata": {
+   "blind": {
+    "share": 55.3,
+    "n": 473,
+    "Direct": 0.0,
+    "Auto": 2.1,
+    "Direct+Clues": 8.9,
+    "MV7": 8.9,
+    "Guided": 14.4
+   },
+   "direct": {
+    "share": 35.2,
+    "n": 301,
+    "Direct": 100.0,
+    "Auto": 91.4,
+    "Direct+Clues": 88.7,
+    "MV7": 81.4,
+    "Guided": 93.7
+   },
+   "inert": {
+    "share": 9.5,
+    "n": 81,
+    "Direct": 0.0,
+    "Auto": 45.7,
+    "Direct+Clues": 33.3,
+    "MV7": 46.9,
+    "Guided": 67.9
+   }
+  }
+ }
+}

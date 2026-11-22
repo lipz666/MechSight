@@ -1,0 +1,2721 @@
+[
+ {
+  "reaction_id": "NR-003",
+  "distance": 4,
+  "reactants": [
+   "COC(=O)c1ccc(C)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(=O)C(O)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "COC(=O)c1ccccc1"
+  ],
+  "orig_products": [
+   "O=C(c1ccccc1)C(O)c1ccccc1"
+  ],
+  "conditions": "Na, then H2O workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NG-008",
+  "distance": 3,
+  "reactants": [
+   "CC(=O)OO",
+   "CC(=O)c1ccc(C)cc1"
+  ],
+  "products": [
+   "CC(=O)Oc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)c1ccccc1",
+   "CC(=O)OO"
+  ],
+  "orig_products": [
+   "CC(=O)Oc1ccccc1"
+  ],
+  "conditions": "RCO3H",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-009",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)Oc1ccc(C)cc1C(C)=O"
+  ],
+  "products": [
+   "CC(=O)CC(=O)c1cc(C)ccc1O"
+  ],
+  "orig_reactants": [
+   "CC(=O)c1ccccc1OC(=O)C"
+  ],
+  "orig_products": [
+   "CC(=O)CC(=O)c1ccccc1O"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NG-011",
+  "distance": 5,
+  "reactants": [
+   "CC(C)=O",
+   "CCc1ccc(O)cc1",
+   "ClC(Cl)Cl"
+  ],
+  "products": [
+   "CCc1ccc(OC(C)(C)C(=O)O)cc1"
+  ],
+  "orig_reactants": [
+   "Cc1ccc(O)cc1",
+   "CC(=O)C",
+   "ClC(Cl)Cl"
+  ],
+  "orig_products": [
+   "Cc1ccc(OC(C)(C)C(=O)O)cc1"
+  ],
+  "conditions": "NaOH, CHCl3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NG-012",
+  "distance": 3,
+  "reactants": [
+   "CCC=C[Mg]Br",
+   "CCc1ccccc1[N+](=O)[O-]"
+  ],
+  "products": [
+   "CCc1c[nH]c2c(CC)cccc12"
+  ],
+  "orig_reactants": [
+   "Cc1ccccc1[N+](=O)[O-]",
+   "CCC=C[Mg]Br"
+  ],
+  "orig_products": [
+   "CCc1c[nH]c2c(C)cccc12"
+  ],
+  "conditions": "Vinyl Grignard (3 equiv., e.g., 1-propenylMgBr based on product), THF, then H2O workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-014",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C(=S)c2ccccc2)cc1",
+   "[N-]=[N+]=C1c2ccccc2C(=O)c2ccccc21"
+  ],
+  "products": [
+   "Cc1ccc(C(=C2c3ccccc3C(=O)c3ccccc32)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "O=C1c2ccccc2C(=[N+]=[N-])c3ccccc13",
+   "S=C(c1ccccc1)c2ccccc2"
+  ],
+  "orig_products": [
+   "O=C1c2ccccc2C(=C(c3ccccc3)c4ccccc4)c5ccccc15"
+  ],
+  "conditions": "PPh3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-016",
+  "distance": 3,
+  "reactants": [
+   "CC1C2CC(ON=O)CC1C2(C)C"
+  ],
+  "products": [
+   "CC1C2CC(O)CC1C2(C)CN=O"
+  ],
+  "orig_reactants": [
+   "CC1(C)C2CC(ON=O)CC1C2"
+  ],
+  "orig_products": [
+   "C(N=O)C1(C)C2CC(O)CC1C2"
+  ],
+  "conditions": "hv (light)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-017",
+  "distance": 4,
+  "reactants": [
+   "CC(=NN)c1ccc(C)cc1",
+   "II"
+  ],
+  "products": [
+   "C=C(I)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(c1ccccc1)=NN",
+   "II"
+  ],
+  "orig_products": [
+   "C=C(I)c1ccccc1"
+  ],
+  "conditions": "I2, Et3N",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-020",
+  "distance": 3,
+  "reactants": [
+   "Cc1cc(C(=O)C(=O)c2ccccc2)ccc1N"
+  ],
+  "products": [
+   "Cc1cc(C(O)(C(=O)O)c2ccccc2)ccc1N"
+  ],
+  "orig_reactants": [
+   "Nc1ccc(C(=O)C(=O)c2ccccc2)cc1"
+  ],
+  "orig_products": [
+   "Nc1ccc(C(O)(C(=O)O)c2ccccc2)cc1"
+  ],
+  "conditions": "NaOH, H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-022",
+  "distance": 4,
+  "reactants": [
+   "C=O",
+   "Cc1ccc(N)cc1",
+   "Oc1ccccc1"
+  ],
+  "products": [
+   "Cc1ccc(NCc2ccccc2O)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccc(O)cc1",
+   "C=O",
+   "c1ccccc1N"
+  ],
+  "orig_products": [
+   "Oc1c(CNc2ccccc2)cccc1"
+  ],
+  "conditions": "Heat ($\\Delta$)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-023",
+  "distance": 7,
+  "reactants": [
+   "CC(=O)CC(=O)OCc1ccc(C)cc1",
+   "NC(N)=O",
+   "O=Cc1ccccc1"
+  ],
+  "products": [
+   "CC1=C(C(=O)OCc2ccc(C)cc2)C(c2ccccc2)NC(=O)N1"
+  ],
+  "orig_reactants": [
+   "O=Cc1ccccc1",
+   "NC(=O)N",
+   "CC(=O)CC(=O)OCc1ccccc1"
+  ],
+  "orig_products": [
+   "CC1=C(C(=O)OCc2ccccc2)C(c3ccccc3)NC(=O)N1"
+  ],
+  "conditions": "Acid (e.g., TsOH)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-021",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C=O)cc1",
+   "O=Cc1ccccc1"
+  ],
+  "products": [
+   "Cc1ccc(C(=O)C(O)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "O=Cc1ccccc1",
+   "O=Cc1ccccc1"
+  ],
+  "orig_products": [
+   "O=C(c1ccccc1)C(O)c1ccccc1"
+  ],
+  "conditions": "NaCN",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-025",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)NCCc1c[nH]c2c1CCC(C)C2",
+   "O=P(Cl)(Cl)Cl"
+  ],
+  "products": [
+   "CC1=Nc2cnc3c(c2CC1)CCC(C)C3"
+  ],
+  "orig_reactants": [
+   "CC(=O)NCCC1=CNC2=C1CCCC2",
+   "O=P(Cl)(Cl)Cl"
+  ],
+  "orig_products": [
+   "CC1=NC2=C(CC1)C1=C(N=C2)CCCC1"
+  ],
+  "conditions": "POCl3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-026",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)C(C)(C)Br",
+   "N#Cc1ccccc1"
+  ],
+  "products": [
+   "CCCOC(=O)C(C)(C)C(=O)c1ccccc1"
+  ],
+  "orig_reactants": [
+   "BrC(C)(C)C(=O)OCC",
+   "N#Cc1ccccc1"
+  ],
+  "orig_products": [
+   "O=C(c1ccccc1)C(C)(C)C(=O)OCC"
+  ],
+  "conditions": "1. Zn 2. H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-027",
+  "distance": 3,
+  "reactants": [
+   "C=O",
+   "Cl",
+   "Cc1ccccc1"
+  ],
+  "products": [
+   "Cc1ccc(CCl)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1",
+   "C=O",
+   "Cl"
+  ],
+  "orig_products": [
+   "c1ccccc1CCl"
+  ],
+  "conditions": "CH2O, HX (X = Cl, Br)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-028",
+  "distance": 3,
+  "reactants": [
+   "CCC1(O)CCC(C)CC1CCc1ccccc1",
+   "O=S(=O)(O)O"
+  ],
+  "products": [
+   "CCC12CCC(C)CC1CCc1ccccc12"
+  ],
+  "orig_reactants": [
+   "CCC1(O)CCCCC1CCC2=CC=CC=C2",
+   "[H]OS(=O)(=O)O"
+  ],
+  "orig_products": [
+   "CCC31CCCCC1CCC2=C3C=CC=C2"
+  ],
+  "conditions": "Acid (H2SO4)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-029",
+  "distance": 4,
+  "reactants": [
+   "CC#CC(=O)C(C)(C)C",
+   "CCCOC(=O)C=C(N)c1ccccc1"
+  ],
+  "products": [
+   "CCCOC(=O)c1c(-c2ccccc2)cc(C(C)(C)C)nc1C"
+  ],
+  "orig_reactants": [
+   "CCOC(=O)C=C(N)c1ccccc1",
+   "C(C)(C)(C)C(=O)C#CC"
+  ],
+  "orig_products": [
+   "CCOC(=O)c1c(C)nc(C(C)(C)C)cc1c1ccccc1"
+  ],
+  "conditions": "CC(=O)O, Heat (\u0394)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-032",
+  "distance": 4,
+  "reactants": [
+   "C=[N+]=[N-]",
+   "CCCOC(=O)C1CCC(=O)CC1"
+  ],
+  "products": [
+   "CCCOC(=O)C1CCCC(=O)CC1"
+  ],
+  "orig_reactants": [
+   "O=C1CCC(C(=O)OCC)CC1",
+   "C=[N+]=[N-]"
+  ],
+  "orig_products": [
+   "CCOC(=O)C1CCC(=O)CCC1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-033",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)[CH-][N+]#N",
+   "Fc1cc(F)cc(F)c1"
+  ],
+  "products": [
+   "CCCOC(=O)C1C=C(F)C=C(F)C=C1F"
+  ],
+  "orig_reactants": [
+   "N#[N+][CH-]C(=O)OCC",
+   "Fc1cc(F)cc(F)c1"
+  ],
+  "orig_products": [
+   "CCOC(=O)C1C=C(F)C=C(F)C=C1F"
+  ],
+  "conditions": "hv/heat/Metal",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-034",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C(C)C(C)(O)c2ccccc2)cc1",
+   "CC[N+](CC)(CC)S(=O)(=O)[N-]C(=O)OC"
+  ],
+  "products": [
+   "CC(C)=C(c1ccccc1)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(O)(c1ccccc1)C(C)c1ccccc1",
+   "COC(=O)[N-]S(=O)(=O)[N+](CC)(CC)CC"
+  ],
+  "orig_products": [
+   "CC(C)=C(c1ccccc1)c1ccccc1"
+  ],
+  "conditions": "Burgess Reagent",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-036",
+  "distance": 4,
+  "reactants": [
+   "C=O",
+   "CCC(C)(C)c1ccc(O)cc1",
+   "CCN(CC)CC",
+   "Cl[Mg]Cl"
+  ],
+  "products": [
+   "CCC(C)(C)c1ccc(O)c(C=O)c1"
+  ],
+  "orig_reactants": [
+   "Oc1ccc(C(C)(C)C)cc1",
+   "C=O",
+   "Cl[Mg]Cl",
+   "CCN(CC)CC"
+  ],
+  "orig_products": [
+   "O=Cc1cc(C(C)(C)C)ccc1O"
+  ],
+  "conditions": "(CH2O)n, MgCl2, Et3N",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-037",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)C(C)OC(C)=O"
+  ],
+  "products": [
+   "CCCOC(=O)C(C)(O)C(C)=O"
+  ],
+  "orig_reactants": [
+   "CC(=O)OC(C)C(=O)OCC"
+  ],
+  "orig_products": [
+   "CC(=O)C(O)(C)C(=O)OCC"
+  ],
+  "conditions": "[N-](C(C)C)C(C)C",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-038",
+  "distance": 5,
+  "reactants": [
+   "CSC(=S)OC(c1ccccc1)C(C)c1ccc(C)cc1"
+  ],
+  "products": [
+   "CC(=Cc1ccccc1)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C(C)(c1ccccc1)C(c2ccccc2)OC(=S)SC"
+  ],
+  "orig_products": [
+   "c1ccccc1C(C)=Cc2ccccc2"
+  ],
+  "conditions": "Heat (\u0394)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-041",
+  "distance": 3,
+  "reactants": [
+   "C=C[C@H](OC=Cc1cccc(C)c1)C(C)C"
+  ],
+  "products": [
+   "Cc1ccc(O)c([C@@H](C=O)CC=CC(C)C)c1"
+  ],
+  "orig_reactants": [
+   "C=C[C@@H](C(C)C)(OC=Cc1ccccc1)"
+  ],
+  "orig_products": [
+   "CC(C)C=CC[C@H](C=O)c1ccccc1O"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-042",
+  "distance": 4,
+  "reactants": [
+   "CC(C)=O",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "CC(=O)C=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)C",
+   "c1ccccc1C=O"
+  ],
+  "orig_products": [
+   "O=C(C)C=Cc1ccccc1"
+  ],
+  "conditions": "[OH-], O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-043",
+  "distance": 4,
+  "reactants": [
+   "COC(=O)CC(=O)c1ccc(C)cc1",
+   "Nc1ccccc1"
+  ],
+  "products": [
+   "Cc1ccc(-c2cc(O)c3ccccc3n2)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1N",
+   "COC(=O)CC(=O)c1ccccc1"
+  ],
+  "orig_products": [
+   "c1ccccc1-c1nc2ccccc2c(O)c1"
+  ],
+  "conditions": "Heat (ca. 250 \u00b0C)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-044",
+  "distance": 5,
+  "reactants": [
+   "Cc1ccc(C(C)C(C)(c2ccccc2)[N+](C)(C)[O-])cc1"
+  ],
+  "products": [
+   "CC(=C(C)c1ccc(C)cc1)c1ccccc1",
+   "CN(C)O"
+  ],
+  "orig_reactants": [
+   "C[CH](c1ccccc1)C(C)(c1ccccc1)[N+](C)(C)[O-]"
+  ],
+  "orig_products": [
+   "CC(c1ccccc1)=C(C)c1ccccc1",
+   "CN(C)O"
+  ],
+  "conditions": "$heating$",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-045",
+  "distance": 4,
+  "reactants": [
+   "C=CC(C(C)C)C(/C=C/CCC)c1ccccc1"
+  ],
+  "products": [
+   "C=CC(c1ccccc1)C(/C=C/CCC)C(C)C"
+  ],
+  "orig_reactants": [
+   "CC/C=C/C(c1ccccc1)C(C(C)C)C=C"
+  ],
+  "orig_products": [
+   "CC/C=C/C(C(C)C)C(c1ccccc1)C=C"
+  ],
+  "conditions": "heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-048",
+  "distance": 4,
+  "reactants": [
+   "CC(CCCO)CCCC(=O)O"
+  ],
+  "products": [
+   "CC1CCCOC(=O)CCC1"
+  ],
+  "orig_reactants": [
+   "OCCCCCCCC(=O)O"
+  ],
+  "orig_products": [
+   "O1CCCCCCCC1(=O)"
+  ],
+  "conditions": "P(c1ccccc1)(c1ccccc1)c1ccccc1, c1cnccc1SSc1cncccc1",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-049",
+  "distance": 4,
+  "reactants": [
+   "CCC1SCCS1",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "CCC1(C(O)c2ccc(C)cc2)SCCS1"
+  ],
+  "orig_reactants": [
+   "CCC1SCCS1",
+   "O=Cc1ccccc1"
+  ],
+  "orig_products": [
+   "CCC1(C(O)c2ccccc2)SCCS1"
+  ],
+  "conditions": "1) n-BuLi 2) Benzaldehyde 3) H3O+ workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-053",
+  "distance": 7,
+  "reactants": [
+   "Cc1ccc(COc2cc(Br)ccc2C=O)cc1",
+   "OO"
+  ],
+  "products": [
+   "Cc1ccc(COc2cc(Br)ccc2O)cc1"
+  ],
+  "orig_reactants": [
+   "O=Cc1c(OCc2ccccc2)cc(Br)cc1",
+   "OO"
+  ],
+  "orig_products": [
+   "Oc1c(OCc2ccccc2)cc(Br)cc1"
+  ],
+  "conditions": "Aqueous Base (e.g. [OH-]), then Acid (e.g. HCl for workup)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-056",
+  "distance": 4,
+  "reactants": [
+   "CCC1=C(C)C(=O)C1",
+   "COC#Cc1ccc(C)cc1"
+  ],
+  "products": [
+   "CCc1cc(O)c(-c2ccc(C)cc2)c(OC)c1C"
+  ],
+  "orig_reactants": [
+   "CCC1=C(C)C(=O)C1",
+   "COC#Cc1ccccc1"
+  ],
+  "orig_products": [
+   "CCc1cc(O)c(c2ccccc2)c(OC)c1(C)"
+  ],
+  "conditions": "\u0394 (Heat)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-061",
+  "distance": 3,
+  "reactants": [
+   "CCOC(=O)CCCCC(=O)OC"
+  ],
+  "products": [
+   "CCOC(=O)C1CCCC1=O"
+  ],
+  "orig_reactants": [
+   "COC(=O)CCCCC(=O)OC"
+  ],
+  "orig_products": [
+   "COC(=O)C1CCCC1=O"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-062",
+  "distance": 3,
+  "reactants": [
+   "C1=CCC=C1",
+   "CCOC(=O)/C=C\\C(=O)OC"
+  ],
+  "products": [
+   "CCOC(=O)[C@@H]1C2C=CC(C2)[C@@H]1C(=O)OC"
+  ],
+  "orig_reactants": [
+   "C1=CC=CC1",
+   "COC(=O)/C=C\\C(=O)OC"
+  ],
+  "orig_products": [
+   "C1=CC2CC1[C@H](C(=O)OC)[C@@H]2C(=O)OC"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-063",
+  "distance": 3,
+  "reactants": [
+   "CC=CC=O",
+   "Cc1cccc(N)c1"
+  ],
+  "products": [
+   "Cc1ccc2ccc(C)nc2c1"
+  ],
+  "orig_reactants": [
+   "Nc1ccccc1",
+   "CC=CC=O"
+  ],
+  "orig_products": [
+   "Cc1nc2ccccc2cc1"
+  ],
+  "conditions": "Acid, [O]",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-067",
+  "distance": 4,
+  "reactants": [
+   "CCC1(C(=O)c2ccc(C)cc2)OC1(C)C",
+   "NNS(=O)(=O)c1ccccc1"
+  ],
+  "products": [
+   "CC(C)=O",
+   "CCC#Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C(C1(CC)OC1(C)C)(=O)c1ccccc1",
+   "NNS(=O)(=O)c1ccccc1"
+  ],
+  "orig_products": [
+   "CCC#Cc1ccccc1",
+   "CC(=O)C"
+  ],
+  "conditions": "Tosylhydrazine (PhSO2NHNH2), Base",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-069",
+  "distance": 4,
+  "reactants": [
+   "C=O",
+   "Cc1ccc(N)cc1",
+   "O=CO"
+  ],
+  "products": [
+   "Cc1ccc(N(C)C)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1N",
+   "C=O",
+   "C(=O)O"
+  ],
+  "orig_products": [
+   "CN(C)c1ccccc1"
+  ],
+  "conditions": "CH2O, HCO2H",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-070",
+  "distance": 9,
+  "reactants": [
+   "CC=O",
+   "CCCC(=O)N1CC(Cc2ccc(C)cc2)OC1=O"
+  ],
+  "products": [
+   "CCC(C(=O)N1CC(Cc2ccc(C)cc2)OC1=O)C(C)O"
+  ],
+  "orig_reactants": [
+   "CCCC(=O)N1C(=O)OC(Cc2ccccc2)C1",
+   "CC=O"
+  ],
+  "orig_products": [
+   "CC(O)C(CC)C(=O)N1C(=O)OC(Cc2ccccc2)C1"
+  ],
+  "conditions": "Base (e.g., :N(i-Pr)2 as shown in mechanism), Chiral Auxiliary X = Bn (as in mechanism), i-Pr, Ph. Aldehyde R3 = Me (as in mechanism example)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-073",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C(=CBr)c2ccccc2)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C#Cc2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C(=C(Br))c2ccccc2"
+  ],
+  "orig_products": [
+   "c1ccccc1C#Cc2ccccc2"
+  ],
+  "conditions": "Base (e.g., LDA)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-074",
+  "distance": 3,
+  "reactants": [
+   "CCc1ccc(OC(C)=O)cc1"
+  ],
+  "products": [
+   "CCc1ccc(O)c(C(C)=O)c1"
+  ],
+  "orig_reactants": [
+   "CC(=O)Oc1ccc(C)cc1"
+  ],
+  "orig_products": [
+   "CC(=O)c1cc(C)ccc1O"
+  ],
+  "conditions": "AlCl3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-075",
+  "distance": 3,
+  "reactants": [
+   "C[Mg]Br",
+   "CC1CC=C2OC(=O)CCC2C1"
+  ],
+  "products": [
+   "CC1CCC2=CC(=O)CCC2C1"
+  ],
+  "orig_reactants": [
+   "C[Mg]Br",
+   "C1CC(=O)OC2=CCCCC12"
+  ],
+  "orig_products": [
+   "C12CCCCC1=CC(=O)CC2"
+  ],
+  "conditions": "1. Ether solvent 2. H3O+ workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-000",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(CBr)cc1",
+   "CC[N+]([O-])(CC)CC"
+  ],
+  "products": [
+   "Cc1ccc(C=O)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1CBr",
+   "[O-][N+](CC)(CC)CC"
+  ],
+  "orig_products": [
+   "O=Cc1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-100",
+  "distance": 3,
+  "reactants": [
+   "BrBr",
+   "CCC1(C)CCC1C(C)=O",
+   "[OH-]"
+  ],
+  "products": [
+   "BrC(Br)Br",
+   "CCC1(C)CCC1C(=O)O"
+  ],
+  "orig_reactants": [
+   "CC1(C)CCC1C(=O)C",
+   "BrBr",
+   "[OH-]"
+  ],
+  "orig_products": [
+   "CC1(C)CCC1C(=O)O",
+   "C(Br)(Br)Br"
+  ],
+  "conditions": "Br2, NaOH",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-101",
+  "distance": 6,
+  "reactants": [
+   "BrBr",
+   "Cc1ccc(C2(C)CCOC(c3ccccc3)O2)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(C)(CCBr)OC(=O)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "C1(C)(c3ccccc3)CCOC(c2ccccc2)O1",
+   "BrBr"
+  ],
+  "orig_products": [
+   "C(Br)CC(C)(c2ccccc2)OC(=O)c1ccccc1"
+  ],
+  "conditions": "NBS",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-102",
+  "distance": 4,
+  "reactants": [
+   "CC(N)=S",
+   "Cc1ccc(C(=O)CCl)cc1"
+  ],
+  "products": [
+   "Cc1ccc(-c2csc(C)n2)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=S)N",
+   "c1ccccc1C(=O)CCl"
+  ],
+  "orig_products": [
+   "Cc1nc(c2ccccc2)c(s1)"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-103",
+  "distance": 6,
+  "reactants": [
+   "CC(C)[N+](=O)[O-]",
+   "CC[O-]",
+   "CC[Si](C)(C)c1ccc(CBr)cc1",
+   "[Na+]"
+  ],
+  "products": [
+   "CC[Si](C)(C)c1ccc(C=O)cc1"
+  ],
+  "orig_reactants": [
+   "C[Si](C)(C)c1ccc(CBr)cc1",
+   "CC(C)[N+](=O)[O-]",
+   "[Na+].[O-]CC"
+  ],
+  "orig_products": [
+   "C[Si](C)(C)c1ccc(C=O)cc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-104",
+  "distance": 3,
+  "reactants": [
+   "BrBr",
+   "CCCC(C)CC(=O)O",
+   "P"
+  ],
+  "products": [
+   "CCCC(C)C(Br)C(=O)Br"
+  ],
+  "orig_reactants": [
+   "CC(CC)CC(=O)O",
+   "P",
+   "BrBr"
+  ],
+  "orig_products": [
+   "CC(CC)C(Br)C(=O)Br"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-105",
+  "distance": 5,
+  "reactants": [
+   "CCOc1cc(/C=C(\\N=[N+]=[N-])C(=O)OC)cc(OC)c1"
+  ],
+  "products": [
+   "CCOc1cc(OC)c2[nH]c(C(=O)OC)cc2c1"
+  ],
+  "orig_reactants": [
+   "COc1cc(cc(OC)c1)/C=C(/C(=O)OC)\\N=[N+]=[N-]"
+  ],
+  "orig_products": [
+   "c1c(OC)c2c(cc1OC)cc(C(=O)OC)[nH]2"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-107",
+  "distance": 3,
+  "reactants": [
+   "CCCCC(C(C)(C)C)[N+](C)(C)C",
+   "[OH-]"
+  ],
+  "products": [
+   "CCCC=CC(C)(C)C"
+  ],
+  "orig_reactants": [
+   "C[N+](C)(C)C(CCC)C(C)(C)C.[OH-]"
+  ],
+  "orig_products": [
+   "CC/C=CC(C)(C)C"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-110",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)CP(=O)(OCC)OCC",
+   "CC[O-]",
+   "O=Cc1ccccc1",
+   "[Na+]"
+  ],
+  "products": [
+   "CCCOC(=O)/C=C/c1ccccc1"
+  ],
+  "orig_reactants": [
+   "CCOP(=O)(OCC)CC(=O)OCC",
+   "O=Cc1ccccc1",
+   "[Na+].[O-]CC"
+  ],
+  "orig_products": [
+   "CCO/C(=O)/C=C/c1ccccc1"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-111",
+  "distance": 4,
+  "reactants": [
+   "C=C(C)C[Si](C)(C)C",
+   "Cl[Ti](Cl)(Cl)Cl",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "C=C(C)CC(O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C[Si](C)(C)CC(C)=C",
+   "O=Cc1ccccc1",
+   "Cl[Ti](Cl)(Cl)Cl"
+  ],
+  "orig_products": [
+   "C=C(C)CC(O)c1ccccc1"
+  ],
+  "conditions": "Lewis Acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-113",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(/C=C/c2ccccc2)cc1",
+   "CC(C)(C)C#[N+][O-]"
+  ],
+  "products": [
+   "Cc1ccc([C@@H]2ON=C(C(C)(C)C)[C@H]2c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "CC(C)(C)C#[N+][O-]",
+   "c1ccccc1/C=C/c2ccccc2"
+  ],
+  "orig_products": [
+   "CC(C)(C)C1=NO[C@@H](c2ccccc2)[C@@H]1c3ccccc3"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-114",
+  "distance": 4,
+  "reactants": [
+   "BrBr",
+   "Cc1ccc(CC(=O)[O-])cc1",
+   "[Ag+]"
+  ],
+  "products": [
+   "Cc1ccc(CBr)cc1"
+  ],
+  "orig_reactants": [
+   "[Ag+].O=C([O-])Cc1ccccc1",
+   "BrBr"
+  ],
+  "orig_products": [
+   "c1ccccc1CBr"
+  ],
+  "conditions": "h\u03bd or Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-115",
+  "distance": 4,
+  "reactants": [
+   "C=CC(O/C(=C/c1ccc(C)cc1)O[Si](C)(C)C)C(C)C"
+  ],
+  "products": [
+   "Cc1ccc([C@H](C=CC(C)C)C(=O)O[Si](C)(C)C)cc1"
+  ],
+  "orig_reactants": [
+   "C=CC(O/C(O[Si](C)(C)(C))=C/c1ccccc1)C(C)(C)"
+  ],
+  "orig_products": [
+   "CC(C)[C@@H]=C[C@@H](c1ccccc1)C(=O)O[Si](C)(C)C"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-116",
+  "distance": 5,
+  "reactants": [
+   "CCOC(=O)CC(C)=O",
+   "Cc1ccc([N+]#N)cc1"
+  ],
+  "products": [
+   "CCOC(=O)C=NNc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CCOC(=O)CC(=O)C",
+   "c1ccccc1[N+]#N"
+  ],
+  "orig_products": [
+   "CCOC(=O)C=NNc1ccccc1"
+  ],
+  "conditions": "[OH-]",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-118",
+  "distance": 4,
+  "reactants": [
+   "CCC(CC)[S+](C)C",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "CCC1(CC)OC1c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "[S+](C)(C)C(CC)(CC)",
+   "O=Cc1ccccc1"
+  ],
+  "orig_products": [
+   "c1ccccc1C1OC1(CC)(CC)"
+  ],
+  "conditions": "[Li+].CC(C)[N-]C(C)C",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-119",
+  "distance": 4,
+  "reactants": [
+   "CCCCCCO",
+   "O=[Cr](=O)=O"
+  ],
+  "products": [
+   "CCCCCC(=O)O"
+  ],
+  "orig_reactants": [
+   "CCCCCO",
+   "O=[Cr](=O)=O"
+  ],
+  "orig_products": [
+   "CCCCC(=O)O"
+  ],
+  "conditions": "H2SO4, Acetone, H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-120",
+  "distance": 4,
+  "reactants": [
+   "CC(C)S(=O)(=O)c1nc2ccccc2s1",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "CC(C)=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(C)S(=O)(=O)c2sc3ccccc3n2",
+   "C(c1ccccc1)(=O)"
+  ],
+  "orig_products": [
+   "C/C(C)=C/c1ccccc1"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-123",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)CC(C)=O",
+   "NCC(=O)c1ccccc1"
+  ],
+  "products": [
+   "CCCOC(=O)c1c(-c2ccccc2)c[nH]c1C"
+  ],
+  "orig_reactants": [
+   "C(N)C(=O)c1ccccc1",
+   "CCOC(=O)CC(=O)C"
+  ],
+  "orig_products": [
+   "CCOC(=O)c1c(C)Ncc1c2ccccc2"
+  ],
+  "conditions": "Acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-125",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)O[Pb](OC(C)=O)(OC(C)=O)OC(C)=O",
+   "Cc1ccc(CC(=O)O)cc1",
+   "[Cl-]",
+   "[Li+]"
+  ],
+  "products": [
+   "Cc1ccc(CCl)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1CC(=O)O",
+   "CC(=O)O[Pb](OC(C)=O)(OC(C)=O)OC(C)=O",
+   "[Li+].[Cl-]"
+  ],
+  "orig_products": [
+   "c1ccccc1CCl"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-126",
+  "distance": 4,
+  "reactants": [
+   "C[S+](C)[O-]",
+   "Cc1ccc(CCl)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C=O)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1CCl",
+   "C[S+]([O-])C"
+  ],
+  "orig_products": [
+   "c1ccccc1C=O"
+  ],
+  "conditions": "CCN(CC)CC",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-129",
+  "distance": 3,
+  "reactants": [
+   "Cc1ccc(Br)cc1",
+   "C=C[Mg]Br"
+  ],
+  "products": [
+   "C=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1Br",
+   "C=C[Mg]Br"
+  ],
+  "orig_products": [
+   "c1ccccc1C=C"
+  ],
+  "conditions": "[Pd]",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-130",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc([N+](=O)[O-])c(C=CN2CCCCC2)c1"
+  ],
+  "products": [
+   "Cc1ccc2[nH]ccc2c1"
+  ],
+  "orig_reactants": [
+   "O=[N+]([O-])c1ccccc1C=CN1CCCCC1"
+  ],
+  "orig_products": [
+   "c1ccc2c(c1)cc[nH]2"
+  ],
+  "conditions": "[H]",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-134",
+  "distance": 4,
+  "reactants": [
+   "BrCBr",
+   "Cl[Ti](Cl)(Cl)Cl",
+   "Cc1ccc(C=O)cc1",
+   "[Zn]"
+  ],
+  "products": [
+   "C=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "O=Cc1ccccc1",
+   "C(Br)Br",
+   "[Zn]",
+   "Cl[Ti](Cl)(Cl)Cl"
+  ],
+  "orig_products": [
+   "c1ccccc1C=C"
+  ],
+  "conditions": "CH2Br2, Zn, TiCl4",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-136",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)Nc1cc(C)ccc1C",
+   "[Li]CCCC"
+  ],
+  "products": [
+   "Cc1ccc2cc(C)[nH]c2c1"
+  ],
+  "orig_reactants": [
+   "CC(=O)Nc1ccccc1C",
+   "CCCC[Li]"
+  ],
+  "orig_products": [
+   "c1c(C)[nH]c2ccccc12"
+  ],
+  "conditions": "n-BuLi",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-137",
+  "distance": 4,
+  "reactants": [
+   "CCC(=O)CC",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C2OC(c3ccccc3)C(C)C(=O)C2C)cc1"
+  ],
+  "orig_reactants": [
+   "CCC(=O)CC",
+   "O=Cc1ccccc1"
+  ],
+  "orig_products": [
+   "CC1C(=O)C(C)C(c2ccccc2)OC1c1ccccc1"
+  ],
+  "conditions": "Acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-138",
+  "distance": 4,
+  "reactants": [
+   "C=O",
+   "CC(C)=O",
+   "Cc1ccc(N)cc1"
+  ],
+  "products": [
+   "CC(=O)CCNc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)C",
+   "C=O",
+   "Nc1ccccc1"
+  ],
+  "orig_products": [
+   "CC(=O)CCNc1ccccc1"
+  ],
+  "conditions": "Acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-139",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C(=O)OC(C)c2ccc(C)cc2)cc1"
+  ],
+  "products": [
+   "CCc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(c1ccccc1)OC(=O)c1ccc(C)cc1"
+  ],
+  "orig_products": [
+   "CCc1ccccc1"
+  ],
+  "conditions": "SmI2, HMPA",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-140",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C(=O)c2ccccc2)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(=C(c2ccccc2)c2ccccc2)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "O=C(c1ccccc1)c1ccccc1"
+  ],
+  "orig_products": [
+   "c1ccccc1C(=C(c1ccccc1)c1ccccc1)c1ccccc1"
+  ],
+  "conditions": "TiCl3, K",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-143",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C#CC(C)(C)O)cc1"
+  ],
+  "products": [
+   "CC(C)=CC(=O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C#CC(C)(C)O"
+  ],
+  "orig_products": [
+   "C(=O)(c1ccccc1)C=C(C)(C)"
+  ],
+  "conditions": "Acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-144",
+  "distance": 5,
+  "reactants": [
+   "C=CC(=O)N(C)C",
+   "Cc1ccc(CS)cc1"
+  ],
+  "products": [
+   "Cc1ccc(CSCCC(=O)N(C)C)cc1"
+  ],
+  "orig_reactants": [
+   "C=CC(=O)N(C)C",
+   "c1ccccc1CS"
+  ],
+  "orig_products": [
+   "CN(C)C(=O)CCSCc2ccccc2"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-145",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(CBr)cc1",
+   "CCOP(OCC)OCC"
+  ],
+  "products": [
+   "CCOP(=O)(Cc1ccc(C)cc1)OCC"
+  ],
+  "orig_reactants": [
+   "BrCc1ccccc1",
+   "CCOP(OCC)OCC"
+  ],
+  "orig_products": [
+   "CCOP(=O)(Cc1ccccc1)OCC"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-146",
+  "distance": 3,
+  "reactants": [
+   "CCOC(=O)N=NC(=O)OCC",
+   "CCC[C@H](C)O",
+   "O=C(O)C(Cl)(Cl)Cl",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "CCC[C@@H](C)OC(=O)C(Cl)(Cl)Cl"
+  ],
+  "orig_reactants": [
+   "CC[C@H](C)O",
+   "O=C(O)C(Cl)(Cl)Cl",
+   "c1ccccc1P(c2ccccc2)c3ccccc3",
+   "CCOC(=O)N=NC(=O)OCC"
+  ],
+  "orig_products": [
+   "CC[C@@H](C)OC(=O)C(Cl)(Cl)Cl"
+  ],
+  "conditions": "Ph3P, CCOC(=O)N=NC(=O)OCC",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-147",
+  "distance": 4,
+  "reactants": [
+   "C=CC(=O)OC",
+   "Cc1ccc(C=O)nc1"
+  ],
+  "products": [
+   "C=C(C(=O)OC)C(O)c1ccc(C)cn1"
+  ],
+  "orig_reactants": [
+   "C=CC(=O)OC",
+   "O=Cc1ncccc1"
+  ],
+  "orig_products": [
+   "COC(=O)C(=C)C(O)c1ncccc1"
+  ],
+  "conditions": "N1CCN2CCC1CC2",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-149",
+  "distance": 8,
+  "reactants": [
+   "BrCc1ccccc1",
+   "CCC(=O)N(C)C(C)C(O)c1ccc(C)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(O)C(C)N(C)C(=O)C(C)Cc2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "CCC(=O)N(C)C(C)C(O)c1ccccc1",
+   "BrCc1ccccc1"
+  ],
+  "orig_products": [
+   "c1ccccc1CC(C)C(=O)N(C)C(C)C(O)c1ccccc1"
+  ],
+  "conditions": "LDA",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-231",
+  "distance": 4,
+  "reactants": [
+   "CC1C=CC(=NO)CC1"
+  ],
+  "products": [
+   "Cc1ccc(N)cc1"
+  ],
+  "orig_reactants": [
+   "ON=C1C=CCCC1"
+  ],
+  "orig_products": [
+   "Nc1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-236",
+  "distance": 4,
+  "reactants": [
+   "C1N2CN3CN1CN(C2)C3",
+   "CCc1cc(C)cc(CBr)c1"
+  ],
+  "products": [
+   "CCc1cc(C)cc(C=O)c1"
+  ],
+  "orig_reactants": [
+   "Cc1cc(CBr)cc(C)c1",
+   "C1N2CN3CN1CN(C2)C3"
+  ],
+  "orig_products": [
+   "Cc1cc(C=O)cc(C)c1"
+  ],
+  "conditions": "H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-237",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(N=[N+]=[N-])cc1",
+   "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "products": [
+   "Cc1ccc(N)cc1",
+   "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1N=[N+]=[N-]",
+   "P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "orig_products": [
+   "Nc1ccccc1",
+   "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "conditions": "H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-238",
+  "distance": 4,
+  "reactants": [
+   "C(=NC1CCCCC1)=NC1CCCCC1",
+   "CCO",
+   "CN(C)c1ccncc1",
+   "Cc1ccc(C(=O)O)cc1"
+  ],
+  "products": [
+   "CCOC(=O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "O=C(O)c1ccccc1",
+   "C1CCC(CC1)N=C=NC1CCCCC1",
+   "CCO",
+   "CN(C)c1ccncc1"
+  ],
+  "orig_products": [
+   "CCOC(=O)c1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-239",
+  "distance": 4,
+  "reactants": [
+   "C=CC(C)=O",
+   "Cc1ccc(C=O)cc1",
+   "[C-]#N"
+  ],
+  "products": [
+   "CC(=O)CCC(=O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C1=CC=CC=C1C(=O)[H]",
+   "CC(=O)C=C",
+   "[C-]#N"
+  ],
+  "orig_products": [
+   "CC(=O)CCC(=O)c1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-240",
+  "distance": 5,
+  "reactants": [
+   "Cc1ccc(C(=O)C[N+](C)(C)Cc2ccccc2)cc1",
+   "[Li]N(C(C)C)C(C)C"
+  ],
+  "products": [
+   "Cc1ccc(C(=O)C(Cc2ccccc2)N(C)C)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C(=O)C[N+](C)(C)Cc1ccccc1",
+   "[Li]N(C(C)C)C(C)C"
+  ],
+  "orig_products": [
+   "CN(C)C(Cc1ccccc1)C(=O)c1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-241",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)CP(=O)(OCC(F)(F)F)OCC(F)(F)F",
+   "C[Si](C)(C)[N-][Si](C)(C)C",
+   "O=Cc1ccccc1"
+  ],
+  "products": [
+   "CCCOC(=O)/C=C\\c1ccccc1"
+  ],
+  "orig_reactants": [
+   "O=Cc1ccccc1",
+   "CCOC(=O)CP(=O)(OCC(F)(F)F)OCC(F)(F)F",
+   "[N-]([Si](C)(C)C)[Si](C)(C)C"
+  ],
+  "orig_products": [
+   "c1ccccc1/C=C\\C(=O)OCC"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-242",
+  "distance": 3,
+  "reactants": [
+   "CCC(=O)CC",
+   "CCOC(=O)CCC(=O)OC"
+  ],
+  "products": [
+   "CCOC(=O)C(CC(=O)O)=C(CC)CC"
+  ],
+  "orig_reactants": [
+   "CCC(=O)CC",
+   "COC(=O)CCC(=O)OC"
+  ],
+  "orig_products": [
+   "CCC(=C(C(=O)OC)CC(=O)O)CC"
+  ],
+  "conditions": "1. Base (e.g. NaOMe), 2. H3O+",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-244",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(CBr)cc1",
+   "C=C(C)N1CCCC1"
+  ],
+  "products": [
+   "CC(=O)CCc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=C)N1CCCC1",
+   "c1ccccc1CBr"
+  ],
+  "orig_products": [
+   "CC(=O)CCc1ccccc1"
+  ],
+  "conditions": "H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-204",
+  "distance": 5,
+  "reactants": [
+   "CC(=O)O",
+   "COC(=O)C=C(N)c1ccc(C)cc1",
+   "O=C1C=CC(=O)C=C1"
+  ],
+  "products": [
+   "COC(=O)c1c(-c2ccc(C)cc2)[nH]c2ccc(O)cc12"
+  ],
+  "orig_reactants": [
+   "O=C1C=CC(=O)C=C1",
+   "CC(=O)O",
+   "C1=CC=CC=C1C(=CC(OC)=O)N"
+  ],
+  "orig_products": [
+   "C1=C(O)C=CC2=C1C(C(=O)(OC))=C(c1ccccc1)[NH]2"
+  ],
+  "conditions": "Acetic acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-205",
+  "distance": 6,
+  "reactants": [
+   "C=[N+]=[N-]",
+   "CCOC(=O)c1cccc(C(=O)Cl)n1"
+  ],
+  "products": [
+   "CCOC(=O)c1cccc(C(=O)CCl)n1"
+  ],
+  "orig_reactants": [
+   "c1c(C(=O)OC)nc(C(Cl)=O)cc1",
+   "C=[N+]=[N-]"
+  ],
+  "orig_products": [
+   "c1c(C(=O)OC)nc(C(CCl)=O)cc1"
+  ],
+  "conditions": "None",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-206",
+  "distance": 3,
+  "reactants": [
+   "CCC(C)CCC(C)=O"
+  ],
+  "products": [
+   "C=CC(C)CC"
+  ],
+  "orig_reactants": [
+   "O=C(C)CCC(C)C"
+  ],
+  "orig_products": [
+   "CC(C)C=C"
+  ],
+  "conditions": "hv",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-208",
+  "distance": 3,
+  "reactants": [
+   "CCC(C)=CC(C)(C)OC=N"
+  ],
+  "products": [
+   "CCC(C)=CC(C)(C)NC=O"
+  ],
+  "orig_reactants": [
+   "CC(C)=CC(C)(C)OC=N"
+  ],
+  "orig_products": [
+   "CC(C)(C=C(C)C)NC=O"
+  ],
+  "conditions": "None",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-211",
+  "distance": 5,
+  "reactants": [
+   "C=O",
+   "CCC(=O)O",
+   "[C-]#[N+]c1ccc(C)cc1"
+  ],
+  "products": [
+   "CCC(=O)OCC(=O)Nc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C=O",
+   "[C-]#[N+]c1ccccc1",
+   "O=C(O)CC"
+  ],
+  "orig_products": [
+   "O=C(CC)OC(C(=O)Nc1ccccc1)"
+  ],
+  "conditions": "acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-213",
+  "distance": 4,
+  "reactants": [
+   "C/C=C/c1ccc(C)cc1",
+   "N#Cc1ccccc1",
+   "OO"
+  ],
+  "products": [
+   "Cc1ccc([C@H]2O[C@@H]2C)cc1"
+  ],
+  "orig_reactants": [
+   "OO",
+   "N#Cc1ccccc1",
+   "C/C=C/c1ccccc1"
+  ],
+  "orig_products": [
+   "C[C@H]1O[C@H](c2ccccc2)1"
+  ],
+  "conditions": "base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-215",
+  "distance": 3,
+  "reactants": [
+   "CCC(=O)CC(=O)OC",
+   "Cc1cccc(O)c1"
+  ],
+  "products": [
+   "CCc1cc(=O)oc2cc(C)ccc12"
+  ],
+  "orig_reactants": [
+   "c1ccccc1O",
+   "O=C(CC)CC(=O)OC"
+  ],
+  "orig_products": [
+   "CCC1=CC(=O)Oc2ccccc21"
+  ],
+  "conditions": "acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-217",
+  "distance": 4,
+  "reactants": [
+   "CCC(O)C(c1ccc(C)cc1)[Si](C)(C)C"
+  ],
+  "products": [
+   "CCC=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "OC(CC)C(c1ccccc1)[Si](C)(C)C"
+  ],
+  "orig_products": [
+   "CCC=Cc1ccccc1"
+  ],
+  "conditions": "Acidic conditions",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-218",
+  "distance": 4,
+  "reactants": [
+   "CCCOC(=O)CC(=O)CC(=O)OCC",
+   "N",
+   "O=Cc1ccccc1"
+  ],
+  "products": [
+   "CCCOC(=O)C1C(=O)C(C(=O)OCC)C(c2ccccc2)NC1c1ccccc1"
+  ],
+  "orig_reactants": [
+   "O=C(OCC)CC(=O)CC(=O)OCC",
+   "O=Cc1ccccc1.N"
+  ],
+  "orig_products": [
+   "C1(C(C(NC(C1C(OCC)=O)C2=CC=CC=C2)C3=CC=CC=C3)C(OCC)=O)=O"
+  ],
+  "conditions": "acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-219",
+  "distance": 5,
+  "reactants": [
+   "CC1CCC(N=C=NC2CCCCC2)CC1",
+   "CC(=O)O",
+   "CS(C)=O",
+   "OCc1ccccc1"
+  ],
+  "products": [
+   "CSC",
+   "CC1CCC(NC(=O)NC2CCCCC2)CC1",
+   "O=Cc1ccccc1"
+  ],
+  "orig_reactants": [
+   "C1CCC(CC1)N=C=NC2CCCCC2",
+   "O=S(C)C",
+   "CC(=O)O",
+   "OCc1ccccc1"
+  ],
+  "orig_products": [
+   "C1CCC(CC1)NC(=O)NC2CCCCC2.CSC.O=Cc1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-220",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(CC(O)c2ccco2)cc1"
+  ],
+  "products": [
+   "Cc1ccc(CC2C(=O)C=CC2O)cc1"
+  ],
+  "orig_reactants": [
+   "C(O)(c1occc1)Cc1ccccc1"
+  ],
+  "orig_products": [
+   "C1C(O)C(Cc2ccccc2)C(=O)C=1"
+  ],
+  "conditions": "H+",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-221",
+  "distance": 4,
+  "reactants": [
+   "CC(C)=O",
+   "Cc1ccc2c(CCN)c[nH]c2c1"
+  ],
+  "products": [
+   "Cc1ccc2c3c([nH]c2c1)C(C)(C)NCC3"
+  ],
+  "orig_reactants": [
+   "NCCC1=CNC2=C1C=CC=C2",
+   "O=C(C)C"
+  ],
+  "orig_products": [
+   "C1(C)(C)NCCC2=C1NC3=C2C=CC=C3"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-222",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(O)C(O)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "C1=CC=C(C=C1)C(=O)"
+  ],
+  "orig_products": [
+   "C1=CC=C(C=C1)C(C(C2=CC=CC=C2)O)O"
+  ],
+  "conditions": "Mg",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-223",
+  "distance": 3,
+  "reactants": [
+   "Cc1ccc(C(O)(CO)c2ccccc2)cc1"
+  ],
+  "products": [
+   "CC(=O)C(c1ccccc1)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "C(O)C(O)(c1ccccc1)(c1ccccc1)"
+  ],
+  "orig_products": [
+   "C(=O)(C(c1ccccc1)c1ccccc1)C"
+  ],
+  "conditions": "H2O+",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-224",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C#N)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C(=N)N)cc1"
+  ],
+  "orig_reactants": [
+   "N#CC1=CC=CC=C1"
+  ],
+  "orig_products": [
+   "N=C(N)c1ccccc1"
+  ],
+  "conditions": "HCl, EtOH",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-225",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C=O)cc1",
+   "[O-][Cl+][O-]"
+  ],
+  "products": [
+   "Cc1ccc(C(=O)O)cc1"
+  ],
+  "orig_reactants": [
+   "C1=CC=C(C=C1)C=O",
+   "Cl(=O)([O-])"
+  ],
+  "orig_products": [
+   "C1=CC=C(C=C1)C(=O)O"
+  ],
+  "conditions": "NaH2PO4, t-BuOH, 2-methyl-2-butene",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-226",
+  "distance": 3,
+  "reactants": [
+   "CC1CC[N+]([O-])(C(C)(C)C)CC1",
+   "O=C(OC(=O)C(F)(F)F)C(F)(F)F"
+  ],
+  "products": [
+   "CC1CC=[N+](C(C)(C)C)CC1"
+  ],
+  "orig_reactants": [
+   "O=C(C(F)(F)F)OC(=O)C(F)(F)F",
+   "C1CCC[N+]([O-])(C(C)(C)C)C1"
+  ],
+  "orig_products": [
+   "C1CCC[N+](C(C)(C)C)=C1"
+  ],
+  "conditions": "TFAA",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-227",
+  "distance": 5,
+  "reactants": [
+   "CC(=O)c1ccccc1",
+   "CCO",
+   "CCOC(OCC)C(N)c1ccc(C)cc1"
+  ],
+  "products": [
+   "Cc1ccc(-c2cc3ccccc3c(C)n2)cc1"
+  ],
+  "orig_reactants": [
+   "O=C(C)c1ccccc1",
+   "NC(c1ccccc1)C(OCC)(OCC)",
+   "OCC"
+  ],
+  "orig_products": [
+   "C1=CC=CC3=C1C=C(C2=CC=CC=C2)N=C3C"
+  ],
+  "conditions": "acidic conditions",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-228",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)OO",
+   "CC=Cc1ccc(C)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C2OC2C)cc1"
+  ],
+  "orig_reactants": [
+   "CC=C(C1=CC=CC=C1)",
+   "CC(=O)OO"
+  ],
+  "orig_products": [
+   "CC1OC1C1=CC=CC=C1"
+  ],
+  "conditions": "Peroxy acid",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-230",
+  "distance": 4,
+  "reactants": [
+   "CC(=O)OC(C)=O",
+   "Cc1ccc(S(=O)C(C)C)cc1"
+  ],
+  "products": [
+   "CC(=O)OC(C)(C)Sc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "O=C(C)OC(=O)C",
+   "S(=O)(C(C)(C))C1=CC=CC=C1"
+  ],
+  "orig_products": [
+   "C(OC(=O)C)(C)(C)SC1=CC=CC=C1"
+  ],
+  "conditions": "Acetic anhydride",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-300",
+  "distance": 4,
+  "reactants": [
+   "COP(=O)(C=[N+]=[N-])OC",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "C#Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "COP(=O)(OC)C=[N+]=[N-]",
+   "O=C(c1ccccc1)"
+  ],
+  "orig_products": [
+   "c1ccccc1C#C"
+  ],
+  "conditions": "tert-Butoxide",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-301",
+  "distance": 4,
+  "reactants": [
+   "CC(=NNS(=O)(=O)c1ccc(C)cc1)c1ccc(C)cc1",
+   "[Li]CCCC"
+  ],
+  "products": [
+   "C=Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C(C)=NNS(=O)(=O)c2ccc(C)cc2",
+   "CCCC[Li]"
+  ],
+  "orig_products": [
+   "c1ccccc1C=C"
+  ],
+  "conditions": "n-BuLi (2 equiv.), then H2O workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-302",
+  "distance": 4,
+  "reactants": [
+   "C/C=C/c1ccc(C)cc1",
+   "N#C[Fe-](C#N)(C#N)(C#N)(C#N)C#N",
+   "O",
+   "[K+]",
+   "[K+]",
+   "[K+]"
+  ],
+  "products": [
+   "Cc1ccc([C@H](O)[C@H](C)O)cc1",
+   "N#C[Fe-2](C#N)(C#N)(C#N)(C#N)C#N",
+   "[K+]",
+   "[K+]",
+   "[K+]",
+   "[K+]"
+  ],
+  "orig_reactants": [
+   "C/C=C/c1ccccc1",
+   "O",
+   "N#C[Fe-](C#N)(C#N)(C#N)(C#N)C#N.[K+].[K+].[K+]"
+  ],
+  "orig_products": [
+   "C[C@H](O)[C@@H](O)c1ccccc1",
+   "N#C[Fe-2](C#N)(C#N)(C#N)(C#N)C#N.[K+].[K+].[K+].[K+]"
+  ],
+  "conditions": "OsO4 (cat.), Chiral Ligand (L)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-303",
+  "distance": 4,
+  "reactants": [
+   "Cc1ccc(C=Cc2ccccc2)cc1",
+   "ICI",
+   "[Zn]"
+  ],
+  "products": [
+   "I[Zn]I",
+   "Cc1ccc([C@H]2C[C@H]2c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C=C/c1ccccc1",
+   "C(I)I",
+   "[Zn]"
+  ],
+  "orig_products": [
+   "c1ccccc1[C@H]1[C@H](C1)c1ccccc1",
+   "I[Zn]I"
+  ],
+  "conditions": "Zn/Cu couple",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-304",
+  "distance": 4,
+  "reactants": [
+   "Cl[Cr]Cl",
+   "ICI",
+   "Cc1ccc(C=O)cc1"
+  ],
+  "products": [
+   "Cc1ccc(C=CI)cc1"
+  ],
+  "orig_reactants": [
+   "O=Cc1ccccc1",
+   "C(I)I",
+   "Cl[Cr]Cl"
+  ],
+  "orig_products": [
+   "c1ccccc1C=CI"
+  ],
+  "conditions": "CrCl2",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-305",
+  "distance": 4,
+  "reactants": [
+   "C[Ti](C)(C1C=CC=C1)C1C=CC=C1",
+   "Cc1ccc(C(=O)c2ccccc2)cc1"
+  ],
+  "products": [
+   "C",
+   "C=C(c1ccccc1)c1ccc(C)cc1",
+   "O=[Ti](C1C=CC=C1)C1C=CC=C1"
+  ],
+  "orig_reactants": [
+   "O=C(c1ccccc1)c1ccccc1",
+   "C[Ti](C)(C1C=CC=C1)(C1C=CC=C1)"
+  ],
+  "orig_products": [
+   "C=C(c1ccccc1)c1ccccc1",
+   "C",
+   "O=[Ti](C1C=CC=C1)(C1C=CC=C1)"
+  ],
+  "conditions": "In situ generation of Tebbe reagent",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-311",
+  "distance": 5,
+  "reactants": [
+   "C=O",
+   "CCC(=O)O",
+   "CN",
+   "[C-]#[N+]c1ccc(C)cc1"
+  ],
+  "products": [
+   "CCC(=O)N(C)CC(=O)Nc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CN",
+   "C=O",
+   "CCC(=O)O",
+   "[C-]#[N+]c1ccccc1"
+  ],
+  "orig_products": [
+   "CCC(=O)N(C)CC(=O)Nc1ccccc1"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-312",
+  "distance": 4,
+  "reactants": [
+   "CCc1cccc(O)c1",
+   "Ic1ccccc1"
+  ],
+  "products": [
+   "CCc1cccc(Oc2ccccc2)c1"
+  ],
+  "orig_reactants": [
+   "Cc1cccc(O)c1",
+   "c1ccccc1I"
+  ],
+  "orig_products": [
+   "Cc1cccc(Oc2ccccc2)c1"
+  ],
+  "conditions": "CuI, K2CO3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-314",
+  "distance": 4,
+  "reactants": [
+   "CC=Cc1ccc(C)cc1",
+   "C[N+]1([O-])CCOCC1"
+  ],
+  "products": [
+   "Cc1ccc([C@H](O)[C@H](C)O)cc1"
+  ],
+  "orig_reactants": [
+   "CC=Cc1ccccc1",
+   "C[N+]1(CCOCC1)[O-]"
+  ],
+  "orig_products": [
+   "C[C@H](O)[C@@H](O)c1ccccc1"
+  ],
+  "conditions": "cat. OsO4, NMO, H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-316",
+  "distance": 5,
+  "reactants": [
+   "CN(C)C=O",
+   "CCOc1ccccc1",
+   "O=P(Cl)(Cl)Cl"
+  ],
+  "products": [
+   "CCOc1ccc(C=O)cc1"
+  ],
+  "orig_reactants": [
+   "COc1ccccc1",
+   "CN(C)C=O",
+   "O=P(Cl)(Cl)Cl"
+  ],
+  "orig_products": [
+   "O=Cc1ccc(OC)cc1"
+  ],
+  "conditions": "1. POCl3, DMF; 2. H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-317",
+  "distance": 4,
+  "reactants": [
+   "CC[Mg]Br",
+   "CON(C)C(=O)c1ccc(C)cc1",
+   "O"
+  ],
+  "products": [
+   "CCC(=O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CON(C)C(=O)c1ccccc1",
+   "CC[Mg]Br",
+   "O"
+  ],
+  "orig_products": [
+   "CCC(=O)c1ccccc1"
+  ],
+  "conditions": "1. Grignard Reagent (e.g., EtMgBr); 2. Aqueous workup (H2O)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-318",
+  "distance": 3,
+  "reactants": [
+   "CCOC(=O)CC(=O)CC(=O)OC",
+   "O=CC=O"
+  ],
+  "products": [
+   "CCOC(=O)C1C(O)=C(C(=O)OC)C2C(C(=O)OC)C(O)=C(C(=O)OC)C12"
+  ],
+  "orig_reactants": [
+   "COC(=O)CC(=O)CC(=O)OC",
+   "O=CC=O"
+  ],
+  "orig_products": [
+   "COC(=O)C1=C(O)C(C(=O)OC)C2C1C(C(=O)OC)C(O)=C2(C(=O)OC)"
+  ],
+  "conditions": "Base",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-320",
+  "distance": 4,
+  "reactants": [
+   "C1COCCN1",
+   "CC(=O)c1ccc(C)cc1",
+   "S1SSSSSSS1"
+  ],
+  "products": [
+   "Cc1ccc(CC(=S)N2CCOCC2)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)c1ccccc1",
+   "C1COCCN1",
+   "S1SSSSSSS1"
+  ],
+  "orig_products": [
+   "c1ccccc1CC(=S)N1CCOCC1"
+  ],
+  "conditions": "Heat",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-321",
+  "distance": 4,
+  "reactants": [
+   "CCCCCO",
+   "CC[C@H](C)Br",
+   "[NaH]"
+  ],
+  "products": [
+   "CCCCCO[C@H](C)CC"
+  ],
+  "orig_reactants": [
+   "CCCCO",
+   "CC[C@H](C)Br",
+   "[Na][H]"
+  ],
+  "orig_products": [
+   "CCCCO[C@H](C)CC"
+  ],
+  "conditions": "",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-322",
+  "distance": 4,
+  "reactants": [
+   "CC(C)[N-]C(C)C",
+   "Cc1ccc([P+](c2ccccc2)(c2ccccc2)C(C)C)cc1",
+   "O=Cc1ccccc1"
+  ],
+  "products": [
+   "CC(C)=Cc1ccccc1",
+   "Cc1ccc(P(=O)(c2ccccc2)c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "CC(C)[P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+   "O=Cc1ccccc1",
+   "CC(C)[N-]C(C)C"
+  ],
+  "orig_products": [
+   "CC(C)=Cc1ccccc1",
+   "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  ],
+  "conditions": "Strong base (e.g., LDA, nBuLi)",
+  "changed_product_index": 1
+ },
+ {
+  "reaction_id": "NR-324",
+  "distance": 4,
+  "reactants": [
+   "CC(C)(C#N)N=NC(C)(C)C#N",
+   "Cc1ccc(C)cc1",
+   "O=C1CCC(=O)N1Br"
+  ],
+  "products": [
+   "Cc1ccc(CBr)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1C",
+   "O=C1CCC(=O)N1Br",
+   "CC(C)(C#N)N=NC(C)(C#N)C"
+  ],
+  "orig_products": [
+   "c1ccccc1CBr"
+  ],
+  "conditions": "Heat or Light, Non-polar solvent (e.g. CCl4)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-325",
+  "distance": 4,
+  "reactants": [
+   "CCC(=O)c1ccc(C)cc1",
+   "NN",
+   "[OH-]"
+  ],
+  "products": [
+   "CCCc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CCC(=O)c1ccccc1",
+   "NN",
+   "[OH-]"
+  ],
+  "orig_products": [
+   "CCCc1ccccc1"
+  ],
+  "conditions": "Strong base (e.g., KOH), High temperature",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-330",
+  "distance": 6,
+  "reactants": [
+   "CCCCP(CCCC)CCCC",
+   "COC(=O)/C=C/CCC/C=C/C(=O)c1ccc(C)cc1"
+  ],
+  "products": [
+   "COC(=O)CC1CCCCC1=CC(=O)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "COC(=O)/C=C/CCC/C=C/C(=O)c1ccccc1",
+   "CCCCP(CCCC)CCCC"
+  ],
+  "orig_products": [
+   "COC(=O)CC1C(=CC(=O)c2ccccc2)CCCC1"
+  ],
+  "conditions": "P(n-Bu)3",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-331",
+  "distance": 3,
+  "reactants": [
+   "C=O",
+   "CCOC(=O)CBr",
+   "[Zn]"
+  ],
+  "products": [
+   "CCOC(=O)CCO"
+  ],
+  "orig_reactants": [
+   "COC(=O)CBr",
+   "C=O",
+   "[Zn]"
+  ],
+  "orig_products": [
+   "COC(=O)CCO"
+  ],
+  "conditions": "1. Zn dust; 2. Aqueous workup",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-333",
+  "distance": 4,
+  "reactants": [
+   "COC(Cl)Cl",
+   "CCOc1ccc(OC)cc1Br",
+   "Cl[Ti](Cl)(Cl)Cl"
+  ],
+  "products": [
+   "CCOc1cc(C=O)c(OC)cc1Br"
+  ],
+  "orig_reactants": [
+   "COc1cc(Br)c(OC)cc1",
+   "COC(Cl)Cl",
+   "Cl[Ti](Cl)(Cl)Cl"
+  ],
+  "orig_products": [
+   "COc1cc(Br)c(OC)cc1(C=O)"
+  ],
+  "conditions": "1. Lewis Acid (e.g., TiCl4); 2. Aqueous Hydrolysis",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-334",
+  "distance": 5,
+  "reactants": [
+   "CC#N",
+   "Cc1ccc(CC(C)(C)O)cc1"
+  ],
+  "products": [
+   "CC(=O)NC(C)(C)Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(C)(O)Cc1ccccc1",
+   "CC#N"
+  ],
+  "orig_products": [
+   "CC(=O)NC(C)(C)Cc1ccccc1"
+  ],
+  "conditions": "H2SO4, H2O",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-335",
+  "distance": 5,
+  "reactants": [
+   "CC(=O)NCC(=O)c1ccc(C)cc1"
+  ],
+  "products": [
+   "Cc1ccc(-c2cnc(C)o2)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)NCC(=O)c1ccccc1"
+  ],
+  "orig_products": [
+   "c1nc(oc1(c1ccccc1))C"
+  ],
+  "conditions": "H-OTs",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-336",
+  "distance": 4,
+  "reactants": [
+   "C=CC(C)=O",
+   "CC(=O)c1ccc(C)cc1",
+   "C[O-]"
+  ],
+  "products": [
+   "Cc1ccc(C2=CC(=O)CCC2)cc1"
+  ],
+  "orig_reactants": [
+   "O=C(C)c1ccccc1",
+   "CC(=O)C=C",
+   "C[O-]"
+  ],
+  "orig_products": [
+   "c1ccccc1C2=CC(=O)CCC2"
+  ],
+  "conditions": "Catalytic base (e.g., NaOMe)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-337",
+  "distance": 3,
+  "reactants": [
+   "Cc1ccc(I)cc1",
+   "N#C[Cu]"
+  ],
+  "products": [
+   "Cc1ccc(C#N)cc1"
+  ],
+  "orig_reactants": [
+   "c1ccccc1I",
+   "N#C[Cu]"
+  ],
+  "orig_products": [
+   "N#Cc1ccccc1"
+  ],
+  "conditions": "High temperature",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "NR-339",
+  "distance": 4,
+  "reactants": [
+   "C#CC(O)(c1ccc(C)cc1)C(C)C"
+  ],
+  "products": [
+   "CC(=O)C(=C(C)C)c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(C)C(c1ccccc1)(O)C#C"
+  ],
+  "orig_products": [
+   "CC(=O)C(c1ccccc1)=C(C)C"
+  ],
+  "conditions": "Acid (e.g., H2SO4, Formic Acid)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "ART-001",
+  "distance": 4,
+  "reactants": [
+   "CC(C)O[Na]",
+   "COC(=O)C(C)=C(Cl)c1ccc(C)cc1"
+  ],
+  "products": [
+   "CC#Cc1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "COC(=O)C(C)=C(Cl)c1ccccc1",
+   "CC(C)O[Na]"
+  ],
+  "orig_products": [
+   "c1ccccc1C#CC"
+  ],
+  "conditions": "i-PrONa / i-PrOH",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "ART-002",
+  "distance": 5,
+  "reactants": [
+   "CC(=O)c1ccc(C)cc1",
+   "CCOC(=O)OCCl"
+  ],
+  "products": [
+   "CCOC(=O)C1OC1c1ccc(C)cc1"
+  ],
+  "orig_reactants": [
+   "CC(=O)c1ccccc1",
+   "ClCOC(=O)OCC"
+  ],
+  "orig_products": [
+   "c1ccccc1C2C(O2)C(=O)OCC"
+  ],
+  "conditions": "NaNH2",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "ART-004",
+  "distance": 5,
+  "reactants": [
+   "Cc1ccc([C@H]2OC(=O)O[C@@H]2c2ccccc2)cc1",
+   "[Cl-]"
+  ],
+  "products": [
+   "Cc1ccc([C@H]2O[C@@H]2c2ccccc2)cc1"
+  ],
+  "orig_reactants": [
+   "C1=CC=CC=C1[C@@H]2[C@H](OC(=O)O2)C3=CC=CC=C3",
+   "[Cl-]"
+  ],
+  "orig_products": [
+   "C1=CC=CC=C1[C@@H]2[C@H](O2)C3=CC=CC=C3"
+  ],
+  "conditions": "LiCl, DMF (polar aprotic solvent)",
+  "changed_product_index": 0
+ },
+ {
+  "reaction_id": "ART-005",
+  "distance": 3,
+  "reactants": [
+   "C=CC(=O)CC",
+   "C=CCC1C(=O)CCCC1=O"
+  ],
+  "products": [
+   "C=CCC1CCC(=O)C(CCC(=O)CC)C1=O"
+  ],
+  "orig_reactants": [
+   "C=CCC1C(=O)CCCC1=O",
+   "CC(=O)C=C"
+  ],
+  "orig_products": [
+   "C(CCC1C(=O)C(CCC1=O)CC=C)(=O)C"
+  ],
+  "conditions": "NaOH (aq, 5 mol %), rt",
+  "changed_product_index": 0
+ }
+]

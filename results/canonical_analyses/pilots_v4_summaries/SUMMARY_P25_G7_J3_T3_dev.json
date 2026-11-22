@@ -1,0 +1,134 @@
+{
+ "diagnostics": {
+  "right_isomer_in_list": 24,
+  "right_isomer_chosen": 15,
+  "bookkeeping_found": 35,
+  "n": 41
+ },
+ "Direct_clue": {
+  "n": 41,
+  "blind_species_written": [
+   0.268,
+   0.146,
+   0.415
+  ],
+  "all_present": [
+   0.098,
+   0.024,
+   0.195
+  ],
+  "heavy_hidden_recall": [
+   0.587,
+   0.443,
+   0.741
+  ]
+ },
+ "Guided_v5": {
+  "n": 41,
+  "blind_species_written": [
+   0.244,
+   0.122,
+   0.39
+  ],
+  "all_present": [
+   0.098,
+   0.024,
+   0.195
+  ],
+  "heavy_hidden_recall": [
+   0.667,
+   0.527,
+   0.8
+  ]
+ },
+ "Guided_v6": {
+  "n": 41,
+  "blind_species_written": [
+   0.415,
+   0.268,
+   0.561
+  ],
+  "all_present": [
+   0.122,
+   0.024,
+   0.244
+  ],
+  "heavy_hidden_recall": [
+   0.698,
+   0.574,
+   0.817
+  ]
+ },
+ "Guided_v7": {
+  "n": 41,
+  "blind_species_written": [
+   0.439,
+   0.293,
+   0.585
+  ],
+  "all_present": [
+   0.171,
+   0.073,
+   0.293
+  ],
+  "heavy_hidden_recall": [
+   0.714,
+   0.6,
+   0.83
+  ]
+ },
+ "Auto_V5": {
+  "n": 41,
+  "blind_species_written": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "all_present": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "heavy_hidden_recall": [
+   0.54,
+   0.393,
+   0.681
+  ]
+ },
+ "Guided_v7_minus_Direct_clue": {
+  "blind_species_written": [
+   0.171,
+   0.073,
+   0.293
+  ],
+  "all_present": [
+   0.073,
+   -0.024,
+   0.171
+  ]
+ },
+ "Guided_v7_minus_Guided_v6": {
+  "blind_species_written": [
+   0.024,
+   0.0,
+   0.073
+  ],
+  "all_present": [
+   0.049,
+   -0.049,
+   0.146
+  ]
+ },
+ "Guided_v7_minus_Auto_V5": {
+  "blind_species_written": [
+   0.439,
+   0.293,
+   0.585
+  ],
+  "all_present": [
+   0.171,
+   0.073,
+   0.293
+  ]
+ }
+}

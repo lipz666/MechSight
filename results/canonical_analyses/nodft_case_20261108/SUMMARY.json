@@ -1,0 +1,64 @@
+{
+ "cid": "PMC13321810",
+ "proposal_support_nodft": {
+  "COC(=O)C(C[C]([C](F)F)c1ccccc1)(C(=O)OC)c1cccs1": 4,
+  "COC(=O)C1(C(=O)OC)C[C](c2ccccc2)C(F)(F)C12[CH]C=CS2": 1,
+  "COC(=O)C1(C(=O)OC)CC([C](F)F)(c2ccccc2)C2C=CS[C]21": 3,
+  "COC(=O)C1(C(=O)OC)C[C](c2ccccc2)C(F)(F)C2([CH]C=CS2)C1": 2
+ },
+ "arms": {
+  "Direct": {
+   "recall": 0.0,
+   "n_pred": 1.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  },
+  "Auto": {
+   "recall": 0.0,
+   "n_pred": 1.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  },
+  "Direct+Clues_all": {
+   "recall": 0.5,
+   "n_pred": 2.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C1(C(=O)OC)C[C](c2ccccc2)C(F)(F)C13SC=C[CH]3",
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  },
+  "Guided_all": {
+   "recall": 1.0,
+   "n_pred": 3.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C(C[C]([C](F)F)c1ccccc1)(C(=O)OC)c1cccs1",
+    "COC(=O)C1(C(=O)OC)C[C](c2ccccc2)C(F)(F)C12[CH]C=CS2",
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  },
+  "Direct+Clues_wetlab": {
+   "recall": 0.0,
+   "n_pred": 1.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  },
+  "Guided_wetlab": {
+   "recall": 0.5,
+   "n_pred": 3.0,
+   "hits": null,
+   "states": [
+    "COC(=O)C(C[C]([C](F)F)c1ccccc1)(C(=O)OC)c1cccs1",
+    "COC(=O)C1(C(=O)OC)CC([C](F)F)(c2ccccc2)C2C=CS[C]21",
+    "COC(=O)C1(C(=O)OC)CC2(c3ccccc3)C3C=CSC13C2(F)F"
+   ]
+  }
+ }
+}
