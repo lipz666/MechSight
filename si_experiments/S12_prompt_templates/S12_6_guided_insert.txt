@@ -1,0 +1,14 @@
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+Experimental observations:
+{obs}
+
+Current mechanism (JSON list of steps):
+{mech}
+
+Intermediates proposed by at least 3 of 7 independent mechanism proposals but missing from the current mechanism:
+{missing}
+
+Insert each missing intermediate at its chemically proper place, adjusting neighbouring steps so that every step stays elementary. Do not delete or change the existing intermediates. Return the final mechanism between [ANSWER] and [/ANSWER] as a JSON list of steps, each {{"step": n, "type": ..., "subtype": ..., "intermediate_smiles": ...}}.

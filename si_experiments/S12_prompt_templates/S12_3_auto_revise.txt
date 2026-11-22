@@ -1,0 +1,12 @@
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+Candidate mechanisms proposed for this reaction (intermediate SMILES after each step; steps flagged by an atom-mapping check change several bonds at once):
+
+{cands}
+
+Intermediates proposed for the flagged steps (valid structures; not all of them need to be right):
+{states}
+
+First judge each candidate: discard those with unsound elementary steps or missing intermediates. Then write the final mechanism: keep the most plausible candidate or repair it, inserting the proposed intermediates where they belong and only where they are chemically justified. Return the final mechanism between [ANSWER] and [/ANSWER] as a JSON list of steps, each {{"step": n, "type": ..., "subtype": ..., "intermediate_smiles": ...}}.

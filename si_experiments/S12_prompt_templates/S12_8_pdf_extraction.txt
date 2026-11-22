@@ -1,0 +1,35 @@
+The attached PDF is a 2026 paper with mechanistic studies. Read the text AND the schemes/figures.
+
+Build a machine-checkable record of the mechanism the authors propose for their model reaction.
+
+1. "model_reaction": the specific reaction for which the mechanism is drawn (usually the model substrates, e.g. 1a + 2a -> 3a).
+   - "reactants": SMILES of the substrates and stoichiometric reagents (each a separate list item).
+   - "catalysts": SMILES of catalysts, photocatalysts, ligands and additives that are not consumed (separate list).
+   - "products": SMILES of the main product and stoichiometric by-products.
+   - "conditions": short text (catalyst loading, solvent, light, temperature, atmosphere).
+   - "compound_labels": map from the paper's labels (1a, 2a, 3a, ...) to SMILES for the compounds used above.
+2. "intermediates": every species of the authors' proposed mechanism (scheme of the catalytic cycle / proposed mechanism),
+   in mechanistic order. For each:
+   - "label": the paper's label (e.g. "I", "Int-A", "B", "7"); "name": short description.
+   - "smiles": the FULL structure as the authors draw it, with every generic group (R, Ar, L, X) instantiated with the
+     model substrates / actual ligand of the model reaction. Radicals with explicit radical centres in brackets
+     (e.g. [CH2]C, [O]), charges explicit, metals with their drawn ligands. Never use text, abbreviations or "*".
+   - "role": one of
+       "substrate_intermediate"  - contains ANY atoms of the substrates/stoichiometric reagents and lies on the proposed
+                                   pathway, INCLUDING metal/catalyst complexes that carry a substrate fragment
+                                   (e.g. oxidative-addition complexes L-Pd(Ar)X, substrate-bound catalyst, acyl-metal);
+       "catalyst_state"          - species made ONLY of catalyst / photocatalyst / ligand / additive atoms, with no
+                                   substrate atoms at all, e.g. Pd(0)L2, PC*, PC.-, Cu(I)L;
+       "trapped_adduct"          - a species formed by a trap (TEMPO, BHT, DMPO, ...) or a detected off-path adduct;
+       "off_cycle"               - resting states, decomposition, side products.
+   - "evidence": "detected" (observed: HRMS, NMR, EPR, X-ray, isolated) or "proposed".
+   - "source": where it is drawn (e.g. "Scheme 4", "Fig. 5c").
+3. "clues": what the mechanistic experiments OBSERVED (species detected with m/z or spectra, trapped adducts, isolated
+   intermediates, isotope-label positions, KIE values, radical-clock / TEMPO results). Observations with numbers only,
+   never the authors' interpretation.
+4. Self-check before answering: every substrate_intermediate must be derivable from the reactants (its non-metal atoms
+   come from the reactants/reagents; elements must be present in reactants or catalysts), must differ from the reactants
+   and products, and must use the same substituents as the model substrates. Fix any inconsistency.
+
+If the paper proposes no mechanism with drawn intermediates, return "intermediates": [].
+Answer with ONE JSON object between [ANSWER] and [/ANSWER].

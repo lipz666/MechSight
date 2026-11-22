@@ -1,0 +1,8 @@
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+Experimental observations:
+{obs}
+
+Propose up to four distinct mechanistic intermediate structures supported by these observations on the way from the reactants to the products. Distinguish a trapped adduct from its precursor, and an inferred intermediate from a directly detected species. Respect any explicitly reported formula, isotope location or structure, but do not invent an observed formula or mass. Explain briefly how each proposal accounts for the observations. Give one valid SMILES per line between <states> and </states>. If no structure can reasonably be proposed, leave the block empty.

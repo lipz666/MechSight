@@ -1,0 +1,17 @@
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+Experimental observations:
+{obs}
+
+Intermediates corroborated by several independent proposals (support = number of the {nsrc} independent proposal sets that contain the structure; calculated formula in brackets). These are inferences to assess against the observations, not experimental facts:
+{consensus}
+
+Candidate mechanisms{cand_note} (flagged steps change several bonds):
+{cands}
+
+Checked intermediates proposed for flagged steps:
+{states}
+
+Write the final mechanism consistent with the actual observations. Include every corroborated intermediate in its proper place unless an elementary-step or observation argument rules it out; for each one you exclude, state the reason in one sentence before the answer. Preserve the other sound intermediates, add the species needed so that every step is elementary, and do not treat a trapped adduct as a native intermediate unless justified. Return the final mechanism between [ANSWER] and [/ANSWER] as a JSON list of steps, each {{"step": n, "type": ..., "subtype": ..., "intermediate_smiles": ...}}.

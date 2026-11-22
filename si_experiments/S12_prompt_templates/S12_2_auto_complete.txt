@@ -1,0 +1,9 @@
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+Candidate mechanisms for this reaction (intermediate SMILES after each step). An automatic atom-mapping check marks steps where several heavy-atom bonds change at once; such a step usually hides one or more short-lived intermediates (a tetrahedral adduct, an onium or ylide, a zwitterion, a rearranging cation, a catalyst- or reagent-bound species, ...), unless it is a genuinely concerted (e.g. pericyclic) step.
+
+{cands}
+
+For each flagged step, decide whether it hides intermediates. If it does, write the missing intermediate species that would split it into elementary steps. Also add any other intermediate you think every candidate misses. Give one species per line between <states> and </states>, as `C<candidate>.S<step>: SMILES` (the step it belongs before). Write nothing for steps you judge concerted.

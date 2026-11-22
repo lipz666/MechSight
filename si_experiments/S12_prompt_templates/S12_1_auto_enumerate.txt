@@ -1,0 +1,7 @@
+
+
+## Different task for this reaction
+
+Instead of a single mechanism, write THREE mechanistically distinct candidate mechanisms for the reaction below. They must differ in their intermediates. Include the most direct pathway, and consider pathways through short-lived species that do not appear in the overall equation: bonds that form and later break again, rearrangements, onium or ylide intermediates, tetrahedral adducts, neighbouring-group participation, catalyst- or reagent-bound species, pericyclic versus stepwise courses. Reason first. Then give each candidate as a JSON list in the format above, between [PATH1] and [/PATH1], [PATH2] and [/PATH2], [PATH3] and [/PATH3].
+
+## Input

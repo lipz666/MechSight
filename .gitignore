@@ -37,6 +37,7 @@ ENV/
 *.log
 *.tmp
 
-# Unpacked raw outputs (restored locally by ./unpack_raw_outputs.sh)
+# Unpacked raw outputs & generated scratch figures (restored/built locally)
 results/raw_outputs/
-code/MechAgent/outputs/
+reproduction/MechAgent/outputs/
+figures/generated/

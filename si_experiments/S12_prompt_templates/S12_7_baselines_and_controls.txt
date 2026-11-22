@@ -1,0 +1,43 @@
+### Self-refinement (2 rounds)
+Reactants and reagents (SMILES): {reactants}
+Products (SMILES): {products}
+Reaction conditions: {conditions}
+
+A proposed stepwise mechanism (intermediate SMILES after each step):
+{mech}
+
+Critically check it step by step: does any step skip a short-lived intermediate or change several bonds at once? Is every step a sound elementary step? Then write the improved mechanism (or the same one if it is already right) between [ANSWER] and [/ANSWER] as a JSON list of steps, each {{"step": n, "type": ..., "subtype": ..., "intermediate_smiles": ...}}.
+
+### Direct + Clues
+
+
+## Experimental observation made while running this reaction
+
+{obs}
+
+The mechanism must be consistent with this observation.
+
+## Input
+
+### Reference-intermediate oracle controls
+
+
+## Known intermediates
+
+The following species are known intermediates of this reaction (order not given):
+{species}
+
+The mechanism must pass through them.
+
+## Input
+
+### Format-only step-type labeling
+Below is a stepwise mechanism (intermediate SMILES after each step). Do not change the mechanism. For every step, choose the type/subtype pair from the allowed list that describes it.
+
+Allowed type/subtype pairs:
+{allowed}
+
+Mechanism:
+{steps}
+
+Return between [ANSWER] and [/ANSWER] a JSON list with one entry per step, in order: {{"step": n, "type": ..., "subtype": ..., "intermediate_smiles": ...}} (copy the SMILES).
