@@ -42,7 +42,11 @@ def verify(*, recompute: bool = False) -> None:
         out_t1 = RAW_OUTPUTS_V4 / "v4_analyses_20261108" / "table1_recall_spec4090.json"
         out_eq = RAW_OUTPUTS_V4 / "v3_analyses_20261107" / "equiv_table1_spec4090.json"
         run_pilots_script(CANONICAL_ROOT / "v4_analyses_20261108" / "table1_recall_spec4090.py", [str(out_t1)])
-        run_pilots_script("reproduction/MechAgent/experiments/pilots_v4/p40_equiv_rescore.py", [str(out_eq)])
+        run_pilots_script(
+            "reproduction/MechAgent/experiments/pilots_v4/p40_equiv_rescore.py",
+            [str(out_eq)],
+            extra_env={"SPEC_DIR": "spec_v6_4090"},
+        )
         run_pilots_script(
             "reproduction/MechAgent/experiments/pilots_v4/p18_spec_compare.py",
             extra_env={"SPEC_DIR": "spec_v6_4090"},
@@ -50,8 +54,10 @@ def verify(*, recompute: bool = False) -> None:
         run_pilots_script("reproduction/MechAgent/experiments/pilots_v4/p44_stepwise.py", ["score"])
 
         re_t1 = json.loads(out_t1.read_text())
+        re_eq = json.loads(out_eq.read_text())
         assert re_t1["pooled"]["MechAgent"]["equiv"][0] == 48.8
         assert re_t1["pooled"]["MechAgent"]["strict"][0] == 43.0
+        assert round(100 * re_eq["gold"]["FlowER"]["equiv"][0], 1) == 8.2
 
     print(
         f"[S03 OK] Pooled N={t1['pooled']['Direct']['n']}: "
