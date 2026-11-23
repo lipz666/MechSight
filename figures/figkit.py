@@ -1,4 +1,4 @@
-"""Shared drawing kit for the Angew figures: one palette, one type scale, SVG primitives.
+"""Shared drawing kit for the MechSight manuscript figures: one palette, one type scale, SVG primitives.
 
 Units: viewBox 1000 wide = 175 mm  ->  1 unit = 0.496 pt.  Text 11-13 units = 5.5-6.5 pt, panel letters 21 units.
 Colour semantics (identical in every figure):

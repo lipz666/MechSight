@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use MechSight, its evaluation scripts, or archived benchmark outputs, please cite the accompanying Angewandte Chemie International Edition manuscript."
+message: "If you use MechSight, its evaluation scripts, or archived benchmark outputs, please cite the accompanying manuscript."
 type: software
 title: "MechSight: Knowledge-Driven Reaction Mechanism Elucidation"
 license: MIT
@@ -38,5 +38,4 @@ preferred-citation:
       given-names: Chengchun
     - family-names: Mo
       given-names: Fanyang
-  journal: "Angewandte Chemie International Edition"
   year: 2026

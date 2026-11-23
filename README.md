@@ -3,7 +3,7 @@
 Official standalone package, prompt library, benchmark splits, frozen analysis tables, figure-build scripts, and lossless raw model output archives accompanying the manuscript:
 
 > **Knowledge-Driven Reaction Mechanism Elucidation: Unlocking Inert Chemical Knowledge and Bridging Blind Spots in Large Language Models**
-> Peize Li, Yimi Wang, Chengchun Liu, and Fanyang Mo\* (*Angewandte Chemie International Edition*, 2026)
+> Peize Li, Yimi Wang, Chengchun Liu, and Fanyang Mo\* (2026)
 
 This repository provides two cleanly separated entry points:
 1. **Standalone Main Method (`mechsight/`)** — A pip-installable, dependency-minimal Python package implementing **MechSight-Auto** and **MechSight-Guided** (exact prompts, RDKit chemical-equivalence checks, RXNMapper elementary bond-change gap verification with $\Delta_{\mathrm{bond}} \ge 3$, cross-draft splicing, consensus experimental anchoring, and SI S3.1 / S1.3 statistical evaluation) with zero dependencies on internal experiment runners.
@@ -159,7 +159,7 @@ MechSight/
 │   └── S12_prompt_templates/        # Verbatim SI S12.1-S12.8 .txt files + automated parity checker
 │
 ├── figures/                         # Main Figures 1-4, TOC, and SI Figures S1-S5 + ChemDraw assets
-│   ├── final_svgs/                  # Publication SVGs matching the submitted Angew. Chem. paper
+│   ├── final_svgs/                  # Final publication SVGs matching the manuscript
 │   ├── main_figures/                # Scripts (build/fig{1..4}.py, toc.py), mols/, data/, out/
 │   └── build_si_figures.py          # Build script for Figures S1-S5
 │

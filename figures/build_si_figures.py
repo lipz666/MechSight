@@ -1,4 +1,4 @@
-"""Generate 5 publication-grade multi-panel Supplementary Figures (Fig. S1 - Fig. S5) for Angew_MechSight_v1_SI.
+"""Generate 5 publication-grade multi-panel Supplementary Figures (Fig. S1 - Fig. S5) for the MechSight Supporting Information.
 
 Combines native SVG statistical charts with ACS 1996 chemical structures and electron-pushing arrows from `chemdraw.py`.
 All nomenclature matches the V4 main manuscript (`FukuyamaBench`, `oMe-Gold`, `mech-USPTO-31k`,

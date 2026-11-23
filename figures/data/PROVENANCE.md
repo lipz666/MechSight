@@ -1,4 +1,4 @@
-# Figs. 1–3 + ToC for `Angew_MechSight_v1.md`: data provenance and corrections to the draft (2026-11-04)
+# Figs. 1–3 + ToC for the MechSight manuscript: data provenance and corrections to the draft (2026-11-04)
 
 Every plotted number comes from `data/figdata.py` → `data/figdata.json`, which reads only frozen result files.
 Rebuild a figure: `python3 data/figdata.py`, then `python3 <fig dir>/build/fig*.py`, then render with `render.py`.

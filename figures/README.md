@@ -6,7 +6,7 @@ Publication SVG figures, ChemDraw (`.cdxml`) structures, and reproducible Python
 
 | Path | Description |
 | :--- | :--- |
-| `final_svgs/` | Final publication SVGs matching the submitted *Angewandte Chemie* manuscript (`fig{1..4}_*_v3.svg`, `toc_graphic.svg`, `figS{1..5}_*.svg`). |
+| `final_svgs/` | Final publication SVGs matching the manuscript (`fig{1..4}_*_v3.svg`, `toc_graphic.svg`, `figS{1..5}_*.svg`). |
 | `main_figures/build/` | Build scripts for main-text Figures 1–4 (`fig1.py`–`fig4.py`, `fig4c_cases.py`, `toc.py`, `figkit3.py`, `render.py`). |
 | `main_figures/mols/`, `main_figures/data/` | ChemDraw `.cdxml`/`.svg` molecular graphics and auxiliary benchmark JSON slices for Figures 1–4. |
 | `main_figures/out/` | Frozen rendered SVG/PDF/PNG outputs from `main_figures/build/`. |

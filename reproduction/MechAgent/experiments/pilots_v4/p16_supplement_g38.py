@@ -1,4 +1,4 @@
-"""P16: Supplementary gemini-3.8-flash experiments for the Angewandte storyline (2026-11-04).
+"""P16: Supplementary gemini-3.8-flash experiments for the MechSight manuscript storyline (2026-11-04).
 
 1. 2026 Post-Cutoff Literature (lit, 29 cases):
    - Completes candidate pool (base_default from A0, samp4, enum3)

@@ -1,9 +1,9 @@
-"""ChemDraw-style structure renderer + CDXML export for the Angew figures (run with external/venv-llm/bin/python).
+"""ChemDraw-style structure renderer + CDXML export for the MechSight manuscript figures (run with external/venv-llm/bin/python).
 
 RDKit is used only for 2D coordinates. Every mark is drawn here following ChemDraw's ACS Document 1996 conventions:
 
   document settings      bond length 14.4 pt, line 0.6 pt, margin 1.6 pt, bond spacing 18 %, chain angle 120°,
-                         Arial 10 pt labels (Wiley/Angew asks for exactly these)
+                         Arial 10 pt labels (standard ACS Document 1996 journal styling)
   figure scale           one uniform 69 % scale for every structure in every figure
                          (figure units: 1 unit = 175 mm / 1000 = 0.496 pt -> bond 20 units)
   double bonds           ring: outer full line + inner line offset 18 % toward the ring centre, trimmed on the

@@ -1,4 +1,4 @@
-"""Every number shown in Figs. 1-3 (Angew_MechSight_v1), read from frozen result files. Writes data/figdata.json.
+"""Every number shown in Figs. 1-3 (MechSight manuscript), read from frozen result files. Writes data/figdata.json.
 
 Values that are NOT read from a run file are marked 'quoted' (published numbers) and listed in data/PROVENANCE.md.
 """
